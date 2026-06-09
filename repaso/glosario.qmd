@@ -10,43 +10,137 @@ Glosario de trabajo para consolidar conceptos con definiciones propias, ejemplos
 ## A
 
 ::: {.term-card}
-### Automatización
+### Abuso computacional {#abuso-computacional}
+
+Uso dañino, invasivo o irresponsable de sistemas de información, aunque no siempre sea delito.
+:::
+
+::: {.term-card}
+### Automatización {#automatizacion}
 
 Uso de tecnología para ejecutar tareas repetibles con menor intervención manual.
 :::
 
 ## B
 
-::: {.glosario-pendiente}
-Por completar.
+::: {.term-card}
+### Big Data {#big-data}
+
+Manejo y análisis de grandes volúmenes, variedades y velocidades de datos para encontrar patrones y apoyar decisiones.
+:::
+
+::: {.term-card}
+### Brecha digital {#brecha-digital}
+
+Desigualdad en acceso, habilidades o capacidad real de aprovechar tecnologías digitales.
+:::
+
+::: {.term-card}
+### Bugs Web {#bugs-web}
+
+Elementos pequeños u ocultos en páginas o correos que pueden registrar visitas, aperturas o comportamiento.
 :::
 
 ## C
 
 ::: {.term-card}
-### Comercio digital
+### Calidad de datos {#calidad-de-datos}
+
+Grado en que los datos son correctos, completos, actuales, pertinentes y útiles para decidir.
+:::
+
+::: {.term-card}
+### Calidad de vida {#calidad-de-vida}
+
+Impacto de la tecnología en bienestar, acceso, autonomía, empleo, salud y relaciones sociales.
+:::
+
+::: {.term-card}
+### Calidad del sistema {#calidad-del-sistema}
+
+Nivel de confiabilidad, seguridad, corrección y adecuación de un sistema para el uso esperado.
+:::
+
+::: {.term-card}
+### Comercio digital {#comercio-digital}
 
 Intercambio de bienes, servicios o información mediado por plataformas y canales digitales.
 :::
 
 ::: {.term-card}
-### Conectividad
+### Conectividad {#conectividad}
 
 Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.
+:::
+
+::: {.term-card}
+### Consentimiento informado {#consentimiento-informado}
+
+Aceptación basada en información clara sobre qué datos se usan, para qué, por quién y con qué consecuencias.
+:::
+
+::: {.term-card}
+### Cookies {#cookies}
+
+Archivos o identificadores usados por sitios y servicios para recordar sesiones, preferencias o actividad.
+:::
+
+::: {.term-card}
+### Copyright {#copyright}
+
+Protección legal relacionada con copia, distribución y uso autorizado de obras.
+:::
+
+::: {.term-card}
+### Creación de perfiles {#creacion-de-perfiles}
+
+Uso de datos para inferir intereses, hábitos, riesgos o características de una persona o grupo.
+:::
+
+::: {.term-card}
+### Crimen por computadora {#crimen-por-computadora}
+
+Conducta ilegal realizada mediante sistemas, redes, dispositivos o datos.
 :::
 
 ## D
 
 ::: {.term-card}
-### Dato
+### Dato {#dato}
 
 Registro básico que puede transformarse en información cuando se organiza e interpreta en un contexto.
 :::
 
+::: {.term-card}
+### Derechos de autor {#derechos-de-autor}
+
+Protección de obras expresadas, como textos, software, música, imágenes o material audiovisual.
+:::
+
+::: {.term-card}
+### Derechos de información {#derechos-de-informacion}
+
+Derechos y límites sobre recolección, acceso, uso, conservación y distribución de información.
+:::
+
+::: {.term-card}
+### Derechos de propiedad {#derechos-de-propiedad}
+
+Derechos sobre contenidos, software, datos, conocimiento o creaciones que pueden tener valor económico.
+:::
+
+::: {.term-card}
+### Dilemas éticos {#dilemas-eticos}
+
+Situaciones donde una decisión tecnológica produce beneficios y riesgos, sin una opción perfecta para todos.
+:::
+
 ## E
 
-::: {.glosario-pendiente}
-Por completar.
+::: {.term-card}
+### Ética {#etica}
+
+Criterios para decidir qué acciones son correctas o incorrectas cuando afectan a otras personas.
 :::
 
 ## F
@@ -58,51 +152,105 @@ Por completar.
 ## I
 
 ::: {.term-card}
-### Información
+### Información {#informacion}
 
 Datos organizados que ayudan a comprender una situación o tomar decisiones.
 :::
 
 ## M
 
-::: {.glosario-pendiente}
-Por completar.
+::: {.term-card}
+### Marketing dirigido {#marketing-dirigido}
+
+Publicidad, recomendación o mensaje adaptado según datos e inferencias sobre un usuario.
+:::
+
+## N
+
+::: {.term-card}
+### NORA {#nora}
+
+Análisis que permite descubrir relaciones no evidentes entre datos, personas, eventos u organizaciones.
 :::
 
 ## P
 
 ::: {.term-card}
-### Plataforma
+### Patentes {#patentes}
+
+Protección temporal sobre una invención que cumple requisitos legales.
+:::
+
+::: {.term-card}
+### Plataforma {#plataforma}
 
 Entorno digital que conecta participantes, servicios o transacciones bajo reglas comunes.
 :::
 
 ::: {.term-card}
-### Privacidad
+### Privacidad {#privacidad}
 
-Límite y control sobre el uso de datos personales. Ver [privacidad y protección de datos](../temas/etica-datos-sociedad.html#conceptos-clave).
+Control razonable sobre qué datos personales se recopilan, para qué se usan y con quién se comparten. Ver [ética, datos y sociedad](../temas/etica-datos-sociedad.qmd#privacidad-datos).
+:::
+
+::: {.term-card}
+### Propiedad intelectual {#propiedad-intelectual}
+
+Protección de creaciones, contenidos, software, métodos, marcas o conocimiento con valor.
 :::
 
 ## R
 
 ::: {.term-card}
-### Requerimiento
+### Rendición de cuentas {#rendicion-de-cuentas}
 
-Necesidad o condición que orienta el diseño de una solución. Se conecta con [creación y cambio de sistemas](../temas/creacion-sistemas.html#conceptos-clave).
+Capacidad de identificar quién decidió, quién autorizó y quién debe explicar o corregir una consecuencia.
+:::
+
+::: {.term-card}
+### Requerimiento {#requerimiento}
+
+Necesidad o condición que orienta el diseño de una solución. Se conecta con [creación y cambio de sistemas](../temas/creacion-sistemas.qmd#conceptos-clave).
+:::
+
+::: {.term-card}
+### Responsabilidad {#responsabilidad}
+
+Deber de hacerse cargo de una decisión, acción o consecuencia.
+:::
+
+::: {.term-card}
+### Responsabilidad legal {#responsabilidad-legal}
+
+Obligación reconocida por leyes, contratos o tribunales cuando una acción o sistema causa daño.
 :::
 
 ## S
 
 ::: {.term-card}
-### Sistema de información
+### Secretos comerciales {#secretos-comerciales}
+
+Conocimiento valioso que una organización protege porque no es público y le da ventaja.
+:::
+
+::: {.term-card}
+### Seguimiento digital {#seguimiento-digital}
+
+Registro de actividades de una persona en sitios, aplicaciones, dispositivos o servicios.
+:::
+
+::: {.term-card}
+### Sistema de información {#sistema-de-informacion}
 
 Conjunto de personas, procesos, datos y tecnología orientado a producir información útil.
 :::
 
 ## T
 
-::: {.glosario-pendiente}
-Por completar.
+::: {.term-card}
+### Tecnoestrés {#tecnoestres}
+
+Estrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales.
 :::
 
 ## W

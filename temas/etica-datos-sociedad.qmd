@@ -1,51 +1,322 @@
 ---
 title: "Ética, datos y sociedad"
-description: "Placeholder conceptual sobre ética, datos y sociedad en sistemas de información."
+description: "Guía conceptual sobre ética, privacidad, propiedad, responsabilidad y efectos sociales de los sistemas de información."
 ---
 
 ::: {.idea-central}
-Los sistemas de información no son solo herramientas técnicas: también influyen en decisiones, derechos, responsabilidades y relaciones sociales.
+Los sistemas de información aumentan la capacidad de recopilar, cruzar, copiar y distribuir datos. Eso mejora decisiones y servicios, pero también crea dilemas sobre privacidad, propiedad, responsabilidad, calidad y efectos sociales.
 :::
 
 ::: {.ojo-prueba}
-Este tema suele evaluarse con casos que mezclan recolección de datos, privacidad y responsabilidad por decisiones.
+La clave no es memorizar casos. Es poder explicar qué derecho, responsabilidad o impacto social aparece cuando una organización usa datos.
 :::
 
-## Conceptos clave
+## Atajos del tema {#atajos-del-tema}
 
 ::: {.concept-list}
-- Privacidad y protección de datos.
-- Responsabilidad por decisiones automatizadas.
-- Calidad, uso y trazabilidad de la información.
-- Impacto social de las plataformas digitales.
-- Seguridad, confianza y control organizacional.
+- [Definiciones clave](#definiciones-clave)
+- [Las cinco dimensiones morales](#cinco-dimensiones-morales)
+- [Privacidad y uso de datos personales](#privacidad-datos)
+- [Big Data, seguimiento y marketing dirigido](#big-data-seguimiento-marketing)
+- [Propiedad intelectual digital](#propiedad-intelectual-digital)
+- [Responsabilidad y control](#responsabilidad-control)
+- [Calidad del sistema y de los datos](#calidad-sistema-datos)
+- [Calidad de vida e impactos sociales](#calidad-vida-impactos)
+- [Preguntas conceptuales](#preguntas-conceptuales)
+:::
+
+## Definiciones clave {#definiciones-clave}
+
+::: {.concept-list}
+- <span id="etica"></span>**[Ética](../repaso/glosario.qmd#etica):** criterios para decidir qué acciones son correctas o incorrectas cuando existen consecuencias para otras personas.
+- <span id="dilemas-eticos"></span>**[Dilemas éticos](../repaso/glosario.qmd#dilemas-eticos):** situaciones donde hay beneficios y riesgos al mismo tiempo, y ninguna opción resuelve todo sin costo.
+- <span id="responsabilidad"></span>**[Responsabilidad](../repaso/glosario.qmd#responsabilidad):** deber de hacerse cargo de una decisión, acción o consecuencia.
+- <span id="rendicion-de-cuentas"></span>**[Rendición de cuentas](../repaso/glosario.qmd#rendicion-de-cuentas):** posibilidad de identificar quién decidió, quién autorizó y quién debe explicar lo ocurrido.
+- <span id="responsabilidad-legal"></span>**[Responsabilidad legal](../repaso/glosario.qmd#responsabilidad-legal):** obligación reconocida por normas, contratos o tribunales cuando se produce un daño.
+- <span id="privacidad"></span>**[Privacidad](../repaso/glosario.qmd#privacidad):** control razonable sobre qué datos personales se recopilan, para qué se usan y con quién se comparten.
+- <span id="consentimiento-informado"></span>**[Consentimiento informado](../repaso/glosario.qmd#consentimiento-informado):** aceptación basada en información clara sobre el uso de datos, no solo en un clic automático.
+- <span id="cookies"></span>**[Cookies](../repaso/glosario.qmd#cookies):** archivos o identificadores que permiten recordar sesiones, preferencias o actividad de navegación.
+- <span id="bugs-web"></span>**[Bugs Web](../repaso/glosario.qmd#bugs-web):** elementos pequeños u ocultos en páginas o correos que pueden registrar visitas, aperturas o comportamiento.
+- <span id="seguimiento-digital"></span>**[Seguimiento digital](../repaso/glosario.qmd#seguimiento-digital):** registro de actividades de una persona en sitios, apps, dispositivos o servicios.
+- <span id="creacion-de-perfiles"></span>**[Creación de perfiles](../repaso/glosario.qmd#creacion-de-perfiles):** uso de datos para inferir intereses, hábitos, riesgos o características de usuarios.
+- <span id="big-data"></span>**[Big Data](../repaso/glosario.qmd#big-data):** manejo de grandes volúmenes y variedades de datos para encontrar patrones y apoyar decisiones.
+- <span id="nora"></span>**[NORA](../repaso/glosario.qmd#nora):** análisis que descubre relaciones no evidentes entre personas, datos, eventos u organizaciones.
+- <span id="marketing-dirigido"></span>**[Marketing dirigido](../repaso/glosario.qmd#marketing-dirigido):** publicidad o contenido adaptado según datos e inferencias sobre un usuario.
+- <span id="propiedad-intelectual"></span>**[Propiedad intelectual](../repaso/glosario.qmd#propiedad-intelectual):** protección de creaciones, contenidos, software, marcas, métodos o conocimiento.
+- <span id="derechos-de-autor"></span>**[Derechos de autor](../repaso/glosario.qmd#derechos-de-autor):** protección de obras expresadas, como textos, imágenes, música, software o material audiovisual.
+- <span id="copyright"></span>**[Copyright](../repaso/glosario.qmd#copyright):** forma legal de protección de copias, distribución y uso de obras.
+- <span id="patentes"></span>**[Patentes](../repaso/glosario.qmd#patentes):** protección temporal sobre una invención que cumple requisitos legales.
+- <span id="secretos-comerciales"></span>**[Secretos comerciales](../repaso/glosario.qmd#secretos-comerciales):** conocimiento valioso que una organización protege porque no es público.
+- <span id="calidad-del-sistema"></span>**[Calidad del sistema](../repaso/glosario.qmd#calidad-del-sistema):** grado en que un sistema es confiable, seguro, correcto y adecuado para su uso.
+- <span id="calidad-de-datos"></span>**[Calidad de datos](../repaso/glosario.qmd#calidad-de-datos):** precisión, actualización, completitud y pertinencia de los datos usados.
+- <span id="calidad-de-vida"></span>**[Calidad de vida](../repaso/glosario.qmd#calidad-de-vida):** impacto de la tecnología en bienestar, acceso, empleo, autonomía, salud y relaciones.
+- <span id="brecha-digital"></span>**[Brecha digital](../repaso/glosario.qmd#brecha-digital):** desigualdad en acceso, habilidades o beneficios asociados a la tecnología.
+- <span id="tecnoestres"></span>**[Tecnoestrés](../repaso/glosario.qmd#tecnoestres):** tensión causada por uso intensivo, presión de conexión permanente o sobrecarga tecnológica.
+- <span id="crimen-por-computadora"></span>**[Crimen por computadora](../repaso/glosario.qmd#crimen-por-computadora):** conducta ilegal realizada mediante sistemas, redes o datos.
+- <span id="abuso-computacional"></span>**[Abuso computacional](../repaso/glosario.qmd#abuso-computacional):** uso dañino o irresponsable de tecnología, aunque no siempre esté tipificado como delito.
+:::
+
+## Las cinco dimensiones morales {#cinco-dimensiones-morales}
+
+::: {.wide-card}
+Estas dimensiones sirven como mapa para analizar casi cualquier caso de ética en sistemas de información:
+
+1. **Derechos y obligaciones de información:** quién puede recopilar, usar, conservar o compartir datos.
+2. **Derechos y obligaciones de propiedad:** quién controla contenidos, software, datos, ideas o conocimiento.
+3. **Responsabilidad, rendición de cuentas y control:** quién responde si el sistema causa daño o toma una mala decisión.
+4. **Calidad del sistema:** qué nivel de seguridad, confiabilidad y corrección debe exigirse antes de usarlo.
+5. **Calidad de vida:** cómo cambia el trabajo, el acceso, la autonomía, la vigilancia y el bienestar social.
+:::
+
+::: {.ojo-prueba}
+Si te dan un caso, primero ubícalo en una o más dimensiones. Después explica el conflicto, los actores afectados y una medida concreta para reducir el riesgo.
+:::
+
+## Privacidad y uso de datos personales {#privacidad-datos}
+
+La [privacidad](#privacidad) no significa que nadie pueda usar datos. Significa que el uso debe tener límites claros, propósito comprensible y protección adecuada.
+
+Un uso responsable debería responder:
+
+::: {.concept-list}
+- Qué datos se recopilan.
+- Para qué se usan.
+- Quién puede acceder.
+- Cuánto tiempo se conservan.
+- Cómo puede el usuario corregir o retirar datos.
+- Qué consecuencias puede tener una decisión basada en esos datos.
+:::
+
+El [consentimiento informado](#consentimiento-informado) es débil cuando la persona no entiende qué acepta o no tiene una alternativa real. Por eso, en prueba conviene mirar si el usuario fue informado de manera clara y si el dato usado era necesario.
+
+## Big Data, seguimiento y marketing dirigido {#big-data-seguimiento-marketing}
+
+[Big Data](#big-data) permite descubrir patrones que serían invisibles con datos pequeños. El problema ético aparece cuando esos patrones se usan para vigilar, discriminar, manipular o tomar decisiones sin explicación.
+
+::: {.ejemplo}
+Una tienda en línea cruza historial de compras, navegación y ubicación aproximada para recomendar productos. Puede mejorar la experiencia, pero también puede crear perfiles invasivos si el usuario no entiende el seguimiento.
+:::
+
+Conceptos que suelen aparecer juntos:
+
+::: {.concept-list}
+- [Cookies](#cookies): pueden ser útiles para sesión y preferencias, pero también para seguimiento.
+- [Bugs Web](#bugs-web): permiten medir aperturas o visitas de forma poco visible.
+- [Seguimiento digital](#seguimiento-digital): acumula rastros de actividad.
+- [Creación de perfiles](#creacion-de-perfiles): transforma datos en inferencias sobre personas.
+- [NORA](#nora): encuentra relaciones no obvias entre datos.
+- [Marketing dirigido](#marketing-dirigido): usa perfiles para personalizar anuncios o mensajes.
+:::
+
+## Propiedad intelectual digital {#propiedad-intelectual-digital}
+
+En entornos digitales, copiar y distribuir información es muy fácil. Por eso la [propiedad intelectual](#propiedad-intelectual) se vuelve más difícil de proteger y más importante de comprender.
+
+::: {.concept-list}
+- [Derechos de autor](#derechos-de-autor): protegen obras expresadas, no ideas abstractas.
+- [Copyright](#copyright): regula copia, distribución y uso autorizado.
+- [Patentes](#patentes): protegen invenciones por un tiempo limitado si cumplen requisitos.
+- [Secretos comerciales](#secretos-comerciales): protegen conocimiento valioso mientras se mantenga reservado.
 :::
 
 ::: {.ejemplo}
-Una plataforma que personaliza recomendaciones debe equilibrar utilidad, consentimiento y protección de datos.
+Copiar un software de pago sin autorización no es solo un problema técnico. Afecta derechos de propiedad, ingresos, contratos y confianza.
 :::
 
-## Casos
+## Responsabilidad y control {#responsabilidad-control}
 
-::: {.caso-breve}
-Analiza una organización que recolecta datos de clientes. Identifica qué datos necesita, qué riesgos aparecen y qué decisiones deberían documentarse.
+En sistemas de información, la pregunta importante es: **¿quién responde si algo sale mal?**
 
-[Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
+::: {.concept-list}
+- [Responsabilidad](#responsabilidad): asumir consecuencias por una decisión o acción.
+- [Rendición de cuentas](#rendicion-de-cuentas): poder reconstruir quién hizo qué y por qué.
+- [Responsabilidad legal](#responsabilidad-legal): obligación definida por leyes, contratos o fallos.
 :::
 
-## Preguntas
+Para que exista control real, la organización necesita registros, reglas, permisos, auditoría y responsables identificables. Si todo queda en “lo decidió el sistema”, la rendición de cuentas se debilita.
+
+## Calidad del sistema y de los datos {#calidad-sistema-datos}
+
+La [calidad del sistema](#calidad-del-sistema) se relaciona con funcionamiento, seguridad, confiabilidad y continuidad. La [calidad de datos](#calidad-de-datos) se relaciona con si los datos son correctos, completos, actuales y pertinentes.
+
+::: {.ejemplo}
+Un sistema de crédito rechaza automáticamente una solicitud porque usa una deuda antigua ya pagada. El daño no viene solo del algoritmo, sino de datos desactualizados y de falta de revisión.
+:::
+
+Un error de calidad puede convertirse en problema ético cuando afecta oportunidades, reputación, acceso a servicios o trato justo.
+
+## Calidad de vida e impactos sociales {#calidad-vida-impactos}
+
+Los sistemas de información también cambian la vida cotidiana. Pueden mejorar acceso, eficiencia y comunicación, pero también aumentar vigilancia, dependencia, presión laboral o exclusión.
+
+::: {.concept-list}
+- [Brecha digital](#brecha-digital): no todos tienen la misma conexión, dispositivos, habilidades o apoyo.
+- [Tecnoestrés](#tecnoestres): aparece cuando la tecnología exige disponibilidad permanente o aprendizaje constante.
+- [Crimen por computadora](#crimen-por-computadora): usa sistemas para robar, engañar, dañar o acceder ilegalmente.
+- [Abuso computacional](#abuso-computacional): puede no ser delito, pero produce daño, invasión o uso injusto.
+:::
+
+::: {.ojo-prueba}
+No reduzcas “calidad de vida” a comodidad. También incluye desigualdad, autonomía, salud mental, empleo, vigilancia y acceso a oportunidades.
+:::
+
+## Observaciones de prueba {#observaciones-de-prueba}
 
 ::: {.wide-card}
-- ¿Qué diferencia hay entre recolectar datos y usarlos de forma responsable?
-- ¿Por qué la calidad de la información tiene impacto ético?
-- ¿Qué controles ayudan a reducir riesgos de privacidad?
-
-[Practicar preguntas](../repaso/preguntas.qmd){.study-button}
+- Muy probable: explicar las cinco dimensiones morales.
+- Muy probable: aplicar privacidad o responsabilidad a un caso.
+- Diferencia bien responsabilidad, rendición de cuentas y responsabilidad legal.
+- Privacidad no es lo mismo que propiedad intelectual.
+- Big Data se conecta con perfiles, NORA y marketing dirigido.
+- Calidad de datos puede producir decisiones injustas.
+- Calidad de vida incluye brecha digital, vigilancia y tecnoestrés.
+- Un dilema ético no se resuelve diciendo solo “el sistema funciona”.
 :::
 
-## Referencias y fuente base
+## Ejemplos aplicados {#ejemplos-aplicados}
+
+::: {.ejemplo}
+**Salud digital:** una clínica usa una app para recordar horas médicas. El beneficio es reducir ausencias, pero debe proteger datos sensibles y limitar accesos internos.
+:::
+
+::: {.ejemplo}
+**Educación:** una plataforma predice estudiantes en riesgo. Puede orientar apoyo temprano, pero si usa datos incompletos puede etiquetar injustamente a una persona.
+:::
+
+::: {.ejemplo}
+**Trabajo remoto:** una empresa mide actividad en pantalla. Puede buscar productividad, pero también generar vigilancia excesiva y tecnoestrés.
+:::
+
+::: {.ejemplo}
+**Comercio digital:** una tienda personaliza descuentos. Puede mejorar ventas, pero si discrimina precios sin transparencia abre un dilema de justicia.
+:::
+
+## Casos breves {#casos-breves}
+
+::: {.caso-breve}
+**Red social:** una plataforma recopila interacciones, ubicación aproximada, contactos y preferencias. El beneficio es personalizar contenido; el riesgo es perfilamiento excesivo y consentimiento poco claro.
+:::
+
+::: {.caso-breve}
+**Marketing conductual:** una empresa usa navegación y compras previas para mostrar anuncios. Mejora la precisión comercial, pero puede manipular decisiones o invadir privacidad.
+:::
+
+::: {.caso-breve}
+**Error de datos:** un sistema financiero rechaza crédito por datos desactualizados. El caso mezcla calidad de datos, rendición de cuentas y daño concreto a una persona.
+:::
+
+::: {.caso-breve}
+**Piratería digital:** un archivo se copia y distribuye sin autorización. El dilema conecta acceso, propiedad intelectual, modelos de negocio y cumplimiento legal.
+:::
+
+## Preguntas conceptuales {#preguntas-conceptuales}
+
+<div class="preguntas-practica">
+<details class="pregunta" id="pregunta-etica-01">
+<summary>Pregunta 1: ¿Por qué los sistemas de información generan dilemas éticos?</summary>
+<p>Porque permiten recopilar, cruzar, copiar y distribuir datos a gran escala, lo que puede afectar privacidad, propiedad, responsabilidad y vida cotidiana.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-02">
+<summary>Pregunta 2: ¿Qué son las cinco dimensiones morales de la era de la información?</summary>
+<p>Son áreas para analizar dilemas: derechos de información, derechos de propiedad, responsabilidad y control, calidad del sistema y calidad de vida.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-03">
+<summary>Pregunta 3: ¿Qué se entiende por derechos de información?</summary>
+<p>Se refiere a quién puede recopilar, acceder, usar, conservar y compartir información sobre personas u organizaciones.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-04">
+<summary>Pregunta 4: ¿Qué diferencia hay entre privacidad y seguridad?</summary>
+<p>La privacidad trata sobre el control del uso de datos personales. La seguridad trata sobre proteger esos datos contra accesos, daños o usos no autorizados.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-05">
+<summary>Pregunta 5: ¿Por qué las cookies son relevantes éticamente?</summary>
+<p>Porque pueden registrar comportamiento de navegación y apoyar seguimiento, perfilamiento o publicidad dirigida.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-06">
+<summary>Pregunta 6: ¿Qué son los bugs Web?</summary>
+<p>Son elementos discretos u ocultos en páginas o correos que permiten registrar visitas, aperturas o actividad del usuario.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-07">
+<summary>Pregunta 7: ¿Qué problema ético puede aparecer con el marketing dirigido?</summary>
+<p>Puede influir en usuarios a partir de perfiles que ellos no conocen o no controlan completamente.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-08">
+<summary>Pregunta 8: ¿Qué es Big Data desde una mirada ética?</summary>
+<p>Es el análisis de grandes volúmenes de datos para encontrar patrones, con riesgos de consentimiento débil, vigilancia, discriminación o decisiones opacas.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-09">
+<summary>Pregunta 9: ¿Qué es NORA?</summary>
+<p>Es el análisis que permite descubrir relaciones no evidentes entre datos, personas, eventos u organizaciones.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-10">
+<summary>Pregunta 10: ¿Qué son los derechos de propiedad en sistemas de información?</summary>
+<p>Son derechos sobre contenidos, software, datos, conocimiento o creaciones que pueden copiarse y distribuirse digitalmente.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-11">
+<summary>Pregunta 11: ¿Por qué la propiedad intelectual es difícil de proteger en Internet?</summary>
+<p>Porque los bienes digitales se copian, modifican y distribuyen con bajo costo y gran rapidez.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-12">
+<summary>Pregunta 12: ¿Qué es la rendición de cuentas?</summary>
+<p>Es la posibilidad de identificar quién tomó una decisión, quién autorizó una acción y quién debe explicar o corregir un daño.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-13">
+<summary>Pregunta 13: ¿Qué diferencia hay entre responsabilidad y responsabilidad legal?</summary>
+<p>La responsabilidad es hacerse cargo de consecuencias. La responsabilidad legal es una obligación reconocida por normas, contratos o tribunales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-14">
+<summary>Pregunta 14: ¿Qué significa calidad del sistema?</summary>
+<p>Que el sistema funcione de manera confiable, segura, correcta y adecuada para el contexto donde se usa.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-15">
+<summary>Pregunta 15: ¿Por qué la calidad de datos es un problema ético?</summary>
+<p>Porque datos erróneos, incompletos, desactualizados o sesgados pueden producir decisiones injustas o perjudiciales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-16">
+<summary>Pregunta 16: Da un ejemplo de daño causado por mala calidad de datos.</summary>
+<p>Un sistema de crédito podría rechazar a una persona porque mantiene una deuda antigua ya pagada.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-17">
+<summary>Pregunta 17: ¿Qué significa calidad de vida en este tema?</summary>
+<p>Se refiere a cómo los sistemas afectan bienestar, empleo, acceso, autonomía, vigilancia, salud mental y relaciones sociales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-18">
+<summary>Pregunta 18: ¿Qué es la brecha digital?</summary>
+<p>Es la desigualdad en acceso, habilidades o capacidad real de aprovechar tecnologías de información.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-19">
+<summary>Pregunta 19: ¿Qué es el tecnoestrés?</summary>
+<p>Es el estrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-20">
+<summary>Pregunta 20: ¿Cómo conviene analizar un dilema ético en sistemas de información?</summary>
+<p>Identificando actores afectados, datos usados, beneficios, daños, responsabilidades, alternativas y principios aplicables.</p>
+</details>
+</div>
+
+## Referencias y fuente base {#referencias-fuente-base}
 
 ::: {.referencias-fuente}
-- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema relacionado: aspectos éticos y sociales de los sistemas de información.
-- Apuntes de clase o fuentes complementarias futuras.
+- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Fuente base contrastada: sección sobre aspectos éticos y sociales en los sistemas de información.
+- PDF local usado solo para contrastar conceptos, términos, casos y páginas: `libro_guia_163-206.pdf`. El texto extraído identifica el capítulo 4, "Aspectos éticos y sociales en los sistemas de información", con paginación impresa aproximada 125-163 para el contenido principal y el caso breve.
+- Apuntes de clase y material de etapa del curso.
 :::

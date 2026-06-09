@@ -9,6 +9,10 @@ Lee la pregunta, responde antes de abrir la solución y compara la idea general,
 
 ## Preguntas de ética, datos y sociedad
 
+::: {.wide-card}
+Banco completo del tema: [20 preguntas conceptuales de ética, datos y sociedad](../temas/etica-datos-sociedad.qmd#preguntas-conceptuales), con respuestas ocultas para practicar.
+:::
+
 ::: {.preguntas-practica}
 <details class="pregunta" id="pregunta-etica-datos">
 <summary>¿Por qué la gestión de datos tiene una dimensión ética?</summary>

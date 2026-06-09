@@ -11,7 +11,7 @@ El mapa muestra una ruta de lectura: contexto social, infraestructura digital, i
 ::: {.map-node}
 ### Ética, datos y sociedad
 
-Define responsabilidades, límites y efectos sociales del uso de información.
+Define responsabilidades, límites y efectos sociales del uso de información. Ordena casos con cinco dimensiones: información, propiedad, control, calidad del sistema y calidad de vida.
 :::
 
 ::: {.map-arrow}
@@ -49,4 +49,10 @@ Convierte necesidades organizacionales en soluciones que deben adoptarse y evalu
 La relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.
 
 [Volver al inicio](../index.qmd){.study-button}
+:::
+
+::: {.wide-card}
+Para estudiar casos, parte por ética: identifica datos usados, actores afectados, beneficios, daños y responsables. Luego conecta con infraestructura, comercio o creación de sistemas según corresponda.
+
+[Repasar ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
 :::
