@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Placeholder conceptual sobre creación, cambio y adopción de sistemas de información.">
+<meta name="description" content="Guía conceptual sobre desarrollo de sistemas, cambio organizacional, pruebas, conversión y métodos de construcción.">
 
 <title>Creación y cambio de sistemas – Tecnologías y Sistemas de la Información</title>
 <style>
@@ -153,10 +153,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#conceptos-clave" id="toc-conceptos-clave" class="nav-link active" data-scroll-target="#conceptos-clave">Conceptos clave</a></li>
-  <li><a href="#casos" id="toc-casos" class="nav-link" data-scroll-target="#casos">Casos</a></li>
-  <li><a href="#preguntas" id="toc-preguntas" class="nav-link" data-scroll-target="#preguntas">Preguntas</a></li>
-  <li><a href="#referencias-y-fuente-base" id="toc-referencias-y-fuente-base" class="nav-link" data-scroll-target="#referencias-y-fuente-base">Referencias y fuente base</a></li>
+  <li><a href="#atajos-del-tema" id="toc-atajos-del-tema" class="nav-link active" data-scroll-target="#atajos-del-tema">Atajos del tema</a></li>
+  <li><a href="#definiciones-clave" id="toc-definiciones-clave" class="nav-link" data-scroll-target="#definiciones-clave">Definiciones clave</a></li>
+  <li><a href="#crear-sistemas-como-cambio-organizacional" id="toc-crear-sistemas-como-cambio-organizacional" class="nav-link" data-scroll-target="#crear-sistemas-como-cambio-organizacional">Crear sistemas como cambio organizacional</a></li>
+  <li><a href="#cuatro-niveles-cambio-ti" id="toc-cuatro-niveles-cambio-ti" class="nav-link" data-scroll-target="#cuatro-niveles-cambio-ti">Cuatro niveles de cambio habilitado por TI</a></li>
+  <li><a href="#bpm-mejora-continua" id="toc-bpm-mejora-continua" class="nav-link" data-scroll-target="#bpm-mejora-continua">BPM y mejora continua de procesos</a></li>
+  <li><a href="#proceso-basico-desarrollo" id="toc-proceso-basico-desarrollo" class="nav-link" data-scroll-target="#proceso-basico-desarrollo">Proceso básico de desarrollo de sistemas</a></li>
+  <li><a href="#analisis-vs-diseno" id="toc-analisis-vs-diseno" class="nav-link" data-scroll-target="#analisis-vs-diseno">Análisis vs.&nbsp;diseño</a></li>
+  <li><a href="#pruebas-y-conversion" id="toc-pruebas-y-conversion" class="nav-link" data-scroll-target="#pruebas-y-conversion">Pruebas y conversión</a></li>
+  <li><a href="#produccion-mantenimiento-evaluacion" id="toc-produccion-mantenimiento-evaluacion" class="nav-link" data-scroll-target="#produccion-mantenimiento-evaluacion">Producción, mantenimiento y evaluación posterior</a></li>
+  <li><a href="#metodos-tradicionales-modelado" id="toc-metodos-tradicionales-modelado" class="nav-link" data-scroll-target="#metodos-tradicionales-modelado">Métodos tradicionales y modelado</a></li>
+  <li><a href="#prototipado-usuario-final" id="toc-prototipado-usuario-final" class="nav-link" data-scroll-target="#prototipado-usuario-final">Prototipado y desarrollo del usuario final</a></li>
+  <li><a href="#paquetes-outsourcing" id="toc-paquetes-outsourcing" class="nav-link" data-scroll-target="#paquetes-outsourcing">Paquetes de software y outsourcing</a></li>
+  <li><a href="#rad-agil-componentes-servicios" id="toc-rad-agil-componentes-servicios" class="nav-link" data-scroll-target="#rad-agil-componentes-servicios">RAD, ágil, componentes y servicios Web</a></li>
+  <li><a href="#desarrollo-movil-en-sistemas" id="toc-desarrollo-movil-en-sistemas" class="nav-link" data-scroll-target="#desarrollo-movil-en-sistemas">Desarrollo móvil</a></li>
+  <li><a href="#comparaciones-importantes" id="toc-comparaciones-importantes" class="nav-link" data-scroll-target="#comparaciones-importantes">Comparaciones importantes</a></li>
+  <li><a href="#ejemplos-aplicados" id="toc-ejemplos-aplicados" class="nav-link" data-scroll-target="#ejemplos-aplicados">Ejemplos aplicados</a></li>
+  <li><a href="#casos-breves" id="toc-casos-breves" class="nav-link" data-scroll-target="#casos-breves">Casos breves</a></li>
+  <li><a href="#observaciones-de-prueba" id="toc-observaciones-de-prueba" class="nav-link" data-scroll-target="#observaciones-de-prueba">Observaciones de prueba</a></li>
+  <li><a href="#preguntas-conceptuales" id="toc-preguntas-conceptuales" class="nav-link" data-scroll-target="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+  <li><a href="#referencias-fuente-base" id="toc-referencias-fuente-base" class="nav-link" data-scroll-target="#referencias-fuente-base">Referencias y fuente base</a></li>
   </ul>
 </nav>
     </div>
@@ -170,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Placeholder conceptual sobre creación, cambio y adopción de sistemas de información.
+    Guía conceptual sobre desarrollo de sistemas, cambio organizacional, pruebas, conversión y métodos de construcción.
   </div>
 </div>
 
@@ -188,50 +204,500 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="idea-central">
-<p>Crear sistemas implica entender problemas, diseñar soluciones, gestionar cambios y evaluar si la tecnología mejora el trabajo real.</p>
+<p>Crear un sistema de información no es solo programar. Es transformar una necesidad organizacional en una solución que combina procesos, personas, datos, reglas, tecnología, pruebas, implementación y cambio sostenido.</p>
 </div>
 <div class="ojo-prueba">
-<p>La clave es distinguir instalar tecnología de lograr adopción, cambio de procesos y mejora medible.</p>
+<p>La clave es explicar qué cambia en la organización, qué requerimientos debe cumplir el sistema, cómo se valida la solución y qué método de desarrollo conviene según el nivel de incertidumbre y riesgo.</p>
 </div>
-<section id="conceptos-clave" class="level2">
-<h2 class="anchored" data-anchor-id="conceptos-clave">Conceptos clave</h2>
+<section id="atajos-del-tema" class="level2">
+<h2 class="anchored" data-anchor-id="atajos-del-tema">Atajos del tema</h2>
 <div class="concept-list">
 <ul>
-<li>Análisis de requerimientos y procesos.</li>
-<li>Diseño, construcción, prueba e implementación.</li>
-<li>Gestión del cambio y adopción de usuarios.</li>
-<li>Integración con sistemas existentes.</li>
-<li>Evaluación de beneficios, costos y riesgos.</li>
+<li><a href="#definiciones-clave">Definiciones clave</a></li>
+<li><a href="#crear-sistemas-como-cambio-organizacional">Crear sistemas como cambio organizacional</a></li>
+<li><a href="#cuatro-niveles-cambio-ti">Cuatro niveles de cambio habilitado por TI</a></li>
+<li><a href="#bpm-mejora-continua">BPM y mejora continua de procesos</a></li>
+<li><a href="#proceso-basico-desarrollo">Proceso básico de desarrollo de sistemas</a></li>
+<li><a href="#analisis-vs-diseno">Análisis vs.&nbsp;diseño</a></li>
+<li><a href="#pruebas-y-conversion">Pruebas y conversión</a></li>
+<li><a href="#produccion-mantenimiento-evaluacion">Producción, mantenimiento y evaluación posterior</a></li>
+<li><a href="#metodos-tradicionales-modelado">Métodos tradicionales y modelado</a></li>
+<li><a href="#prototipado-usuario-final">Prototipado y desarrollo del usuario final</a></li>
+<li><a href="#paquetes-outsourcing">Paquetes de software y outsourcing</a></li>
+<li><a href="#rad-agil-componentes-servicios">RAD, ágil, componentes y servicios Web</a></li>
+<li><a href="#desarrollo-movil-en-sistemas">Desarrollo móvil</a></li>
+<li><a href="#comparaciones-importantes">Comparaciones importantes</a></li>
+<li><a href="#ejemplos-aplicados">Ejemplos aplicados</a></li>
+<li><a href="#casos-breves">Casos breves</a></li>
+<li><a href="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+</ul>
+</div>
+</section>
+<section id="definiciones-clave" class="level2">
+<h2 class="anchored" data-anchor-id="definiciones-clave">Definiciones clave</h2>
+<div class="concept-list">
+<ul>
+<li><span id="desarrollo-de-sistemas"></span><strong><a href="../repaso/glosario.html#desarrollo-de-sistemas">Desarrollo de sistemas</a>:</strong> proceso organizado para analizar un problema u oportunidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.</li>
+<li><span id="cambio-organizacional"></span><strong><a href="../repaso/glosario.html#cambio-organizacional">Cambio organizacional</a>:</strong> modificación en procesos, roles, decisiones, cultura, responsabilidades o formas de trabajo.</li>
+<li><span id="automatizacion"></span><strong><a href="../repaso/glosario.html#automatizacion">Automatización</a>:</strong> uso de tecnología para ejecutar con más eficiencia una tarea existente.</li>
+<li><span id="racionalizacion"></span><strong><a href="../repaso/glosario.html#racionalizacion">Racionalización</a>:</strong> simplificación y mejora de procedimientos antes o junto con su digitalización.</li>
+<li><span id="rediseno-de-procesos"></span><strong><a href="../repaso/glosario.html#rediseno-de-procesos">Rediseño de procesos</a>:</strong> replanteamiento profundo de un proceso para cambiar flujos, responsabilidades, pasos y resultados.</li>
+<li><span id="cambio-de-paradigma"></span><strong><a href="../repaso/glosario.html#cambio-de-paradigma">Cambio de paradigma</a>:</strong> transformación radical del modelo de operación o negocio habilitada por tecnología.</li>
+<li><span id="bpm"></span><strong><a href="../repaso/glosario.html#bpm">BPM</a>:</strong> enfoque para analizar, modelar, mejorar, ejecutar y medir procesos de negocio.</li>
+<li><span id="administracion-de-procesos-de-negocios"></span><strong><a href="../repaso/glosario.html#administracion-de-procesos-de-negocios">Administración de procesos de negocios</a>:</strong> gestión continua de procesos para mantenerlos alineados con objetivos, reglas y desempeño.</li>
+<li><span id="analisis-de-sistemas"></span><strong><a href="../repaso/glosario.html#analisis-de-sistemas">Análisis de sistemas</a>:</strong> estudio del problema, sistema actual, actores, alternativas y requerimientos de información.</li>
+<li><span id="requerimientos"></span><strong><a href="../repaso/glosario.html#requerimientos">Requerimientos</a>:</strong> condiciones, funciones, datos, reglas y restricciones que la solución debe cumplir.</li>
+<li><span id="diseno-de-sistemas"></span><strong><a href="../repaso/glosario.html#diseno-de-sistemas">Diseño de sistemas</a>:</strong> definición de cómo la solución cumplirá los requerimientos mediante datos, procesos, interfaces, controles y arquitectura.</li>
+<li><span id="programacion"></span><strong><a href="../repaso/glosario.html#programacion">Programación</a>:</strong> traducción del diseño en software ejecutable, configuración o integración técnica.</li>
+<li><span id="pruebas"></span><strong><a href="../repaso/glosario.html#pruebas">Pruebas</a>:</strong> verificación de que componentes, sistema y aceptación de usuarios funcionan según lo esperado.</li>
+<li><span id="plan-de-prueba"></span><strong><a href="../repaso/glosario.html#plan-de-prueba">Plan de prueba</a>:</strong> conjunto de condiciones, datos, resultados esperados, responsables y criterios para evaluar el sistema.</li>
+<li><span id="conversion"></span><strong><a href="../repaso/glosario.html#conversion">Conversión</a>:</strong> paso desde el sistema antiguo al nuevo, incluyendo datos, usuarios, procedimientos y operación.</li>
+<li><span id="conversion-directa"></span><strong><a href="../repaso/glosario.html#conversion-directa">Conversión directa</a>:</strong> reemplazo completo del sistema anterior en una fecha definida.</li>
+<li><span id="conversion-paralela"></span><strong><a href="../repaso/glosario.html#conversion-paralela">Conversión paralela</a>:</strong> operación temporal de sistema antiguo y nuevo para comparar resultados y reducir riesgo.</li>
+<li><span id="conversion-piloto"></span><strong><a href="../repaso/glosario.html#conversion-piloto">Conversión piloto</a>:</strong> implementación inicial en un área limitada antes de extender la solución.</li>
+<li><span id="conversion-por-fases"></span><strong><a href="../repaso/glosario.html#conversion-por-fases">Conversión por fases</a>:</strong> incorporación gradual por funciones, módulos, sedes o grupos de usuarios.</li>
+<li><span id="produccion"></span><strong><a href="../repaso/glosario.html#produccion">Producción</a>:</strong> operación real del sistema con usuarios, datos y procesos cotidianos.</li>
+<li><span id="mantenimiento"></span><strong><a href="../repaso/glosario.html#mantenimiento">Mantenimiento</a>:</strong> corrección, adaptación y mejora del sistema después de su puesta en producción.</li>
+<li><span id="auditoria-posimplementacion"></span><strong><a href="../repaso/glosario.html#auditoria-posimplementacion">Auditoría posimplementación</a>:</strong> revisión posterior para evaluar si el sistema produjo beneficios, cumplió requerimientos y dejó aprendizajes.</li>
+<li><span id="ciclo-de-vida-tradicional"></span><strong><a href="../repaso/glosario.html#ciclo-de-vida-tradicional">Ciclo de vida tradicional</a>:</strong> método secuencial y formal de desarrollo con etapas aprobadas antes de avanzar.</li>
+<li><span id="prototipado"></span><strong><a href="../repaso/glosario.html#prototipado">Prototipado</a>:</strong> construcción rápida de una versión preliminar para aprender con usuarios y refinar requerimientos.</li>
+<li><span id="desarrollo-del-usuario-final"></span><strong><a href="../repaso/glosario.html#desarrollo-del-usuario-final">Desarrollo del usuario final</a>:</strong> creación de aplicaciones simples por usuarios no especialistas para necesidades locales.</li>
+<li><span id="paquetes-de-software"></span><strong><a href="../repaso/glosario.html#paquetes-de-software">Paquetes de software</a>:</strong> aplicaciones ya construidas que se adquieren, configuran y adaptan para una función común.</li>
+<li><span id="outsourcing"></span><strong><a href="../repaso/glosario.html#outsourcing">Outsourcing</a>:</strong> contratación externa de desarrollo, operación, soporte o servicios tecnológicos.</li>
+<li><span id="rad"></span><strong><a href="../repaso/glosario.html#rad">RAD</a>:</strong> desarrollo rápido de aplicaciones mediante herramientas, prototipos, componentes y ciclos cortos.</li>
+<li><span id="desarrollo-agil"></span><strong><a href="../repaso/glosario.html#desarrollo-agil">Desarrollo ágil</a>:</strong> enfoque iterativo con entregas frecuentes, colaboración con usuarios y adaptación continua.</li>
+<li><span id="componentes"></span><strong><a href="../repaso/glosario.html#componentes">Componentes</a>:</strong> piezas reutilizables de software que encapsulan una función y pueden combinarse con otras.</li>
+<li><span id="servicios-web"></span><strong><a href="../repaso/glosario.html#servicios-web">Servicios Web</a>:</strong> servicios reutilizables accesibles por estándares de red para integrar aplicaciones.</li>
+<li><span id="desarrollo-movil"></span><strong><a href="../repaso/glosario.html#desarrollo-movil">Desarrollo móvil</a>:</strong> diseño y construcción de soluciones para teléfonos, tabletas y contextos de uso móvil.</li>
+<li><span id="aplicacion-nativa"></span><strong><a href="../repaso/glosario.html#aplicacion-nativa">Aplicación nativa</a>:</strong> app creada para una plataforma móvil específica y capaz de usar recursos del dispositivo.</li>
+<li><span id="aplicacion-web-movil"></span><strong><a href="../repaso/glosario.html#aplicacion-web-movil">Aplicación Web móvil</a>:</strong> aplicación accesible desde navegador y adaptada a pantallas y condiciones móviles.</li>
+<li><span id="metodologias-estructuradas"></span><strong><a href="../repaso/glosario.html#metodologias-estructuradas">Metodologías estructuradas</a>:</strong> técnicas de análisis y diseño que modelan procesos, flujos de datos y módulos de forma ordenada.</li>
+<li><span id="desarrollo-orientado-a-objetos"></span><strong><a href="../repaso/glosario.html#desarrollo-orientado-a-objetos">Desarrollo orientado a objetos</a>:</strong> enfoque que modela el sistema como objetos que combinan datos y comportamientos.</li>
+<li><span id="uml"></span><strong><a href="../repaso/glosario.html#uml">UML</a>:</strong> lenguaje de modelado visual para representar requisitos, clases, interacciones y estructura de software.</li>
+<li><span id="case"></span><strong><a href="../repaso/glosario.html#case">CASE</a>:</strong> herramientas de ingeniería de software asistida por computadora para documentar, modelar, generar y controlar desarrollo.</li>
+</ul>
+</div>
+</section>
+<section id="crear-sistemas-como-cambio-organizacional" class="level2">
+<h2 class="anchored" data-anchor-id="crear-sistemas-como-cambio-organizacional">Crear sistemas como cambio organizacional</h2>
+<p>Un sistema de información cambia la forma en que una organización trabaja. Puede alterar quién captura datos, quién aprueba una operación, cómo se mide el desempeño, qué tareas desaparecen, qué controles aparecen y qué decisiones se automatizan.</p>
+<p>Por eso, el éxito no depende solo de que el software funcione. También depende de que el sistema resuelva el problema correcto, que los usuarios lo entiendan, que los datos sean confiables, que las reglas sean claras y que la organización acepte nuevas responsabilidades.</p>
+<div class="wide-card">
+<p><strong>Pregunta guía:</strong> ¿qué proceso, decisión o flujo de información mejora este sistema, y qué debe cambiar en las personas o reglas para que esa mejora ocurra?</p>
+</div>
+<div class="ejemplo">
+<p>Una municipalidad que digitaliza permisos no solo necesita formularios en línea. Debe definir datos obligatorios, responsables de revisión, plazos, notificaciones, respaldos, atención a usuarios y criterios para auditar cada aprobación.</p>
+</div>
+</section>
+<section id="cuatro-niveles-cambio-ti" class="level2">
+<h2 class="anchored" data-anchor-id="cuatro-niveles-cambio-ti">Cuatro niveles de cambio habilitado por TI</h2>
+<p>La tecnología puede producir cambios de distinta profundidad. Ordenarlos ayuda a analizar casos:</p>
+<div class="concept-list">
+<ul>
+<li><a href="#automatizacion">Automatización</a>: aplica tecnología a una tarea existente. Mejora velocidad o costo, pero mantiene la lógica del proceso.</li>
+<li><a href="#racionalizacion">Racionalización</a>: elimina pasos innecesarios, ordena reglas y reduce duplicaciones antes de digitalizar.</li>
+<li><a href="#rediseno-de-procesos">Rediseño de procesos</a>: reorganiza un proceso completo para cambiar flujos de trabajo, roles y resultados.</li>
+<li><a href="#cambio-de-paradigma">Cambio de paradigma</a>: transforma la forma de operar o competir, por ejemplo pasar de una empresa física a una plataforma digital.</li>
+</ul>
+</div>
+<div class="ojo-prueba">
+<p>El orden de menor a mayor impacto suele ser: automatización, racionalización, rediseño de procesos y cambio de paradigma. A mayor impacto, suele haber más riesgo, resistencia y necesidad de gestión.</p>
+</div>
+</section>
+<section id="bpm-mejora-continua" class="level2">
+<h2 class="anchored" data-anchor-id="bpm-mejora-continua">BPM y mejora continua de procesos</h2>
+<p><a href="#bpm">BPM</a> sirve para mirar los procesos como objetos de gestión, no como costumbres intocables. Su lógica básica es analizar cómo se trabaja hoy, diseñar una versión mejor, implementarla con soporte tecnológico y medir si realmente mejora.</p>
+<p>Un enfoque BPM suele incluir:</p>
+<div class="concept-list">
+<ul>
+<li>Identificar procesos relevantes para desempeño, costo, calidad o servicio.</li>
+<li>Modelar el proceso actual con entradas, salidas, responsables, reglas y excepciones.</li>
+<li>Detectar demoras, duplicidades, controles débiles, retrabajo o tareas sin valor.</li>
+<li>Diseñar un proceso mejorado y sus reglas de negocio.</li>
+<li>Implementar sistemas o cambios de procedimiento que lo sostengan.</li>
+<li>Medir resultados y ajustar cuando el proceso vuelve a desviarse o cambia el contexto.</li>
 </ul>
 </div>
 <div class="ejemplo">
-<p>Pasar de planillas aisladas a un sistema compartido exige requerimientos claros, pruebas y gestión del cambio.</p>
+<p>En una empresa de despacho, BPM permite comparar el proceso actual de recepción, preparación, ruta y entrega con un proceso rediseñado apoyado por app móvil, escaneo de productos y seguimiento de estados.</p>
 </div>
 </section>
-<section id="casos" class="level2">
-<h2 class="anchored" data-anchor-id="casos">Casos</h2>
+<section id="proceso-basico-desarrollo" class="level2">
+<h2 class="anchored" data-anchor-id="proceso-basico-desarrollo">Proceso básico de desarrollo de sistemas</h2>
+<p>El <a href="#desarrollo-de-sistemas">desarrollo de sistemas</a> convierte un problema u oportunidad en una solución operativa. Aunque los métodos cambien, el proceso suele cubrir estas actividades:</p>
+<div class="concept-list">
+<ul>
+<li><a href="#analisis-de-sistemas">Análisis de sistemas</a>: entender problema, causas, actores, sistema actual, alternativas y requerimientos.</li>
+<li><a href="#diseno-de-sistemas">Diseño de sistemas</a>: especificar cómo funcionarán datos, procesos, interfaces, controles, reportes e infraestructura.</li>
+<li><a href="#programacion">Programación</a>: construir, configurar o integrar la solución.</li>
+<li><a href="#pruebas">Pruebas</a>: verificar unidades, sistema completo y aceptación de usuarios.</li>
+<li><a href="#conversion">Conversión</a>: pasar del sistema anterior al nuevo.</li>
+<li><a href="#produccion">Producción</a>: operar el sistema en condiciones reales.</li>
+<li><a href="#mantenimiento">Mantenimiento</a>: corregir, adaptar y mejorar después de la implementación.</li>
+</ul>
+</div>
+<div class="wide-card">
+<p><strong>Idea simple:</strong> análisis decide qué problema resolver; diseño decide cómo será la solución; construcción la materializa; pruebas la validan; conversión la pone en uso; mantenimiento la mantiene útil.</p>
+</div>
+</section>
+<section id="analisis-vs-diseno" class="level2">
+<h2 class="anchored" data-anchor-id="analisis-vs-diseno">Análisis vs.&nbsp;diseño</h2>
+<p>El <a href="#analisis-de-sistemas">análisis de sistemas</a> responde: <strong>qué ocurre, qué se necesita y por qué</strong>. Incluye estudiar procesos actuales, detectar problemas, evaluar alternativas, identificar usuarios y definir <a href="#requerimientos">requerimientos</a>.</p>
+<p>El <a href="#diseno-de-sistemas">diseño de sistemas</a> responde: <strong>cómo se cumplirá lo requerido</strong>. Define estructura de datos, interfaces, entradas, salidas, validaciones, controles, procesos, seguridad, arquitectura y procedimientos.</p>
+<div class="wide-card">
+<p><strong>Análisis:</strong> qué necesita la organización, quién usa información, dónde, cuándo, cómo y con qué restricciones.</p>
+<p><strong>Diseño:</strong> cómo se capturan, procesan, almacenan, presentan y protegen esos datos para cumplir los requerimientos.</p>
+</div>
+<div class="ojo-prueba">
+<p>Un error frecuente es saltar al diseño sin requerimientos claros. Si el sistema resuelve un problema mal definido, puede funcionar técnicamente y fallar organizacionalmente.</p>
+</div>
+</section>
+<section id="pruebas-y-conversion" class="level2">
+<h2 class="anchored" data-anchor-id="pruebas-y-conversion">Pruebas y conversión</h2>
+<p>Las <a href="#pruebas">pruebas</a> no buscan demostrar optimismo. Buscan encontrar fallas antes de que afecten usuarios, datos, clientes o decisiones.</p>
+<p>Tres niveles frecuentes:</p>
+<div class="concept-list">
+<ul>
+<li><strong>Prueba de unidad:</strong> revisa componentes, programas, formularios, reglas o módulos por separado.</li>
+<li><strong>Prueba de sistema:</strong> verifica que las partes trabajen integradas con datos, procesos, rendimiento y controles.</li>
+<li><strong>Prueba de aceptación:</strong> confirma con usuarios y responsables que el sistema está listo para operación real.</li>
+</ul>
+</div>
+<p>El <a href="#plan-de-prueba">plan de prueba</a> debe indicar qué se probará, con qué datos, qué resultado se espera, quién valida y qué condición permite aprobar o corregir.</p>
+<p>La <a href="#conversion">conversión</a> es el paso más visible para la organización. Estrategias típicas:</p>
+<div class="concept-list">
+<ul>
+<li><a href="#conversion-directa">Conversión directa</a>: rápida, simple de coordinar, pero riesgosa si el sistema falla.</li>
+<li><a href="#conversion-paralela">Conversión paralela</a>: más segura porque compara ambos sistemas, pero más costosa y trabajosa.</li>
+<li><a href="#conversion-piloto">Conversión piloto</a>: reduce riesgo al partir por un área acotada.</li>
+<li><a href="#conversion-por-fases">Conversión por fases</a>: baja el impacto al implementar por módulos, sedes o funciones.</li>
+</ul>
+</div>
+<div class="ejemplo">
+<p>Un sistema de matrícula puede usar conversión piloto en una carrera, luego conversión por fases por facultades. Si el proceso es crítico y hay riesgo alto, mantener operación paralela temporalmente permite comparar resultados.</p>
+</div>
+</section>
+<section id="produccion-mantenimiento-evaluacion" class="level2">
+<h2 class="anchored" data-anchor-id="produccion-mantenimiento-evaluacion">Producción, mantenimiento y evaluación posterior</h2>
+<p>Cuando el sistema entra en <a href="#produccion">producción</a>, deja de ser proyecto y se vuelve parte del trabajo diario. Allí aparecen errores reales, solicitudes de ajuste, cambios normativos, nuevos datos, problemas de capacitación y oportunidades de mejora.</p>
+<p>El <a href="#mantenimiento">mantenimiento</a> incluye:</p>
+<div class="concept-list">
+<ul>
+<li>Corregir errores detectados en operación.</li>
+<li>Adaptar el sistema a nuevos procesos, normas o necesidades.</li>
+<li>Mejorar rendimiento, usabilidad, reportes o controles.</li>
+<li>Actualizar documentación y capacitación.</li>
+<li>Revisar seguridad, accesos y continuidad.</li>
+</ul>
+</div>
+<p>La <a href="#auditoria-posimplementacion">auditoría posimplementación</a> evalúa si el sistema cumplió objetivos, costos, beneficios, calidad y adopción. También deja aprendizajes para futuros proyectos.</p>
+</section>
+<section id="metodos-tradicionales-modelado" class="level2">
+<h2 class="anchored" data-anchor-id="metodos-tradicionales-modelado">Métodos tradicionales y modelado</h2>
+<p>El <a href="#ciclo-de-vida-tradicional">ciclo de vida tradicional</a> organiza el desarrollo en etapas formales: análisis, diseño, programación, prueba, conversión, producción y mantenimiento. Funciona bien cuando el sistema es grande, crítico, regulado o requiere documentación rigurosa.</p>
+<p>Su debilidad es la rigidez: si los requerimientos cambian tarde, corregir puede ser caro. Por eso conviene cuando el problema está relativamente claro y el riesgo exige control formal.</p>
+<p>Las <a href="#metodologias-estructuradas">metodologías estructuradas</a> modelan procesos y flujos de datos de manera ordenada. Ayudan a entender entradas, salidas, transformaciones, almacenes de datos y módulos.</p>
+<p>El <a href="#desarrollo-orientado-a-objetos">desarrollo orientado a objetos</a> representa el sistema como objetos que integran datos y comportamiento. <a href="#uml">UML</a> ayuda a dibujar clases, casos de uso, secuencias y relaciones. Las herramientas <a href="#case">CASE</a> apoyan documentación, diagramas, consistencia y generación parcial de artefactos.</p>
+<div class="wide-card">
+<p><strong>En prueba:</strong> no necesitas dibujar un DFD o un diagrama UML perfecto. Sí debes reconocer para qué sirven: ordenar análisis, comunicar diseño y reducir ambigüedad antes de construir.</p>
+</div>
+</section>
+<section id="prototipado-usuario-final" class="level2">
+<h2 class="anchored" data-anchor-id="prototipado-usuario-final">Prototipado y desarrollo del usuario final</h2>
+<p>El <a href="#prototipado">prototipado</a> crea una versión preliminar para que los usuarios vean, prueben y comenten. Es útil cuando los requerimientos son inciertos, la interfaz es importante o los usuarios necesitan experimentar antes de definir.</p>
+<p>Pasos típicos:</p>
+<div class="concept-list">
+<ul>
+<li>Identificar requerimientos básicos.</li>
+<li>Crear un prototipo inicial.</li>
+<li>Usarlo con usuarios reales o representativos.</li>
+<li>Revisar, ajustar y repetir hasta aclarar la solución.</li>
+</ul>
+</div>
+<p>Su riesgo es confundir un prototipo útil con un sistema listo. Si se salta documentación, seguridad, pruebas, rendimiento o integración, puede quedar una solución frágil.</p>
+<p>El <a href="#desarrollo-del-usuario-final">desarrollo del usuario final</a> permite que usuarios creen soluciones simples con hojas de cálculo, formularios, bases de datos pequeñas o herramientas de bajo código. Acelera respuestas locales, pero requiere control para evitar datos inconsistentes, duplicación, falta de seguridad o dependencia de una sola persona.</p>
+</section>
+<section id="paquetes-outsourcing" class="level2">
+<h2 class="anchored" data-anchor-id="paquetes-outsourcing">Paquetes de software y outsourcing</h2>
+<p>Un <a href="#paquetes-de-software">paquete de software</a> reduce trabajo porque ya trae funciones comunes. La organización configura, adapta e integra en vez de construir todo desde cero.</p>
+<p>Conviene evaluar:</p>
+<div class="concept-list">
+<ul>
+<li>Qué porcentaje de requerimientos cubre sin modificar.</li>
+<li>Qué procesos de la organización deben adaptarse al paquete.</li>
+<li>Costos de licencia, implementación, capacitación, soporte y actualización.</li>
+<li>Calidad del proveedor, documentación, seguridad e integración.</li>
+<li>Riesgo de personalizaciones excesivas que encarezcan mantenimiento.</li>
+</ul>
+</div>
+<p>El <a href="#outsourcing">outsourcing</a> permite contratar desarrollo, operación o soporte externo. Puede aportar especialización y rapidez, pero no elimina responsabilidad interna. La organización debe entender requerimientos, costos, riesgos, métricas, contratos, seguridad y dependencia del proveedor.</p>
+<div class="ojo-prueba">
+<p>Comprar o subcontratar no significa dejar de analizar. Si la organización no define bien qué necesita, puede adquirir una solución cara que no encaja con sus procesos.</p>
+</div>
+</section>
+<section id="rad-agil-componentes-servicios" class="level2">
+<h2 class="anchored" data-anchor-id="rad-agil-componentes-servicios">RAD, ágil, componentes y servicios Web</h2>
+<p><a href="#rad">RAD</a> busca acelerar creación de aplicaciones mediante prototipos, herramientas visuales, reutilización, participación intensa de usuarios y ciclos cortos.</p>
+<p>El <a href="#desarrollo-agil">desarrollo ágil</a> divide el trabajo en entregas pequeñas. En vez de esperar una versión completa al final, el equipo prioriza, construye, muestra, recibe retroalimentación y ajusta. Es útil cuando hay incertidumbre, cambios frecuentes o necesidad de aprender rápido.</p>
+<div class="wide-card">
+<p><strong>Ventaja de ágil:</strong> aprendizaje continuo y entrega temprana de valor.</p>
+<p><strong>Riesgo de ágil mal aplicado:</strong> confundir flexibilidad con falta de disciplina, documentación mínima sin control, deuda técnica o usuarios poco disponibles.</p>
+</div>
+<p>El desarrollo basado en <a href="#componentes">componentes</a> acelera porque reutiliza piezas probadas. Los <a href="#servicios-web">servicios Web</a> permiten integrar funciones disponibles por red, como pago, verificación, mapas, autenticación o consulta de datos.</p>
+<div class="ejemplo">
+<p>Una app de reservas puede usar un componente de calendario, un servicio Web de pagos, un servicio de mapas y un módulo propio para reglas de disponibilidad. El valor está en integrar bien, no en programar todo desde cero.</p>
+</div>
+</section>
+<section id="desarrollo-movil-en-sistemas" class="level2">
+<h2 class="anchored" data-anchor-id="desarrollo-movil-en-sistemas">Desarrollo móvil</h2>
+<p>El <a href="#desarrollo-movil">desarrollo móvil</a> exige pensar en pantallas pequeñas, conexión variable, batería, permisos, ubicación, cámara, notificaciones, seguridad del dispositivo y uso en movimiento.</p>
+<p>Dos alternativas frecuentes:</p>
+<div class="concept-list">
+<ul>
+<li><a href="#aplicacion-nativa">Aplicación nativa</a>: mejor acceso a recursos del dispositivo y experiencia más integrada, pero suele requerir más esfuerzo por plataforma.</li>
+<li><a href="#aplicacion-web-movil">Aplicación Web móvil</a>: se accede desde navegador, facilita despliegue y mantenimiento, pero puede tener límites para funciones del dispositivo o uso sin conexión.</li>
+</ul>
+</div>
+<div class="ojo-prueba">
+<p>La decisión no es “nativa siempre es mejor”. Depende de usuarios, presupuesto, funcionalidades, conectividad, seguridad, mantenimiento y necesidad de usar sensores o capacidades del dispositivo.</p>
+</div>
+</section>
+<section id="comparaciones-importantes" class="level2">
+<h2 class="anchored" data-anchor-id="comparaciones-importantes">Comparaciones importantes</h2>
+<div class="wide-card">
+<p><strong>Análisis vs.&nbsp;diseño:</strong> análisis define qué se necesita y por qué; diseño define cómo se construirá o configurará la solución.</p>
+<p><strong>Automatización vs.&nbsp;racionalización:</strong> automatización digitaliza una tarea; racionalización mejora el procedimiento antes o junto con digitalizar.</p>
+<p><strong>Rediseño vs.&nbsp;cambio de paradigma:</strong> rediseño transforma un proceso; cambio de paradigma transforma el modelo general de operación o negocio.</p>
+<p><strong>Ciclo de vida tradicional vs.&nbsp;prototipado:</strong> el ciclo tradicional es secuencial y formal; el prototipado aprende mediante versiones preliminares e iteración.</p>
+<p><strong>Conversión directa vs.&nbsp;paralela:</strong> directa cambia de una vez y asume más riesgo; paralela mantiene ambos sistemas para comparar y respaldar.</p>
+<p><strong>Conversión piloto vs.&nbsp;por fases:</strong> piloto parte en un área limitada; por fases despliega gradualmente por módulos, funciones o unidades.</p>
+<p><strong>Paquete vs.&nbsp;desarrollo a medida:</strong> el paquete reduce construcción, pero exige adaptación; el desarrollo a medida encaja mejor, pero requiere más tiempo, costo y control.</p>
+<p><strong>Outsourcing vs.&nbsp;desarrollo interno:</strong> outsourcing aporta capacidades externas, pero la organización conserva responsabilidad por requerimientos, datos, contratos y resultados.</p>
+<p><strong>Aplicación nativa vs.&nbsp;aplicación Web móvil:</strong> nativa aprovecha mejor el dispositivo; Web móvil facilita acceso y mantenimiento multiplataforma.</p>
+</div>
+</section>
+<section id="ejemplos-aplicados" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-aplicados">Ejemplos aplicados</h2>
+<div class="ejemplo">
+<p><strong>Formulario digital:</strong> si una empresa reemplaza un papel por un formulario en línea con los mismos pasos, está automatizando. Si elimina campos innecesarios y validaciones duplicadas, avanza hacia racionalización.</p>
+</div>
+<div class="ejemplo">
+<p><strong>Proceso de despacho:</strong> una tienda reorganiza recepción de pedidos, inventario, rutas y confirmaciones de entrega con una app. Si cambian roles y flujos completos, el caso se acerca al rediseño de procesos.</p>
+</div>
+<div class="ejemplo">
+<p><strong>Marketplace:</strong> una tienda física que pasa a conectar vendedores externos, cobrar comisión y operar como plataforma puede vivir un cambio de paradigma.</p>
+</div>
+<div class="ejemplo">
+<p><strong>Sistema académico:</strong> una universidad que implementa matrícula en línea debe analizar requerimientos de estudiantes, secretarías, pagos, cupos, reportes, seguridad, pruebas de carga y conversión de datos históricos.</p>
+</div>
+<div class="ejemplo">
+<p><strong>Prototipo de app:</strong> un equipo crea pantallas navegables para probar con usuarios antes de programar la lógica completa. El prototipo ayuda a aclarar requerimientos, pero todavía debe pasar por diseño, pruebas e integración.</p>
+</div>
+</section>
+<section id="casos-breves" class="level2">
+<h2 class="anchored" data-anchor-id="casos-breves">Casos breves</h2>
 <div class="caso-breve">
-<p>Imagina que una organización reemplaza planillas por un sistema compartido. Describe quiénes participan, qué resistencias pueden aparecer y cómo se valida la solución.</p>
-<p><a href="../repaso/casos.html" class="study-button secondary">Ver casos aplicados</a></p>
+<p><strong>Sistema de turnos médicos:</strong> una clínica quiere reducir filas. El análisis debe distinguir problema de agenda, disponibilidad médica, datos de pacientes, confirmaciones, accesibilidad y reglas de prioridad. La solución puede ser app, portal, llamado automático o rediseño del proceso completo.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Bodega con escaneo móvil:</strong> una empresa introduce lectores y celulares para registrar inventario. Debe definir conversión de datos, capacitación, pruebas en zonas con mala señal y respaldo si falla la red.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Compra de ERP:</strong> una organización adquiere un paquete para finanzas y recursos humanos. El riesgo principal no es solo técnico: también debe decidir si adapta sus procesos al paquete o si personaliza el software con mayor costo futuro.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Outsourcing de aplicación:</strong> una empresa encarga a un proveedor una app de ventas. Si no define requerimientos, seguridad, propiedad de datos, soporte y métricas de calidad, el contrato puede entregar software usable pero no una solución adecuada.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Desarrollo ágil en servicio público:</strong> un equipo entrega módulos pequeños para trámites en línea. La agilidad ayuda a aprender con usuarios, pero debe respetar accesibilidad, trazabilidad, protección de datos y continuidad operacional.</p>
 </div>
 </section>
-<section id="preguntas" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas">Preguntas</h2>
+<section id="observaciones-de-prueba" class="level2">
+<h2 class="anchored" data-anchor-id="observaciones-de-prueba">Observaciones de prueba</h2>
 <div class="wide-card">
 <ul>
-<li>¿Por qué un buen sistema puede fracasar si no se gestiona el cambio?</li>
-<li>¿Qué información se necesita antes de diseñar una solución?</li>
-<li>¿Cómo se comprueba que el sistema resuelve el problema original?</li>
+<li>Muy probable: diferenciar análisis y diseño.</li>
+<li>Muy probable: ordenar automatización, racionalización, rediseño y cambio de paradigma.</li>
+<li>Muy probable: explicar etapas del desarrollo de sistemas.</li>
+<li>Muy probable: comparar ciclo de vida tradicional, prototipado y desarrollo ágil.</li>
+<li>Muy probable: distinguir tipos de conversión.</li>
+<li>No olvides que pruebas incluyen usuarios, datos esperados y criterios de aceptación.</li>
+<li>En casos, identifica proceso afectado, actores, requerimientos, método de implementación, riesgos y forma de evaluar resultados.</li>
 </ul>
-<p><a href="../repaso/preguntas.html" class="study-button">Practicar preguntas</a></p>
 </div>
 </section>
-<section id="referencias-y-fuente-base" class="level2">
-<h2 class="anchored" data-anchor-id="referencias-y-fuente-base">Referencias y fuente base</h2>
+<section id="preguntas-conceptuales" class="level2">
+<h2 class="anchored" data-anchor-id="preguntas-conceptuales">Preguntas conceptuales</h2>
+<div class="preguntas-practica">
+<details class="pregunta" id="pregunta-creacion-01">
+<summary>
+Pregunta 1: ¿Por qué crear un sistema implica cambio organizacional?
+</summary>
+<p>
+Porque modifica procesos, roles, decisiones, flujos de información, controles y hábitos de trabajo, no solo tecnología.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-02">
+<summary>
+Pregunta 2: ¿Qué es desarrollo de sistemas?
+</summary>
+<p>
+Es el proceso organizado de analizar una necesidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-03">
+<summary>
+Pregunta 3: Ordena los cuatro niveles de cambio habilitado por TI de menor a mayor impacto.
+</summary>
+<p>
+Automatización, racionalización, rediseño de procesos y cambio de paradigma.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-04">
+<summary>
+Pregunta 4: ¿Qué diferencia hay entre automatización y racionalización?
+</summary>
+<p>
+La automatización digitaliza una tarea existente. La racionalización simplifica y mejora el procedimiento antes o junto con digitalizar.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-05">
+<summary>
+Pregunta 5: ¿Qué diferencia hay entre rediseño de procesos y cambio de paradigma?
+</summary>
+<p>
+El rediseño transforma profundamente un proceso; el cambio de paradigma transforma el modelo general de operación o negocio.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-06">
+<summary>
+Pregunta 6: ¿Para qué sirve BPM?
+</summary>
+<p>
+Sirve para analizar, modelar, mejorar, ejecutar y medir procesos de negocio de manera continua.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-07">
+<summary>
+Pregunta 7: ¿Qué es análisis de sistemas?
+</summary>
+<p>
+Es estudiar el problema, sistema actual, actores, causas, alternativas y requerimientos que debe cumplir una solución.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-08">
+<summary>
+Pregunta 8: ¿Qué es diseño de sistemas?
+</summary>
+<p>
+Es definir cómo se construirá o configurará la solución: datos, procesos, interfaces, controles, reportes e infraestructura.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-09">
+<summary>
+Pregunta 9: ¿Por qué los requerimientos son críticos?
+</summary>
+<p>
+Porque orientan todo el diseño y permiten evaluar si el sistema realmente resuelve la necesidad de la organización.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-10">
+<summary>
+Pregunta 10: ¿Qué etapas suelen aparecer en el proceso básico de desarrollo?
+</summary>
+<p>
+Análisis, diseño, programación o construcción, pruebas, conversión, producción y mantenimiento.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-11">
+<summary>
+Pregunta 11: ¿Qué debe contener un plan de prueba?
+</summary>
+<p>
+Condiciones a probar, datos de prueba, resultados esperados, responsables, criterios de aprobación y acciones frente a fallas.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-12">
+<summary>
+Pregunta 12: ¿Qué diferencia hay entre prueba de sistema y prueba de aceptación?
+</summary>
+<p>
+La prueba de sistema evalúa la integración y funcionamiento completo; la de aceptación confirma con usuarios y responsables que está listo para operar.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-13">
+<summary>
+Pregunta 13: ¿Qué es conversión?
+</summary>
+<p>
+Es el paso del sistema antiguo al nuevo, incluyendo datos, procedimientos, usuarios, capacitación y operación.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-14">
+<summary>
+Pregunta 14: ¿Qué diferencia hay entre conversión directa y paralela?
+</summary>
+<p>
+La directa reemplaza el sistema anterior de una vez; la paralela mantiene ambos sistemas temporalmente para comparar y reducir riesgo.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-15">
+<summary>
+Pregunta 15: ¿Cuándo conviene usar conversión piloto o por fases?
+</summary>
+<p>
+Cuando se quiere reducir riesgo implementando primero en un área limitada o desplegando gradualmente por módulos, sedes o funciones.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-16">
+<summary>
+Pregunta 16: ¿Qué es mantenimiento de sistemas?
+</summary>
+<p>
+Es corregir, adaptar y mejorar el sistema después de su puesta en producción para mantenerlo útil y confiable.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-17">
+<summary>
+Pregunta 17: ¿Qué caracteriza al ciclo de vida tradicional?
+</summary>
+<p>
+Es un método secuencial y formal, con etapas definidas, documentación y aprobaciones antes de avanzar.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-18">
+<summary>
+Pregunta 18: ¿Cuándo conviene usar prototipado?
+</summary>
+<p>
+Cuando los requerimientos son inciertos, los usuarios necesitan visualizar la solución o la interfaz es importante para definir el sistema.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-19">
+<summary>
+Pregunta 19: ¿Qué ventaja y qué riesgo tiene usar paquetes de software?
+</summary>
+<p>
+La ventaja es reducir tiempo y costo de construcción. El riesgo es que la organización deba adaptar procesos o personalizar demasiado el paquete.
+</p>
+</details>
+<details class="pregunta" id="pregunta-creacion-20">
+<summary>
+Pregunta 20: ¿Qué caracteriza al desarrollo ágil?
+</summary>
+<p>
+Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, priorización continua y adaptación a cambios.
+</p>
+</details>
+</div>
+</section>
+<section id="referencias-fuente-base" class="level2">
+<h2 class="anchored" data-anchor-id="referencias-fuente-base">Referencias y fuente base</h2>
 <div class="referencias-fuente">
 <ul>
-<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema relacionado: creación y cambio de sistemas de información.</li>
-<li>Apuntes de clase o fuentes complementarias futuras.</li>
+<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema base: creación de sistemas de información y cambio organizacional.</li>
+<li>PDF local usado solo como contraste conceptual: <code>libro_guia_541-584.pdf</code>. Se contrastó cobertura de creación de sistemas, cambio organizacional, BPM, desarrollo, pruebas, conversión, metodologías, prototipado, paquetes, outsourcing, RAD, ágil, componentes, servicios Web y desarrollo móvil.</li>
+<li>Material de etapa del curso: <code>MATERIAL_ETAPA.md</code>.</li>
 </ul>
 </div>
 

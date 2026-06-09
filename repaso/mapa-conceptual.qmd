@@ -1,17 +1,23 @@
 ---
 title: "Mapa conceptual"
-description: "Relación general entre los cuatro temas conceptuales."
+description: "Relación general entre los cuatro temas conceptuales de TSI."
 ---
 
 ::: {.home-intro}
-El mapa muestra una ruta de lectura: contexto social, infraestructura digital, intercambio económico y creación de soluciones.
+El mapa muestra una ruta de estudio: primero los efectos sociales de usar datos, luego la infraestructura que conecta, después la creación de valor digital y finalmente el desarrollo de soluciones organizacionales.
 :::
+
+## Ruta general {#ruta-general}
 
 ::: {.concept-map}
 ::: {.map-node}
 ### Ética, datos y sociedad
 
-Define responsabilidades, límites y efectos sociales del uso de información. Ordena casos con cinco dimensiones: información, propiedad, control, calidad del sistema y calidad de vida.
+Pregunta central: **¿qué riesgos aparecen al usar datos y sistemas?**
+
+Conceptos: privacidad, propiedad intelectual, responsabilidad, calidad de datos, calidad del sistema, calidad de vida y brecha digital.
+
+[Repasar ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
 :::
 
 ::: {.map-arrow}
@@ -21,7 +27,11 @@ Define responsabilidades, límites y efectos sociales del uso de información. O
 ::: {.map-node}
 ### Redes, Internet y movilidad
 
-Entrega la infraestructura para conectar personas, sistemas, servicios y datos mediante protocolos, redes locales, Internet y acceso móvil.
+Pregunta central: **¿qué infraestructura permite mover datos?**
+
+Conceptos: redes, Internet, Web, TCP/IP, DNS, Wi-Fi, red celular, RFID, sensores e IoT.
+
+[Repasar redes](../temas/redes-internet-movilidad.qmd){.study-button .secondary}
 :::
 
 ::: {.map-arrow}
@@ -31,7 +41,11 @@ Entrega la infraestructura para conectar personas, sistemas, servicios y datos m
 ::: {.map-node}
 ### Comercio digital
 
-Usa la conectividad para crear mercados, plataformas, productos digitales, modelos de ingresos y relaciones basadas en datos.
+Pregunta central: **¿cómo se crea valor usando Internet?**
+
+Conceptos: e-commerce, B2C, B2B, C2C, m-commerce, marketplace, productos digitales y modelos de ingresos.
+
+[Repasar comercio](../temas/comercio-digital.qmd){.study-button .secondary}
 :::
 
 ::: {.map-arrow}
@@ -41,30 +55,58 @@ Usa la conectividad para crear mercados, plataformas, productos digitales, model
 ::: {.map-node}
 ### Creación y cambio de sistemas
 
-Convierte necesidades organizacionales en soluciones que deben adoptarse y evaluarse.
+Pregunta central: **¿cómo se diseñan e implementan soluciones?**
+
+Conceptos: análisis, requerimientos, diseño, pruebas, conversión, mantenimiento, prototipado, ágil y cambio organizacional.
+
+[Repasar creación](../temas/creacion-sistemas.qmd){.study-button .secondary}
 :::
+:::
+
+## Relaciones clave {#relaciones-clave}
+
+::: {.wide-card}
+**Datos y ética:** todo sistema que recopila, cruza o conserva datos puede afectar privacidad, responsabilidad y calidad de vida.
+
+**Redes y operación:** la conectividad sostiene procesos, pero también introduce dependencia, riesgos de seguridad y necesidad de continuidad.
+
+**Comercio y datos:** las plataformas digitales usan datos para personalizar, coordinar transacciones y generar ingresos.
+
+**Creación de sistemas y cambio:** una solución nueva debe alinear requerimientos, procesos, usuarios, pruebas, conversión y mantenimiento.
 :::
 
 ::: {.wide-card}
-La relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.
-
-[Volver al inicio](../index.qmd){.study-button}
+La relación no es lineal en la práctica. Una app de delivery, por ejemplo, combina datos personales, red móvil, marketplace, comisión por transacción, rediseño de despacho y pruebas de sistema.
 :::
 
-::: {.wide-card}
-Para redes, sigue una cadena simple: dispositivo, medio de conexión, protocolo, red local, Internet, servicio y proceso organizacional afectado. Eso ayuda a no confundir infraestructura con aplicación.
+## Cómo conectar un caso {#como-conectar-un-caso}
 
-[Repasar redes](../temas/redes-internet-movilidad.qmd){.study-button .secondary}
+::: {.wide-card}
+1. **Empieza por el dato:** qué se captura, quién lo usa, con qué riesgo y con qué control.
+2. **Ubica la red:** qué infraestructura permite operar y qué pasa si falla.
+3. **Identifica el valor:** quién compra, vende, paga, recomienda o captura ingresos.
+4. **Explica el cambio:** qué proceso se automatiza, racionaliza, rediseña o transforma.
+5. **Cierra con validación:** qué requerimiento, prueba, conversión o métrica demostraría que la solución funciona.
 :::
 
-::: {.wide-card}
-Para estudiar casos, parte por ética: identifica datos usados, actores afectados, beneficios, daños y responsables. Luego conecta con infraestructura, comercio o creación de sistemas según corresponda.
+## Comparaciones que ordenan el mapa {#comparaciones-que-ordenan-el-mapa}
 
-[Repasar ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
+::: {.wide-card}
+**Privacidad vs. seguridad:** privacidad trata sobre límites de uso de datos personales; seguridad trata sobre protegerlos.
+
+**Internet vs. Web:** Internet es infraestructura global; Web es un servicio sobre Internet.
+
+**Modelo de negocio vs. modelo de ingresos:** el primero explica creación y captura de valor; el segundo explica cómo entra dinero.
+
+**Análisis vs. diseño:** análisis define qué se necesita y por qué; diseño define cómo se cumplirá.
+
+**Automatización vs. rediseño:** automatizar digitaliza una tarea; rediseñar cambia la lógica del proceso.
 :::
 
-::: {.wide-card}
-Para comercio digital, identifica actores, tipo de intercambio, plataforma, producto, modelo de negocio, modelo de ingresos y datos usados para personalizar o coordinar la transacción.
+## Navegación de repaso {#navegacion-repaso}
 
-[Repasar comercio digital](../temas/comercio-digital.qmd){.study-button .secondary}
+::: {.wide-card}
+[Glosario](glosario.qmd){.study-button .secondary}
+[Preguntas mixtas](preguntas.qmd#preguntas-mixtas){.study-button .secondary}
+[Casos integradores](casos.qmd#casos-integradores){.study-button .secondary}
 :::

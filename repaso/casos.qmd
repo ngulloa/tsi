@@ -1,40 +1,119 @@
 ---
 title: "Casos"
-description: "Casos aplicados para conectar conceptos de TSI."
+description: "Casos aplicados e integradores para conectar conceptos de TSI."
 ---
 
 ::: {.home-intro}
-Usa estos casos como disparadores. La respuesta ideal conecta conceptos, evidencia y consecuencias organizacionales.
+Usa estos casos como disparadores. La respuesta ideal conecta conceptos, evidencia del caso y consecuencias organizacionales, no una lista memorizada de términos.
 :::
 
-## Caso 1: Datos de clientes
+## Cómo responder un caso {#como-responder-un-caso}
+
+::: {.wide-card}
+1. Identifica actores, datos, proceso y decisión afectada.
+2. Distingue infraestructura, aplicación, modelo de negocio y cambio organizacional.
+3. Explica beneficios y riesgos.
+4. Propón una medida concreta: requerimiento, control, prueba, política, rediseño o métrica.
+:::
+
+## Casos por tema {#casos-por-tema}
 
 ::: {.case-card}
+### Caso 1: Datos de clientes
+
 Una organización quiere personalizar recomendaciones usando historial de navegación y compras. Analiza qué datos usaría, qué límites debería definir y cómo explicaría el uso de esos datos a los usuarios.
+
+**Pistas:** privacidad, consentimiento informado, marketing dirigido, calidad de datos, responsabilidad.
 
 [Relacionar con ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
 :::
 
-## Caso 2: Servicio móvil
-
 ::: {.case-card}
+### Caso 2: Servicio móvil
+
 Un equipo necesita atender solicitudes desde terreno con teléfonos. Identifica qué infraestructura requiere, qué riesgos de conectividad existen y cómo se mantendría la continuidad del servicio.
+
+**Pistas:** red celular, Wi-Fi, VPN, sincronización, seguridad, continuidad operacional.
 
 [Relacionar con redes](../temas/redes-internet-movilidad.qmd){.study-button .secondary}
 :::
 
-## Caso 3: Plataforma de ventas
-
 ::: {.case-card}
+### Caso 3: Plataforma de ventas
+
 Un emprendimiento pasa de vender por mensajes a vender en una plataforma. Describe qué cambia en información, pagos, confianza, atención y medición de resultados.
+
+**Pistas:** marketplace o e-tailer, modelo de ingresos, reputación, pagos, datos, confianza.
 
 [Relacionar con comercio digital](../temas/comercio-digital.qmd){.study-button .secondary}
 :::
 
-## Caso 4: Nuevo sistema interno
-
 ::: {.case-card}
+### Caso 4: Nuevo sistema interno
+
 Una institución reemplaza formularios manuales por un sistema compartido. Define actores, requerimientos, resistencias esperables y criterios para evaluar el cambio.
 
+**Pistas:** análisis de sistemas, diseño, pruebas, conversión, capacitación, mantenimiento.
+
 [Relacionar con creación de sistemas](../temas/creacion-sistemas.qmd){.study-button .secondary}
+:::
+
+## Casos integradores {#casos-integradores}
+
+::: {.case-card}
+### Caso integrador 1: App de delivery
+
+Una app conecta clientes, restaurantes y repartidores. Usa ubicación en tiempo real, cobra una comisión por pedido, muestra tiempos estimados y registra calificaciones.
+
+Analiza el caso desde:
+
+- **Ética:** privacidad de ubicación, perfilamiento, responsabilidad por errores y calidad de datos en pedidos.
+- **Redes:** GPS, red celular, notificaciones, disponibilidad y continuidad si la conexión falla.
+- **Comercio digital:** marketplace, comisión por transacción, reputación, pagos y servicios basados en ubicación.
+- **Creación de sistemas:** requerimientos de usuarios, rediseño del despacho, pruebas de carga, conversión piloto y mantenimiento.
+:::
+
+::: {.case-card}
+### Caso integrador 2: Plataforma de streaming
+
+Una plataforma ofrece películas, series y música mediante suscripción. Recomienda contenido según historial, permite perfiles familiares y funciona en TV, navegador y celular.
+
+Analiza el caso desde:
+
+- **Ética:** privacidad, seguimiento de consumo, perfilamiento y uso responsable de recomendaciones.
+- **Redes:** Internet, Web, aplicaciones móviles, ancho de banda, latencia y continuidad del servicio.
+- **Comercio digital:** producto digital, suscripción, freemium posible, proveedor de contenido y personalización.
+- **Creación de sistemas:** diseño de experiencia multiplataforma, pruebas de rendimiento, integración de servicios Web y mantenimiento.
+:::
+
+::: {.case-card}
+### Caso integrador 3: Universidad digital
+
+Una universidad implementa matrícula en línea, aula virtual, pagos, certificados digitales y atención por canales móviles. Parte de sus estudiantes tiene conectividad limitada.
+
+Analiza el caso desde:
+
+- **Ética:** calidad de datos académicos, privacidad, acceso justo y brecha digital.
+- **Redes:** Wi-Fi institucional, Internet, servicios en la nube, red móvil y seguridad de acceso.
+- **Comercio digital:** pagos digitales, servicios en línea y posible distribución de cursos como productos digitales.
+- **Creación de sistemas:** análisis de requerimientos, diseño de procesos académicos, pruebas, conversión por fases y auditoría posimplementación.
+:::
+
+::: {.case-card}
+### Caso integrador 4: Inventario con RFID
+
+Una bodega incorpora etiquetas RFID y lectores conectados al sistema de inventario. Busca reducir pérdidas, mejorar reposición y entregar información en tiempo real a ventas.
+
+Analiza el caso desde:
+
+- **Ética:** responsabilidad por datos erróneos, trazabilidad, controles de acceso y calidad de datos.
+- **Redes:** RFID, red local, integración con servidores y continuidad si se cae la conexión.
+- **Comercio digital:** disponibilidad de stock para e-commerce, promesas de entrega y reducción de costos de transacción.
+- **Creación de sistemas:** rediseño de recepción y despacho, pruebas de lectura, conversión piloto y mantenimiento.
+:::
+
+## Ruta de cierre {#ruta-de-cierre}
+
+::: {.wide-card}
+Para seguir practicando, responde primero las [preguntas mixtas](preguntas.qmd#preguntas-mixtas), vuelve al [glosario](glosario.qmd) cuando falte un concepto y usa el [mapa conceptual](mapa-conceptual.qmd) para ubicar relaciones entre temas.
 :::

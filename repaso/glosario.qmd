@@ -28,6 +28,12 @@ Cambio frecuente de precios según demanda, inventario, competencia, perfil del 
 :::
 
 ::: {.term-card}
+### Administración de procesos de negocios {#administracion-de-procesos-de-negocios}
+
+Gestión continua de procesos para analizarlos, rediseñarlos, ejecutarlos, medirlos y ajustarlos según objetivos organizacionales. Ver [BPM](#bpm).
+:::
+
+::: {.term-card}
 ### Alcance global {#alcance-global}
 
 Capacidad de un canal digital para llegar a clientes, proveedores o audiencias fuera de un mercado local.
@@ -40,6 +46,24 @@ Capacidad de transmisión de datos de un enlace en un periodo determinado. Se co
 :::
 
 ::: {.term-card}
+### Análisis de sistemas {#analisis-de-sistemas}
+
+Estudio del problema, sistema actual, actores, alternativas y requerimientos que debe cumplir una solución de información.
+:::
+
+::: {.term-card}
+### Aplicación nativa {#aplicacion-nativa}
+
+Aplicación creada para una plataforma móvil específica, con acceso directo a recursos del dispositivo como cámara, ubicación o notificaciones.
+:::
+
+::: {.term-card}
+### Aplicación Web móvil {#aplicacion-web-movil}
+
+Aplicación accesible desde navegador y adaptada a pantallas, interacción y condiciones de conectividad móvil.
+:::
+
+::: {.term-card}
 ### Asimetría de información {#asimetria-de-informacion}
 
 Situación donde una parte de una transacción sabe más que otra sobre precio, calidad, riesgo o condiciones.
@@ -48,7 +72,13 @@ Situación donde una parte de una transacción sabe más que otra sobre precio, 
 ::: {.term-card}
 ### Automatización {#automatizacion}
 
-Uso de tecnología para ejecutar tareas repetibles con menor intervención manual.
+Uso de tecnología para ejecutar con más eficiencia una tarea o procedimiento existente.
+:::
+
+::: {.term-card}
+### Auditoría posimplementación {#auditoria-posimplementacion}
+
+Revisión posterior a la puesta en marcha para evaluar si el sistema cumplió objetivos, beneficios, costos, adopción y requerimientos.
 :::
 
 ## B
@@ -75,6 +105,12 @@ Manejo y análisis de grandes volúmenes, variedades y velocidades de datos para
 ### Bluetooth {#bluetooth}
 
 Tecnología inalámbrica de corto alcance usada para conectar dispositivos personales, periféricos o sensores cercanos.
+:::
+
+::: {.term-card}
+### BPM {#bpm}
+
+Sigla de administración de procesos de negocios. Enfoque para modelar, mejorar, ejecutar y medir procesos de manera continua.
 :::
 
 ::: {.term-card}
@@ -116,6 +152,24 @@ Nivel de confiabilidad, seguridad, corrección y adecuación de un sistema para 
 :::
 
 ::: {.term-card}
+### Cambio de paradigma {#cambio-de-paradigma}
+
+Transformación radical del modelo de operación o negocio habilitada por tecnología.
+:::
+
+::: {.term-card}
+### Cambio organizacional {#cambio-organizacional}
+
+Modificación en procesos, roles, reglas, responsabilidades, decisiones o cultura de trabajo dentro de una organización.
+:::
+
+::: {.term-card}
+### CASE {#case}
+
+Herramientas de ingeniería de software asistida por computadora para documentar, modelar, generar, revisar y controlar artefactos de desarrollo.
+:::
+
+::: {.term-card}
 ### Cliente/servidor {#cliente-servidor}
 
 Modelo donde un cliente solicita datos o servicios y un servidor los entrega bajo reglas de comunicación y acceso.
@@ -125,6 +179,12 @@ Modelo donde un cliente solicita datos o servicios y un servidor los entrega baj
 ### Comercio digital {#comercio-digital}
 
 Intercambio de bienes, servicios, contenido o información mediado por canales digitales, plataformas, pagos, datos y modelos de ingresos.
+:::
+
+::: {.term-card}
+### Ciclo de vida tradicional {#ciclo-de-vida-tradicional}
+
+Método secuencial y formal de desarrollo de sistemas, con etapas definidas, documentación y aprobaciones antes de avanzar.
 :::
 
 ::: {.term-card}
@@ -149,6 +209,12 @@ Uso de aplicaciones, almacenamiento, plataformas o infraestructura entregados co
 ### Computación móvil {#computacion-movil}
 
 Acceso a datos, aplicaciones y procesos desde dispositivos portátiles conectados por redes inalámbricas o celulares.
+:::
+
+::: {.term-card}
+### Componentes {#componentes}
+
+Piezas reutilizables de software que encapsulan funciones y pueden combinarse para construir aplicaciones.
 :::
 
 ::: {.term-card}
@@ -179,6 +245,36 @@ Capacidad de mantener o recuperar procesos críticos cuando falla una red, servi
 ### Conmutación de paquetes {#conmutacion-de-paquetes}
 
 Forma de transmisión donde un mensaje se divide en paquetes que pueden viajar por distintas rutas y rearmarse al llegar.
+:::
+
+::: {.term-card}
+### Conversión {#conversion}
+
+Paso del sistema antiguo al nuevo, incluyendo datos, procedimientos, capacitación, soporte y operación.
+:::
+
+::: {.term-card}
+### Conversión directa {#conversion-directa}
+
+Estrategia donde el sistema nuevo reemplaza al anterior en una fecha definida.
+:::
+
+::: {.term-card}
+### Conversión paralela {#conversion-paralela}
+
+Estrategia donde el sistema antiguo y el nuevo operan temporalmente al mismo tiempo para comparar resultados y reducir riesgo.
+:::
+
+::: {.term-card}
+### Conversión piloto {#conversion-piloto}
+
+Estrategia donde el sistema se implementa primero en un área limitada antes de extenderlo.
+:::
+
+::: {.term-card}
+### Conversión por fases {#conversion-por-fases}
+
+Estrategia donde el sistema se incorpora gradualmente por módulos, funciones, sedes o grupos de usuarios.
 :::
 
 ::: {.term-card}
@@ -250,6 +346,36 @@ Reducción o eliminación de intermediarios tradicionales entre productor, vende
 :::
 
 ::: {.term-card}
+### Desarrollo ágil {#desarrollo-agil}
+
+Enfoque iterativo de desarrollo con entregas frecuentes, colaboración cercana con usuarios y adaptación continua a cambios.
+:::
+
+::: {.term-card}
+### Desarrollo de sistemas {#desarrollo-de-sistemas}
+
+Proceso organizado para analizar, diseñar, construir, probar, implementar y mantener una solución de información.
+:::
+
+::: {.term-card}
+### Desarrollo del usuario final {#desarrollo-del-usuario-final}
+
+Creación de aplicaciones simples por usuarios no especialistas para resolver necesidades locales o de área.
+:::
+
+::: {.term-card}
+### Desarrollo móvil {#desarrollo-movil}
+
+Diseño y construcción de soluciones para dispositivos móviles, considerando pantallas pequeñas, sensores, permisos, conexión variable y uso en movimiento.
+:::
+
+::: {.term-card}
+### Desarrollo orientado a objetos {#desarrollo-orientado-a-objetos}
+
+Enfoque que modela un sistema como objetos que combinan datos y comportamientos.
+:::
+
+::: {.term-card}
 ### Derechos de autor {#derechos-de-autor}
 
 Protección de obras expresadas, como textos, software, música, imágenes o material audiovisual.
@@ -277,6 +403,12 @@ Situaciones donde una decisión tecnológica produce beneficios y riesgos, sin u
 ### Dirección IP {#direccion-ip}
 
 Identificador lógico que permite ubicar un dispositivo o servicio dentro de una red basada en IP.
+:::
+
+::: {.term-card}
+### Diseño de sistemas {#diseno-de-sistemas}
+
+Definición de cómo una solución cumplirá requerimientos mediante datos, procesos, interfaces, controles, reportes e infraestructura.
 :::
 
 ::: {.term-card}
@@ -364,6 +496,12 @@ Conexión de objetos físicos con sensores, software y redes para registrar, env
 :::
 
 ::: {.term-card}
+### IoT {#iot}
+
+Sigla de Internet de las cosas: objetos físicos conectados con sensores, software y redes para producir o usar datos.
+:::
+
+::: {.term-card}
 ### Intranet {#intranet}
 
 Red o sitio privado de una organización para compartir información, aplicaciones y servicios internos.
@@ -378,12 +516,24 @@ Sigla de proveedor de servicios de Internet. Organización que entrega acceso a 
 ## L
 
 ::: {.term-card}
+### LAN {#lan}
+
+Sigla de red de área local. Conecta dispositivos en un espacio cercano, como sala, oficina, edificio o campus.
+:::
+
+::: {.term-card}
 ### Latencia {#latencia}
 
 Demora entre una solicitud y una respuesta. Afecta videollamadas, juegos, sistemas en línea y aplicaciones interactivas.
 :::
 
 ## M
+
+::: {.term-card}
+### Mantenimiento {#mantenimiento}
+
+Corrección, adaptación y mejora de un sistema después de su puesta en producción.
+:::
 
 ::: {.term-card}
 ### Marketplace {#marketplace}
@@ -407,6 +557,12 @@ Publicidad, recomendación o mensaje adaptado según datos, segmentos e inferenc
 ### Mercado digital {#mercado-digital}
 
 Espacio en línea donde compradores y vendedores pueden encontrarse, comparar información y realizar intercambios.
+:::
+
+::: {.term-card}
+### Metodologías estructuradas {#metodologias-estructuradas}
+
+Técnicas de análisis y diseño que modelan procesos, flujos de datos, módulos y transformaciones de forma ordenada.
 :::
 
 ::: {.term-card}
@@ -441,7 +597,21 @@ Principio según el cual el tráfico de Internet debería tratarse sin discrimin
 Análisis que permite descubrir relaciones no evidentes entre datos, personas, eventos u organizaciones.
 :::
 
+## O
+
+::: {.term-card}
+### Outsourcing {#outsourcing}
+
+Contratación externa de desarrollo, operación, soporte o servicios tecnológicos. Requiere control de requerimientos, costos, datos y desempeño.
+:::
+
 ## P
+
+::: {.term-card}
+### Paquetes de software {#paquetes-de-software}
+
+Aplicaciones ya construidas que se adquieren, configuran y adaptan para resolver funciones comunes.
+:::
 
 ::: {.term-card}
 ### Patentes {#patentes}
@@ -462,6 +632,12 @@ Entorno digital que conecta participantes, servicios o transacciones bajo reglas
 :::
 
 ::: {.term-card}
+### Plan de prueba {#plan-de-prueba}
+
+Documento o pauta que define condiciones, datos, resultados esperados, responsables y criterios para validar un sistema.
+:::
+
+::: {.term-card}
 ### Portal {#portal}
 
 Punto de entrada digital que reúne búsqueda, contenido, servicios o enlaces para atraer tráfico y organizar acceso.
@@ -474,15 +650,39 @@ Control razonable sobre qué datos personales se recopilan, para qué se usan y 
 :::
 
 ::: {.term-card}
+### Producción {#produccion}
+
+Operación real de un sistema con usuarios, datos, procesos y responsabilidades cotidianas.
+:::
+
+::: {.term-card}
+### Programación {#programacion}
+
+Traducción del diseño de un sistema en código, configuración, automatización o integración técnica.
+:::
+
+::: {.term-card}
 ### Producto digital {#producto-digital}
 
 Bien que puede almacenarse, copiarse, distribuirse o consumirse en formato digital, como música, video, software, libros electrónicos o cursos.
 :::
 
 ::: {.term-card}
+### Propiedad intelectual {#propiedad-intelectual}
+
+Protección de creaciones, contenidos, software, marcas, métodos o conocimiento con valor cultural, técnico o económico.
+:::
+
+::: {.term-card}
 ### Protocolo {#protocolo}
 
 Regla o estándar compartido que define cómo los sistemas se comunican, envían, reciben o interpretan datos.
+:::
+
+::: {.term-card}
+### Prototipado {#prototipado}
+
+Construcción rápida de una versión preliminar para aprender con usuarios, aclarar requerimientos y mejorar la solución.
 :::
 
 ::: {.term-card}
@@ -509,7 +709,31 @@ Empresa u organización que ofrece conexión a Internet y servicios relacionados
 Comunicación comercial o modelo de ingresos basado en espacios, audiencias, segmentación y medición en canales digitales.
 :::
 
+::: {.term-card}
+### Pruebas {#pruebas}
+
+Actividades para verificar que componentes, sistema completo y aceptación de usuarios cumplen resultados esperados.
+:::
+
 ## R
+
+::: {.term-card}
+### RAD {#rad}
+
+Desarrollo rápido de aplicaciones mediante ciclos cortos, herramientas visuales, prototipos, reutilización y participación de usuarios.
+:::
+
+::: {.term-card}
+### Racionalización {#racionalizacion}
+
+Simplificación y mejora de procedimientos antes o junto con su automatización.
+:::
+
+::: {.term-card}
+### Red {#red}
+
+Conjunto de dispositivos, medios, reglas y servicios que permite comunicar datos entre puntos.
+:::
 
 ::: {.term-card}
 ### Red celular {#red-celular}
@@ -554,9 +778,21 @@ Capacidad de identificar quién decidió, quién autorizó y quién debe explica
 :::
 
 ::: {.term-card}
+### Rediseño de procesos {#rediseno-de-procesos}
+
+Replanteamiento profundo de un proceso para cambiar flujos de trabajo, pasos, responsabilidades y resultados.
+:::
+
+::: {.term-card}
 ### Requerimiento {#requerimiento}
 
-Necesidad o condición que orienta el diseño de una solución. Se conecta con [creación y cambio de sistemas](../temas/creacion-sistemas.qmd#conceptos-clave).
+Necesidad o condición que orienta el diseño de una solución. Se conecta con [creación y cambio de sistemas](../temas/creacion-sistemas.qmd#definiciones-clave).
+:::
+
+::: {.term-card}
+### Requerimientos {#requerimientos}
+
+Funciones, datos, reglas, restricciones y condiciones que una solución debe cumplir para resolver una necesidad.
 :::
 
 ::: {.term-card}
@@ -604,6 +840,12 @@ Servicios móviles que usan posición aproximada o geográfica para ofrecer info
 :::
 
 ::: {.term-card}
+### Servicios Web {#servicios-web}
+
+Servicios reutilizables accesibles por estándares de red para integrar aplicaciones y procesos.
+:::
+
+::: {.term-card}
 ### Seguridad de red {#seguridad-de-red}
 
 Controles técnicos y organizacionales para proteger comunicaciones, dispositivos y servicios conectados.
@@ -643,6 +885,12 @@ Estrés asociado al uso intensivo, permanente o invasivo de tecnologías digital
 Disponibilidad de servicios digitales en distintos lugares y momentos, siempre que exista acceso a red y dispositivo.
 :::
 
+::: {.term-card}
+### UML {#uml}
+
+Lenguaje de modelado visual para representar requisitos, clases, interacciones, procesos y estructura de software.
+:::
+
 ## V
 
 ::: {.term-card}
@@ -658,6 +906,18 @@ Red privada virtual que crea un canal cifrado sobre una red pública para accede
 :::
 
 ## W
+
+::: {.term-card}
+### WAN {#wan}
+
+Sigla de red de área amplia. Conecta ubicaciones distantes, como sucursales, ciudades o redes de gran escala.
+:::
+
+::: {.term-card}
+### Web {#web}
+
+Servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.
+:::
 
 ::: {.term-card}
 ### Wi-Fi {#wi-fi}
