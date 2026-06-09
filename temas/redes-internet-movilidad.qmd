@@ -1,0 +1,40 @@
+---
+title: "Redes, Internet y movilidad"
+description: "Placeholder conceptual sobre redes, Internet y tecnologías móviles."
+---
+
+## Idea central
+
+La conectividad permite que personas, aplicaciones, datos y procesos organizacionales funcionen como un sistema distribuido.
+
+## Conceptos clave
+
+::: {.concept-list}
+- Redes de comunicación y arquitectura de conectividad.
+- Internet como infraestructura de servicios.
+- Movilidad, acceso ubicuo y dispositivos conectados.
+- Seguridad de red y continuidad operacional.
+- Servicios en la nube y colaboración digital.
+:::
+
+## Casos
+
+::: {.wide-card}
+Observa una institución que depende de atención en línea. Describe qué ocurre si falla la red, qué procesos se detienen y qué medidas podrían reducir el impacto.
+
+[Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
+:::
+
+## Preguntas
+
+::: {.wide-card}
+- ¿Por qué una red es parte del sistema de información y no solo soporte técnico?
+- ¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?
+- ¿Qué riesgos crecen al aumentar la conectividad?
+
+[Practicar preguntas](../repaso/preguntas.qmd){.study-button}
+:::
+
+## Fuente base
+
+Esta página usa como referencia general la unidad sobre telecomunicaciones, Internet y tecnología inalámbrica, sin copiar texto literal de la fuente base [@laudon2016sistemas].

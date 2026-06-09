@@ -1,0 +1,72 @@
+---
+title: "Tecnologías y Sistemas de la Información"
+subtitle: "Guía conceptual para estudiar TSI"
+description: "Sitio educativo conceptual para repasar Tecnologías y Sistemas de la Información desde celular."
+---
+
+::: {.home-intro}
+Este sitio organiza los contenidos de TSI por ideas y relaciones, no por capítulos. Está pensado para repasar desde el celular, volver rápido a conceptos clave y practicar con preguntas breves.
+:::
+
+## Temas {#temas}
+
+::: {.topic-grid}
+::: {.study-card}
+### Ética, datos y sociedad
+
+Impacto social de los sistemas de información, uso responsable de datos, privacidad, rendición de cuentas y decisiones organizacionales.
+
+[Estudiar tema](temas/etica-datos-sociedad.qmd){.study-button}
+:::
+
+::: {.study-card}
+### Redes, Internet y movilidad
+
+Infraestructura digital, redes, conectividad, Internet, servicios en línea y tecnologías móviles.
+
+[Estudiar tema](temas/redes-internet-movilidad.qmd){.study-button}
+:::
+
+::: {.study-card}
+### Comercio digital
+
+Mercados digitales, plataformas, productos digitales, modelos de negocio, pagos y experiencia de usuario.
+
+[Estudiar tema](temas/comercio-digital.qmd){.study-button}
+:::
+
+::: {.study-card}
+### Creación y cambio de sistemas
+
+Cómo nacen, evolucionan y se integran los sistemas de información en una organización.
+
+[Estudiar tema](temas/creacion-sistemas.qmd){.study-button}
+:::
+:::
+
+## Ruta rápida de estudio {#ruta-rapida}
+
+::: {.wide-card}
+1. Empieza por la idea central de cada tema.
+2. Conecta los conceptos clave con un ejemplo concreto.
+3. Revisa el mapa conceptual para ubicar relaciones.
+4. Practica preguntas y casos antes de cerrar la sesión.
+
+[Ver mapa conceptual](repaso/mapa-conceptual.qmd){.study-button .secondary}
+:::
+
+## Practicar preguntas {#practicar-preguntas}
+
+::: {.wide-card}
+Usa preguntas con respuesta oculta para comprobar comprensión sin memorizar frases. La meta es explicar con tus palabras y detectar vacíos.
+
+[Ir a preguntas](repaso/preguntas.qmd){.study-button}
+:::
+
+## Mapa conceptual {#mapa-conceptual}
+
+::: {.wide-card}
+La ruta conceptual une el contexto ético y social, la infraestructura digital, los modelos de comercio y la forma en que se crean sistemas.
+
+[Abrir mapa](repaso/mapa-conceptual.qmd){.study-button}
+:::

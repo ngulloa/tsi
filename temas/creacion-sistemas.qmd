@@ -1,0 +1,40 @@
+---
+title: "Creación y cambio de sistemas"
+description: "Placeholder conceptual sobre creación, cambio y adopción de sistemas de información."
+---
+
+## Idea central
+
+Crear sistemas implica entender problemas, diseñar soluciones, gestionar cambios y evaluar si la tecnología mejora el trabajo real.
+
+## Conceptos clave
+
+::: {.concept-list}
+- Análisis de requerimientos y procesos.
+- Diseño, construcción, prueba e implementación.
+- Gestión del cambio y adopción de usuarios.
+- Integración con sistemas existentes.
+- Evaluación de beneficios, costos y riesgos.
+:::
+
+## Casos
+
+::: {.wide-card}
+Imagina que una organización reemplaza planillas por un sistema compartido. Describe quiénes participan, qué resistencias pueden aparecer y cómo se valida la solución.
+
+[Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
+:::
+
+## Preguntas
+
+::: {.wide-card}
+- ¿Por qué un buen sistema puede fracasar si no se gestiona el cambio?
+- ¿Qué información se necesita antes de diseñar una solución?
+- ¿Cómo se comprueba que el sistema resuelve el problema original?
+
+[Practicar preguntas](../repaso/preguntas.qmd){.study-button}
+:::
+
+## Fuente base
+
+Esta página usa como referencia general la unidad sobre creación de sistemas de información, sin copiar texto literal de la fuente base [@laudon2016sistemas].

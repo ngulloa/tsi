@@ -1,0 +1,62 @@
+---
+title: "Glosario"
+description: "Estructura alfabética inicial para conceptos de TSI."
+---
+
+::: {.home-intro}
+Glosario de trabajo para consolidar conceptos con definiciones propias, ejemplos breves y conexiones entre temas.
+:::
+
+## A
+
+::: {.term-card}
+### Automatización
+
+Uso de tecnología para ejecutar tareas repetibles con menor intervención manual.
+:::
+
+## C
+
+::: {.term-card}
+### Comercio digital
+
+Intercambio de bienes, servicios o información mediado por plataformas y canales digitales.
+:::
+
+::: {.term-card}
+### Conectividad
+
+Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.
+:::
+
+## D
+
+::: {.term-card}
+### Dato
+
+Registro básico que puede transformarse en información cuando se organiza e interpreta en un contexto.
+:::
+
+## I
+
+::: {.term-card}
+### Información
+
+Datos organizados que ayudan a comprender una situación o tomar decisiones.
+:::
+
+## P
+
+::: {.term-card}
+### Plataforma
+
+Entorno digital que conecta participantes, servicios o transacciones bajo reglas comunes.
+:::
+
+## S
+
+::: {.term-card}
+### Sistema de información
+
+Conjunto de personas, procesos, datos y tecnología orientado a producir información útil.
+:::

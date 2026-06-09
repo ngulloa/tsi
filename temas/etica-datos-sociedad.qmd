@@ -1,0 +1,40 @@
+---
+title: "Ética, datos y sociedad"
+description: "Placeholder conceptual sobre ética, datos y sociedad en sistemas de información."
+---
+
+## Idea central
+
+Los sistemas de información no son solo herramientas técnicas: también influyen en decisiones, derechos, responsabilidades y relaciones sociales.
+
+## Conceptos clave
+
+::: {.concept-list}
+- Privacidad y protección de datos.
+- Responsabilidad por decisiones automatizadas.
+- Calidad, uso y trazabilidad de la información.
+- Impacto social de las plataformas digitales.
+- Seguridad, confianza y control organizacional.
+:::
+
+## Casos
+
+::: {.wide-card}
+Analiza una organización que recolecta datos de clientes. Identifica qué datos necesita, qué riesgos aparecen y qué decisiones deberían documentarse.
+
+[Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
+:::
+
+## Preguntas
+
+::: {.wide-card}
+- ¿Qué diferencia hay entre recolectar datos y usarlos de forma responsable?
+- ¿Por qué la calidad de la información tiene impacto ético?
+- ¿Qué controles ayudan a reducir riesgos de privacidad?
+
+[Practicar preguntas](../repaso/preguntas.qmd){.study-button}
+:::
+
+## Fuente base
+
+Esta página usa como referencia general la unidad sobre aspectos éticos y sociales de los sistemas de información, sin copiar texto literal de la fuente base [@laudon2016sistemas].

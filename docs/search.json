@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "repaso/preguntas.html",
+    "href": "repaso/preguntas.html",
+    "title": "Preguntas",
+    "section": "",
+    "text": "Lee la pregunta, responde antes de abrir la solución y compara la idea general, no la redacción exacta."
+  },
+  {
+    "objectID": "repaso/preguntas.html#ética-datos-y-sociedad",
+    "href": "repaso/preguntas.html#ética-datos-y-sociedad",
+    "title": "Preguntas",
+    "section": "Ética, datos y sociedad",
+    "text": "Ética, datos y sociedad\n\n\n¿Por qué la gestión de datos tiene una dimensión ética?\n\nPorque los datos representan personas, decisiones y consecuencias. Su recolección, uso, conservación y protección pueden afectar privacidad, confianza y responsabilidad.\n\n\n\n¿Qué relación hay entre calidad de información y toma de decisiones?\n\nUna decisión depende de la información disponible. Si los datos son incompletos, imprecisos o desactualizados, aumenta el riesgo de decisiones injustas o ineficientes."
+  },
+  {
+    "objectID": "repaso/preguntas.html#redes-internet-y-movilidad",
+    "href": "repaso/preguntas.html#redes-internet-y-movilidad",
+    "title": "Preguntas",
+    "section": "Redes, Internet y movilidad",
+    "text": "Redes, Internet y movilidad\n\n\n¿Qué aporta la movilidad a un sistema de información?\n\nPermite acceder a procesos y datos desde distintos lugares, pero también exige más atención a seguridad, continuidad y experiencia de uso.\n\n\n\n¿Por qué la conectividad puede convertirse en un riesgo operativo?\n\nCuando procesos críticos dependen de redes, una falla de conexión, servicio o seguridad puede detener actividades y afectar usuarios."
+  },
+  {
+    "objectID": "repaso/preguntas.html#comercio-digital",
+    "href": "repaso/preguntas.html#comercio-digital",
+    "title": "Preguntas",
+    "section": "Comercio digital",
+    "text": "Comercio digital\n\n\n¿Qué caracteriza a un mercado digital?\n\nLa interacción entre oferentes y compradores ocurre mediante canales digitales, con mayor disponibilidad de información y menores barreras para comparar opciones.\n\n\n\n¿Por qué la confianza es central en el comercio digital?\n\nPorque muchas transacciones ocurren sin contacto presencial. La seguridad, reputación, claridad de información y cumplimiento reducen la incertidumbre."
+  },
+  {
+    "objectID": "repaso/preguntas.html#creación-y-cambio-de-sistemas",
+    "href": "repaso/preguntas.html#creación-y-cambio-de-sistemas",
+    "title": "Preguntas",
+    "section": "Creación y cambio de sistemas",
+    "text": "Creación y cambio de sistemas\n\n\n¿Por qué no basta con instalar tecnología para mejorar una organización?\n\nPorque también cambian procesos, roles, hábitos y criterios de decisión. Sin gestión del cambio, la solución puede no ser adoptada o no resolver el problema.\n\n\n\n¿Qué función cumplen los requerimientos?\n\nAyudan a definir qué problema debe resolver el sistema, qué necesita cada usuario y cómo se evaluará si la solución funciona."
+  },
+  {
+    "objectID": "repaso/glosario.html",
+    "href": "repaso/glosario.html",
+    "title": "Glosario",
+    "section": "",
+    "text": "Glosario de trabajo para consolidar conceptos con definiciones propias, ejemplos breves y conexiones entre temas."
+  },
+  {
+    "objectID": "repaso/glosario.html#a",
+    "href": "repaso/glosario.html#a",
+    "title": "Glosario",
+    "section": "A",
+    "text": "A\n\nAutomatización\nUso de tecnología para ejecutar tareas repetibles con menor intervención manual."
+  },
+  {
+    "objectID": "repaso/glosario.html#c",
+    "href": "repaso/glosario.html#c",
+    "title": "Glosario",
+    "section": "C",
+    "text": "C\n\nComercio digital\nIntercambio de bienes, servicios o información mediado por plataformas y canales digitales.\n\n\nConectividad\nCapacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes."
+  },
+  {
+    "objectID": "repaso/glosario.html#d",
+    "href": "repaso/glosario.html#d",
+    "title": "Glosario",
+    "section": "D",
+    "text": "D\n\nDato\nRegistro básico que puede transformarse en información cuando se organiza e interpreta en un contexto."
+  },
+  {
+    "objectID": "repaso/glosario.html#i",
+    "href": "repaso/glosario.html#i",
+    "title": "Glosario",
+    "section": "I",
+    "text": "I\n\nInformación\nDatos organizados que ayudan a comprender una situación o tomar decisiones."
+  },
+  {
+    "objectID": "repaso/glosario.html#p",
+    "href": "repaso/glosario.html#p",
+    "title": "Glosario",
+    "section": "P",
+    "text": "P\n\nPlataforma\nEntorno digital que conecta participantes, servicios o transacciones bajo reglas comunes."
+  },
+  {
+    "objectID": "repaso/glosario.html#s",
+    "href": "repaso/glosario.html#s",
+    "title": "Glosario",
+    "section": "S",
+    "text": "S\n\nSistema de información\nConjunto de personas, procesos, datos y tecnología orientado a producir información útil."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html",
+    "href": "temas/redes-internet-movilidad.html",
+    "title": "Redes, Internet y movilidad",
+    "section": "",
+    "text": "La conectividad permite que personas, aplicaciones, datos y procesos organizacionales funcionen como un sistema distribuido."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#idea-central",
+    "href": "temas/redes-internet-movilidad.html#idea-central",
+    "title": "Redes, Internet y movilidad",
+    "section": "",
+    "text": "La conectividad permite que personas, aplicaciones, datos y procesos organizacionales funcionen como un sistema distribuido."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#conceptos-clave",
+    "href": "temas/redes-internet-movilidad.html#conceptos-clave",
+    "title": "Redes, Internet y movilidad",
+    "section": "Conceptos clave",
+    "text": "Conceptos clave\n\n\nRedes de comunicación y arquitectura de conectividad.\nInternet como infraestructura de servicios.\nMovilidad, acceso ubicuo y dispositivos conectados.\nSeguridad de red y continuidad operacional.\nServicios en la nube y colaboración digital."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#casos",
+    "href": "temas/redes-internet-movilidad.html#casos",
+    "title": "Redes, Internet y movilidad",
+    "section": "Casos",
+    "text": "Casos\n\nObserva una institución que depende de atención en línea. Describe qué ocurre si falla la red, qué procesos se detienen y qué medidas podrían reducir el impacto.\nVer casos aplicados"
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#preguntas",
+    "href": "temas/redes-internet-movilidad.html#preguntas",
+    "title": "Redes, Internet y movilidad",
+    "section": "Preguntas",
+    "text": "Preguntas\n\n\n¿Por qué una red es parte del sistema de información y no solo soporte técnico?\n¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?\n¿Qué riesgos crecen al aumentar la conectividad?\n\nPracticar preguntas"
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#fuente-base",
+    "href": "temas/redes-internet-movilidad.html#fuente-base",
+    "title": "Redes, Internet y movilidad",
+    "section": "Fuente base",
+    "text": "Fuente base\nEsta página usa como referencia general la unidad sobre telecomunicaciones, Internet y tecnología inalámbrica, sin copiar texto literal de la fuente base (Laudon y Laudon 2016)."
+  },
+  {
+    "objectID": "temas/creacion-sistemas.html",
+    "href": "temas/creacion-sistemas.html",
+    "title": "Creación y cambio de sistemas",
+    "section": "",
+    "text": "Crear sistemas implica entender problemas, diseñar soluciones, gestionar cambios y evaluar si la tecnología mejora el trabajo real."
+  },
+  {
+    "objectID": "temas/creacion-sistemas.html#idea-central",
+    "href": "temas/creacion-sistemas.html#idea-central",
+    "title": "Creación y cambio de sistemas",
+    "section": "",
+    "text": "Crear sistemas implica entender problemas, diseñar soluciones, gestionar cambios y evaluar si la tecnología mejora el trabajo real."
+  },
+  {
+    "objectID": "temas/creacion-sistemas.html#conceptos-clave",
+    "href": "temas/creacion-sistemas.html#conceptos-clave",
+    "title": "Creación y cambio de sistemas",
+    "section": "Conceptos clave",
+    "text": "Conceptos clave\n\n\nAnálisis de requerimientos y procesos.\nDiseño, construcción, prueba e implementación.\nGestión del cambio y adopción de usuarios.\nIntegración con sistemas existentes.\nEvaluación de beneficios, costos y riesgos."
+  },
+  {
+    "objectID": "temas/creacion-sistemas.html#casos",
+    "href": "temas/creacion-sistemas.html#casos",
+    "title": "Creación y cambio de sistemas",
+    "section": "Casos",
+    "text": "Casos\n\nImagina que una organización reemplaza planillas por un sistema compartido. Describe quiénes participan, qué resistencias pueden aparecer y cómo se valida la solución.\nVer casos aplicados"
+  },
+  {
+    "objectID": "temas/creacion-sistemas.html#preguntas",
+    "href": "temas/creacion-sistemas.html#preguntas",
+    "title": "Creación y cambio de sistemas",
+    "section": "Preguntas",
+    "text": "Preguntas\n\n\n¿Por qué un buen sistema puede fracasar si no se gestiona el cambio?\n¿Qué información se necesita antes de diseñar una solución?\n¿Cómo se comprueba que el sistema resuelve el problema original?\n\nPracticar preguntas"
+  },
+  {
+    "objectID": "temas/creacion-sistemas.html#fuente-base",
+    "href": "temas/creacion-sistemas.html#fuente-base",
+    "title": "Creación y cambio de sistemas",
+    "section": "Fuente base",
+    "text": "Fuente base\nEsta página usa como referencia general la unidad sobre creación de sistemas de información, sin copiar texto literal de la fuente base (Laudon y Laudon 2016)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tecnologías y Sistemas de la Información",
+    "section": "",
+    "text": "Este sitio organiza los contenidos de TSI por ideas y relaciones, no por capítulos. Está pensado para repasar desde el celular, volver rápido a conceptos clave y practicar con preguntas breves."
+  },
+  {
+    "objectID": "index.html#temas",
+    "href": "index.html#temas",
+    "title": "Tecnologías y Sistemas de la Información",
+    "section": "Temas",
+    "text": "Temas\n\n\nÉtica, datos y sociedad\nImpacto social de los sistemas de información, uso responsable de datos, privacidad, rendición de cuentas y decisiones organizacionales.\nEstudiar tema\n\n\nRedes, Internet y movilidad\nInfraestructura digital, redes, conectividad, Internet, servicios en línea y tecnologías móviles.\nEstudiar tema\n\n\nComercio digital\nMercados digitales, plataformas, productos digitales, modelos de negocio, pagos y experiencia de usuario.\nEstudiar tema\n\n\nCreación y cambio de sistemas\nCómo nacen, evolucionan y se integran los sistemas de información en una organización.\nEstudiar tema"
+  },
+  {
+    "objectID": "index.html#ruta-rapida",
+    "href": "index.html#ruta-rapida",
+    "title": "Tecnologías y Sistemas de la Información",
+    "section": "Ruta rápida de estudio",
+    "text": "Ruta rápida de estudio\n\n\nEmpieza por la idea central de cada tema.\nConecta los conceptos clave con un ejemplo concreto.\nRevisa el mapa conceptual para ubicar relaciones.\nPractica preguntas y casos antes de cerrar la sesión.\n\nVer mapa conceptual"
+  },
+  {
+    "objectID": "index.html#practicar-preguntas",
+    "href": "index.html#practicar-preguntas",
+    "title": "Tecnologías y Sistemas de la Información",
+    "section": "Practicar preguntas",
+    "text": "Practicar preguntas\n\nUsa preguntas con respuesta oculta para comprobar comprensión sin memorizar frases. La meta es explicar con tus palabras y detectar vacíos.\nIr a preguntas"
+  },
+  {
+    "objectID": "index.html#mapa-conceptual",
+    "href": "index.html#mapa-conceptual",
+    "title": "Tecnologías y Sistemas de la Información",
+    "section": "Mapa conceptual",
+    "text": "Mapa conceptual\n\nLa ruta conceptual une el contexto ético y social, la infraestructura digital, los modelos de comercio y la forma en que se crean sistemas.\nAbrir mapa"
+  },
+  {
+    "objectID": "temas/comercio-digital.html",
+    "href": "temas/comercio-digital.html",
+    "title": "Comercio digital",
+    "section": "",
+    "text": "El comercio digital transforma la forma en que las organizaciones crean valor, llegan a usuarios, coordinan transacciones y compiten."
+  },
+  {
+    "objectID": "temas/comercio-digital.html#idea-central",
+    "href": "temas/comercio-digital.html#idea-central",
+    "title": "Comercio digital",
+    "section": "",
+    "text": "El comercio digital transforma la forma en que las organizaciones crean valor, llegan a usuarios, coordinan transacciones y compiten."
+  },
+  {
+    "objectID": "temas/comercio-digital.html#conceptos-clave",
+    "href": "temas/comercio-digital.html#conceptos-clave",
+    "title": "Comercio digital",
+    "section": "Conceptos clave",
+    "text": "Conceptos clave\n\n\nMercados digitales y reducción de fricciones.\nPlataformas, intermediación y efectos de red.\nProductos digitales y costos de reproducción.\nPagos, confianza y experiencia de compra.\nModelos de negocio basados en datos."
+  },
+  {
+    "objectID": "temas/comercio-digital.html#casos",
+    "href": "temas/comercio-digital.html#casos",
+    "title": "Comercio digital",
+    "section": "Casos",
+    "text": "Casos\n\nElige una tienda en línea o plataforma de servicios. Identifica cómo atrae usuarios, cómo genera confianza y qué información necesita para operar.\nVer casos aplicados"
+  },
+  {
+    "objectID": "temas/comercio-digital.html#preguntas",
+    "href": "temas/comercio-digital.html#preguntas",
+    "title": "Comercio digital",
+    "section": "Preguntas",
+    "text": "Preguntas\n\n\n¿Qué distingue a un producto digital de un producto físico?\n¿Cómo cambia la competencia cuando aparecen plataformas?\n¿Por qué la confianza es crítica en una transacción digital?\n\nPracticar preguntas"
+  },
+  {
+    "objectID": "temas/comercio-digital.html#fuente-base",
+    "href": "temas/comercio-digital.html#fuente-base",
+    "title": "Comercio digital",
+    "section": "Fuente base",
+    "text": "Fuente base\nEsta página usa como referencia general la unidad sobre comercio electrónico, mercados digitales y productos digitales, sin copiar texto literal de la fuente base (Laudon y Laudon 2016)."
+  },
+  {
+    "objectID": "temas/etica-datos-sociedad.html",
+    "href": "temas/etica-datos-sociedad.html",
+    "title": "Ética, datos y sociedad",
+    "section": "",
+    "text": "Los sistemas de información no son solo herramientas técnicas: también influyen en decisiones, derechos, responsabilidades y relaciones sociales."
+  },
+  {
+    "objectID": "temas/etica-datos-sociedad.html#idea-central",
+    "href": "temas/etica-datos-sociedad.html#idea-central",
+    "title": "Ética, datos y sociedad",
+    "section": "",
+    "text": "Los sistemas de información no son solo herramientas técnicas: también influyen en decisiones, derechos, responsabilidades y relaciones sociales."
+  },
+  {
+    "objectID": "temas/etica-datos-sociedad.html#conceptos-clave",
+    "href": "temas/etica-datos-sociedad.html#conceptos-clave",
+    "title": "Ética, datos y sociedad",
+    "section": "Conceptos clave",
+    "text": "Conceptos clave\n\n\nPrivacidad y protección de datos.\nResponsabilidad por decisiones automatizadas.\nCalidad, uso y trazabilidad de la información.\nImpacto social de las plataformas digitales.\nSeguridad, confianza y control organizacional."
+  },
+  {
+    "objectID": "temas/etica-datos-sociedad.html#casos",
+    "href": "temas/etica-datos-sociedad.html#casos",
+    "title": "Ética, datos y sociedad",
+    "section": "Casos",
+    "text": "Casos\n\nAnaliza una organización que recolecta datos de clientes. Identifica qué datos necesita, qué riesgos aparecen y qué decisiones deberían documentarse.\nVer casos aplicados"
+  },
+  {
+    "objectID": "temas/etica-datos-sociedad.html#preguntas",
+    "href": "temas/etica-datos-sociedad.html#preguntas",
+    "title": "Ética, datos y sociedad",
+    "section": "Preguntas",
+    "text": "Preguntas\n\n\n¿Qué diferencia hay entre recolectar datos y usarlos de forma responsable?\n¿Por qué la calidad de la información tiene impacto ético?\n¿Qué controles ayudan a reducir riesgos de privacidad?\n\nPracticar preguntas"
+  },
+  {
+    "objectID": "temas/etica-datos-sociedad.html#fuente-base",
+    "href": "temas/etica-datos-sociedad.html#fuente-base",
+    "title": "Ética, datos y sociedad",
+    "section": "Fuente base",
+    "text": "Fuente base\nEsta página usa como referencia general la unidad sobre aspectos éticos y sociales de los sistemas de información, sin copiar texto literal de la fuente base (Laudon y Laudon 2016)."
+  },
+  {
+    "objectID": "repaso/casos.html",
+    "href": "repaso/casos.html",
+    "title": "Casos",
+    "section": "",
+    "text": "Usa estos casos como disparadores. La respuesta ideal conecta conceptos, evidencia y consecuencias organizacionales."
+  },
+  {
+    "objectID": "repaso/casos.html#caso-1-datos-de-clientes",
+    "href": "repaso/casos.html#caso-1-datos-de-clientes",
+    "title": "Casos",
+    "section": "Caso 1: Datos de clientes",
+    "text": "Caso 1: Datos de clientes\n\nUna organización quiere personalizar recomendaciones usando historial de navegación y compras. Analiza qué datos usaría, qué límites debería definir y cómo explicaría el uso de esos datos a los usuarios.\nRelacionar con ética"
+  },
+  {
+    "objectID": "repaso/casos.html#caso-2-servicio-móvil",
+    "href": "repaso/casos.html#caso-2-servicio-móvil",
+    "title": "Casos",
+    "section": "Caso 2: Servicio móvil",
+    "text": "Caso 2: Servicio móvil\n\nUn equipo necesita atender solicitudes desde terreno con teléfonos. Identifica qué infraestructura requiere, qué riesgos de conectividad existen y cómo se mantendría la continuidad del servicio.\nRelacionar con redes"
+  },
+  {
+    "objectID": "repaso/casos.html#caso-3-plataforma-de-ventas",
+    "href": "repaso/casos.html#caso-3-plataforma-de-ventas",
+    "title": "Casos",
+    "section": "Caso 3: Plataforma de ventas",
+    "text": "Caso 3: Plataforma de ventas\n\nUn emprendimiento pasa de vender por mensajes a vender en una plataforma. Describe qué cambia en información, pagos, confianza, atención y medición de resultados.\nRelacionar con comercio digital"
+  },
+  {
+    "objectID": "repaso/casos.html#caso-4-nuevo-sistema-interno",
+    "href": "repaso/casos.html#caso-4-nuevo-sistema-interno",
+    "title": "Casos",
+    "section": "Caso 4: Nuevo sistema interno",
+    "text": "Caso 4: Nuevo sistema interno\n\nUna institución reemplaza formularios manuales por un sistema compartido. Define actores, requerimientos, resistencias esperables y criterios para evaluar el cambio.\nRelacionar con creación de sistemas"
+  },
+  {
+    "objectID": "repaso/mapa-conceptual.html",
+    "href": "repaso/mapa-conceptual.html",
+    "title": "Mapa conceptual",
+    "section": "",
+    "text": "El mapa muestra una ruta de lectura: contexto social, infraestructura digital, intercambio económico y creación de soluciones.\n\n\n\nÉtica, datos y sociedad\nDefine responsabilidades, límites y efectos sociales del uso de información.\n\n\n→\n\n\nRedes, Internet y movilidad\nEntrega la infraestructura para conectar personas, sistemas, servicios y datos.\n\n\n→\n\n\nComercio digital\nUsa la conectividad para crear mercados, plataformas y productos digitales.\n\n\n→\n\n\nCreación y cambio de sistemas\nConvierte necesidades organizacionales en soluciones que deben adoptarse y evaluarse.\n\n\n\nLa relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.\nVolver al inicio"
+  }
+]

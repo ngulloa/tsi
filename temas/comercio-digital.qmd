@@ -1,0 +1,40 @@
+---
+title: "Comercio digital"
+description: "Placeholder conceptual sobre comercio digital, mercados y productos digitales."
+---
+
+## Idea central
+
+El comercio digital transforma la forma en que las organizaciones crean valor, llegan a usuarios, coordinan transacciones y compiten.
+
+## Conceptos clave
+
+::: {.concept-list}
+- Mercados digitales y reducción de fricciones.
+- Plataformas, intermediación y efectos de red.
+- Productos digitales y costos de reproducción.
+- Pagos, confianza y experiencia de compra.
+- Modelos de negocio basados en datos.
+:::
+
+## Casos
+
+::: {.wide-card}
+Elige una tienda en línea o plataforma de servicios. Identifica cómo atrae usuarios, cómo genera confianza y qué información necesita para operar.
+
+[Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
+:::
+
+## Preguntas
+
+::: {.wide-card}
+- ¿Qué distingue a un producto digital de un producto físico?
+- ¿Cómo cambia la competencia cuando aparecen plataformas?
+- ¿Por qué la confianza es crítica en una transacción digital?
+
+[Practicar preguntas](../repaso/preguntas.qmd){.study-button}
+:::
+
+## Fuente base
+
+Esta página usa como referencia general la unidad sobre comercio electrónico, mercados digitales y productos digitales, sin copiar texto literal de la fuente base [@laudon2016sistemas].

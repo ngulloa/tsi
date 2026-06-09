@@ -1,0 +1,64 @@
+---
+title: "Preguntas"
+description: "Preguntas de repaso con respuestas ocultas."
+---
+
+::: {.home-intro}
+Lee la pregunta, responde antes de abrir la solución y compara la idea general, no la redacción exacta.
+:::
+
+## Ética, datos y sociedad
+
+<details class="qa-card">
+<summary>¿Por qué la gestión de datos tiene una dimensión ética?</summary>
+
+Porque los datos representan personas, decisiones y consecuencias. Su recolección, uso, conservación y protección pueden afectar privacidad, confianza y responsabilidad.
+</details>
+
+<details class="qa-card">
+<summary>¿Qué relación hay entre calidad de información y toma de decisiones?</summary>
+
+Una decisión depende de la información disponible. Si los datos son incompletos, imprecisos o desactualizados, aumenta el riesgo de decisiones injustas o ineficientes.
+</details>
+
+## Redes, Internet y movilidad
+
+<details class="qa-card">
+<summary>¿Qué aporta la movilidad a un sistema de información?</summary>
+
+Permite acceder a procesos y datos desde distintos lugares, pero también exige más atención a seguridad, continuidad y experiencia de uso.
+</details>
+
+<details class="qa-card">
+<summary>¿Por qué la conectividad puede convertirse en un riesgo operativo?</summary>
+
+Cuando procesos críticos dependen de redes, una falla de conexión, servicio o seguridad puede detener actividades y afectar usuarios.
+</details>
+
+## Comercio digital
+
+<details class="qa-card">
+<summary>¿Qué caracteriza a un mercado digital?</summary>
+
+La interacción entre oferentes y compradores ocurre mediante canales digitales, con mayor disponibilidad de información y menores barreras para comparar opciones.
+</details>
+
+<details class="qa-card">
+<summary>¿Por qué la confianza es central en el comercio digital?</summary>
+
+Porque muchas transacciones ocurren sin contacto presencial. La seguridad, reputación, claridad de información y cumplimiento reducen la incertidumbre.
+</details>
+
+## Creación y cambio de sistemas
+
+<details class="qa-card">
+<summary>¿Por qué no basta con instalar tecnología para mejorar una organización?</summary>
+
+Porque también cambian procesos, roles, hábitos y criterios de decisión. Sin gestión del cambio, la solución puede no ser adoptada o no resolver el problema.
+</details>
+
+<details class="qa-card">
+<summary>¿Qué función cumplen los requerimientos?</summary>
+
+Ayudan a definir qué problema debe resolver el sistema, qué necesita cada usuario y cómo se evaluará si la solución funciona.
+</details>

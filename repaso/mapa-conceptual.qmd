@@ -1,0 +1,52 @@
+---
+title: "Mapa conceptual"
+description: "Relación general entre los cuatro temas conceptuales."
+---
+
+::: {.home-intro}
+El mapa muestra una ruta de lectura: contexto social, infraestructura digital, intercambio económico y creación de soluciones.
+:::
+
+::: {.concept-map}
+::: {.map-node}
+### Ética, datos y sociedad
+
+Define responsabilidades, límites y efectos sociales del uso de información.
+:::
+
+::: {.map-arrow}
+→
+:::
+
+::: {.map-node}
+### Redes, Internet y movilidad
+
+Entrega la infraestructura para conectar personas, sistemas, servicios y datos.
+:::
+
+::: {.map-arrow}
+→
+:::
+
+::: {.map-node}
+### Comercio digital
+
+Usa la conectividad para crear mercados, plataformas y productos digitales.
+:::
+
+::: {.map-arrow}
+→
+:::
+
+::: {.map-node}
+### Creación y cambio de sistemas
+
+Convierte necesidades organizacionales en soluciones que deben adoptarse y evaluarse.
+:::
+:::
+
+::: {.wide-card}
+La relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.
+
+[Volver al inicio](../index.qmd){.study-button}
+:::

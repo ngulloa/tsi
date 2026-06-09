@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - temas/*.qmd
+    - repaso/*.qmd
+
+lang: es
+bibliography: referencias.bib
+
+website:
+  title: "Tecnologías y Sistemas de la Información"
+  search: true
+  navbar:
+    title: "TSI"
+    background: "#14355c"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Inicio
+      - text: Temas
+        menu:
+          - href: temas/etica-datos-sociedad.qmd
+            text: Ética, datos y sociedad
+          - href: temas/redes-internet-movilidad.qmd
+            text: Redes, Internet y movilidad
+          - href: temas/comercio-digital.qmd
+            text: Comercio digital
+          - href: temas/creacion-sistemas.qmd
+            text: Creación y cambio de sistemas
+      - href: repaso/glosario.qmd
+        text: Glosario
+      - href: repaso/preguntas.qmd
+        text: Preguntas
+      - href: repaso/casos.qmd
+        text: Casos
+      - href: repaso/mapa-conceptual.qmd
+        text: Mapa conceptual
+  page-footer:
+    left: "Tecnologías y Sistemas de la Información"
+    right: "Sitio estático generado con Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/styles.css
+    include-after-body: assets/js/interacciones.js
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    link-external-newwindow: true

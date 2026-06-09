@@ -1,0 +1,40 @@
+---
+title: "Casos"
+description: "Casos aplicados para conectar conceptos de TSI."
+---
+
+::: {.home-intro}
+Usa estos casos como disparadores. La respuesta ideal conecta conceptos, evidencia y consecuencias organizacionales.
+:::
+
+## Caso 1: Datos de clientes
+
+::: {.case-card}
+Una organización quiere personalizar recomendaciones usando historial de navegación y compras. Analiza qué datos usaría, qué límites debería definir y cómo explicaría el uso de esos datos a los usuarios.
+
+[Relacionar con ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
+:::
+
+## Caso 2: Servicio móvil
+
+::: {.case-card}
+Un equipo necesita atender solicitudes desde terreno con teléfonos. Identifica qué infraestructura requiere, qué riesgos de conectividad existen y cómo se mantendría la continuidad del servicio.
+
+[Relacionar con redes](../temas/redes-internet-movilidad.qmd){.study-button .secondary}
+:::
+
+## Caso 3: Plataforma de ventas
+
+::: {.case-card}
+Un emprendimiento pasa de vender por mensajes a vender en una plataforma. Describe qué cambia en información, pagos, confianza, atención y medición de resultados.
+
+[Relacionar con comercio digital](../temas/comercio-digital.qmd){.study-button .secondary}
+:::
+
+## Caso 4: Nuevo sistema interno
+
+::: {.case-card}
+Una institución reemplaza formularios manuales por un sistema compartido. Define actores, requerimientos, resistencias esperables y criterios para evaluar el cambio.
+
+[Relacionar con creación de sistemas](../temas/creacion-sistemas.qmd){.study-button .secondary}
+:::

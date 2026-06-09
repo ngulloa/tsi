@@ -1,0 +1,12 @@
+*.pdf
+*.zip
+MATERIAL_ETAPA.md
+
+.quarto/
+_site/
+
+.DS_Store
+Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb
