@@ -3,9 +3,13 @@ title: "Ética, datos y sociedad"
 description: "Placeholder conceptual sobre ética, datos y sociedad en sistemas de información."
 ---
 
-## Idea central
-
+::: {.idea-central}
 Los sistemas de información no son solo herramientas técnicas: también influyen en decisiones, derechos, responsabilidades y relaciones sociales.
+:::
+
+::: {.ojo-prueba}
+Este tema suele evaluarse con casos que mezclan recolección de datos, privacidad y responsabilidad por decisiones.
+:::
 
 ## Conceptos clave
 
@@ -17,9 +21,13 @@ Los sistemas de información no son solo herramientas técnicas: también influy
 - Seguridad, confianza y control organizacional.
 :::
 
+::: {.ejemplo}
+Una plataforma que personaliza recomendaciones debe equilibrar utilidad, consentimiento y protección de datos.
+:::
+
 ## Casos
 
-::: {.wide-card}
+::: {.caso-breve}
 Analiza una organización que recolecta datos de clientes. Identifica qué datos necesita, qué riesgos aparecen y qué decisiones deberían documentarse.
 
 [Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
@@ -35,6 +43,9 @@ Analiza una organización que recolecta datos de clientes. Identifica qué datos
 [Practicar preguntas](../repaso/preguntas.qmd){.study-button}
 :::
 
-## Fuente base
+## Referencias y fuente base
 
-Esta página usa como referencia general la unidad sobre aspectos éticos y sociales de los sistemas de información, sin copiar texto literal de la fuente base [@laudon2016sistemas].
+::: {.referencias-fuente}
+- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema relacionado: aspectos éticos y sociales de los sistemas de información.
+- Apuntes de clase o fuentes complementarias futuras.
+:::

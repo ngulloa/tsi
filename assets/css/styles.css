@@ -3,6 +3,12 @@
   --tsi-primary-dark: #0d2745;
   --tsi-accent: #2f8fcf;
   --tsi-accent-soft: #e7f3fb;
+  --tsi-green: #12715b;
+  --tsi-green-soft: #e8f6f1;
+  --tsi-amber: #9a5b00;
+  --tsi-amber-soft: #fff4df;
+  --tsi-rose: #9d3f5f;
+  --tsi-rose-soft: #fff0f5;
   --tsi-bg: #f7f9fc;
   --tsi-surface: #ffffff;
   --tsi-border: #d8e3ee;
@@ -72,6 +78,7 @@ h3 {
 .wide-card,
 .study-card,
 .term-card,
+.pregunta,
 .qa-card,
 .case-card,
 .map-node {
@@ -120,6 +127,100 @@ h3 {
   margin-bottom: 0.65rem;
 }
 
+.idea-central,
+.ojo-prueba,
+.ejemplo,
+.caso-breve {
+  --component-color: var(--tsi-accent);
+  --component-bg: var(--tsi-accent-soft);
+  background: linear-gradient(90deg, var(--component-bg), var(--tsi-surface) 78%);
+  border: 1px solid var(--tsi-border);
+  border-left: 0.42rem solid var(--component-color);
+  border-radius: 8px;
+  box-shadow: var(--tsi-shadow);
+  margin: 1.1rem 0 1.35rem;
+  padding: 1rem 1rem 1.05rem;
+}
+
+.idea-central {
+  --component-color: var(--tsi-accent);
+  --component-bg: var(--tsi-accent-soft);
+}
+
+.ojo-prueba {
+  --component-color: var(--tsi-amber);
+  --component-bg: var(--tsi-amber-soft);
+}
+
+.ejemplo {
+  --component-color: var(--tsi-green);
+  --component-bg: var(--tsi-green-soft);
+}
+
+.caso-breve {
+  --component-color: var(--tsi-rose);
+  --component-bg: var(--tsi-rose-soft);
+}
+
+.idea-central::before,
+.ojo-prueba::before,
+.ejemplo::before,
+.caso-breve::before {
+  color: var(--component-color);
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.idea-central::before {
+  content: "Idea central";
+}
+
+.ojo-prueba::before {
+  content: "Ojo en prueba";
+}
+
+.ejemplo::before {
+  content: "Ejemplo aplicado";
+}
+
+.caso-breve::before {
+  content: "Caso breve";
+}
+
+.idea-central > :last-child,
+.ojo-prueba > :last-child,
+.ejemplo > :last-child,
+.caso-breve > :last-child {
+  margin-bottom: 0;
+}
+
+main.content :where(p, li) a[href^="#"]:not(.study-button):not(.footnote-ref),
+main.content :where(p, li) a[href*=".html#"]:not(.study-button):not(.footnote-ref),
+main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref) {
+  background: #edf7ed;
+  border-bottom: 2px solid rgba(18, 113, 91, 0.35);
+  border-radius: 4px;
+  color: var(--tsi-green);
+  font-weight: 700;
+  padding: 0.02rem 0.18rem;
+  text-decoration: none;
+}
+
+main.content :where(p, li) a[href^="#"]:not(.study-button):not(.footnote-ref):hover,
+main.content :where(p, li) a[href^="#"]:not(.study-button):not(.footnote-ref):focus,
+main.content :where(p, li) a[href*=".html#"]:not(.study-button):not(.footnote-ref):hover,
+main.content :where(p, li) a[href*=".html#"]:not(.study-button):not(.footnote-ref):focus,
+main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref):hover,
+main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref):focus {
+  background: #dff1ea;
+  color: #0b5846;
+}
+
 .study-button {
   align-items: center;
   background: var(--tsi-primary);
@@ -155,28 +256,98 @@ h3 {
   color: var(--tsi-primary-dark);
 }
 
+details.pregunta,
 .qa-card {
   margin: 1rem 0;
   padding: 0;
 }
 
+details.pregunta summary,
 .qa-card summary {
   color: var(--tsi-primary-dark);
   cursor: pointer;
   font-weight: 750;
-  list-style-position: outside;
+  list-style: none;
   min-height: 3.25rem;
-  padding: 1rem 1.1rem;
+  padding: 1rem 3rem 1rem 1.1rem;
+  position: relative;
 }
 
+details.pregunta summary::-webkit-details-marker,
+.qa-card summary::-webkit-details-marker {
+  display: none;
+}
+
+details.pregunta summary::after,
+.qa-card summary::after {
+  align-items: center;
+  background: var(--tsi-accent-soft);
+  border-radius: 999px;
+  color: var(--tsi-primary);
+  content: "+";
+  display: inline-flex;
+  font-size: 1.2rem;
+  font-weight: 800;
+  height: 1.65rem;
+  justify-content: center;
+  line-height: 1;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.65rem;
+}
+
+details.pregunta[open] summary,
 .qa-card[open] summary {
   border-bottom: 1px solid var(--tsi-border);
 }
 
+details.pregunta[open] summary::after,
+.qa-card[open] summary::after {
+  content: "-";
+}
+
+details.pregunta p,
 .qa-card p {
   color: var(--tsi-muted);
   margin: 0;
   padding: 1rem 1.1rem 1.15rem;
+}
+
+.preguntas-practica {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1rem 0 2rem;
+}
+
+.preguntas-practica details.pregunta,
+.preguntas-practica .qa-card {
+  margin: 0;
+}
+
+.preguntas-practica + h2 {
+  margin-top: 2.2rem;
+}
+
+.referencias-fuente {
+  border-top: 1px solid var(--tsi-border);
+  color: var(--tsi-muted);
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+}
+
+.referencias-fuente li {
+  margin-bottom: 0.45rem;
+}
+
+.glosario-pendiente {
+  border-left: 4px solid var(--tsi-border);
+  color: var(--tsi-muted);
+  font-size: 0.95rem;
+  margin: 0.8rem 0 1.4rem;
+  padding: 0.35rem 0 0.35rem 0.9rem;
 }
 
 .concept-map {
@@ -199,6 +370,60 @@ h3 {
   font-weight: 800;
   line-height: 1;
   text-align: center;
+}
+
+.tsi-reading-progress {
+  height: 0.25rem;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1100;
+}
+
+.tsi-reading-progress__bar {
+  background: linear-gradient(90deg, var(--tsi-green), var(--tsi-accent));
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left center;
+  width: 100%;
+}
+
+.tsi-back-to-top {
+  align-items: center;
+  background: var(--tsi-primary);
+  border: 0;
+  border-radius: 999px;
+  bottom: 5.25rem;
+  box-shadow: 0 8px 22px rgba(13, 39, 69, 0.25);
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.35rem;
+  font-weight: 800;
+  height: 2.85rem;
+  justify-content: center;
+  line-height: 1;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 1rem;
+  transform: translateY(0.6rem);
+  transition: opacity 160ms ease, transform 160ms ease;
+  width: 2.85rem;
+  z-index: 1060;
+}
+
+.tsi-back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.tsi-back-to-top:hover,
+.tsi-back-to-top:focus {
+  background: var(--tsi-primary-dark);
 }
 
 .tsi-bottom-nav {
@@ -270,6 +495,11 @@ h3 {
   .tsi-bottom-nav {
     display: none;
   }
+
+  .tsi-back-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
 }
 
 @media (min-width: 980px) {
@@ -285,5 +515,15 @@ h3 {
   .map-arrow {
     align-self: center;
     padding: 0 0.2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .tsi-back-to-top {
+    transition: none;
   }
 }

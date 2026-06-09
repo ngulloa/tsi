@@ -3,9 +3,13 @@ title: "Creación y cambio de sistemas"
 description: "Placeholder conceptual sobre creación, cambio y adopción de sistemas de información."
 ---
 
-## Idea central
-
+::: {.idea-central}
 Crear sistemas implica entender problemas, diseñar soluciones, gestionar cambios y evaluar si la tecnología mejora el trabajo real.
+:::
+
+::: {.ojo-prueba}
+La clave es distinguir instalar tecnología de lograr adopción, cambio de procesos y mejora medible.
+:::
 
 ## Conceptos clave
 
@@ -17,9 +21,13 @@ Crear sistemas implica entender problemas, diseñar soluciones, gestionar cambio
 - Evaluación de beneficios, costos y riesgos.
 :::
 
+::: {.ejemplo}
+Pasar de planillas aisladas a un sistema compartido exige requerimientos claros, pruebas y gestión del cambio.
+:::
+
 ## Casos
 
-::: {.wide-card}
+::: {.caso-breve}
 Imagina que una organización reemplaza planillas por un sistema compartido. Describe quiénes participan, qué resistencias pueden aparecer y cómo se valida la solución.
 
 [Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
@@ -35,6 +43,9 @@ Imagina que una organización reemplaza planillas por un sistema compartido. Des
 [Practicar preguntas](../repaso/preguntas.qmd){.study-button}
 :::
 
-## Fuente base
+## Referencias y fuente base
 
-Esta página usa como referencia general la unidad sobre creación de sistemas de información, sin copiar texto literal de la fuente base [@laudon2016sistemas].
+::: {.referencias-fuente}
+- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema relacionado: creación y cambio de sistemas de información.
+- Apuntes de clase o fuentes complementarias futuras.
+:::

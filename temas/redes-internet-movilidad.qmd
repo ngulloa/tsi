@@ -3,9 +3,13 @@ title: "Redes, Internet y movilidad"
 description: "Placeholder conceptual sobre redes, Internet y tecnologías móviles."
 ---
 
-## Idea central
-
+::: {.idea-central}
 La conectividad permite que personas, aplicaciones, datos y procesos organizacionales funcionen como un sistema distribuido.
+:::
+
+::: {.ojo-prueba}
+Conviene distinguir infraestructura de red, servicios en Internet y efectos de la movilidad en el trabajo real.
+:::
 
 ## Conceptos clave
 
@@ -17,9 +21,13 @@ La conectividad permite que personas, aplicaciones, datos y procesos organizacio
 - Servicios en la nube y colaboración digital.
 :::
 
+::: {.ejemplo}
+Una aplicación de atención en terreno necesita red, dispositivos, seguridad y continuidad para funcionar fuera de la oficina.
+:::
+
 ## Casos
 
-::: {.wide-card}
+::: {.caso-breve}
 Observa una institución que depende de atención en línea. Describe qué ocurre si falla la red, qué procesos se detienen y qué medidas podrían reducir el impacto.
 
 [Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
@@ -35,6 +43,9 @@ Observa una institución que depende de atención en línea. Describe qué ocurr
 [Practicar preguntas](../repaso/preguntas.qmd){.study-button}
 :::
 
-## Fuente base
+## Referencias y fuente base
 
-Esta página usa como referencia general la unidad sobre telecomunicaciones, Internet y tecnología inalámbrica, sin copiar texto literal de la fuente base [@laudon2016sistemas].
+::: {.referencias-fuente}
+- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema relacionado: telecomunicaciones, Internet y tecnología inalámbrica.
+- Apuntes de clase o fuentes complementarias futuras.
+:::

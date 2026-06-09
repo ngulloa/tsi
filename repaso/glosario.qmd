@@ -15,6 +15,12 @@ Glosario de trabajo para consolidar conceptos con definiciones propias, ejemplos
 Uso de tecnología para ejecutar tareas repetibles con menor intervención manual.
 :::
 
+## B
+
+::: {.glosario-pendiente}
+Por completar.
+:::
+
 ## C
 
 ::: {.term-card}
@@ -37,12 +43,30 @@ Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse media
 Registro básico que puede transformarse en información cuando se organiza e interpreta en un contexto.
 :::
 
+## E
+
+::: {.glosario-pendiente}
+Por completar.
+:::
+
+## F
+
+::: {.glosario-pendiente}
+Por completar.
+:::
+
 ## I
 
 ::: {.term-card}
 ### Información
 
 Datos organizados que ayudan a comprender una situación o tomar decisiones.
+:::
+
+## M
+
+::: {.glosario-pendiente}
+Por completar.
 :::
 
 ## P
@@ -53,10 +77,36 @@ Datos organizados que ayudan a comprender una situación o tomar decisiones.
 Entorno digital que conecta participantes, servicios o transacciones bajo reglas comunes.
 :::
 
+::: {.term-card}
+### Privacidad
+
+Límite y control sobre el uso de datos personales. Ver [privacidad y protección de datos](../temas/etica-datos-sociedad.html#conceptos-clave).
+:::
+
+## R
+
+::: {.term-card}
+### Requerimiento
+
+Necesidad o condición que orienta el diseño de una solución. Se conecta con [creación y cambio de sistemas](../temas/creacion-sistemas.html#conceptos-clave).
+:::
+
 ## S
 
 ::: {.term-card}
 ### Sistema de información
 
 Conjunto de personas, procesos, datos y tecnología orientado a producir información útil.
+:::
+
+## T
+
+::: {.glosario-pendiente}
+Por completar.
+:::
+
+## W
+
+::: {.glosario-pendiente}
+Por completar.
 :::

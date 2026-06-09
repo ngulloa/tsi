@@ -24,26 +24,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -172,11 +153,10 @@ div.csl-indent {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#idea-central" id="toc-idea-central" class="nav-link active" data-scroll-target="#idea-central">Idea central</a></li>
-  <li><a href="#conceptos-clave" id="toc-conceptos-clave" class="nav-link" data-scroll-target="#conceptos-clave">Conceptos clave</a></li>
+  <li><a href="#conceptos-clave" id="toc-conceptos-clave" class="nav-link active" data-scroll-target="#conceptos-clave">Conceptos clave</a></li>
   <li><a href="#casos" id="toc-casos" class="nav-link" data-scroll-target="#casos">Casos</a></li>
   <li><a href="#preguntas" id="toc-preguntas" class="nav-link" data-scroll-target="#preguntas">Preguntas</a></li>
-  <li><a href="#fuente-base" id="toc-fuente-base" class="nav-link" data-scroll-target="#fuente-base">Fuente base</a></li>
+  <li><a href="#referencias-y-fuente-base" id="toc-referencias-y-fuente-base" class="nav-link" data-scroll-target="#referencias-y-fuente-base">Referencias y fuente base</a></li>
   </ul>
 </nav>
     </div>
@@ -207,10 +187,12 @@ div.csl-indent {
 </header>
 
 
-<section id="idea-central" class="level2">
-<h2 class="anchored" data-anchor-id="idea-central">Idea central</h2>
+<div class="idea-central">
 <p>Los sistemas de información no son solo herramientas técnicas: también influyen en decisiones, derechos, responsabilidades y relaciones sociales.</p>
-</section>
+</div>
+<div class="ojo-prueba">
+<p>Este tema suele evaluarse con casos que mezclan recolección de datos, privacidad y responsabilidad por decisiones.</p>
+</div>
 <section id="conceptos-clave" class="level2">
 <h2 class="anchored" data-anchor-id="conceptos-clave">Conceptos clave</h2>
 <div class="concept-list">
@@ -222,10 +204,13 @@ div.csl-indent {
 <li>Seguridad, confianza y control organizacional.</li>
 </ul>
 </div>
+<div class="ejemplo">
+<p>Una plataforma que personaliza recomendaciones debe equilibrar utilidad, consentimiento y protección de datos.</p>
+</div>
 </section>
 <section id="casos" class="level2">
 <h2 class="anchored" data-anchor-id="casos">Casos</h2>
-<div class="wide-card">
+<div class="caso-breve">
 <p>Analiza una organización que recolecta datos de clientes. Identifica qué datos necesita, qué riesgos aparecen y qué decisiones deberían documentarse.</p>
 <p><a href="../repaso/casos.html" class="study-button secondary">Ver casos aplicados</a></p>
 </div>
@@ -241,21 +226,23 @@ div.csl-indent {
 <p><a href="../repaso/preguntas.html" class="study-button">Practicar preguntas</a></p>
 </div>
 </section>
-<section id="fuente-base" class="level2">
-<h2 class="anchored" data-anchor-id="fuente-base">Fuente base</h2>
-<p>Esta página usa como referencia general la unidad sobre aspectos éticos y sociales de los sistemas de información, sin copiar texto literal de la fuente base <span class="citation" data-cites="laudon2016sistemas">(<a href="#ref-laudon2016sistemas" role="doc-biblioref">Laudon y Laudon 2016</a>)</span>.</p>
-
+<section id="referencias-y-fuente-base" class="level2">
+<h2 class="anchored" data-anchor-id="referencias-y-fuente-base">Referencias y fuente base</h2>
+<div class="referencias-fuente">
+<ul>
+<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema relacionado: aspectos éticos y sociales de los sistemas de información.</li>
+<li>Apuntes de clase o fuentes complementarias futuras.</li>
+</ul>
+</div>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-laudon2016sistemas" class="csl-entry" role="listitem">
-Laudon, Kenneth C., y Jane P. Laudon. 2016. <em>Sistemas de información gerencial</em>. 14.ª ed. Pearson Educación.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script>
 (function () {
+  "use strict";
+
   function currentDepthPrefix() {
     var path = window.location.pathname;
     if (path.indexOf("/temas/") !== -1 || path.indexOf("/repaso/") !== -1) {
@@ -305,9 +292,109 @@ Laudon, Kenneth C., y Jane P. Laudon. 2016. <em>Sistemas de información gerenci
     document.body.appendChild(nav);
   }
 
+  function addReadingProgress() {
+    if (document.querySelector(".tsi-reading-progress")) {
+      return;
+    }
+
+    var progress = document.createElement("div");
+    var bar = document.createElement("div");
+    progress.className = "tsi-reading-progress";
+    progress.setAttribute("aria-hidden", "true");
+    bar.className = "tsi-reading-progress__bar";
+    progress.appendChild(bar);
+    document.body.appendChild(progress);
+
+    var ticking = false;
+    function update() {
+      var scrollMax = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = scrollMax > 0 ? window.scrollY / scrollMax : 1;
+      ratio = Math.min(Math.max(ratio, 0), 1);
+      bar.style.transform = "scaleX(" + ratio + ")";
+      ticking = false;
+    }
+
+    function requestUpdate() {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    }
+
+    update();
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+  }
+
+  function addBackToTopButton() {
+    if (document.querySelector(".tsi-back-to-top")) {
+      return;
+    }
+
+    var button = document.createElement("button");
+    button.className = "tsi-back-to-top";
+    button.type = "button";
+    button.textContent = "↑";
+    button.setAttribute("aria-label", "Volver arriba");
+    button.title = "Volver arriba";
+    document.body.appendChild(button);
+
+    function updateVisibility() {
+      if (window.scrollY > 420) {
+        button.classList.add("is-visible");
+      } else {
+        button.classList.remove("is-visible");
+      }
+    }
+
+    button.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    updateVisibility();
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+  }
+
+  function storageGet(key) {
+    try {
+      return window.localStorage.getItem(key);
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function storageSet(key, value) {
+    try {
+      window.localStorage.setItem(key, value);
+    } catch (error) {
+      return;
+    }
+  }
+
+  function compactText(value) {
+    return value.toLowerCase().replace(/\s+/g, " ").trim().slice(0, 90);
+  }
+
+  function questionKey(card, index) {
+    var summary = card.querySelector("summary");
+    var label = card.id || (summary ? compactText(summary.textContent) : "pregunta-" + index);
+    return "tsi:pregunta:" + normalizedPath(window.location.pathname) + ":" + label;
+  }
+
   function improveAnswerCards() {
-    document.querySelectorAll("details.qa-card").forEach(function (card) {
+    document.querySelectorAll("details.pregunta, details.qa-card").forEach(function (card, index) {
+      var key = questionKey(card, index);
+      var storedState = storageGet(key);
+
+      if (storedState === "open") {
+        card.open = true;
+      } else if (storedState === "closed") {
+        card.open = false;
+      }
+
       card.addEventListener("toggle", function () {
+        storageSet(key, card.open ? "open" : "closed");
+
         if (card.open) {
           card.scrollIntoView({ block: "nearest", behavior: "smooth" });
         }
@@ -317,6 +404,8 @@ Laudon, Kenneth C., y Jane P. Laudon. 2016. <em>Sistemas de información gerenci
 
   document.addEventListener("DOMContentLoaded", function () {
     addBottomNav();
+    addReadingProgress();
+    addBackToTopButton();
     improveAnswerCards();
   });
 })();

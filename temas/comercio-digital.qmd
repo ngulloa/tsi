@@ -3,9 +3,13 @@ title: "Comercio digital"
 description: "Placeholder conceptual sobre comercio digital, mercados y productos digitales."
 ---
 
-## Idea central
-
+::: {.idea-central}
 El comercio digital transforma la forma en que las organizaciones crean valor, llegan a usuarios, coordinan transacciones y compiten.
+:::
+
+::: {.ojo-prueba}
+En prueba suele aparecer como comparación entre mercado tradicional, mercado digital, plataforma y producto digital.
+:::
 
 ## Conceptos clave
 
@@ -17,9 +21,13 @@ El comercio digital transforma la forma en que las organizaciones crean valor, l
 - Modelos de negocio basados en datos.
 :::
 
+::: {.ejemplo}
+Una app de delivery permite explicar plataformas, pagos digitales, confianza, datos de clientes y experiencia móvil.
+:::
+
 ## Casos
 
-::: {.wide-card}
+::: {.caso-breve}
 Elige una tienda en línea o plataforma de servicios. Identifica cómo atrae usuarios, cómo genera confianza y qué información necesita para operar.
 
 [Ver casos aplicados](../repaso/casos.qmd){.study-button .secondary}
@@ -35,6 +43,9 @@ Elige una tienda en línea o plataforma de servicios. Identifica cómo atrae usu
 [Practicar preguntas](../repaso/preguntas.qmd){.study-button}
 :::
 
-## Fuente base
+## Referencias y fuente base
 
-Esta página usa como referencia general la unidad sobre comercio electrónico, mercados digitales y productos digitales, sin copiar texto literal de la fuente base [@laudon2016sistemas].
+::: {.referencias-fuente}
+- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema relacionado: comercio electrónico, mercados digitales y productos digitales.
+- Apuntes de clase o fuentes complementarias futuras.
+:::
