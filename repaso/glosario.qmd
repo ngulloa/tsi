@@ -16,9 +16,33 @@ Uso dañino, invasivo o irresponsable de sistemas de información, aunque no sie
 :::
 
 ::: {.term-card}
+### Afiliación {#afiliacion}
+
+Modelo de ingresos donde un sitio o plataforma recibe dinero por derivar tráfico, registros o ventas hacia otro proveedor. Ver [comercio digital](../temas/comercio-digital.qmd#modelos-negocio-ingresos).
+:::
+
+::: {.term-card}
+### Ajuste dinámico de precios {#ajuste-dinamico-de-precios}
+
+Cambio frecuente de precios según demanda, inventario, competencia, perfil del usuario o contexto de compra.
+:::
+
+::: {.term-card}
+### Alcance global {#alcance-global}
+
+Capacidad de un canal digital para llegar a clientes, proveedores o audiencias fuera de un mercado local.
+:::
+
+::: {.term-card}
 ### Ancho de banda {#ancho-de-banda}
 
 Capacidad de transmisión de datos de un enlace en un periodo determinado. Se conecta con [redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#protocolos-paquetes-direccionamiento).
+:::
+
+::: {.term-card}
+### Asimetría de información {#asimetria-de-informacion}
+
+Situación donde una parte de una transacción sabe más que otra sobre precio, calidad, riesgo o condiciones.
 :::
 
 ::: {.term-card}
@@ -28,6 +52,18 @@ Uso de tecnología para ejecutar tareas repetibles con menor intervención manua
 :::
 
 ## B
+
+::: {.term-card}
+### B2B {#b2b}
+
+Comercio electrónico entre empresas, por ejemplo compra digital de insumos, servicios o componentes.
+:::
+
+::: {.term-card}
+### B2C {#b2c}
+
+Comercio electrónico de empresa a consumidor, como una tienda online o una plataforma de suscripción.
+:::
 
 ::: {.term-card}
 ### Big Data {#big-data}
@@ -56,6 +92,12 @@ Elementos pequeños u ocultos en páginas o correos que pueden registrar visitas
 ## C
 
 ::: {.term-card}
+### C2C {#c2c}
+
+Comercio electrónico entre consumidores, normalmente mediado por una plataforma con búsqueda, reputación y pago.
+:::
+
+::: {.term-card}
 ### Calidad de datos {#calidad-de-datos}
 
 Grado en que los datos son correctos, completos, actuales, pertinentes y útiles para decidir.
@@ -82,7 +124,19 @@ Modelo donde un cliente solicita datos o servicios y un servidor los entrega baj
 ::: {.term-card}
 ### Comercio digital {#comercio-digital}
 
-Intercambio de bienes, servicios o información mediado por plataformas y canales digitales.
+Intercambio de bienes, servicios, contenido o información mediado por canales digitales, plataformas, pagos, datos y modelos de ingresos.
+:::
+
+::: {.term-card}
+### Comercio social {#comercio-social}
+
+Uso de redes sociales, comunidades, reseñas y recomendaciones para atraer usuarios e influir en decisiones de compra.
+:::
+
+::: {.term-card}
+### Comisión por transacción {#comision-por-transaccion}
+
+Modelo de ingresos donde una plataforma cobra una tarifa por cada venta, reserva, pedido, viaje u operación realizada.
 :::
 
 ::: {.term-card}
@@ -95,6 +149,12 @@ Uso de aplicaciones, almacenamiento, plataformas o infraestructura entregados co
 ### Computación móvil {#computacion-movil}
 
 Acceso a datos, aplicaciones y procesos desde dispositivos portátiles conectados por redes inalámbricas o celulares.
+:::
+
+::: {.term-card}
+### Comunidad virtual {#comunidad-virtual}
+
+Espacio digital donde usuarios interactúan alrededor de intereses, identidades, productos o problemas comunes.
 :::
 
 ::: {.term-card}
@@ -134,9 +194,33 @@ Protección legal relacionada con copia, distribución y uso autorizado de obras
 :::
 
 ::: {.term-card}
+### Costos de búsqueda {#costos-de-busqueda}
+
+Tiempo, esfuerzo o dinero necesario para encontrar productos, precios, proveedores o información útil.
+:::
+
+::: {.term-card}
+### Costos de menú {#costos-de-menu}
+
+Costos de cambiar y comunicar precios, catálogos o condiciones de venta.
+:::
+
+::: {.term-card}
+### Costos de transacción {#costos-de-transaccion}
+
+Costos de negociar, coordinar, pagar, verificar, entregar o resolver una operación.
+:::
+
+::: {.term-card}
 ### Creación de perfiles {#creacion-de-perfiles}
 
 Uso de datos para inferir intereses, hábitos, riesgos o características de una persona o grupo.
+:::
+
+::: {.term-card}
+### Creador de mercado {#creador-de-mercado}
+
+Actor digital que habilita un espacio donde terceros pueden publicar ofertas, buscar opciones y cerrar transacciones.
 :::
 
 ::: {.term-card}
@@ -151,6 +235,18 @@ Conducta ilegal realizada mediante sistemas, redes, dispositivos o datos.
 ### Dato {#dato}
 
 Registro básico que puede transformarse en información cuando se organiza e interpreta en un contexto.
+:::
+
+::: {.term-card}
+### Densidad de información {#densidad-de-informacion}
+
+Cantidad, calidad y disponibilidad de información útil para comparar, decidir y coordinar transacciones digitales.
+:::
+
+::: {.term-card}
+### Desintermediación {#desintermediacion}
+
+Reducción o eliminación de intermediarios tradicionales entre productor, vendedor y cliente.
 :::
 
 ::: {.term-card}
@@ -192,9 +288,27 @@ Sistema de nombres de dominio que traduce nombres legibles por personas a direcc
 ## E
 
 ::: {.term-card}
+### E-commerce {#e-commerce}
+
+Compra, venta o intercambio de bienes, servicios, contenido o información mediante redes digitales, especialmente Internet y la Web.
+:::
+
+::: {.term-card}
+### E-tailer {#e-tailer}
+
+Minorista en línea que vende directamente a consumidores desde su propio canal digital.
+:::
+
+::: {.term-card}
 ### Ethernet {#ethernet}
 
 Familia de tecnologías usadas comúnmente en redes locales cableadas para transmitir datos entre dispositivos.
+:::
+
+::: {.term-card}
+### Estándares universales {#estandares-universales}
+
+Reglas técnicas compartidas que facilitan conectar compradores, vendedores, sistemas y servicios digitales.
 :::
 
 ::: {.term-card}
@@ -211,8 +325,10 @@ Extensión controlada de una red o sitio interno para dar acceso a actores exter
 
 ## F
 
-::: {.glosario-pendiente}
-Por completar.
+::: {.term-card}
+### Freemium {#freemium}
+
+Modelo de ingresos donde una versión básica es gratuita y se cobra por funciones, contenido, capacidad o experiencia ampliada.
 :::
 
 ## I
@@ -227,6 +343,12 @@ Modelo de red donde los equipos comparten recursos directamente sin depender de 
 ### Información {#informacion}
 
 Datos organizados que ayudan a comprender una situación o tomar decisiones.
+:::
+
+::: {.term-card}
+### Interactividad {#interactividad}
+
+Capacidad de comunicación bidireccional entre usuario, empresa, plataforma y otros usuarios.
 :::
 
 ::: {.term-card}
@@ -264,9 +386,45 @@ Demora entre una solicitud y una respuesta. Afecta videollamadas, juegos, sistem
 ## M
 
 ::: {.term-card}
+### Marketplace {#marketplace}
+
+Plataforma que conecta compradores y vendedores externos, normalmente con mecanismos de búsqueda, pago, reputación y comisión.
+:::
+
+::: {.term-card}
+### Marketing conductual {#marketing-conductual}
+
+Publicidad o personalización basada en comportamiento observado, como búsquedas, clics, compras, navegación o uso de una app.
+:::
+
+::: {.term-card}
 ### Marketing dirigido {#marketing-dirigido}
 
-Publicidad, recomendación o mensaje adaptado según datos e inferencias sobre un usuario.
+Publicidad, recomendación o mensaje adaptado según datos, segmentos e inferencias sobre un usuario.
+:::
+
+::: {.term-card}
+### Mercado digital {#mercado-digital}
+
+Espacio en línea donde compradores y vendedores pueden encontrarse, comparar información y realizar intercambios.
+:::
+
+::: {.term-card}
+### M-commerce {#m-commerce}
+
+Comercio electrónico realizado desde dispositivos móviles, con uso frecuente de apps, pagos móviles, notificaciones y ubicación.
+:::
+
+::: {.term-card}
+### Modelo de ingresos {#modelo-de-ingresos}
+
+Forma específica en que una organización obtiene dinero, como publicidad, suscripción, comisión, venta directa o afiliación.
+:::
+
+::: {.term-card}
+### Modelo de negocio {#modelo-de-negocio}
+
+Forma en que una organización crea, entrega y captura valor.
 :::
 
 ## N
@@ -292,9 +450,21 @@ Protección temporal sobre una invención que cumple requisitos legales.
 :::
 
 ::: {.term-card}
+### Personalización {#personalizacion}
+
+Adaptación de contenido, ofertas, recomendaciones o experiencia según datos del usuario.
+:::
+
+::: {.term-card}
 ### Plataforma {#plataforma}
 
 Entorno digital que conecta participantes, servicios o transacciones bajo reglas comunes.
+:::
+
+::: {.term-card}
+### Portal {#portal}
+
+Punto de entrada digital que reúne búsqueda, contenido, servicios o enlaces para atraer tráfico y organizar acceso.
 :::
 
 ::: {.term-card}
@@ -304,15 +474,39 @@ Control razonable sobre qué datos personales se recopilan, para qué se usan y 
 :::
 
 ::: {.term-card}
+### Producto digital {#producto-digital}
+
+Bien que puede almacenarse, copiarse, distribuirse o consumirse en formato digital, como música, video, software, libros electrónicos o cursos.
+:::
+
+::: {.term-card}
 ### Protocolo {#protocolo}
 
 Regla o estándar compartido que define cómo los sistemas se comunican, envían, reciben o interpretan datos.
 :::
 
 ::: {.term-card}
+### Proveedor de contenido {#proveedor-de-contenido}
+
+Organización que produce, agrupa o distribuye contenido digital, como música, video, noticias o cursos.
+:::
+
+::: {.term-card}
+### Proveedor de servicios {#proveedor-de-servicios}
+
+Organización que entrega una función digital en línea, como transporte, entretenimiento, almacenamiento, pagos o gestión.
+:::
+
+::: {.term-card}
 ### Proveedor de servicios de Internet {#proveedor-de-servicios-de-internet}
 
 Empresa u organización que ofrece conexión a Internet y servicios relacionados. También se conoce como ISP.
+:::
+
+::: {.term-card}
+### Publicidad digital {#publicidad-digital}
+
+Comunicación comercial o modelo de ingresos basado en espacios, audiencias, segmentación y medición en canales digitales.
 :::
 
 ## R
@@ -383,6 +577,12 @@ Obligación reconocida por leyes, contratos o tribunales cuando una acción o si
 Identificación por radiofrecuencia: tecnología para reconocer objetos, activos o personas mediante etiquetas y lectores.
 :::
 
+::: {.term-card}
+### Riqueza {#riqueza}
+
+Capacidad de entregar información con variedad de formatos, contexto y detalle, como texto, audio, video e interacción.
+:::
+
 ## S
 
 ::: {.term-card}
@@ -398,6 +598,12 @@ Registro de actividades de una persona en sitios, aplicaciones, dispositivos o s
 :::
 
 ::: {.term-card}
+### Servicios basados en ubicación {#servicios-basados-en-ubicacion}
+
+Servicios móviles que usan posición aproximada o geográfica para ofrecer información, entrega, rutas, ofertas o coordinación.
+:::
+
+::: {.term-card}
 ### Seguridad de red {#seguridad-de-red}
 
 Controles técnicos y organizacionales para proteger comunicaciones, dispositivos y servicios conectados.
@@ -407,6 +613,12 @@ Controles técnicos y organizacionales para proteger comunicaciones, dispositivo
 ### Sistema de información {#sistema-de-informacion}
 
 Conjunto de personas, procesos, datos y tecnología orientado a producir información útil.
+:::
+
+::: {.term-card}
+### Suscripción {#suscripcion}
+
+Modelo de ingresos donde se cobra periódicamente por acceso continuo a contenido, servicio o funcionalidades.
 :::
 
 ## T
@@ -421,6 +633,14 @@ Familia de protocolos que permite conectar redes distintas y sostener el interca
 ### Tecnoestrés {#tecnoestres}
 
 Estrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales.
+:::
+
+## U
+
+::: {.term-card}
+### Ubicuidad {#ubicuidad}
+
+Disponibilidad de servicios digitales en distintos lugares y momentos, siempre que exista acceso a red y dispositivo.
 :::
 
 ## V

@@ -31,7 +31,7 @@ Entrega la infraestructura para conectar personas, sistemas, servicios y datos m
 ::: {.map-node}
 ### Comercio digital
 
-Usa la conectividad para crear mercados, plataformas y productos digitales.
+Usa la conectividad para crear mercados, plataformas, productos digitales, modelos de ingresos y relaciones basadas en datos.
 :::
 
 ::: {.map-arrow}
@@ -61,4 +61,10 @@ Para redes, sigue una cadena simple: dispositivo, medio de conexión, protocolo,
 Para estudiar casos, parte por ética: identifica datos usados, actores afectados, beneficios, daños y responsables. Luego conecta con infraestructura, comercio o creación de sistemas según corresponda.
 
 [Repasar ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
+:::
+
+::: {.wide-card}
+Para comercio digital, identifica actores, tipo de intercambio, plataforma, producto, modelo de negocio, modelo de ingresos y datos usados para personalizar o coordinar la transacción.
+
+[Repasar comercio digital](../temas/comercio-digital.qmd){.study-button .secondary}
 :::
