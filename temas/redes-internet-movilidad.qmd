@@ -1,6 +1,6 @@
 ---
 title: "Redes, Internet y movilidad"
-description: "Guía conceptual sobre redes, Internet, servicios digitales y tecnologías móviles en sistemas de información."
+description: "Redes, Internet, servicios digitales y movilidad."
 ---
 
 ::: {.idea-central}
@@ -8,7 +8,7 @@ Las redes permiten que personas, dispositivos, aplicaciones y datos trabajen com
 :::
 
 ::: {.ojo-prueba}
-La clave es distinguir infraestructura de red, servicios de Internet y movilidad. Una aplicación puede estar bien diseñada, pero si falla la conectividad, la seguridad o el acceso móvil, el proceso organizacional también falla.
+La diferencia central está entre infraestructura de red, servicios de Internet y movilidad. Una aplicación puede estar bien diseñada, pero si falla la conectividad, la seguridad o el acceso móvil, el proceso organizacional también falla.
 :::
 
 ## Atajos del tema {#atajos-del-tema}
@@ -25,7 +25,7 @@ La clave es distinguir infraestructura de red, servicios de Internet y movilidad
 - [Esquemas simples](#esquemas-simples)
 - [Observaciones de prueba](#observaciones-de-prueba)
 - [Casos breves](#casos-breves)
-- [Preguntas conceptuales](#preguntas-conceptuales)
+- [Practicar este tema](#preguntas-conceptuales)
 :::
 
 ## Definiciones clave {#definiciones-clave}
@@ -33,30 +33,30 @@ La clave es distinguir infraestructura de red, servicios de Internet y movilidad
 ::: {.concept-list}
 - <span id="red-de-telecomunicaciones"></span>**[Red de telecomunicaciones](../repaso/glosario.qmd#red-de-telecomunicaciones):** conjunto de dispositivos, medios, reglas y servicios que permiten transmitir datos, voz, video o señales entre puntos.
 - <span id="conectividad"></span>**[Conectividad](../repaso/glosario.qmd#conectividad):** capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.
-- <span id="cliente-servidor"></span>**[Cliente/servidor](../repaso/glosario.qmd#cliente-servidor):** modelo donde un cliente solicita servicios o datos y un servidor los entrega bajo reglas de acceso.
-- <span id="conmutacion-de-paquetes"></span>**[Conmutación de paquetes](../repaso/glosario.qmd#conmutacion-de-paquetes):** forma de transmitir mensajes dividiéndolos en paquetes que viajan por la red y se reensamblan al llegar.
+- <span id="cliente-servidor"></span>**Cliente/servidor:** modelo donde un cliente solicita servicios o datos y un servidor los entrega bajo reglas de acceso.
+- <span id="conmutacion-de-paquetes"></span>**Conmutación de paquetes:** forma de transmitir mensajes dividiéndolos en paquetes que viajan por la red y se reensamblan al llegar.
 - <span id="protocolo"></span>**[Protocolo](../repaso/glosario.qmd#protocolo):** regla común que define cómo se formatean, envían, reciben o interpretan los datos.
 - <span id="tcp-ip"></span>**[TCP/IP](../repaso/glosario.qmd#tcp-ip):** familia de protocolos que permite conectar redes distintas y sostener el funcionamiento de Internet.
-- <span id="direccion-ip"></span>**[Dirección IP](../repaso/glosario.qmd#direccion-ip):** identificador lógico que permite ubicar un dispositivo o servicio dentro de una red.
-- <span id="dns"></span>**[DNS](../repaso/glosario.qmd#dns):** sistema que traduce nombres de dominio legibles por personas a direcciones IP.
-- <span id="ancho-de-banda"></span>**[Ancho de banda](../repaso/glosario.qmd#ancho-de-banda):** capacidad de transmisión de datos de un enlace durante un periodo.
-- <span id="latencia"></span>**[Latencia](../repaso/glosario.qmd#latencia):** demora percibida entre una solicitud y una respuesta.
-- <span id="red-de-area-local"></span>**[Red de área local](../repaso/glosario.qmd#red-de-area-local):** red que conecta dispositivos dentro de una oficina, sala, edificio o campus cercano.
-- <span id="red-de-area-amplia"></span>**[Red de área amplia](../repaso/glosario.qmd#red-de-area-amplia):** red que conecta ubicaciones distantes, normalmente usando enlaces de operadores o Internet.
+- <span id="direccion-ip"></span>**Dirección IP:** identificador lógico que permite ubicar un dispositivo o servicio dentro de una red.
+- <span id="dns"></span>**DNS:** sistema que traduce nombres de dominio legibles por personas a direcciones IP.
+- <span id="ancho-de-banda"></span>**Ancho de banda:** capacidad de transmisión de datos de un enlace durante un periodo.
+- <span id="latencia"></span>**Latencia:** demora percibida entre una solicitud y una respuesta.
+- <span id="red-de-area-local"></span>**Red de área local:** red que conecta dispositivos dentro de una oficina, sala, edificio o campus cercano.
+- <span id="red-de-area-amplia"></span>**Red de área amplia:** red que conecta ubicaciones distantes, normalmente usando enlaces de operadores o Internet.
 - <span id="internet"></span>**[Internet](../repaso/glosario.qmd#internet):** red global de redes que conecta millones de redes mediante estándares comunes.
-- <span id="world-wide-web"></span>**[World Wide Web](../repaso/glosario.qmd#world-wide-web):** servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.
-- <span id="intranet"></span>**[Intranet](../repaso/glosario.qmd#intranet):** red o sitio interno usado por una organización para compartir información y servicios privados.
-- <span id="extranet"></span>**[Extranet](../repaso/glosario.qmd#extranet):** extensión controlada de una intranet para socios, proveedores, clientes u otros actores autorizados.
-- <span id="proveedor-de-servicios-de-internet"></span>**[Proveedor de servicios de Internet](../repaso/glosario.qmd#proveedor-de-servicios-de-internet):** empresa u organización que entrega acceso a Internet.
+- <span id="world-wide-web"></span>**World Wide Web:** servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.
+- <span id="intranet"></span>**Intranet:** red o sitio interno usado por una organización para compartir información y servicios privados.
+- <span id="extranet"></span>**Extranet:** extensión controlada de una intranet para socios, proveedores, clientes u otros actores autorizados.
+- <span id="proveedor-de-servicios-de-internet"></span>**Proveedor de servicios de Internet:** empresa u organización que entrega acceso a Internet.
 - <span id="wi-fi"></span>**[Wi-Fi](../repaso/glosario.qmd#wi-fi):** tecnología de red inalámbrica local basada en estándares 802.11.
-- <span id="bluetooth"></span>**[Bluetooth](../repaso/glosario.qmd#bluetooth):** tecnología inalámbrica de corto alcance para conectar dispositivos personales o periféricos.
-- <span id="red-celular"></span>**[Red celular](../repaso/glosario.qmd#red-celular):** infraestructura móvil que conecta teléfonos y dispositivos mediante antenas y operadores.
-- <span id="voip"></span>**[VoIP](../repaso/glosario.qmd#voip):** transmisión de voz como datos digitales sobre redes IP.
+- <span id="bluetooth"></span>**Bluetooth:** tecnología inalámbrica de corto alcance para conectar dispositivos personales o periféricos.
+- <span id="red-celular"></span>**Red celular:** infraestructura móvil que conecta teléfonos y dispositivos mediante antenas y operadores.
+- <span id="voip"></span>**VoIP:** transmisión de voz como datos digitales sobre redes IP.
 - <span id="vpn"></span>**[VPN](../repaso/glosario.qmd#vpn):** conexión privada y cifrada creada sobre una red pública como Internet.
-- <span id="rfid"></span>**[RFID](../repaso/glosario.qmd#rfid):** identificación por radiofrecuencia para reconocer objetos, productos, personas o activos mediante etiquetas y lectores.
-- <span id="redes-de-sensores-inalambricas"></span>**[Redes de sensores inalámbricas](../repaso/glosario.qmd#redes-de-sensores-inalambricas):** redes de nodos que capturan datos del entorno y los envían para análisis.
+- <span id="rfid"></span>**RFID:** identificación por radiofrecuencia para reconocer objetos, productos, personas o activos mediante etiquetas y lectores.
+- <span id="redes-de-sensores-inalambricas"></span>**Redes de sensores inalámbricas:** redes de nodos que capturan datos del entorno y los envían para análisis.
 - <span id="internet-de-las-cosas"></span>**[Internet de las cosas](../repaso/glosario.qmd#internet-de-las-cosas):** conexión de objetos físicos con sensores, software y redes para monitorear o actuar sobre el mundo real.
-- <span id="seguridad-de-red"></span>**[Seguridad de red](../repaso/glosario.qmd#seguridad-de-red):** controles para proteger comunicaciones, dispositivos y servicios contra accesos, fallas o usos no autorizados.
+- <span id="seguridad-de-red"></span>**Seguridad de red:** controles para proteger comunicaciones, dispositivos y servicios contra accesos, fallas o usos no autorizados.
 :::
 
 ## La red como infraestructura del sistema {#red-infraestructura-sistema}
@@ -110,7 +110,7 @@ Las redes se clasifican de forma útil según el área que cubren:
 :::
 
 ::: {.ojo-prueba}
-No memorices solo siglas. Pregunta siempre: ¿qué distancia cubre?, ¿quién la administra?, ¿qué dispositivos conecta? y ¿qué proceso depende de ella?
+Las siglas importan menos que el alcance: qué distancia cubre la red, quién la administra, qué dispositivos conecta y qué proceso depende de ella.
 :::
 
 También es útil distinguir dos formas de organización:
@@ -247,8 +247,8 @@ Etiqueta RFID
 ## Observaciones de prueba {#observaciones-de-prueba}
 
 ::: {.wide-card}
-- Muy probable: explicar por qué una red es parte del sistema de información.
-- Muy probable: diferenciar Internet y Web.
+- Una evaluación puede pedir explicar por qué una red forma parte del sistema de información.
+- La diferencia entre Internet y Web suele usarse para detectar comprensión conceptual.
 - Diferencia infraestructura, protocolos y servicios.
 - TCP/IP se entiende como estándar que permite interoperabilidad.
 - LAN, WAN, Wi-Fi, Bluetooth y red celular no son sinónimos.
@@ -280,115 +280,34 @@ Etiqueta RFID
 **Videollamada de soporte:** una reunión puede fallar aunque "haya Internet" si existe poca capacidad, alta latencia, interferencia Wi-Fi o saturación de la red.
 :::
 
-## Preguntas conceptuales {#preguntas-conceptuales}
+## Practicar este tema {#preguntas-conceptuales}
 
-<div class="preguntas-practica">
-<details class="pregunta" id="pregunta-redes-01">
-<summary>Pregunta 1: ¿Por qué una red es parte del sistema de información y no solo soporte técnico?</summary>
+::: {.wide-card}
+Estas preguntas sirven como muestra rápida. El banco completo está centralizado en la página de repaso.
+
+[Ver las 20 preguntas de redes](../repaso/preguntas.qmd#redes-internet-movilidad){.study-button}
+:::
+
+::: {.preguntas-practica}
+<details class="pregunta" id="muestra-redes-sistema">
+<summary>¿Por qué una red es parte del sistema de información y no solo soporte técnico?</summary>
 <p>Porque permite que personas, procesos, aplicaciones y datos se conecten. Si la red falla, el sistema puede dejar de apoyar decisiones, atención o coordinación.</p>
 </details>
 
-<details class="pregunta" id="pregunta-redes-02">
-<summary>Pregunta 2: ¿Qué componentes básicos necesita una red sencilla?</summary>
-<p>Necesita dispositivos, interfaces de red, un medio de conexión, reglas o software de comunicación y equipos que dirijan el tráfico, como switches, puntos de acceso o routers.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-03">
-<summary>Pregunta 3: ¿Qué función cumple un protocolo?</summary>
-<p>Define reglas comunes para que los equipos sepan cómo enviar, recibir, ordenar e interpretar datos.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-04">
-<summary>Pregunta 4: ¿Qué es la conmutación de paquetes?</summary>
-<p>Es dividir un mensaje en paquetes pequeños que viajan por la red y se vuelven a ordenar al llegar a destino.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-05">
-<summary>Pregunta 5: ¿Por qué TCP/IP es importante?</summary>
-<p>Porque entrega un conjunto común de protocolos que permite conectar redes y equipos distintos, haciendo posible Internet y muchos servicios asociados.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-06">
-<summary>Pregunta 6: ¿Qué diferencia hay entre Internet y la Web?</summary>
+<details class="pregunta" id="muestra-redes-internet-web">
+<summary>¿Qué diferencia hay entre Internet y la Web?</summary>
 <p>Internet es la red global de redes. La Web es un servicio que usa Internet para acceder a páginas, enlaces y aplicaciones mediante navegadores.</p>
 </details>
 
-<details class="pregunta" id="pregunta-redes-07">
-<summary>Pregunta 7: ¿Qué problema resuelve DNS?</summary>
-<p>Permite usar nombres de dominio fáciles de recordar y traducirlos a direcciones IP que los equipos pueden localizar.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-08">
-<summary>Pregunta 8: ¿Qué diferencia hay entre ancho de banda y latencia?</summary>
-<p>El ancho de banda indica capacidad de transmisión. La latencia indica demora entre solicitud y respuesta.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-09">
-<summary>Pregunta 9: ¿Qué diferencia hay entre LAN y WAN?</summary>
-<p>Una LAN conecta dispositivos en un espacio cercano, como una oficina. Una WAN conecta ubicaciones distantes, como sedes de una organización.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-10">
-<summary>Pregunta 10: ¿Qué diferencia hay entre cliente/servidor e igual a igual?</summary>
-<p>En cliente/servidor, un servidor entrega servicios o datos a clientes. En igual a igual, los equipos comparten recursos directamente entre sí.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-11">
-<summary>Pregunta 11: ¿Qué diferencia hay entre intranet y extranet?</summary>
-<p>La intranet es privada para uso interno. La extranet abre acceso controlado a externos autorizados, como proveedores o clientes.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-12">
-<summary>Pregunta 12: ¿Para qué sirve una VPN?</summary>
-<p>Sirve para crear una conexión cifrada y privada sobre una red pública, normalmente para acceder de forma segura a recursos internos.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-13">
-<summary>Pregunta 13: ¿Qué es VoIP?</summary>
-<p>Es la transmisión de voz como datos digitales sobre redes IP, por ejemplo en telefonía por Internet o llamadas de aplicaciones.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-14">
-<summary>Pregunta 14: ¿Qué diferencia hay entre Wi-Fi y Bluetooth?</summary>
-<p>Wi-Fi se usa para conectar dispositivos a una red local o a Internet. Bluetooth se usa para conexiones personales de corto alcance y bajo consumo.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-15">
-<summary>Pregunta 15: ¿Qué aporta una red celular frente a una red Wi-Fi?</summary>
-<p>Aporta movilidad en áreas amplias mediante antenas y operadores, mientras que Wi-Fi depende de cobertura local cercana.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-16">
-<summary>Pregunta 16: ¿Qué permite RFID en una organización?</summary>
-<p>Permite identificar y rastrear objetos, productos, activos o personas mediante etiquetas y lectores de radiofrecuencia.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-17">
-<summary>Pregunta 17: ¿Qué relación hay entre sensores inalámbricos e Internet de las cosas?</summary>
-<p>Los sensores capturan datos del mundo físico y, conectados por redes, permiten que objetos y procesos formen parte de sistemas digitales.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-18">
-<summary>Pregunta 18: ¿Por qué la conectividad puede convertirse en un riesgo operativo?</summary>
+<details class="pregunta" id="muestra-redes-riesgo">
+<summary>¿Por qué la conectividad puede convertirse en un riesgo operativo?</summary>
 <p>Porque si procesos críticos dependen de la red, una falla de conexión, seguridad o proveedor puede detener atención, ventas o coordinación interna.</p>
 </details>
-
-<details class="pregunta" id="pregunta-redes-19">
-<summary>Pregunta 19: ¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?</summary>
-<p>Cambia el contexto de uso: hay redes variables, pantallas pequeñas, riesgo de pérdida del equipo, necesidad de sincronización y mayores exigencias de seguridad.</p>
-</details>
-
-<details class="pregunta" id="pregunta-redes-20">
-<summary>Pregunta 20: ¿Cómo conviene analizar un caso de redes en prueba?</summary>
-<p>Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes, riesgos de seguridad, impacto de una falla y medidas concretas de continuidad.</p>
-</details>
-</div>
+:::
 
 ## Referencias y fuente base {#referencias-fuente-base}
 
 ::: {.referencias-fuente}
-- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema base: telecomunicaciones, Internet y tecnología inalámbrica.
-- PDF local usado solo para contrastar conceptos, términos, casos y páginas: `libro_guia_295-343.pdf`. El texto extraído identifica el capítulo 7, "Telecomunicaciones, Internet y tecnología inalámbrica", con contenido de redes, Internet, servicios y tecnologías inalámbricas en paginación impresa aproximada 257-301. Desde la página impresa 302 comienza otro capítulo y no se usó como base de este tema.
-- Conceptos contrastados en el PDF: componentes de red, cliente/servidor, conmutación de paquetes, TCP/IP, tipos de red, Internet, Web, DNS, ISP, IPv6, VoIP, VPN, Wi-Fi, Bluetooth, redes celulares, RFID, redes de sensores e Internet de las cosas.
-- Apuntes de clase y material de etapa del curso.
+- Fuente base: Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición, secciones sobre telecomunicaciones, Internet y tecnología inalámbrica.
+- Apuntes de clase del curso.
 :::

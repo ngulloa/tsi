@@ -21,7 +21,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f85955529106639f99b9a66abd69255b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-caf81333e83b2128e3baa7a176d73074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,48 +95,48 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../index.html">
 <span class="menu-text">Inicio</span></a>
-  </li>  
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-temas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Temas</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">
         <li>
     <a class="dropdown-item" href="../temas/etica-datos-sociedad.html">
  <span class="dropdown-text">Ética, datos y sociedad</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/redes-internet-movilidad.html">
  <span class="dropdown-text">Redes, Internet y movilidad</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/comercio-digital.html">
  <span class="dropdown-text">Comercio digital</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/creacion-sistemas.html">
  <span class="dropdown-text">Creación y cambio de sistemas</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/glosario.html"> 
+    <a class="nav-link" href="../repaso/glosario.html">
 <span class="menu-text">Glosario</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/preguntas.html"> 
+    <a class="nav-link" href="../repaso/preguntas.html">
 <span class="menu-text">Preguntas</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/casos.html"> 
+    <a class="nav-link" href="../repaso/casos.html">
 <span class="menu-text">Casos</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../repaso/mapa-conceptual.html" aria-current="page"> 
+    <a class="nav-link active" href="../repaso/mapa-conceptual.html" aria-current="page">
 <span class="menu-text">Mapa conceptual</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -151,8 +151,8 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
+
+  <ul class="collapse">
   <li><a href="#ruta-general" id="toc-ruta-general" class="nav-link active" data-scroll-target="#ruta-general">Ruta general</a></li>
   <li><a href="#relaciones-clave" id="toc-relaciones-clave" class="nav-link" data-scroll-target="#relaciones-clave">Relaciones clave</a></li>
   <li><a href="#como-conectar-un-caso" id="toc-como-conectar-un-caso" class="nav-link" data-scroll-target="#como-conectar-un-caso">Cómo conectar un caso</a></li>
@@ -178,11 +178,11 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
@@ -297,9 +297,9 @@ ul.task-list li input[type="checkbox"] {
     var prefix = currentDepthPrefix();
     var links = [
       { label: "Inicio", href: prefix + "index.html", match: "/index.html" },
-      { label: "Temas", href: prefix + "index.html#temas", match: "#temas" },
+      { label: "Temas", href: prefix + "index.html#temas", match: "/temas/" },
       { label: "Preguntas", href: prefix + "repaso/preguntas.html", match: "/repaso/preguntas.html" },
-      { label: "Glosario", href: prefix + "repaso/glosario.html", match: "/repaso/glosario.html" }
+      { label: "Casos", href: prefix + "repaso/casos.html", match: "/repaso/casos.html" }
     ];
 
     var nav = document.createElement("nav");
@@ -314,8 +314,8 @@ ul.task-list li input[type="checkbox"] {
 
       if (
         (item.match === "/index.html" && current.endsWith("/index.html") && window.location.hash !== "#temas") ||
-        (item.match === "#temas" && window.location.hash === "#temas") ||
-        (item.match !== "#temas" && current.endsWith(item.match))
+        (item.match === "/temas/" && (current.indexOf("/temas/") !== -1 || window.location.hash === "#temas")) ||
+        (item.match !== "/temas/" && current.endsWith(item.match))
       ) {
         link.setAttribute("aria-current", "page");
       }
@@ -455,7 +455,7 @@ ul.task-list li input[type="checkbox"] {
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -475,11 +475,11 @@ ul.task-list li input[type="checkbox"] {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copiado");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -561,7 +561,7 @@ ul.task-list li input[type="checkbox"] {
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -636,7 +636,7 @@ ul.task-list li input[type="checkbox"] {
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -664,7 +664,7 @@ ul.task-list li input[type="checkbox"] {
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -688,7 +688,7 @@ ul.task-list li input[type="checkbox"] {
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -728,7 +728,7 @@ ul.task-list li input[type="checkbox"] {
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -854,12 +854,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Tecnologías y Sistemas de la Información</p>
-</div>   
+</div>
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Sitio estático generado con Quarto</p>
+<p>Guía de estudio TSI</p>
 </div>
   </div>
 </footer>

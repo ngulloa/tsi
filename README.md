@@ -1,12 +1,12 @@
 # Tecnologías y Sistemas de la Información
 
-Sitio educativo estático creado con Quarto para estudiar TSI desde celular. La organización es conceptual y no por capítulos: cada tema explica ideas centrales, definiciones, comparaciones, ejemplos, casos y preguntas con respuesta oculta.
+Repositorio de una guía Quarto para estudiar TSI desde celular. La organización es conceptual y no por capítulos: temas, glosario, preguntas, casos y mapa conceptual cumplen funciones distintas.
 
 ## Estructura
 
 - `index.qmd`: portada y accesos principales.
 - `temas/`: páginas conceptuales de ética, redes, comercio digital y creación/cambio de sistemas.
-- `repaso/`: glosario consolidado, preguntas, casos integradores y mapa conceptual.
+- `repaso/`: glosario, banco central de preguntas, casos aplicados y mapa conceptual.
 - `assets/css/styles.css`: diseño mobile-first.
 - `assets/js/interacciones.js`: navegación inferior móvil y mejoras ligeras.
 - `docs/`: salida renderizada para GitHub Pages.
@@ -15,8 +15,8 @@ Sitio educativo estático creado con Quarto para estudiar TSI desde celular. La 
 
 1. Leer la idea central de cada tema.
 2. Revisar definiciones clave y comparaciones importantes.
-3. Practicar preguntas con respuesta oculta.
-4. Resolver casos integradores conectando los cuatro temas.
+3. Practicar en el banco central de preguntas.
+4. Resolver casos aplicados e integradores.
 5. Usar el mapa conceptual para ordenar relaciones antes de una evaluación.
 
 ## Uso de componentes
@@ -58,9 +58,9 @@ Usa enlaces internos con ancla para conceptos relacionados, por ejemplo:
 
 Las referencias de páginas temáticas deben ir al final bajo `## Referencias y fuente base` y dentro de `::: {.referencias-fuente}`. El botón “volver arriba”, la barra de progreso y el recuerdo de preguntas abiertas se cargan desde `assets/js/interacciones.js`; si JavaScript falla, el contenido sigue siendo legible.
 
-## Fuentes y control de archivos
+## Control de archivos
 
-Los PDF locales y `MATERIAL_ETAPA.md` se usan como material de contraste o guía de etapa. No deben agregarse al commit ni publicarse dentro del sitio salvo que el curso lo indique explícitamente.
+No versionar PDFs, ZIPs ni archivos de preparación local. La publicación debe quedar contenida en fuentes Quarto, assets propios y la salida `docs/`.
 
 ## Desarrollo local
 

@@ -1,100 +1,435 @@
 ---
 title: "Preguntas"
-description: "Preguntas de repaso con respuestas ocultas para practicar los cuatro temas de TSI."
+description: "Banco central de preguntas de TSI."
 ---
 
 ::: {.home-intro}
-Lee la pregunta, responde antes de abrir la solución y compara la idea general, no la redacción exacta. La meta es explicar relaciones entre conceptos.
+Responde antes de abrir la solución. Luego compara conceptos, relaciones y precisión.
 :::
 
-## Bancos por tema {#bancos-por-tema}
+## Índice {#indice}
 
 ::: {.wide-card}
-Cada tema tiene un banco completo de 20 preguntas conceptuales con respuestas ocultas:
-
-- [Ética, datos y sociedad](../temas/etica-datos-sociedad.qmd#preguntas-conceptuales)
-- [Redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#preguntas-conceptuales)
-- [Comercio digital](../temas/comercio-digital.qmd#preguntas-conceptuales)
-- [Creación y cambio de sistemas](../temas/creacion-sistemas.qmd#preguntas-conceptuales)
-:::
-
-::: {.wide-card}
-Después de practicar preguntas, usa [casos integradores](casos.qmd#casos-integradores) para combinar temas y revisa el [mapa conceptual](mapa-conceptual.qmd) si necesitas ubicar relaciones.
+- [Ética, datos y sociedad](#etica-datos-sociedad)
+- [Redes, Internet y movilidad](#redes-internet-movilidad)
+- [Comercio digital](#comercio-digital)
+- [Creación y cambio de sistemas](#creacion-cambio-sistemas)
+- [Preguntas mixtas](#preguntas-mixtas)
 :::
 
 ## Ética, datos y sociedad {#etica-datos-sociedad}
 
 ::: {.preguntas-practica}
-<details class="pregunta" id="pregunta-etica-datos">
-<summary>¿Por qué la gestión de datos tiene una dimensión ética?</summary>
-<p>Porque los datos representan personas, decisiones y consecuencias. Su recolección, uso, conservación y protección pueden afectar privacidad, propiedad, responsabilidad y calidad de vida.</p>
+<details class="pregunta" id="pregunta-etica-01">
+<summary>Pregunta 1: ¿Por qué los sistemas de información generan dilemas éticos?</summary>
+<p>Porque permiten recopilar, cruzar, copiar y distribuir datos a gran escala, lo que puede afectar privacidad, propiedad, responsabilidad y vida cotidiana.</p>
 </details>
 
-<details class="pregunta" id="pregunta-calidad-informacion">
-<summary>¿Qué relación hay entre calidad de datos y decisiones injustas?</summary>
-<p>Si los datos son incompletos, erróneos, desactualizados o sesgados, el sistema puede producir decisiones incorrectas que afectan oportunidades, acceso o reputación.</p>
+<details class="pregunta" id="pregunta-etica-02">
+<summary>Pregunta 2: ¿Qué son las cinco dimensiones morales de la era de la información?</summary>
+<p>Son áreas para analizar dilemas: derechos de información, derechos de propiedad, responsabilidad y control, calidad del sistema y calidad de vida.</p>
 </details>
 
-<details class="pregunta" id="pregunta-responsabilidad-control">
-<summary>¿Qué significa rendición de cuentas en un sistema de información?</summary>
-<p>Significa poder identificar quién decidió, quién autorizó, qué datos se usaron y quién debe explicar o corregir una consecuencia.</p>
+<details class="pregunta" id="pregunta-etica-03">
+<summary>Pregunta 3: ¿Qué se entiende por derechos de información?</summary>
+<p>Se refiere a quién puede recopilar, acceder, usar, conservar y compartir información sobre personas u organizaciones.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-04">
+<summary>Pregunta 4: ¿Qué diferencia hay entre privacidad y seguridad?</summary>
+<p>La privacidad trata sobre el control del uso de datos personales. La seguridad trata sobre proteger esos datos contra accesos, daños o usos no autorizados.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-05">
+<summary>Pregunta 5: ¿Por qué las cookies son relevantes éticamente?</summary>
+<p>Porque pueden registrar comportamiento de navegación y apoyar seguimiento, perfilamiento o publicidad dirigida.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-06">
+<summary>Pregunta 6: ¿Qué son los bugs Web?</summary>
+<p>Son elementos discretos u ocultos en páginas o correos que permiten registrar visitas, aperturas o actividad del usuario.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-07">
+<summary>Pregunta 7: ¿Qué problema ético puede aparecer con el marketing dirigido?</summary>
+<p>Puede influir en usuarios a partir de perfiles que ellos no conocen o no controlan completamente.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-08">
+<summary>Pregunta 8: ¿Qué es Big Data desde una mirada ética?</summary>
+<p>Es el análisis de grandes volúmenes de datos para encontrar patrones, con riesgos de consentimiento débil, vigilancia, discriminación o decisiones opacas.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-09">
+<summary>Pregunta 9: ¿Qué es NORA?</summary>
+<p>Es el análisis que permite descubrir relaciones no evidentes entre datos, personas, eventos u organizaciones.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-10">
+<summary>Pregunta 10: ¿Qué son los derechos de propiedad en sistemas de información?</summary>
+<p>Son derechos sobre contenidos, software, datos, conocimiento o creaciones que pueden copiarse y distribuirse digitalmente.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-11">
+<summary>Pregunta 11: ¿Por qué la propiedad intelectual es difícil de proteger en Internet?</summary>
+<p>Porque los bienes digitales se copian, modifican y distribuyen con bajo costo y gran rapidez.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-12">
+<summary>Pregunta 12: ¿Qué es la rendición de cuentas?</summary>
+<p>Es la posibilidad de identificar quién tomó una decisión, quién autorizó una acción y quién debe explicar o corregir un daño.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-13">
+<summary>Pregunta 13: ¿Qué diferencia hay entre responsabilidad y responsabilidad legal?</summary>
+<p>La responsabilidad es hacerse cargo de consecuencias. La responsabilidad legal es una obligación reconocida por normas, contratos o tribunales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-14">
+<summary>Pregunta 14: ¿Qué significa calidad del sistema?</summary>
+<p>Que el sistema funcione de manera confiable, segura, correcta y adecuada para el contexto donde se usa.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-15">
+<summary>Pregunta 15: ¿Por qué la calidad de datos es un problema ético?</summary>
+<p>Porque datos erróneos, incompletos, desactualizados o sesgados pueden producir decisiones injustas o perjudiciales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-16">
+<summary>Pregunta 16: Da un ejemplo de daño causado por mala calidad de datos.</summary>
+<p>Un sistema de crédito podría rechazar a una persona porque mantiene una deuda antigua ya pagada.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-17">
+<summary>Pregunta 17: ¿Qué significa calidad de vida en este tema?</summary>
+<p>Se refiere a cómo los sistemas afectan bienestar, empleo, acceso, autonomía, vigilancia, salud mental y relaciones sociales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-18">
+<summary>Pregunta 18: ¿Qué es la brecha digital?</summary>
+<p>Es la desigualdad en acceso, habilidades o capacidad real de aprovechar tecnologías de información.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-19">
+<summary>Pregunta 19: ¿Qué es el tecnoestrés?</summary>
+<p>Es el estrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-etica-20">
+<summary>Pregunta 20: ¿Cómo conviene analizar un dilema ético en sistemas de información?</summary>
+<p>Identificando actores afectados, datos usados, beneficios, daños, responsabilidades, alternativas y principios aplicables.</p>
 </details>
 :::
 
 ## Redes, Internet y movilidad {#redes-internet-movilidad}
 
 ::: {.preguntas-practica}
-<details class="pregunta" id="pregunta-movilidad">
-<summary>¿Qué aporta la movilidad a un sistema de información?</summary>
-<p>Permite acceder a procesos y datos desde distintos lugares, pero exige más atención a conectividad, seguridad, sincronización, continuidad y experiencia de uso.</p>
+<details class="pregunta" id="pregunta-redes-01">
+<summary>Pregunta 1: ¿Por qué una red es parte del sistema de información y no solo soporte técnico?</summary>
+<p>Porque permite que personas, procesos, aplicaciones y datos se conecten. Si la red falla, el sistema puede dejar de apoyar decisiones, atención o coordinación.</p>
 </details>
 
-<details class="pregunta" id="pregunta-conectividad-riesgo">
-<summary>¿Por qué la conectividad puede convertirse en un riesgo operativo?</summary>
-<p>Porque cuando procesos críticos dependen de redes, una falla de conexión, seguridad o proveedor puede detener atención, ventas, coordinación o decisiones.</p>
+<details class="pregunta" id="pregunta-redes-02">
+<summary>Pregunta 2: ¿Qué componentes básicos necesita una red sencilla?</summary>
+<p>Necesita dispositivos, interfaces de red, un medio de conexión, reglas o software de comunicación y equipos que dirijan el tráfico, como switches, puntos de acceso o routers.</p>
 </details>
 
-<details class="pregunta" id="pregunta-internet-web">
-<summary>¿Qué diferencia hay entre Internet y la Web?</summary>
-<p>Internet es la red global de redes. La Web es un servicio que usa Internet mediante páginas, enlaces, navegadores y protocolos como HTTP.</p>
+<details class="pregunta" id="pregunta-redes-03">
+<summary>Pregunta 3: ¿Qué función cumple un protocolo?</summary>
+<p>Define reglas comunes para que los equipos sepan cómo enviar, recibir, ordenar e interpretar datos.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-04">
+<summary>Pregunta 4: ¿Qué es la conmutación de paquetes?</summary>
+<p>Es dividir un mensaje en paquetes pequeños que viajan por la red y se vuelven a ordenar al llegar a destino.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-05">
+<summary>Pregunta 5: ¿Por qué TCP/IP es importante?</summary>
+<p>Porque entrega un conjunto común de protocolos que permite conectar redes y equipos distintos, haciendo posible Internet y muchos servicios asociados.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-06">
+<summary>Pregunta 6: ¿Qué diferencia hay entre Internet y la Web?</summary>
+<p>Internet es la red global de redes. La Web es un servicio que usa Internet para acceder a páginas, enlaces y aplicaciones mediante navegadores.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-07">
+<summary>Pregunta 7: ¿Qué problema resuelve DNS?</summary>
+<p>Permite usar nombres de dominio fáciles de recordar y traducirlos a direcciones IP que los equipos pueden localizar.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-08">
+<summary>Pregunta 8: ¿Qué diferencia hay entre ancho de banda y latencia?</summary>
+<p>El ancho de banda indica capacidad de transmisión. La latencia indica demora entre solicitud y respuesta.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-09">
+<summary>Pregunta 9: ¿Qué diferencia hay entre LAN y WAN?</summary>
+<p>Una LAN conecta dispositivos en un espacio cercano, como una oficina. Una WAN conecta ubicaciones distantes, como sedes de una organización.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-10">
+<summary>Pregunta 10: ¿Qué diferencia hay entre cliente/servidor e igual a igual?</summary>
+<p>En cliente/servidor, un servidor entrega servicios o datos a clientes. En igual a igual, los equipos comparten recursos directamente entre sí.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-11">
+<summary>Pregunta 11: ¿Qué diferencia hay entre intranet y extranet?</summary>
+<p>La intranet es privada para uso interno. La extranet abre acceso controlado a externos autorizados, como proveedores o clientes.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-12">
+<summary>Pregunta 12: ¿Para qué sirve una VPN?</summary>
+<p>Sirve para crear una conexión cifrada y privada sobre una red pública, normalmente para acceder de forma segura a recursos internos.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-13">
+<summary>Pregunta 13: ¿Qué es VoIP?</summary>
+<p>Es la transmisión de voz como datos digitales sobre redes IP, por ejemplo en telefonía por Internet o llamadas de aplicaciones.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-14">
+<summary>Pregunta 14: ¿Qué diferencia hay entre Wi-Fi y Bluetooth?</summary>
+<p>Wi-Fi se usa para conectar dispositivos a una red local o a Internet. Bluetooth se usa para conexiones personales de corto alcance y bajo consumo.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-15">
+<summary>Pregunta 15: ¿Qué aporta una red celular frente a una red Wi-Fi?</summary>
+<p>Aporta movilidad en áreas amplias mediante antenas y operadores, mientras que Wi-Fi depende de cobertura local cercana.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-16">
+<summary>Pregunta 16: ¿Qué permite RFID en una organización?</summary>
+<p>Permite identificar y rastrear objetos, productos, activos o personas mediante etiquetas y lectores de radiofrecuencia.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-17">
+<summary>Pregunta 17: ¿Qué relación hay entre sensores inalámbricos e Internet de las cosas?</summary>
+<p>Los sensores capturan datos del mundo físico y, conectados por redes, permiten que objetos y procesos formen parte de sistemas digitales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-18">
+<summary>Pregunta 18: ¿Por qué la conectividad puede convertirse en un riesgo operativo?</summary>
+<p>Porque si procesos críticos dependen de la red, una falla de conexión, seguridad o proveedor puede detener atención, ventas o coordinación interna.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-19">
+<summary>Pregunta 19: ¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?</summary>
+<p>Cambia el contexto de uso: hay redes variables, pantallas pequeñas, riesgo de pérdida del equipo, necesidad de sincronización y mayores exigencias de seguridad.</p>
+</details>
+
+<details class="pregunta" id="pregunta-redes-20">
+<summary>Pregunta 20: ¿Cómo conviene analizar un caso de redes en prueba?</summary>
+<p>Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes, riesgos de seguridad, impacto de una falla y medidas concretas de continuidad.</p>
 </details>
 :::
 
 ## Comercio digital {#comercio-digital}
 
 ::: {.preguntas-practica}
-<details class="pregunta" id="pregunta-mercado-digital">
-<summary>¿Qué caracteriza a un mercado digital?</summary>
-<p>La interacción entre oferentes y compradores ocurre mediante canales digitales, con mayor disponibilidad de información y menor fricción para comparar opciones.</p>
+<details class="pregunta" id="pregunta-comercio-01">
+<summary>Pregunta 1: ¿Qué es el e-commerce?</summary>
+<p>Es la compra, venta o intercambio de bienes, servicios, contenido o información mediante redes digitales, especialmente Internet y la Web.</p>
 </details>
 
-<details class="pregunta" id="pregunta-modelo-ingresos-comercio">
-<summary>¿Qué diferencia hay entre modelo de negocio y modelo de ingresos?</summary>
-<p>El modelo de negocio explica cómo se crea, entrega y captura valor. El modelo de ingresos explica cómo entra dinero, por ejemplo mediante suscripción, publicidad o comisión.</p>
+<details class="pregunta" id="pregunta-comercio-02">
+<summary>Pregunta 2: ¿Qué diferencia hay entre e-commerce y comercio digital?</summary>
+<p>El e-commerce se centra en transacciones digitales. El comercio digital incluye además plataformas, datos, publicidad, pagos, distribución, confianza y modelos de ingresos.</p>
 </details>
 
-<details class="pregunta" id="pregunta-marketplace-etailer">
-<summary>¿Qué diferencia hay entre marketplace y e-tailer?</summary>
-<p>El marketplace conecta a compradores con vendedores externos. El e-tailer vende directamente su propio catálogo como minorista online.</p>
+<details class="pregunta" id="pregunta-comercio-03">
+<summary>Pregunta 3: ¿Qué es un mercado digital?</summary>
+<p>Es un espacio en línea donde compradores y vendedores se encuentran, comparan información y pueden realizar intercambios.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-04">
+<summary>Pregunta 4: ¿Qué efecto tiene Internet sobre los costos de búsqueda?</summary>
+<p>Los reduce, porque permite encontrar y comparar precios, características, disponibilidad y reputación con mayor facilidad.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-05">
+<summary>Pregunta 5: ¿Qué es la desintermediación?</summary>
+<p>Es la reducción o eliminación de intermediarios tradicionales entre productor, vendedor y cliente, aunque pueden aparecer nuevos intermediarios digitales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-06">
+<summary>Pregunta 6: ¿Qué es B2C?</summary>
+<p>Es comercio electrónico de empresa a consumidor, como una tienda online o una plataforma de suscripción que vende directamente a personas.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-07">
+<summary>Pregunta 7: ¿Qué es B2B?</summary>
+<p>Es comercio electrónico entre empresas, como plataformas de compra de insumos, componentes o servicios empresariales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-08">
+<summary>Pregunta 8: ¿Qué es C2C?</summary>
+<p>Es comercio entre consumidores, normalmente mediado por una plataforma que facilita publicación, búsqueda, reputación y pago.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-09">
+<summary>Pregunta 9: ¿Qué es m-commerce?</summary>
+<p>Es comercio electrónico realizado desde dispositivos móviles, con uso frecuente de apps, pagos móviles, notificaciones y ubicación.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-10">
+<summary>Pregunta 10: ¿Qué diferencia hay entre marketplace y e-tailer?</summary>
+<p>El marketplace conecta compradores con vendedores externos. El e-tailer vende directamente su propio catálogo como minorista online.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-11">
+<summary>Pregunta 11: ¿Qué es un producto digital?</summary>
+<p>Es un bien que puede almacenarse, copiarse, distribuirse o consumirse en formato digital, como música, video, software, libros electrónicos o cursos.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-12">
+<summary>Pregunta 12: ¿Por qué los productos digitales cambian la economía de distribución?</summary>
+<p>Porque pueden reproducirse y distribuirse por red con bajo costo marginal, sin inventario ni entrega física tradicional.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-13">
+<summary>Pregunta 13: ¿Qué diferencia hay entre modelo de negocio y modelo de ingresos?</summary>
+<p>El modelo de negocio explica cómo se crea, entrega y captura valor. El modelo de ingresos explica específicamente cómo obtiene dinero la organización.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-14">
+<summary>Pregunta 14: ¿Qué es el modelo de ingresos por publicidad digital?</summary>
+<p>Consiste en obtener ingresos por mostrar anuncios, vender espacios, segmentar audiencias o medir resultados en canales digitales.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-15">
+<summary>Pregunta 15: ¿Qué es el modelo de suscripción?</summary>
+<p>Consiste en cobrar periódicamente por acceso continuo a contenido, servicio o funcionalidades.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-16">
+<summary>Pregunta 16: ¿Qué es freemium?</summary>
+<p>Es un modelo donde una versión básica es gratuita y se cobra por beneficios, funciones, contenido o experiencia ampliada.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-17">
+<summary>Pregunta 17: ¿Qué es una comisión por transacción?</summary>
+<p>Es una tarifa que la plataforma cobra por cada venta, reserva, pedido, viaje u operación realizada.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-18">
+<summary>Pregunta 18: ¿Qué es marketing conductual?</summary>
+<p>Es publicidad o personalización basada en comportamiento observado, como búsquedas, clics, compras, navegación o uso de una app.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-19">
+<summary>Pregunta 19: ¿Qué relación hay entre comercio social y redes sociales?</summary>
+<p>El comercio social usa interacción, comunidades, reseñas, recomendaciones e influencia social para atraer usuarios y apoyar decisiones de compra.</p>
+</details>
+
+<details class="pregunta" id="pregunta-comercio-20">
+<summary>Pregunta 20: ¿Cómo se relacionan comercio digital y privacidad?</summary>
+<p>El comercio digital usa datos para recomendar, personalizar, segmentar y medir. Eso mejora experiencia y ventas, pero exige límites claros sobre consentimiento, seguimiento y uso de información personal.</p>
 </details>
 :::
 
 ## Creación y cambio de sistemas {#creacion-cambio-sistemas}
 
 ::: {.preguntas-practica}
-<details class="pregunta" id="pregunta-tecnologia-organizacion">
-<summary>¿Por qué no basta con instalar tecnología para mejorar una organización?</summary>
-<p>Porque también cambian procesos, roles, hábitos, datos y criterios de decisión. Sin gestión del cambio, la solución puede no ser adoptada o no resolver el problema.</p>
+<details class="pregunta" id="pregunta-creacion-01">
+<summary>Pregunta 1: ¿Por qué crear un sistema implica cambio organizacional?</summary>
+<p>Porque modifica procesos, roles, decisiones, flujos de información, controles y hábitos de trabajo, no solo tecnología.</p>
 </details>
 
-<details class="pregunta" id="pregunta-requerimientos">
-<summary>¿Qué función cumplen los requerimientos?</summary>
-<p>Definen qué problema debe resolver el sistema, qué necesita cada usuario y cómo se evaluará si la solución funciona.</p>
+<details class="pregunta" id="pregunta-creacion-02">
+<summary>Pregunta 2: ¿Qué es desarrollo de sistemas?</summary>
+<p>Es el proceso organizado de analizar una necesidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.</p>
 </details>
 
-<details class="pregunta" id="pregunta-conversion">
-<summary>¿Qué diferencia hay entre conversión directa, paralela, piloto y por fases?</summary>
-<p>La directa reemplaza todo de una vez; la paralela mantiene ambos sistemas temporalmente; la piloto parte en un área acotada; la por fases despliega gradualmente por módulos, sedes o funciones.</p>
+<details class="pregunta" id="pregunta-creacion-03">
+<summary>Pregunta 3: Ordena los cuatro niveles de cambio habilitado por TI de menor a mayor impacto.</summary>
+<p>Automatización, racionalización, rediseño de procesos y cambio de paradigma.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-04">
+<summary>Pregunta 4: ¿Qué diferencia hay entre automatización y racionalización?</summary>
+<p>La automatización digitaliza una tarea existente. La racionalización simplifica y mejora el procedimiento antes o junto con digitalizar.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-05">
+<summary>Pregunta 5: ¿Qué diferencia hay entre rediseño de procesos y cambio de paradigma?</summary>
+<p>El rediseño transforma profundamente un proceso; el cambio de paradigma transforma el modelo general de operación o negocio.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-06">
+<summary>Pregunta 6: ¿Para qué sirve BPM?</summary>
+<p>Sirve para analizar, modelar, mejorar, ejecutar y medir procesos de negocio de manera continua.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-07">
+<summary>Pregunta 7: ¿Qué es análisis de sistemas?</summary>
+<p>Es estudiar el problema, sistema actual, actores, causas, alternativas y requerimientos que debe cumplir una solución.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-08">
+<summary>Pregunta 8: ¿Qué es diseño de sistemas?</summary>
+<p>Es definir cómo se construirá o configurará la solución: datos, procesos, interfaces, controles, reportes e infraestructura.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-09">
+<summary>Pregunta 9: ¿Por qué los requerimientos son críticos?</summary>
+<p>Porque orientan todo el diseño y permiten evaluar si el sistema realmente resuelve la necesidad de la organización.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-10">
+<summary>Pregunta 10: ¿Qué etapas suelen aparecer en el proceso básico de desarrollo?</summary>
+<p>Análisis, diseño, programación o construcción, pruebas, conversión, producción y mantenimiento.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-11">
+<summary>Pregunta 11: ¿Qué debe contener un plan de prueba?</summary>
+<p>Condiciones a probar, datos de prueba, resultados esperados, responsables, criterios de aprobación y acciones frente a fallas.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-12">
+<summary>Pregunta 12: ¿Qué diferencia hay entre prueba de sistema y prueba de aceptación?</summary>
+<p>La prueba de sistema evalúa la integración y funcionamiento completo; la de aceptación confirma con usuarios y responsables que está listo para operar.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-13">
+<summary>Pregunta 13: ¿Qué es conversión?</summary>
+<p>Es el paso del sistema antiguo al nuevo, incluyendo datos, procedimientos, usuarios, capacitación y operación.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-14">
+<summary>Pregunta 14: ¿Qué diferencia hay entre conversión directa y paralela?</summary>
+<p>La directa reemplaza el sistema anterior de una vez; la paralela mantiene ambos sistemas temporalmente para comparar y reducir riesgo.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-15">
+<summary>Pregunta 15: ¿Cuándo conviene usar conversión piloto o por fases?</summary>
+<p>Cuando se quiere reducir riesgo implementando primero en un área limitada o desplegando gradualmente por módulos, sedes o funciones.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-16">
+<summary>Pregunta 16: ¿Qué es mantenimiento de sistemas?</summary>
+<p>Es corregir, adaptar y mejorar el sistema después de su puesta en producción para mantenerlo útil y confiable.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-17">
+<summary>Pregunta 17: ¿Qué caracteriza al ciclo de vida tradicional?</summary>
+<p>Es un método secuencial y formal, con etapas definidas, documentación y aprobaciones antes de avanzar.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-18">
+<summary>Pregunta 18: ¿Cuándo conviene usar prototipado?</summary>
+<p>Cuando los requerimientos son inciertos, los usuarios necesitan visualizar la solución o la interfaz es importante para definir el sistema.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-19">
+<summary>Pregunta 19: ¿Qué ventaja y qué riesgo tiene usar paquetes de software?</summary>
+<p>La ventaja es reducir tiempo y costo de construcción. El riesgo es que la organización deba adaptar procesos o personalizar demasiado el paquete.</p>
+</details>
+
+<details class="pregunta" id="pregunta-creacion-20">
+<summary>Pregunta 20: ¿Qué caracteriza al desarrollo ágil?</summary>
+<p>Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, priorización continua y adaptación a cambios.</p>
 </details>
 :::
 

@@ -39,14 +39,14 @@ website:
         text: Mapa conceptual
   page-footer:
     left: "Tecnologías y Sistemas de la Información"
-    right: "Sitio estático generado con Quarto"
+    right: "Guía de estudio TSI"
 
 format:
   html:
-    theme: cosmo
+    theme: default
     css: assets/css/styles.css
     include-after-body: assets/js/interacciones.js
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     smooth-scroll: true
     link-external-newwindow: true

@@ -1,6 +1,6 @@
 ---
 title: "Creación y cambio de sistemas"
-description: "Guía conceptual sobre desarrollo de sistemas, cambio organizacional, pruebas, conversión y métodos de construcción."
+description: "Desarrollo de sistemas y cambio organizacional."
 ---
 
 ::: {.idea-central}
@@ -8,7 +8,7 @@ Crear un sistema de información no es solo programar. Es transformar una necesi
 :::
 
 ::: {.ojo-prueba}
-La clave es explicar qué cambia en la organización, qué requerimientos debe cumplir el sistema, cómo se valida la solución y qué método de desarrollo conviene según el nivel de incertidumbre y riesgo.
+En una evaluación, este tema suele pedir explicar qué cambia en la organización, qué requerimientos debe cumplir el sistema, cómo se valida la solución y qué método conviene según incertidumbre y riesgo.
 :::
 
 ## Atajos del tema {#atajos-del-tema}
@@ -30,7 +30,7 @@ La clave es explicar qué cambia en la organización, qué requerimientos debe c
 - [Comparaciones importantes](#comparaciones-importantes)
 - [Ejemplos aplicados](#ejemplos-aplicados)
 - [Casos breves](#casos-breves)
-- [Preguntas conceptuales](#preguntas-conceptuales)
+- [Practicar este tema](#preguntas-conceptuales)
 :::
 
 ## Definiciones clave {#definiciones-clave}
@@ -38,42 +38,42 @@ La clave es explicar qué cambia en la organización, qué requerimientos debe c
 ::: {.concept-list}
 - <span id="desarrollo-de-sistemas"></span>**[Desarrollo de sistemas](../repaso/glosario.qmd#desarrollo-de-sistemas):** proceso organizado para analizar un problema u oportunidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.
 - <span id="cambio-organizacional"></span>**[Cambio organizacional](../repaso/glosario.qmd#cambio-organizacional):** modificación en procesos, roles, decisiones, cultura, responsabilidades o formas de trabajo.
-- <span id="automatizacion"></span>**[Automatización](../repaso/glosario.qmd#automatizacion):** uso de tecnología para ejecutar con más eficiencia una tarea existente.
-- <span id="racionalizacion"></span>**[Racionalización](../repaso/glosario.qmd#racionalizacion):** simplificación y mejora de procedimientos antes o junto con su digitalización.
-- <span id="rediseno-de-procesos"></span>**[Rediseño de procesos](../repaso/glosario.qmd#rediseno-de-procesos):** replanteamiento profundo de un proceso para cambiar flujos, responsabilidades, pasos y resultados.
-- <span id="cambio-de-paradigma"></span>**[Cambio de paradigma](../repaso/glosario.qmd#cambio-de-paradigma):** transformación radical del modelo de operación o negocio habilitada por tecnología.
-- <span id="bpm"></span>**[BPM](../repaso/glosario.qmd#bpm):** enfoque para analizar, modelar, mejorar, ejecutar y medir procesos de negocio.
-- <span id="administracion-de-procesos-de-negocios"></span>**[Administración de procesos de negocios](../repaso/glosario.qmd#administracion-de-procesos-de-negocios):** gestión continua de procesos para mantenerlos alineados con objetivos, reglas y desempeño.
+- <span id="automatizacion"></span>**Automatización:** uso de tecnología para ejecutar con más eficiencia una tarea existente.
+- <span id="racionalizacion"></span>**Racionalización:** simplificación y mejora de procedimientos antes o junto con su digitalización.
+- <span id="rediseno-de-procesos"></span>**Rediseño de procesos:** replanteamiento profundo de un proceso para cambiar flujos, responsabilidades, pasos y resultados.
+- <span id="cambio-de-paradigma"></span>**Cambio de paradigma:** transformación radical del modelo de operación o negocio habilitada por tecnología.
+- <span id="bpm"></span>**BPM:** enfoque para analizar, modelar, mejorar, ejecutar y medir procesos de negocio.
+- <span id="administracion-de-procesos-de-negocios"></span>**Administración de procesos de negocios:** gestión continua de procesos para mantenerlos alineados con objetivos, reglas y desempeño.
 - <span id="analisis-de-sistemas"></span>**[Análisis de sistemas](../repaso/glosario.qmd#analisis-de-sistemas):** estudio del problema, sistema actual, actores, alternativas y requerimientos de información.
 - <span id="requerimientos"></span>**[Requerimientos](../repaso/glosario.qmd#requerimientos):** condiciones, funciones, datos, reglas y restricciones que la solución debe cumplir.
 - <span id="diseno-de-sistemas"></span>**[Diseño de sistemas](../repaso/glosario.qmd#diseno-de-sistemas):** definición de cómo la solución cumplirá los requerimientos mediante datos, procesos, interfaces, controles y arquitectura.
-- <span id="programacion"></span>**[Programación](../repaso/glosario.qmd#programacion):** traducción del diseño en software ejecutable, configuración o integración técnica.
+- <span id="programacion"></span>**Programación:** traducción del diseño en software ejecutable, configuración o integración técnica.
 - <span id="pruebas"></span>**[Pruebas](../repaso/glosario.qmd#pruebas):** verificación de que componentes, sistema y aceptación de usuarios funcionan según lo esperado.
-- <span id="plan-de-prueba"></span>**[Plan de prueba](../repaso/glosario.qmd#plan-de-prueba):** conjunto de condiciones, datos, resultados esperados, responsables y criterios para evaluar el sistema.
+- <span id="plan-de-prueba"></span>**Plan de prueba:** conjunto de condiciones, datos, resultados esperados, responsables y criterios para evaluar el sistema.
 - <span id="conversion"></span>**[Conversión](../repaso/glosario.qmd#conversion):** paso desde el sistema antiguo al nuevo, incluyendo datos, usuarios, procedimientos y operación.
-- <span id="conversion-directa"></span>**[Conversión directa](../repaso/glosario.qmd#conversion-directa):** reemplazo completo del sistema anterior en una fecha definida.
-- <span id="conversion-paralela"></span>**[Conversión paralela](../repaso/glosario.qmd#conversion-paralela):** operación temporal de sistema antiguo y nuevo para comparar resultados y reducir riesgo.
-- <span id="conversion-piloto"></span>**[Conversión piloto](../repaso/glosario.qmd#conversion-piloto):** implementación inicial en un área limitada antes de extender la solución.
-- <span id="conversion-por-fases"></span>**[Conversión por fases](../repaso/glosario.qmd#conversion-por-fases):** incorporación gradual por funciones, módulos, sedes o grupos de usuarios.
-- <span id="produccion"></span>**[Producción](../repaso/glosario.qmd#produccion):** operación real del sistema con usuarios, datos y procesos cotidianos.
-- <span id="mantenimiento"></span>**[Mantenimiento](../repaso/glosario.qmd#mantenimiento):** corrección, adaptación y mejora del sistema después de su puesta en producción.
-- <span id="auditoria-posimplementacion"></span>**[Auditoría posimplementación](../repaso/glosario.qmd#auditoria-posimplementacion):** revisión posterior para evaluar si el sistema produjo beneficios, cumplió requerimientos y dejó aprendizajes.
-- <span id="ciclo-de-vida-tradicional"></span>**[Ciclo de vida tradicional](../repaso/glosario.qmd#ciclo-de-vida-tradicional):** método secuencial y formal de desarrollo con etapas aprobadas antes de avanzar.
-- <span id="prototipado"></span>**[Prototipado](../repaso/glosario.qmd#prototipado):** construcción rápida de una versión preliminar para aprender con usuarios y refinar requerimientos.
-- <span id="desarrollo-del-usuario-final"></span>**[Desarrollo del usuario final](../repaso/glosario.qmd#desarrollo-del-usuario-final):** creación de aplicaciones simples por usuarios no especialistas para necesidades locales.
-- <span id="paquetes-de-software"></span>**[Paquetes de software](../repaso/glosario.qmd#paquetes-de-software):** aplicaciones ya construidas que se adquieren, configuran y adaptan para una función común.
-- <span id="outsourcing"></span>**[Outsourcing](../repaso/glosario.qmd#outsourcing):** contratación externa de desarrollo, operación, soporte o servicios tecnológicos.
-- <span id="rad"></span>**[RAD](../repaso/glosario.qmd#rad):** desarrollo rápido de aplicaciones mediante herramientas, prototipos, componentes y ciclos cortos.
+- <span id="conversion-directa"></span>**Conversión directa:** reemplazo completo del sistema anterior en una fecha definida.
+- <span id="conversion-paralela"></span>**Conversión paralela:** operación temporal de sistema antiguo y nuevo para comparar resultados y reducir riesgo.
+- <span id="conversion-piloto"></span>**Conversión piloto:** implementación inicial en un área limitada antes de extender la solución.
+- <span id="conversion-por-fases"></span>**Conversión por fases:** incorporación gradual por funciones, módulos, sedes o grupos de usuarios.
+- <span id="produccion"></span>**Producción:** operación real del sistema con usuarios, datos y procesos cotidianos.
+- <span id="mantenimiento"></span>**Mantenimiento:** corrección, adaptación y mejora del sistema después de su puesta en producción.
+- <span id="auditoria-posimplementacion"></span>**Auditoría posimplementación:** revisión posterior para evaluar si el sistema produjo beneficios, cumplió requerimientos y dejó aprendizajes.
+- <span id="ciclo-de-vida-tradicional"></span>**Ciclo de vida tradicional:** método secuencial y formal de desarrollo con etapas aprobadas antes de avanzar.
+- <span id="prototipado"></span>**Prototipado:** construcción rápida de una versión preliminar para aprender con usuarios y refinar requerimientos.
+- <span id="desarrollo-del-usuario-final"></span>**Desarrollo del usuario final:** creación de aplicaciones simples por usuarios no especialistas para necesidades locales.
+- <span id="paquetes-de-software"></span>**Paquetes de software:** aplicaciones ya construidas que se adquieren, configuran y adaptan para una función común.
+- <span id="outsourcing"></span>**Outsourcing:** contratación externa de desarrollo, operación, soporte o servicios tecnológicos.
+- <span id="rad"></span>**RAD:** desarrollo rápido de aplicaciones mediante herramientas, prototipos, componentes y ciclos cortos.
 - <span id="desarrollo-agil"></span>**[Desarrollo ágil](../repaso/glosario.qmd#desarrollo-agil):** enfoque iterativo con entregas frecuentes, colaboración con usuarios y adaptación continua.
-- <span id="componentes"></span>**[Componentes](../repaso/glosario.qmd#componentes):** piezas reutilizables de software que encapsulan una función y pueden combinarse con otras.
-- <span id="servicios-web"></span>**[Servicios Web](../repaso/glosario.qmd#servicios-web):** servicios reutilizables accesibles por estándares de red para integrar aplicaciones.
-- <span id="desarrollo-movil"></span>**[Desarrollo móvil](../repaso/glosario.qmd#desarrollo-movil):** diseño y construcción de soluciones para teléfonos, tabletas y contextos de uso móvil.
-- <span id="aplicacion-nativa"></span>**[Aplicación nativa](../repaso/glosario.qmd#aplicacion-nativa):** app creada para una plataforma móvil específica y capaz de usar recursos del dispositivo.
-- <span id="aplicacion-web-movil"></span>**[Aplicación Web móvil](../repaso/glosario.qmd#aplicacion-web-movil):** aplicación accesible desde navegador y adaptada a pantallas y condiciones móviles.
-- <span id="metodologias-estructuradas"></span>**[Metodologías estructuradas](../repaso/glosario.qmd#metodologias-estructuradas):** técnicas de análisis y diseño que modelan procesos, flujos de datos y módulos de forma ordenada.
-- <span id="desarrollo-orientado-a-objetos"></span>**[Desarrollo orientado a objetos](../repaso/glosario.qmd#desarrollo-orientado-a-objetos):** enfoque que modela el sistema como objetos que combinan datos y comportamientos.
-- <span id="uml"></span>**[UML](../repaso/glosario.qmd#uml):** lenguaje de modelado visual para representar requisitos, clases, interacciones y estructura de software.
-- <span id="case"></span>**[CASE](../repaso/glosario.qmd#case):** herramientas de ingeniería de software asistida por computadora para documentar, modelar, generar y controlar desarrollo.
+- <span id="componentes"></span>**Componentes:** piezas reutilizables de software que encapsulan una función y pueden combinarse con otras.
+- <span id="servicios-web"></span>**Servicios Web:** servicios reutilizables accesibles por estándares de red para integrar aplicaciones.
+- <span id="desarrollo-movil"></span>**Desarrollo móvil:** diseño y construcción de soluciones para teléfonos, tabletas y contextos de uso móvil.
+- <span id="aplicacion-nativa"></span>**Aplicación nativa:** app creada para una plataforma móvil específica y capaz de usar recursos del dispositivo.
+- <span id="aplicacion-web-movil"></span>**Aplicación Web móvil:** aplicación accesible desde navegador y adaptada a pantallas y condiciones móviles.
+- <span id="metodologias-estructuradas"></span>**Metodologías estructuradas:** técnicas de análisis y diseño que modelan procesos, flujos de datos y módulos de forma ordenada.
+- <span id="desarrollo-orientado-a-objetos"></span>**Desarrollo orientado a objetos:** enfoque que modela el sistema como objetos que combinan datos y comportamientos.
+- <span id="uml"></span>**UML:** lenguaje de modelado visual para representar requisitos, clases, interacciones y estructura de software.
+- <span id="case"></span>**CASE:** herramientas de ingeniería de software asistida por computadora para documentar, modelar, generar y controlar desarrollo.
 :::
 
 ## Crear sistemas como cambio organizacional {#crear-sistemas-como-cambio-organizacional}
@@ -354,123 +354,43 @@ La decisión no es "nativa siempre es mejor". Depende de usuarios, presupuesto, 
 ## Observaciones de prueba {#observaciones-de-prueba}
 
 ::: {.wide-card}
-- Muy probable: diferenciar análisis y diseño.
-- Muy probable: ordenar automatización, racionalización, rediseño y cambio de paradigma.
-- Muy probable: explicar etapas del desarrollo de sistemas.
-- Muy probable: comparar ciclo de vida tradicional, prototipado y desarrollo ágil.
-- Muy probable: distinguir tipos de conversión.
+- Análisis y diseño suelen aparecer como comparación directa.
+- Automatización, racionalización, rediseño y cambio de paradigma conviene ordenarlos por impacto organizacional.
+- Las etapas del desarrollo de sistemas se entienden mejor como una secuencia de decisiones, no solo como una lista.
+- Ciclo de vida tradicional, prototipado y desarrollo ágil suelen compararse por riesgo, incertidumbre y participación de usuarios.
+- Los tipos de conversión se distinguen por velocidad, costo, alcance y riesgo.
 - No olvides que pruebas incluyen usuarios, datos esperados y criterios de aceptación.
 - En casos, identifica proceso afectado, actores, requerimientos, método de implementación, riesgos y forma de evaluar resultados.
 :::
 
-## Preguntas conceptuales {#preguntas-conceptuales}
+## Practicar este tema {#preguntas-conceptuales}
 
-<div class="preguntas-practica">
-<details class="pregunta" id="pregunta-creacion-01">
-<summary>Pregunta 1: ¿Por qué crear un sistema implica cambio organizacional?</summary>
+::: {.wide-card}
+Estas preguntas sirven como muestra rápida. El banco completo está centralizado en la página de repaso.
+
+[Ver las 20 preguntas de creación de sistemas](../repaso/preguntas.qmd#creacion-cambio-sistemas){.study-button}
+:::
+
+::: {.preguntas-practica}
+<details class="pregunta" id="muestra-creacion-cambio">
+<summary>¿Por qué crear un sistema implica cambio organizacional?</summary>
 <p>Porque modifica procesos, roles, decisiones, flujos de información, controles y hábitos de trabajo, no solo tecnología.</p>
 </details>
 
-<details class="pregunta" id="pregunta-creacion-02">
-<summary>Pregunta 2: ¿Qué es desarrollo de sistemas?</summary>
-<p>Es el proceso organizado de analizar una necesidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-03">
-<summary>Pregunta 3: Ordena los cuatro niveles de cambio habilitado por TI de menor a mayor impacto.</summary>
-<p>Automatización, racionalización, rediseño de procesos y cambio de paradigma.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-04">
-<summary>Pregunta 4: ¿Qué diferencia hay entre automatización y racionalización?</summary>
-<p>La automatización digitaliza una tarea existente. La racionalización simplifica y mejora el procedimiento antes o junto con digitalizar.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-05">
-<summary>Pregunta 5: ¿Qué diferencia hay entre rediseño de procesos y cambio de paradigma?</summary>
-<p>El rediseño transforma profundamente un proceso; el cambio de paradigma transforma el modelo general de operación o negocio.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-06">
-<summary>Pregunta 6: ¿Para qué sirve BPM?</summary>
-<p>Sirve para analizar, modelar, mejorar, ejecutar y medir procesos de negocio de manera continua.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-07">
-<summary>Pregunta 7: ¿Qué es análisis de sistemas?</summary>
-<p>Es estudiar el problema, sistema actual, actores, causas, alternativas y requerimientos que debe cumplir una solución.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-08">
-<summary>Pregunta 8: ¿Qué es diseño de sistemas?</summary>
-<p>Es definir cómo se construirá o configurará la solución: datos, procesos, interfaces, controles, reportes e infraestructura.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-09">
-<summary>Pregunta 9: ¿Por qué los requerimientos son críticos?</summary>
+<details class="pregunta" id="muestra-creacion-requerimientos">
+<summary>¿Por qué los requerimientos son críticos?</summary>
 <p>Porque orientan todo el diseño y permiten evaluar si el sistema realmente resuelve la necesidad de la organización.</p>
 </details>
 
-<details class="pregunta" id="pregunta-creacion-10">
-<summary>Pregunta 10: ¿Qué etapas suelen aparecer en el proceso básico de desarrollo?</summary>
-<p>Análisis, diseño, programación o construcción, pruebas, conversión, producción y mantenimiento.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-11">
-<summary>Pregunta 11: ¿Qué debe contener un plan de prueba?</summary>
-<p>Condiciones a probar, datos de prueba, resultados esperados, responsables, criterios de aprobación y acciones frente a fallas.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-12">
-<summary>Pregunta 12: ¿Qué diferencia hay entre prueba de sistema y prueba de aceptación?</summary>
-<p>La prueba de sistema evalúa la integración y funcionamiento completo; la de aceptación confirma con usuarios y responsables que está listo para operar.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-13">
-<summary>Pregunta 13: ¿Qué es conversión?</summary>
-<p>Es el paso del sistema antiguo al nuevo, incluyendo datos, procedimientos, usuarios, capacitación y operación.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-14">
-<summary>Pregunta 14: ¿Qué diferencia hay entre conversión directa y paralela?</summary>
+<details class="pregunta" id="muestra-creacion-conversion">
+<summary>¿Qué diferencia hay entre conversión directa y paralela?</summary>
 <p>La directa reemplaza el sistema anterior de una vez; la paralela mantiene ambos sistemas temporalmente para comparar y reducir riesgo.</p>
 </details>
-
-<details class="pregunta" id="pregunta-creacion-15">
-<summary>Pregunta 15: ¿Cuándo conviene usar conversión piloto o por fases?</summary>
-<p>Cuando se quiere reducir riesgo implementando primero en un área limitada o desplegando gradualmente por módulos, sedes o funciones.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-16">
-<summary>Pregunta 16: ¿Qué es mantenimiento de sistemas?</summary>
-<p>Es corregir, adaptar y mejorar el sistema después de su puesta en producción para mantenerlo útil y confiable.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-17">
-<summary>Pregunta 17: ¿Qué caracteriza al ciclo de vida tradicional?</summary>
-<p>Es un método secuencial y formal, con etapas definidas, documentación y aprobaciones antes de avanzar.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-18">
-<summary>Pregunta 18: ¿Cuándo conviene usar prototipado?</summary>
-<p>Cuando los requerimientos son inciertos, los usuarios necesitan visualizar la solución o la interfaz es importante para definir el sistema.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-19">
-<summary>Pregunta 19: ¿Qué ventaja y qué riesgo tiene usar paquetes de software?</summary>
-<p>La ventaja es reducir tiempo y costo de construcción. El riesgo es que la organización deba adaptar procesos o personalizar demasiado el paquete.</p>
-</details>
-
-<details class="pregunta" id="pregunta-creacion-20">
-<summary>Pregunta 20: ¿Qué caracteriza al desarrollo ágil?</summary>
-<p>Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, priorización continua y adaptación a cambios.</p>
-</details>
-</div>
+:::
 
 ## Referencias y fuente base {#referencias-fuente-base}
 
 ::: {.referencias-fuente}
-- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema base: creación de sistemas de información y cambio organizacional.
-- PDF local usado solo como contraste conceptual: `libro_guia_541-584.pdf`. Se contrastó cobertura de creación de sistemas, cambio organizacional, BPM, desarrollo, pruebas, conversión, metodologías, prototipado, paquetes, outsourcing, RAD, ágil, componentes, servicios Web y desarrollo móvil.
-- Material de etapa del curso: `MATERIAL_ETAPA.md`.
+- Fuente base: Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición, secciones sobre creación de sistemas de información y cambio organizacional.
+- Apuntes de clase del curso.
 :::

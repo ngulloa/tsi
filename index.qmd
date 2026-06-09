@@ -1,11 +1,11 @@
 ---
 title: "Tecnologías y Sistemas de la Información"
 subtitle: "Guía conceptual para estudiar TSI"
-description: "Sitio educativo conceptual para repasar Tecnologías y Sistemas de la Información desde celular."
+description: "Guía conceptual para repasar TSI desde celular."
 ---
 
 ::: {.home-intro}
-Este sitio organiza los contenidos de TSI por ideas y relaciones, no por capítulos. Está pensado para repasar desde el celular, volver rápido a conceptos clave y practicar con preguntas breves.
+Guía organizada por ideas y relaciones, no por capítulos. Está pensada para repasar desde el celular, volver rápido a conceptos clave y practicar con preguntas breves.
 :::
 
 ## Temas {#temas}
@@ -61,6 +61,14 @@ Cómo nacen, evolucionan y se integran los sistemas de información en una organ
 Usa preguntas con respuesta oculta para comprobar comprensión sin memorizar frases. La meta es explicar con tus palabras y detectar vacíos.
 
 [Ir a preguntas](repaso/preguntas.qmd){.study-button}
+:::
+
+## Aplicar casos {#aplicar-casos}
+
+::: {.wide-card}
+Los casos permiten practicar análisis aplicado: datos usados, proceso afectado, riesgos, responsabilidades y medidas concretas.
+
+[Ir a casos](repaso/casos.qmd){.study-button}
 :::
 
 ## Mapa conceptual {#mapa-conceptual}

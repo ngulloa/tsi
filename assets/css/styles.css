@@ -14,19 +14,30 @@
   --tsi-border: #d8e3ee;
   --tsi-text: #152238;
   --tsi-muted: #5d6c7d;
-  --tsi-shadow: 0 10px 28px rgba(20, 53, 92, 0.08);
+  --tsi-shadow-sm: 0 6px 16px rgba(20, 53, 92, 0.08);
+  --tsi-shadow: 0 14px 34px rgba(20, 53, 92, 0.1);
+  --tsi-shadow-hover: 0 18px 40px rgba(20, 53, 92, 0.14);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  background: var(--tsi-bg);
+  background:
+    linear-gradient(180deg, #f4f8fc 0, var(--tsi-bg) 18rem),
+    var(--tsi-bg);
   color: var(--tsi-text);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1rem;
   line-height: 1.65;
+  overflow-x: hidden;
   padding-bottom: 4.75rem;
 }
 
@@ -40,7 +51,7 @@ a:focus {
 }
 
 .navbar {
-  box-shadow: 0 2px 16px rgba(13, 39, 69, 0.12);
+  box-shadow: 0 4px 18px rgba(13, 39, 69, 0.16);
 }
 
 .navbar .navbar-brand,
@@ -61,12 +72,24 @@ a:focus {
 }
 
 main.content {
-  padding-top: 1.2rem;
+  min-width: 0;
+  padding-top: 1.35rem;
+}
+
+#quarto-content,
+.page-columns,
+.quarto-title-block,
+.quarto-title-block .description,
+.quarto-title-block .subtitle,
+main.content {
+  overflow-wrap: break-word;
 }
 
 h2 {
   color: var(--tsi-primary-dark);
-  margin-top: 2.4rem;
+  letter-spacing: 0;
+  margin-top: 2.7rem;
+  padding-top: 0.15rem;
 }
 
 h3 {
@@ -89,10 +112,11 @@ h3 {
 }
 
 .home-intro {
-  color: var(--tsi-muted);
+  border-left: 0.35rem solid var(--tsi-accent);
+  color: var(--tsi-text);
   font-size: 1.08rem;
-  margin: 1rem 0 2rem;
-  padding: 1.1rem;
+  margin: 1rem 0 2.15rem;
+  padding: 1.15rem 1.2rem;
 }
 
 .topic-grid {
@@ -108,6 +132,25 @@ h3 {
   padding: 1.15rem;
 }
 
+.study-card,
+.case-card,
+.term-card,
+.wide-card,
+.pregunta,
+.qa-card,
+.map-node {
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.study-card:hover,
+.case-card:hover,
+.term-card:hover,
+.map-node:hover {
+  border-color: #bfd3e5;
+  box-shadow: var(--tsi-shadow-hover);
+  transform: translateY(-1px);
+}
+
 .study-card p,
 .wide-card p,
 .case-card p,
@@ -117,9 +160,11 @@ h3 {
 }
 
 .concept-list {
-  background: var(--tsi-accent-soft);
+  background: #f3f8fc;
+  border: 1px solid #d7e8f4;
   border-left: 5px solid var(--tsi-accent);
   border-radius: 8px;
+  box-shadow: var(--tsi-shadow-sm);
   padding: 1rem 1rem 0.35rem;
 }
 
@@ -133,11 +178,11 @@ h3 {
 .caso-breve {
   --component-color: var(--tsi-accent);
   --component-bg: var(--tsi-accent-soft);
-  background: linear-gradient(90deg, var(--component-bg), var(--tsi-surface) 78%);
+  background: linear-gradient(90deg, var(--component-bg), var(--tsi-surface) 68%);
   border: 1px solid var(--tsi-border);
   border-left: 0.42rem solid var(--component-color);
   border-radius: 8px;
-  box-shadow: var(--tsi-shadow);
+  box-shadow: var(--tsi-shadow-sm);
   margin: 1.1rem 0 1.35rem;
   padding: 1rem 1rem 1.05rem;
 }
@@ -202,12 +247,12 @@ h3 {
 main.content :where(p, li) a[href^="#"]:not(.study-button):not(.footnote-ref),
 main.content :where(p, li) a[href*=".html#"]:not(.study-button):not(.footnote-ref),
 main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref) {
-  background: #edf7ed;
-  border-bottom: 2px solid rgba(18, 113, 91, 0.35);
-  border-radius: 4px;
-  color: var(--tsi-green);
-  font-weight: 700;
-  padding: 0.02rem 0.18rem;
+  background: transparent;
+  border-bottom: 1px solid rgba(47, 143, 207, 0.35);
+  border-radius: 0;
+  color: var(--tsi-primary);
+  font-weight: 650;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -217,8 +262,9 @@ main.content :where(p, li) a[href*=".html#"]:not(.study-button):not(.footnote-re
 main.content :where(p, li) a[href*=".html#"]:not(.study-button):not(.footnote-ref):focus,
 main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref):hover,
 main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref):focus {
-  background: #dff1ea;
-  color: #0b5846;
+  background: transparent;
+  border-bottom-color: var(--tsi-accent);
+  color: var(--tsi-accent);
 }
 
 .study-button {
@@ -226,6 +272,7 @@ main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref
   background: var(--tsi-primary);
   border: 2px solid var(--tsi-primary);
   border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(13, 39, 69, 0.16);
   color: #ffffff;
   display: inline-flex;
   font-weight: 750;
@@ -235,6 +282,7 @@ main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref
   min-height: 3rem;
   padding: 0.72rem 1rem;
   text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
   width: 100%;
 }
 
@@ -242,11 +290,14 @@ main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref
 .study-button:focus {
   background: var(--tsi-primary-dark);
   border-color: var(--tsi-primary-dark);
+  box-shadow: 0 12px 24px rgba(13, 39, 69, 0.22);
   color: #ffffff;
+  transform: translateY(-1px);
 }
 
 .study-button.secondary {
   background: #ffffff;
+  box-shadow: var(--tsi-shadow-sm);
   color: var(--tsi-primary);
 }
 
@@ -254,6 +305,18 @@ main.content :where(p, li) a[href*=".qmd#"]:not(.study-button):not(.footnote-ref
 .study-button.secondary:focus {
   background: var(--tsi-accent-soft);
   color: var(--tsi-primary-dark);
+}
+
+.case-card h3 {
+  margin-top: 0;
+}
+
+.case-link {
+  border-top: 1px solid var(--tsi-border);
+  color: var(--tsi-muted);
+  font-size: 0.92rem;
+  margin: 1rem 0 0;
+  padding-top: 0.7rem;
 }
 
 details.pregunta,
@@ -271,6 +334,12 @@ details.pregunta summary,
   min-height: 3.25rem;
   padding: 1rem 3rem 1rem 1.1rem;
   position: relative;
+}
+
+details.pregunta:hover,
+.qa-card:hover {
+  border-color: #bfd3e5;
+  box-shadow: var(--tsi-shadow-hover);
 }
 
 details.pregunta summary::-webkit-details-marker,
@@ -315,6 +384,11 @@ details.pregunta p,
   padding: 1rem 1.1rem 1.15rem;
 }
 
+details.pregunta > :not(summary):not(:last-child),
+.qa-card > :not(summary):not(:last-child) {
+  padding-bottom: 0;
+}
+
 .preguntas-practica {
   display: grid;
   gap: 0.9rem;
@@ -336,6 +410,33 @@ details.pregunta p,
   font-size: 0.95rem;
   margin-top: 1rem;
   padding-top: 0.85rem;
+}
+
+.nav-footer {
+  background: #ffffff;
+  border-top: 1px solid var(--tsi-border);
+  color: var(--tsi-muted);
+}
+
+#quarto-margin-sidebar nav[role="doc-toc"] {
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid var(--tsi-border);
+  border-radius: 8px;
+  box-shadow: var(--tsi-shadow-sm);
+  padding: 0.75rem;
+}
+
+#quarto-margin-sidebar nav[role="doc-toc"] a {
+  border-left: 3px solid transparent;
+  color: var(--tsi-muted);
+  padding-left: 0.5rem;
+}
+
+#quarto-margin-sidebar nav[role="doc-toc"] a.active,
+#quarto-margin-sidebar nav[role="doc-toc"] a:hover,
+#quarto-margin-sidebar nav[role="doc-toc"] a:focus {
+  border-left-color: var(--tsi-accent);
+  color: var(--tsi-primary);
 }
 
 .referencias-fuente li {
@@ -430,7 +531,7 @@ details.pregunta p,
   background: rgba(255, 255, 255, 0.97);
   border-top: 1px solid var(--tsi-border);
   bottom: 0;
-  box-shadow: 0 -6px 18px rgba(20, 53, 92, 0.1);
+  box-shadow: 0 -8px 24px rgba(20, 53, 92, 0.14);
   display: grid;
   gap: 0;
   grid-template-columns: repeat(4, 1fr);
@@ -453,7 +554,14 @@ details.pregunta p,
   text-decoration: none;
 }
 
+.tsi-bottom-nav a:hover,
+.tsi-bottom-nav a:focus {
+  background: #f1f7fc;
+  color: var(--tsi-primary);
+}
+
 .tsi-bottom-nav a[aria-current="page"] {
+  background: #edf6fb;
   color: var(--tsi-primary);
 }
 
@@ -499,6 +607,54 @@ details.pregunta p,
   .tsi-back-to-top {
     bottom: 1.25rem;
     right: 1.25rem;
+  }
+}
+
+@media (max-width: 719px) {
+  #quarto-content.page-columns {
+    display: block;
+  }
+
+  main.content {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .quarto-title-block .title {
+    font-size: clamp(2.2rem, 13vw, 3.05rem);
+  }
+
+  .home-intro,
+  .wide-card,
+  .study-card,
+  .term-card,
+  .case-card,
+  .pregunta,
+  .qa-card,
+  .map-node,
+  .concept-list,
+  .topic-grid,
+  .preguntas-practica,
+  .quarto-title-block,
+  .quarto-title-block .title,
+  .quarto-title-block .subtitle,
+  .quarto-title-block .description {
+    max-width: calc(100vw - 2rem);
+  }
+
+  .home-intro,
+  .wide-card,
+  .study-card,
+  .term-card,
+  .case-card,
+  .map-node,
+  .concept-list,
+  .topic-grid,
+  .preguntas-practica,
+  .quarto-title-block .description {
+    width: calc(100vw - 2rem);
   }
 }
 

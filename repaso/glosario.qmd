@@ -1,10 +1,13 @@
 ---
 title: "Glosario"
-description: "Estructura alfabética inicial para conceptos de TSI."
+description: "Consulta rápida de conceptos de TSI."
+format:
+  html:
+    toc-depth: 1
 ---
 
 ::: {.home-intro}
-Glosario de trabajo para consolidar conceptos con definiciones propias, ejemplos breves y conexiones entre temas.
+Úsalo como consulta rápida, no como ruta principal de estudio. Las definiciones son breves para volver al concepto sin reemplazar las páginas temáticas.
 :::
 
 ## A
@@ -18,7 +21,7 @@ Uso dañino, invasivo o irresponsable de sistemas de información, aunque no sie
 ::: {.term-card}
 ### Afiliación {#afiliacion}
 
-Modelo de ingresos donde un sitio o plataforma recibe dinero por derivar tráfico, registros o ventas hacia otro proveedor. Ver [comercio digital](../temas/comercio-digital.qmd#modelos-negocio-ingresos).
+Modelo de ingresos donde un sitio o plataforma recibe dinero por derivar tráfico, registros o ventas hacia otro proveedor.
 :::
 
 ::: {.term-card}
@@ -30,7 +33,7 @@ Cambio frecuente de precios según demanda, inventario, competencia, perfil del 
 ::: {.term-card}
 ### Administración de procesos de negocios {#administracion-de-procesos-de-negocios}
 
-Gestión continua de procesos para analizarlos, rediseñarlos, ejecutarlos, medirlos y ajustarlos según objetivos organizacionales. Ver [BPM](#bpm).
+Gestión continua de procesos para analizarlos, rediseñarlos, ejecutarlos, medirlos y ajustarlos según objetivos organizacionales.
 :::
 
 ::: {.term-card}
@@ -42,7 +45,7 @@ Capacidad de un canal digital para llegar a clientes, proveedores o audiencias f
 ::: {.term-card}
 ### Ancho de banda {#ancho-de-banda}
 
-Capacidad de transmisión de datos de un enlace en un periodo determinado. Se conecta con [redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#protocolos-paquetes-direccionamiento).
+Capacidad de transmisión de datos de un enlace en un periodo determinado.
 :::
 
 ::: {.term-card}
@@ -226,7 +229,7 @@ Espacio digital donde usuarios interactúan alrededor de intereses, identidades,
 ::: {.term-card}
 ### Conectividad {#conectividad}
 
-Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes. Ver [redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#definiciones-clave).
+Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.
 :::
 
 ::: {.term-card}
@@ -646,7 +649,7 @@ Punto de entrada digital que reúne búsqueda, contenido, servicios o enlaces pa
 ::: {.term-card}
 ### Privacidad {#privacidad}
 
-Control razonable sobre qué datos personales se recopilan, para qué se usan y con quién se comparten. Ver [ética, datos y sociedad](../temas/etica-datos-sociedad.qmd#privacidad-datos).
+Control razonable sobre qué datos personales se recopilan, para qué se usan y con quién se comparten.
 :::
 
 ::: {.term-card}
@@ -762,7 +765,7 @@ Conjunto de dispositivos, medios, reglas y servicios que permite transmitir dato
 ::: {.term-card}
 ### Red privada virtual {#red-privada-virtual}
 
-Conexión privada y cifrada creada sobre una red pública como Internet. Ver [VPN](#vpn).
+Conexión privada y cifrada creada sobre una red pública como Internet.
 :::
 
 ::: {.term-card}
@@ -786,7 +789,7 @@ Replanteamiento profundo de un proceso para cambiar flujos de trabajo, pasos, re
 ::: {.term-card}
 ### Requerimiento {#requerimiento}
 
-Necesidad o condición que orienta el diseño de una solución. Se conecta con [creación y cambio de sistemas](../temas/creacion-sistemas.qmd#definiciones-clave).
+Necesidad o condición que orienta el diseño de una solución.
 :::
 
 ::: {.term-card}

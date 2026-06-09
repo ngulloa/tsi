@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Guía conceptual sobre redes, Internet, servicios digitales y tecnologías móviles en sistemas de información.">
+<meta name="description" content="Redes, Internet, servicios digitales y movilidad.">
 
 <title>Redes, Internet y movilidad – Tecnologías y Sistemas de la Información</title>
 <style>
@@ -21,7 +21,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f85955529106639f99b9a66abd69255b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-caf81333e83b2128e3baa7a176d73074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,48 +95,48 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../index.html">
 <span class="menu-text">Inicio</span></a>
-  </li>  
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-temas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Temas</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">
         <li>
     <a class="dropdown-item" href="../temas/etica-datos-sociedad.html">
  <span class="dropdown-text">Ética, datos y sociedad</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/redes-internet-movilidad.html">
  <span class="dropdown-text">Redes, Internet y movilidad</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/comercio-digital.html">
  <span class="dropdown-text">Comercio digital</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/creacion-sistemas.html">
  <span class="dropdown-text">Creación y cambio de sistemas</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/glosario.html"> 
+    <a class="nav-link" href="../repaso/glosario.html">
 <span class="menu-text">Glosario</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/preguntas.html"> 
+    <a class="nav-link" href="../repaso/preguntas.html">
 <span class="menu-text">Preguntas</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/casos.html"> 
+    <a class="nav-link" href="../repaso/casos.html">
 <span class="menu-text">Casos</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/mapa-conceptual.html"> 
+    <a class="nav-link" href="../repaso/mapa-conceptual.html">
 <span class="menu-text">Mapa conceptual</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -151,8 +151,8 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
+
+  <ul class="collapse">
   <li><a href="#atajos-del-tema" id="toc-atajos-del-tema" class="nav-link active" data-scroll-target="#atajos-del-tema">Atajos del tema</a></li>
   <li><a href="#definiciones-clave" id="toc-definiciones-clave" class="nav-link" data-scroll-target="#definiciones-clave">Definiciones clave</a></li>
   <li><a href="#red-infraestructura-sistema" id="toc-red-infraestructura-sistema" class="nav-link" data-scroll-target="#red-infraestructura-sistema">La red como infraestructura del sistema</a></li>
@@ -165,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#esquemas-simples" id="toc-esquemas-simples" class="nav-link" data-scroll-target="#esquemas-simples">Esquemas simples</a></li>
   <li><a href="#observaciones-de-prueba" id="toc-observaciones-de-prueba" class="nav-link" data-scroll-target="#observaciones-de-prueba">Observaciones de prueba</a></li>
   <li><a href="#casos-breves" id="toc-casos-breves" class="nav-link" data-scroll-target="#casos-breves">Casos breves</a></li>
-  <li><a href="#preguntas-conceptuales" id="toc-preguntas-conceptuales" class="nav-link" data-scroll-target="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+  <li><a href="#preguntas-conceptuales" id="toc-preguntas-conceptuales" class="nav-link" data-scroll-target="#preguntas-conceptuales">Practicar este tema</a></li>
   <li><a href="#referencias-fuente-base" id="toc-referencias-fuente-base" class="nav-link" data-scroll-target="#referencias-fuente-base">Referencias y fuente base</a></li>
   </ul>
 </nav>
@@ -180,18 +180,18 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Guía conceptual sobre redes, Internet, servicios digitales y tecnologías móviles en sistemas de información.
+    Redes, Internet, servicios digitales y movilidad.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
@@ -201,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Las redes permiten que personas, dispositivos, aplicaciones y datos trabajen como un sistema distribuido. No son solo soporte técnico: condicionan la continuidad, velocidad, seguridad y alcance real de los sistemas de información.</p>
 </div>
 <div class="ojo-prueba">
-<p>La clave es distinguir infraestructura de red, servicios de Internet y movilidad. Una aplicación puede estar bien diseñada, pero si falla la conectividad, la seguridad o el acceso móvil, el proceso organizacional también falla.</p>
+<p>La diferencia central está entre infraestructura de red, servicios de Internet y movilidad. Una aplicación puede estar bien diseñada, pero si falla la conectividad, la seguridad o el acceso móvil, el proceso organizacional también falla.</p>
 </div>
 <section id="atajos-del-tema" class="level2">
 <h2 class="anchored" data-anchor-id="atajos-del-tema">Atajos del tema</h2>
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#esquemas-simples">Esquemas simples</a></li>
 <li><a href="#observaciones-de-prueba">Observaciones de prueba</a></li>
 <li><a href="#casos-breves">Casos breves</a></li>
-<li><a href="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+<li><a href="#preguntas-conceptuales">Practicar este tema</a></li>
 </ul>
 </div>
 </section>
@@ -228,30 +228,30 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><span id="red-de-telecomunicaciones"></span><strong><a href="../repaso/glosario.html#red-de-telecomunicaciones">Red de telecomunicaciones</a>:</strong> conjunto de dispositivos, medios, reglas y servicios que permiten transmitir datos, voz, video o señales entre puntos.</li>
 <li><span id="conectividad"></span><strong><a href="../repaso/glosario.html#conectividad">Conectividad</a>:</strong> capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.</li>
-<li><span id="cliente-servidor"></span><strong><a href="../repaso/glosario.html#cliente-servidor">Cliente/servidor</a>:</strong> modelo donde un cliente solicita servicios o datos y un servidor los entrega bajo reglas de acceso.</li>
-<li><span id="conmutacion-de-paquetes"></span><strong><a href="../repaso/glosario.html#conmutacion-de-paquetes">Conmutación de paquetes</a>:</strong> forma de transmitir mensajes dividiéndolos en paquetes que viajan por la red y se reensamblan al llegar.</li>
+<li><span id="cliente-servidor"></span><strong>Cliente/servidor:</strong> modelo donde un cliente solicita servicios o datos y un servidor los entrega bajo reglas de acceso.</li>
+<li><span id="conmutacion-de-paquetes"></span><strong>Conmutación de paquetes:</strong> forma de transmitir mensajes dividiéndolos en paquetes que viajan por la red y se reensamblan al llegar.</li>
 <li><span id="protocolo"></span><strong><a href="../repaso/glosario.html#protocolo">Protocolo</a>:</strong> regla común que define cómo se formatean, envían, reciben o interpretan los datos.</li>
 <li><span id="tcp-ip"></span><strong><a href="../repaso/glosario.html#tcp-ip">TCP/IP</a>:</strong> familia de protocolos que permite conectar redes distintas y sostener el funcionamiento de Internet.</li>
-<li><span id="direccion-ip"></span><strong><a href="../repaso/glosario.html#direccion-ip">Dirección IP</a>:</strong> identificador lógico que permite ubicar un dispositivo o servicio dentro de una red.</li>
-<li><span id="dns"></span><strong><a href="../repaso/glosario.html#dns">DNS</a>:</strong> sistema que traduce nombres de dominio legibles por personas a direcciones IP.</li>
-<li><span id="ancho-de-banda"></span><strong><a href="../repaso/glosario.html#ancho-de-banda">Ancho de banda</a>:</strong> capacidad de transmisión de datos de un enlace durante un periodo.</li>
-<li><span id="latencia"></span><strong><a href="../repaso/glosario.html#latencia">Latencia</a>:</strong> demora percibida entre una solicitud y una respuesta.</li>
-<li><span id="red-de-area-local"></span><strong><a href="../repaso/glosario.html#red-de-area-local">Red de área local</a>:</strong> red que conecta dispositivos dentro de una oficina, sala, edificio o campus cercano.</li>
-<li><span id="red-de-area-amplia"></span><strong><a href="../repaso/glosario.html#red-de-area-amplia">Red de área amplia</a>:</strong> red que conecta ubicaciones distantes, normalmente usando enlaces de operadores o Internet.</li>
+<li><span id="direccion-ip"></span><strong>Dirección IP:</strong> identificador lógico que permite ubicar un dispositivo o servicio dentro de una red.</li>
+<li><span id="dns"></span><strong>DNS:</strong> sistema que traduce nombres de dominio legibles por personas a direcciones IP.</li>
+<li><span id="ancho-de-banda"></span><strong>Ancho de banda:</strong> capacidad de transmisión de datos de un enlace durante un periodo.</li>
+<li><span id="latencia"></span><strong>Latencia:</strong> demora percibida entre una solicitud y una respuesta.</li>
+<li><span id="red-de-area-local"></span><strong>Red de área local:</strong> red que conecta dispositivos dentro de una oficina, sala, edificio o campus cercano.</li>
+<li><span id="red-de-area-amplia"></span><strong>Red de área amplia:</strong> red que conecta ubicaciones distantes, normalmente usando enlaces de operadores o Internet.</li>
 <li><span id="internet"></span><strong><a href="../repaso/glosario.html#internet">Internet</a>:</strong> red global de redes que conecta millones de redes mediante estándares comunes.</li>
-<li><span id="world-wide-web"></span><strong><a href="../repaso/glosario.html#world-wide-web">World Wide Web</a>:</strong> servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.</li>
-<li><span id="intranet"></span><strong><a href="../repaso/glosario.html#intranet">Intranet</a>:</strong> red o sitio interno usado por una organización para compartir información y servicios privados.</li>
-<li><span id="extranet"></span><strong><a href="../repaso/glosario.html#extranet">Extranet</a>:</strong> extensión controlada de una intranet para socios, proveedores, clientes u otros actores autorizados.</li>
-<li><span id="proveedor-de-servicios-de-internet"></span><strong><a href="../repaso/glosario.html#proveedor-de-servicios-de-internet">Proveedor de servicios de Internet</a>:</strong> empresa u organización que entrega acceso a Internet.</li>
+<li><span id="world-wide-web"></span><strong>World Wide Web:</strong> servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.</li>
+<li><span id="intranet"></span><strong>Intranet:</strong> red o sitio interno usado por una organización para compartir información y servicios privados.</li>
+<li><span id="extranet"></span><strong>Extranet:</strong> extensión controlada de una intranet para socios, proveedores, clientes u otros actores autorizados.</li>
+<li><span id="proveedor-de-servicios-de-internet"></span><strong>Proveedor de servicios de Internet:</strong> empresa u organización que entrega acceso a Internet.</li>
 <li><span id="wi-fi"></span><strong><a href="../repaso/glosario.html#wi-fi">Wi-Fi</a>:</strong> tecnología de red inalámbrica local basada en estándares 802.11.</li>
-<li><span id="bluetooth"></span><strong><a href="../repaso/glosario.html#bluetooth">Bluetooth</a>:</strong> tecnología inalámbrica de corto alcance para conectar dispositivos personales o periféricos.</li>
-<li><span id="red-celular"></span><strong><a href="../repaso/glosario.html#red-celular">Red celular</a>:</strong> infraestructura móvil que conecta teléfonos y dispositivos mediante antenas y operadores.</li>
-<li><span id="voip"></span><strong><a href="../repaso/glosario.html#voip">VoIP</a>:</strong> transmisión de voz como datos digitales sobre redes IP.</li>
+<li><span id="bluetooth"></span><strong>Bluetooth:</strong> tecnología inalámbrica de corto alcance para conectar dispositivos personales o periféricos.</li>
+<li><span id="red-celular"></span><strong>Red celular:</strong> infraestructura móvil que conecta teléfonos y dispositivos mediante antenas y operadores.</li>
+<li><span id="voip"></span><strong>VoIP:</strong> transmisión de voz como datos digitales sobre redes IP.</li>
 <li><span id="vpn"></span><strong><a href="../repaso/glosario.html#vpn">VPN</a>:</strong> conexión privada y cifrada creada sobre una red pública como Internet.</li>
-<li><span id="rfid"></span><strong><a href="../repaso/glosario.html#rfid">RFID</a>:</strong> identificación por radiofrecuencia para reconocer objetos, productos, personas o activos mediante etiquetas y lectores.</li>
-<li><span id="redes-de-sensores-inalambricas"></span><strong><a href="../repaso/glosario.html#redes-de-sensores-inalambricas">Redes de sensores inalámbricas</a>:</strong> redes de nodos que capturan datos del entorno y los envían para análisis.</li>
+<li><span id="rfid"></span><strong>RFID:</strong> identificación por radiofrecuencia para reconocer objetos, productos, personas o activos mediante etiquetas y lectores.</li>
+<li><span id="redes-de-sensores-inalambricas"></span><strong>Redes de sensores inalámbricas:</strong> redes de nodos que capturan datos del entorno y los envían para análisis.</li>
 <li><span id="internet-de-las-cosas"></span><strong><a href="../repaso/glosario.html#internet-de-las-cosas">Internet de las cosas</a>:</strong> conexión de objetos físicos con sensores, software y redes para monitorear o actuar sobre el mundo real.</li>
-<li><span id="seguridad-de-red"></span><strong><a href="../repaso/glosario.html#seguridad-de-red">Seguridad de red</a>:</strong> controles para proteger comunicaciones, dispositivos y servicios contra accesos, fallas o usos no autorizados.</li>
+<li><span id="seguridad-de-red"></span><strong>Seguridad de red:</strong> controles para proteger comunicaciones, dispositivos y servicios contra accesos, fallas o usos no autorizados.</li>
 </ul>
 </div>
 </section>
@@ -302,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 <div class="ojo-prueba">
-<p>No memorices solo siglas. Pregunta siempre: ¿qué distancia cubre?, ¿quién la administra?, ¿qué dispositivos conecta? y ¿qué proceso depende de ella?</p>
+<p>Las siglas importan menos que el alcance: qué distancia cubre la red, quién la administra, qué dispositivos conecta y qué proceso depende de ella.</p>
 </div>
 <p>También es útil distinguir dos formas de organización:</p>
 <div class="concept-list">
@@ -417,8 +417,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="observaciones-de-prueba">Observaciones de prueba</h2>
 <div class="wide-card">
 <ul>
-<li>Muy probable: explicar por qué una red es parte del sistema de información.</li>
-<li>Muy probable: diferenciar Internet y Web.</li>
+<li>Una evaluación puede pedir explicar por qué una red forma parte del sistema de información.</li>
+<li>La diferencia entre Internet y Web suele usarse para detectar comprensión conceptual.</li>
 <li>Diferencia infraestructura, protocolos y servicios.</li>
 <li>TCP/IP se entiende como estándar que permite interoperabilidad.</li>
 <li>LAN, WAN, Wi-Fi, Bluetooth y red celular no son sinónimos.</li>
@@ -448,166 +448,34 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="preguntas-conceptuales" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas-conceptuales">Preguntas conceptuales</h2>
+<h2 class="anchored" data-anchor-id="preguntas-conceptuales">Practicar este tema</h2>
+<div class="wide-card">
+<p>Estas preguntas sirven como muestra rápida. El banco completo está centralizado en la página de repaso.</p>
+<p><a href="../repaso/preguntas.html#redes-internet-movilidad" class="study-button">Ver las 20 preguntas de redes</a></p>
+</div>
 <div class="preguntas-practica">
-<details class="pregunta" id="pregunta-redes-01">
+<details class="pregunta" id="muestra-redes-sistema">
 <summary>
-Pregunta 1: ¿Por qué una red es parte del sistema de información y no solo soporte técnico?
+¿Por qué una red es parte del sistema de información y no solo soporte técnico?
 </summary>
 <p>
 Porque permite que personas, procesos, aplicaciones y datos se conecten. Si la red falla, el sistema puede dejar de apoyar decisiones, atención o coordinación.
 </p>
 </details>
-<details class="pregunta" id="pregunta-redes-02">
+<details class="pregunta" id="muestra-redes-internet-web">
 <summary>
-Pregunta 2: ¿Qué componentes básicos necesita una red sencilla?
-</summary>
-<p>
-Necesita dispositivos, interfaces de red, un medio de conexión, reglas o software de comunicación y equipos que dirijan el tráfico, como switches, puntos de acceso o routers.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-03">
-<summary>
-Pregunta 3: ¿Qué función cumple un protocolo?
-</summary>
-<p>
-Define reglas comunes para que los equipos sepan cómo enviar, recibir, ordenar e interpretar datos.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-04">
-<summary>
-Pregunta 4: ¿Qué es la conmutación de paquetes?
-</summary>
-<p>
-Es dividir un mensaje en paquetes pequeños que viajan por la red y se vuelven a ordenar al llegar a destino.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-05">
-<summary>
-Pregunta 5: ¿Por qué TCP/IP es importante?
-</summary>
-<p>
-Porque entrega un conjunto común de protocolos que permite conectar redes y equipos distintos, haciendo posible Internet y muchos servicios asociados.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-06">
-<summary>
-Pregunta 6: ¿Qué diferencia hay entre Internet y la Web?
+¿Qué diferencia hay entre Internet y la Web?
 </summary>
 <p>
 Internet es la red global de redes. La Web es un servicio que usa Internet para acceder a páginas, enlaces y aplicaciones mediante navegadores.
 </p>
 </details>
-<details class="pregunta" id="pregunta-redes-07">
+<details class="pregunta" id="muestra-redes-riesgo">
 <summary>
-Pregunta 7: ¿Qué problema resuelve DNS?
-</summary>
-<p>
-Permite usar nombres de dominio fáciles de recordar y traducirlos a direcciones IP que los equipos pueden localizar.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-08">
-<summary>
-Pregunta 8: ¿Qué diferencia hay entre ancho de banda y latencia?
-</summary>
-<p>
-El ancho de banda indica capacidad de transmisión. La latencia indica demora entre solicitud y respuesta.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-09">
-<summary>
-Pregunta 9: ¿Qué diferencia hay entre LAN y WAN?
-</summary>
-<p>
-Una LAN conecta dispositivos en un espacio cercano, como una oficina. Una WAN conecta ubicaciones distantes, como sedes de una organización.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-10">
-<summary>
-Pregunta 10: ¿Qué diferencia hay entre cliente/servidor e igual a igual?
-</summary>
-<p>
-En cliente/servidor, un servidor entrega servicios o datos a clientes. En igual a igual, los equipos comparten recursos directamente entre sí.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-11">
-<summary>
-Pregunta 11: ¿Qué diferencia hay entre intranet y extranet?
-</summary>
-<p>
-La intranet es privada para uso interno. La extranet abre acceso controlado a externos autorizados, como proveedores o clientes.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-12">
-<summary>
-Pregunta 12: ¿Para qué sirve una VPN?
-</summary>
-<p>
-Sirve para crear una conexión cifrada y privada sobre una red pública, normalmente para acceder de forma segura a recursos internos.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-13">
-<summary>
-Pregunta 13: ¿Qué es VoIP?
-</summary>
-<p>
-Es la transmisión de voz como datos digitales sobre redes IP, por ejemplo en telefonía por Internet o llamadas de aplicaciones.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-14">
-<summary>
-Pregunta 14: ¿Qué diferencia hay entre Wi-Fi y Bluetooth?
-</summary>
-<p>
-Wi-Fi se usa para conectar dispositivos a una red local o a Internet. Bluetooth se usa para conexiones personales de corto alcance y bajo consumo.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-15">
-<summary>
-Pregunta 15: ¿Qué aporta una red celular frente a una red Wi-Fi?
-</summary>
-<p>
-Aporta movilidad en áreas amplias mediante antenas y operadores, mientras que Wi-Fi depende de cobertura local cercana.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-16">
-<summary>
-Pregunta 16: ¿Qué permite RFID en una organización?
-</summary>
-<p>
-Permite identificar y rastrear objetos, productos, activos o personas mediante etiquetas y lectores de radiofrecuencia.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-17">
-<summary>
-Pregunta 17: ¿Qué relación hay entre sensores inalámbricos e Internet de las cosas?
-</summary>
-<p>
-Los sensores capturan datos del mundo físico y, conectados por redes, permiten que objetos y procesos formen parte de sistemas digitales.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-18">
-<summary>
-Pregunta 18: ¿Por qué la conectividad puede convertirse en un riesgo operativo?
+¿Por qué la conectividad puede convertirse en un riesgo operativo?
 </summary>
 <p>
 Porque si procesos críticos dependen de la red, una falla de conexión, seguridad o proveedor puede detener atención, ventas o coordinación interna.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-19">
-<summary>
-Pregunta 19: ¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?
-</summary>
-<p>
-Cambia el contexto de uso: hay redes variables, pantallas pequeñas, riesgo de pérdida del equipo, necesidad de sincronización y mayores exigencias de seguridad.
-</p>
-</details>
-<details class="pregunta" id="pregunta-redes-20">
-<summary>
-Pregunta 20: ¿Cómo conviene analizar un caso de redes en prueba?
-</summary>
-<p>
-Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes, riesgos de seguridad, impacto de una falla y medidas concretas de continuidad.
 </p>
 </details>
 </div>
@@ -616,10 +484,8 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
 <h2 class="anchored" data-anchor-id="referencias-fuente-base">Referencias y fuente base</h2>
 <div class="referencias-fuente">
 <ul>
-<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema base: telecomunicaciones, Internet y tecnología inalámbrica.</li>
-<li>PDF local usado solo para contrastar conceptos, términos, casos y páginas: <code>libro_guia_295-343.pdf</code>. El texto extraído identifica el capítulo 7, “Telecomunicaciones, Internet y tecnología inalámbrica”, con contenido de redes, Internet, servicios y tecnologías inalámbricas en paginación impresa aproximada 257-301. Desde la página impresa 302 comienza otro capítulo y no se usó como base de este tema.</li>
-<li>Conceptos contrastados en el PDF: componentes de red, cliente/servidor, conmutación de paquetes, TCP/IP, tipos de red, Internet, Web, DNS, ISP, IPv6, VoIP, VPN, Wi-Fi, Bluetooth, redes celulares, RFID, redes de sensores e Internet de las cosas.</li>
-<li>Apuntes de clase y material de etapa del curso.</li>
+<li>Fuente base: Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición, secciones sobre telecomunicaciones, Internet y tecnología inalámbrica.</li>
+<li>Apuntes de clase del curso.</li>
 </ul>
 </div>
 
@@ -651,9 +517,9 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
     var prefix = currentDepthPrefix();
     var links = [
       { label: "Inicio", href: prefix + "index.html", match: "/index.html" },
-      { label: "Temas", href: prefix + "index.html#temas", match: "#temas" },
+      { label: "Temas", href: prefix + "index.html#temas", match: "/temas/" },
       { label: "Preguntas", href: prefix + "repaso/preguntas.html", match: "/repaso/preguntas.html" },
-      { label: "Glosario", href: prefix + "repaso/glosario.html", match: "/repaso/glosario.html" }
+      { label: "Casos", href: prefix + "repaso/casos.html", match: "/repaso/casos.html" }
     ];
 
     var nav = document.createElement("nav");
@@ -668,8 +534,8 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
 
       if (
         (item.match === "/index.html" && current.endsWith("/index.html") && window.location.hash !== "#temas") ||
-        (item.match === "#temas" && window.location.hash === "#temas") ||
-        (item.match !== "#temas" && current.endsWith(item.match))
+        (item.match === "/temas/" && (current.indexOf("/temas/") !== -1 || window.location.hash === "#temas")) ||
+        (item.match !== "/temas/" && current.endsWith(item.match))
       ) {
         link.setAttribute("aria-current", "page");
       }
@@ -809,7 +675,7 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -829,11 +695,11 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copiado");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -915,7 +781,7 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -990,7 +856,7 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -1018,7 +884,7 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -1042,7 +908,7 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -1082,7 +948,7 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -1208,12 +1074,12 @@ Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Tecnologías y Sistemas de la Información</p>
-</div>   
+</div>
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Sitio estático generado con Quarto</p>
+<p>Guía de estudio TSI</p>
 </div>
   </div>
 </footer>

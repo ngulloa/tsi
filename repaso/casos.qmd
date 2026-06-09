@@ -1,119 +1,223 @@
 ---
 title: "Casos"
-description: "Casos aplicados e integradores para conectar conceptos de TSI."
+description: "Casos aplicados para conectar conceptos de TSI."
 ---
 
 ::: {.home-intro}
-Usa estos casos como disparadores. La respuesta ideal conecta conceptos, evidencia del caso y consecuencias organizacionales, no una lista memorizada de términos.
+Los casos sirven para aplicar conceptos a situaciones organizacionales. La respuesta debe conectar evidencia del contexto, conceptos relevantes y consecuencias prácticas.
 :::
 
-## Cómo responder un caso {#como-responder-un-caso}
+## Método breve {#metodo-breve}
 
 ::: {.wide-card}
 1. Identifica actores, datos, proceso y decisión afectada.
 2. Distingue infraestructura, aplicación, modelo de negocio y cambio organizacional.
-3. Explica beneficios y riesgos.
+3. Explica beneficios, riesgos y responsabilidades.
 4. Propón una medida concreta: requerimiento, control, prueba, política, rediseño o métrica.
 :::
 
 ## Casos por tema {#casos-por-tema}
 
+### Ética, datos y sociedad
+
 ::: {.case-card}
-### Caso 1: Datos de clientes
+### Datos de clientes
 
-Una organización quiere personalizar recomendaciones usando historial de navegación y compras. Analiza qué datos usaría, qué límites debería definir y cómo explicaría el uso de esos datos a los usuarios.
+**Contexto:** una organización quiere personalizar recomendaciones usando historial de navegación y compras.
 
-**Pistas:** privacidad, consentimiento informado, marketing dirigido, calidad de datos, responsabilidad.
+**Pregunta de análisis:** ¿qué límites debería definir antes de usar esos datos?
 
-[Relacionar con ética](../temas/etica-datos-sociedad.qmd){.study-button .secondary}
+**Conceptos involucrados:** privacidad, consentimiento informado, marketing dirigido, calidad de datos, responsabilidad.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Debe definir qué datos son necesarios, para qué se usarán, quién accede, cuánto tiempo se conservan y cómo se informa al usuario. También debe controlar errores o sesgos, porque una recomendación basada en datos deficientes puede afectar trato, precios o acceso.</p>
+</details>
+
+<p class="case-link">Tema relacionado: [ética, datos y sociedad](../temas/etica-datos-sociedad.qmd)</p>
 :::
 
 ::: {.case-card}
-### Caso 2: Servicio móvil
+### Error de datos
 
-Un equipo necesita atender solicitudes desde terreno con teléfonos. Identifica qué infraestructura requiere, qué riesgos de conectividad existen y cómo se mantendría la continuidad del servicio.
+**Contexto:** un sistema financiero rechaza un crédito porque mantiene una deuda antigua ya pagada.
 
-**Pistas:** red celular, Wi-Fi, VPN, sincronización, seguridad, continuidad operacional.
+**Pregunta de análisis:** ¿por qué un problema de calidad de datos puede ser también un problema ético?
 
-[Relacionar con redes](../temas/redes-internet-movilidad.qmd){.study-button .secondary}
+**Conceptos involucrados:** calidad de datos, calidad del sistema, rendición de cuentas, responsabilidad legal.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>El error afecta una oportunidad concreta para una persona. La organización debe poder corregir el dato, explicar la decisión, identificar responsables y revisar controles para que el sistema no reproduzca daños similares.</p>
+</details>
+:::
+
+### Redes, Internet y movilidad
+
+::: {.case-card}
+### Servicio móvil en terreno
+
+**Contexto:** un equipo atiende solicitudes desde teléfonos fuera de la oficina.
+
+**Pregunta de análisis:** ¿qué infraestructura y controles necesita para sostener el servicio?
+
+**Conceptos involucrados:** red celular, Wi-Fi, VPN, sincronización, seguridad, continuidad operacional.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Necesita acceso móvil confiable, autenticación, permisos, cifrado, sincronización cuando la señal vuelva y procedimientos de respaldo. La red debe analizarse como parte del proceso, porque una caída puede impedir atención, registro o seguimiento.</p>
+</details>
+
+<p class="case-link">Tema relacionado: [redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd)</p>
 :::
 
 ::: {.case-card}
-### Caso 3: Plataforma de ventas
+### Wi-Fi institucional
 
-Un emprendimiento pasa de vender por mensajes a vender en una plataforma. Describe qué cambia en información, pagos, confianza, atención y medición de resultados.
+**Contexto:** una sede ofrece Wi-Fi para estudiantes, funcionarios e invitados.
 
-**Pistas:** marketplace o e-tailer, modelo de ingresos, reputación, pagos, datos, confianza.
+**Pregunta de análisis:** ¿por qué no conviene usar la misma red para todos?
 
-[Relacionar con comercio digital](../temas/comercio-digital.qmd){.study-button .secondary}
+**Conceptos involucrados:** LAN, seguridad de red, segmentación, acceso, continuidad.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Separar redes reduce el riesgo de que usuarios invitados accedan a sistemas internos o saturen servicios críticos. La segmentación permite administrar permisos, monitorear tráfico y proteger datos institucionales.</p>
+</details>
+:::
+
+### Comercio digital
+
+::: {.case-card}
+### Plataforma de ventas
+
+**Contexto:** un emprendimiento pasa de vender por mensajes a vender en una plataforma.
+
+**Pregunta de análisis:** ¿qué cambia además del canal de venta?
+
+**Conceptos involucrados:** marketplace o e-tailer, modelo de ingresos, reputación, pagos, datos, confianza.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Cambian la forma de publicar productos, procesar pagos, registrar pedidos, medir resultados y construir confianza. También aparecen datos para segmentar, mejorar atención y evaluar si el modelo obtiene ingresos por venta directa, comisión, publicidad u otro mecanismo.</p>
+</details>
+
+<p class="case-link">Tema relacionado: [comercio digital](../temas/comercio-digital.qmd)</p>
 :::
 
 ::: {.case-card}
-### Caso 4: Nuevo sistema interno
+### Streaming
 
-Una institución reemplaza formularios manuales por un sistema compartido. Define actores, requerimientos, resistencias esperables y criterios para evaluar el cambio.
+**Contexto:** una plataforma de música o video distribuye contenido digital mediante suscripción y recomendaciones.
 
-**Pistas:** análisis de sistemas, diseño, pruebas, conversión, capacitación, mantenimiento.
+**Pregunta de análisis:** ¿qué valor ofrece y qué riesgos aparecen?
 
-[Relacionar con creación de sistemas](../temas/creacion-sistemas.qmd){.study-button .secondary}
+**Conceptos involucrados:** producto digital, suscripción, personalización, privacidad, infraestructura de red.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Ofrece acceso continuo, catálogo, disponibilidad multiplataforma y recomendaciones. Los riesgos se relacionan con seguimiento de consumo, perfilamiento, uso de datos personales y dependencia de conectividad suficiente para una buena experiencia.</p>
+</details>
+:::
+
+### Creación y cambio de sistemas
+
+::: {.case-card}
+### Nuevo sistema interno
+
+**Contexto:** una institución reemplaza formularios manuales por un sistema compartido.
+
+**Pregunta de análisis:** ¿qué debería analizar antes de construir o comprar la solución?
+
+**Conceptos involucrados:** análisis de sistemas, requerimientos, diseño, pruebas, conversión, capacitación, mantenimiento.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Debe identificar actores, datos obligatorios, reglas de aprobación, reportes, controles, accesibilidad, seguridad y criterios de aceptación. También debe planificar pruebas, capacitación y una conversión que reduzca riesgo operativo.</p>
+</details>
+
+<p class="case-link">Tema relacionado: [creación y cambio de sistemas](../temas/creacion-sistemas.qmd)</p>
+:::
+
+::: {.case-card}
+### Compra de ERP
+
+**Contexto:** una organización adquiere un paquete para finanzas y recursos humanos.
+
+**Pregunta de análisis:** ¿cuál es el principal riesgo organizacional?
+
+**Conceptos involucrados:** paquetes de software, requerimientos, adaptación de procesos, personalización, mantenimiento.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>El riesgo es asumir que comprar el paquete resuelve automáticamente el problema. La organización debe decidir qué procesos adapta al sistema, qué personaliza, qué costos acepta y cómo mantendrá integración, capacitación y controles.</p>
+</details>
 :::
 
 ## Casos integradores {#casos-integradores}
 
 ::: {.case-card}
-### Caso integrador 1: App de delivery
+### App de delivery
 
-Una app conecta clientes, restaurantes y repartidores. Usa ubicación en tiempo real, cobra una comisión por pedido, muestra tiempos estimados y registra calificaciones.
+**Contexto:** una app conecta clientes, restaurantes y repartidores. Usa ubicación en tiempo real, cobra comisión por pedido, muestra tiempos estimados y registra calificaciones.
 
-Analiza el caso desde:
+**Pregunta de análisis:** ¿cómo se conectan ética, redes, comercio digital y creación de sistemas?
 
-- **Ética:** privacidad de ubicación, perfilamiento, responsabilidad por errores y calidad de datos en pedidos.
-- **Redes:** GPS, red celular, notificaciones, disponibilidad y continuidad si la conexión falla.
-- **Comercio digital:** marketplace, comisión por transacción, reputación, pagos y servicios basados en ubicación.
-- **Creación de sistemas:** requerimientos de usuarios, rediseño del despacho, pruebas de carga, conversión piloto y mantenimiento.
+**Conceptos involucrados:** privacidad de ubicación, red celular, marketplace, comisión por transacción, reputación, rediseño de despacho, pruebas de carga.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Ética aparece en el uso de ubicación, perfilamiento y responsabilidad por datos erróneos. Redes aparece en GPS, conectividad móvil y continuidad. Comercio digital aparece en marketplace, pagos, reputación y comisión. Creación de sistemas aparece en requerimientos para clientes, restaurantes y repartidores, pruebas de carga, conversión piloto y mantenimiento.</p>
+</details>
 :::
 
 ::: {.case-card}
-### Caso integrador 2: Plataforma de streaming
+### Plataforma de streaming
 
-Una plataforma ofrece películas, series y música mediante suscripción. Recomienda contenido según historial, permite perfiles familiares y funciona en TV, navegador y celular.
+**Contexto:** una plataforma ofrece películas, series y música mediante suscripción. Recomienda contenido según historial y funciona en TV, navegador y celular.
 
-Analiza el caso desde:
+**Pregunta de análisis:** ¿qué conceptos permiten explicar su operación?
 
-- **Ética:** privacidad, seguimiento de consumo, perfilamiento y uso responsable de recomendaciones.
-- **Redes:** Internet, Web, aplicaciones móviles, ancho de banda, latencia y continuidad del servicio.
-- **Comercio digital:** producto digital, suscripción, freemium posible, proveedor de contenido y personalización.
-- **Creación de sistemas:** diseño de experiencia multiplataforma, pruebas de rendimiento, integración de servicios Web y mantenimiento.
+**Conceptos involucrados:** producto digital, suscripción, personalización, privacidad, ancho de banda, latencia, diseño multiplataforma.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>El caso combina producto digital y modelo de ingresos por suscripción con recomendaciones basadas en datos. Requiere infraestructura de red estable, diseño para varios dispositivos, pruebas de rendimiento, controles de privacidad y mantenimiento continuo del servicio.</p>
+</details>
 :::
 
 ::: {.case-card}
-### Caso integrador 3: Universidad digital
+### Universidad digital
 
-Una universidad implementa matrícula en línea, aula virtual, pagos, certificados digitales y atención por canales móviles. Parte de sus estudiantes tiene conectividad limitada.
+**Contexto:** una universidad implementa matrícula en línea, aula virtual, pagos, certificados digitales y atención móvil. Parte de sus estudiantes tiene conectividad limitada.
 
-Analiza el caso desde:
+**Pregunta de análisis:** ¿qué riesgos deben atenderse para que el cambio sea efectivo?
 
-- **Ética:** calidad de datos académicos, privacidad, acceso justo y brecha digital.
-- **Redes:** Wi-Fi institucional, Internet, servicios en la nube, red móvil y seguridad de acceso.
-- **Comercio digital:** pagos digitales, servicios en línea y posible distribución de cursos como productos digitales.
-- **Creación de sistemas:** análisis de requerimientos, diseño de procesos académicos, pruebas, conversión por fases y auditoría posimplementación.
+**Conceptos involucrados:** calidad de datos académicos, privacidad, brecha digital, servicios en la nube, pagos digitales, conversión por fases.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>Debe proteger datos personales y académicos, asegurar acceso para estudiantes con conectividad limitada, probar carga y pagos, definir soporte, migrar datos cuidadosamente y desplegar por fases para reducir interrupciones.</p>
+</details>
 :::
 
 ::: {.case-card}
-### Caso integrador 4: Inventario con RFID
+### Inventario con RFID
 
-Una bodega incorpora etiquetas RFID y lectores conectados al sistema de inventario. Busca reducir pérdidas, mejorar reposición y entregar información en tiempo real a ventas.
+**Contexto:** una bodega incorpora etiquetas RFID y lectores conectados al sistema de inventario para reducir pérdidas y mejorar reposición.
 
-Analiza el caso desde:
+**Pregunta de análisis:** ¿por qué este caso no es solo técnico?
 
-- **Ética:** responsabilidad por datos erróneos, trazabilidad, controles de acceso y calidad de datos.
-- **Redes:** RFID, red local, integración con servidores y continuidad si se cae la conexión.
-- **Comercio digital:** disponibilidad de stock para e-commerce, promesas de entrega y reducción de costos de transacción.
-- **Creación de sistemas:** rediseño de recepción y despacho, pruebas de lectura, conversión piloto y mantenimiento.
+**Conceptos involucrados:** RFID, red local, calidad de datos, disponibilidad de stock, rediseño de recepción y despacho, conversión piloto.
+
+<details class="pregunta">
+<summary>Respuesta sugerida</summary>
+<p>La lectura RFID depende de red e integración técnica, pero también cambia procesos de recepción, despacho y reposición. Si los datos son incorrectos, ventas puede prometer stock inexistente. Conviene probar lecturas, capacitar usuarios y partir con un piloto.</p>
+</details>
 :::
 
-## Ruta de cierre {#ruta-de-cierre}
+## Cierre {#cierre}
 
 ::: {.wide-card}
-Para seguir practicando, responde primero las [preguntas mixtas](preguntas.qmd#preguntas-mixtas), vuelve al [glosario](glosario.qmd) cuando falte un concepto y usa el [mapa conceptual](mapa-conceptual.qmd) para ubicar relaciones entre temas.
+Después de resolver casos, contrasta tu respuesta con las [preguntas mixtas](preguntas.qmd#preguntas-mixtas) y usa el [mapa conceptual](mapa-conceptual.qmd) para ubicar relaciones entre temas.
 :::

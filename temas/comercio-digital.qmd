@@ -1,6 +1,6 @@
 ---
 title: "Comercio digital"
-description: "Guía conceptual sobre e-commerce, mercados digitales, productos digitales, plataformas y modelos de ingresos."
+description: "E-commerce, plataformas, productos digitales e ingresos."
 ---
 
 ::: {.idea-central}
@@ -8,7 +8,7 @@ Internet transforma la forma en que se compra, vende, distribuye y captura valor
 :::
 
 ::: {.ojo-prueba}
-La clave es distinguir transacción digital, mercado digital, plataforma, producto digital, modelo de negocio y modelo de ingresos. En casos, identifica quién participa, qué valor se intercambia, qué datos se usan y cómo se monetiza.
+La diferencia central está entre transacción digital, mercado digital, plataforma, producto digital, modelo de negocio y modelo de ingresos. En casos, identifica quién participa, qué valor se intercambia, qué datos se usan y cómo se monetiza.
 :::
 
 ## Atajos del tema {#atajos-del-tema}
@@ -27,7 +27,7 @@ La clave es distinguir transacción digital, mercado digital, plataforma, produc
 - [Comparaciones importantes](#comparaciones-importantes)
 - [Ejemplos simples](#ejemplos-simples)
 - [Casos breves](#casos-breves)
-- [Preguntas conceptuales](#preguntas-conceptuales)
+- [Practicar este tema](#preguntas-conceptuales)
 :::
 
 ## Definiciones clave {#definiciones-clave}
@@ -37,41 +37,41 @@ La clave es distinguir transacción digital, mercado digital, plataforma, produc
 - <span id="comercio-digital"></span>**[Comercio digital](../repaso/glosario.qmd#comercio-digital):** concepto amplio que incluye transacciones digitales, mercados, plataformas, datos, publicidad, pagos y distribución digital.
 - <span id="mercado-digital"></span>**[Mercado digital](../repaso/glosario.qmd#mercado-digital):** espacio en línea donde compradores y vendedores pueden encontrarse, comparar información y realizar intercambios.
 - <span id="producto-digital"></span>**[Producto digital](../repaso/glosario.qmd#producto-digital):** bien que puede almacenarse, copiarse, distribuirse o consumirse en formato digital, como música, video, software, libros electrónicos o cursos.
-- <span id="b2c"></span>**[B2C](../repaso/glosario.qmd#b2c):** comercio de empresa a consumidor, como una tienda online que vende directamente a personas.
-- <span id="b2b"></span>**[B2B](../repaso/glosario.qmd#b2b):** comercio entre empresas, por ejemplo compras de insumos, servicios o componentes mediante plataformas digitales.
-- <span id="c2c"></span>**[C2C](../repaso/glosario.qmd#c2c):** comercio entre consumidores, normalmente mediado por una plataforma que facilita publicación, búsqueda, reputación y pago.
-- <span id="m-commerce"></span>**[M-commerce](../repaso/glosario.qmd#m-commerce):** comercio electrónico realizado desde dispositivos móviles, con uso frecuente de apps, pagos móviles y ubicación.
-- <span id="e-tailer"></span>**[E-tailer](../repaso/glosario.qmd#e-tailer):** minorista en línea que vende directamente a consumidores desde su propio canal digital.
+- <span id="b2c"></span>**B2C:** comercio de empresa a consumidor, como una tienda online que vende directamente a personas.
+- <span id="b2b"></span>**B2B:** comercio entre empresas, por ejemplo compras de insumos, servicios o componentes mediante plataformas digitales.
+- <span id="c2c"></span>**C2C:** comercio entre consumidores, normalmente mediado por una plataforma que facilita publicación, búsqueda, reputación y pago.
+- <span id="m-commerce"></span>**M-commerce:** comercio electrónico realizado desde dispositivos móviles, con uso frecuente de apps, pagos móviles y ubicación.
+- <span id="e-tailer"></span>**E-tailer:** minorista en línea que vende directamente a consumidores desde su propio canal digital.
 - <span id="marketplace"></span>**[Marketplace](../repaso/glosario.qmd#marketplace):** plataforma que conecta compradores y vendedores externos, suele monetizar con comisiones, publicidad o servicios adicionales.
-- <span id="creador-de-mercado"></span>**[Creador de mercado](../repaso/glosario.qmd#creador-de-mercado):** actor que habilita un espacio digital para que terceros descubran precios, publiquen ofertas y cierren transacciones.
-- <span id="proveedor-de-contenido"></span>**[Proveedor de contenido](../repaso/glosario.qmd#proveedor-de-contenido):** organización que produce, agrupa o distribuye contenido digital, como música, video, noticias o cursos.
-- <span id="proveedor-de-servicios"></span>**[Proveedor de servicios](../repaso/glosario.qmd#proveedor-de-servicios):** organización que entrega una función digital en línea, como transporte, almacenamiento, entretenimiento, pagos o gestión.
-- <span id="portal"></span>**[Portal](../repaso/glosario.qmd#portal):** punto de entrada digital que reúne búsqueda, contenido, servicios o enlaces para atraer tráfico y organizar acceso.
-- <span id="comunidad-virtual"></span>**[Comunidad virtual](../repaso/glosario.qmd#comunidad-virtual):** espacio digital donde usuarios interactúan alrededor de intereses, identidades, productos o problemas comunes.
+- <span id="creador-de-mercado"></span>**Creador de mercado:** actor que habilita un espacio digital para que terceros descubran precios, publiquen ofertas y cierren transacciones.
+- <span id="proveedor-de-contenido"></span>**Proveedor de contenido:** organización que produce, agrupa o distribuye contenido digital, como música, video, noticias o cursos.
+- <span id="proveedor-de-servicios"></span>**Proveedor de servicios:** organización que entrega una función digital en línea, como transporte, almacenamiento, entretenimiento, pagos o gestión.
+- <span id="portal"></span>**Portal:** punto de entrada digital que reúne búsqueda, contenido, servicios o enlaces para atraer tráfico y organizar acceso.
+- <span id="comunidad-virtual"></span>**Comunidad virtual:** espacio digital donde usuarios interactúan alrededor de intereses, identidades, productos o problemas comunes.
 - <span id="modelo-de-negocio"></span>**[Modelo de negocio](../repaso/glosario.qmd#modelo-de-negocio):** forma en que una organización crea, entrega y captura valor.
 - <span id="modelo-de-ingresos"></span>**[Modelo de ingresos](../repaso/glosario.qmd#modelo-de-ingresos):** forma específica en que una organización obtiene dinero.
-- <span id="publicidad-digital"></span>**[Publicidad digital](../repaso/glosario.qmd#publicidad-digital):** ingreso o comunicación comercial basada en espacios, datos, audiencias o segmentación en canales digitales.
-- <span id="suscripcion"></span>**[Suscripción](../repaso/glosario.qmd#suscripcion):** cobro periódico por acceso continuo a contenido, servicio o funcionalidades.
-- <span id="freemium"></span>**[Freemium](../repaso/glosario.qmd#freemium):** modelo donde una versión básica es gratuita y se cobra por beneficios, funciones, contenido o experiencia ampliada.
-- <span id="comision-por-transaccion"></span>**[Comisión por transacción](../repaso/glosario.qmd#comision-por-transaccion):** ingreso obtenido al cobrar una tarifa por cada operación realizada en la plataforma.
-- <span id="afiliacion"></span>**[Afiliación](../repaso/glosario.qmd#afiliacion):** ingreso por derivar tráfico, clientes o ventas hacia otro sitio o proveedor.
+- <span id="publicidad-digital"></span>**Publicidad digital:** ingreso o comunicación comercial basada en espacios, datos, audiencias o segmentación en canales digitales.
+- <span id="suscripcion"></span>**Suscripción:** cobro periódico por acceso continuo a contenido, servicio o funcionalidades.
+- <span id="freemium"></span>**Freemium:** modelo donde una versión básica es gratuita y se cobra por beneficios, funciones, contenido o experiencia ampliada.
+- <span id="comision-por-transaccion"></span>**Comisión por transacción:** ingreso obtenido al cobrar una tarifa por cada operación realizada en la plataforma.
+- <span id="afiliacion"></span>**Afiliación:** ingreso por derivar tráfico, clientes o ventas hacia otro sitio o proveedor.
 - <span id="marketing-dirigido"></span>**[Marketing dirigido](../repaso/glosario.qmd#marketing-dirigido):** mensajes o recomendaciones adaptadas según datos, segmentos o inferencias sobre usuarios.
-- <span id="marketing-conductual"></span>**[Marketing conductual](../repaso/glosario.qmd#marketing-conductual):** publicidad o personalización basada en comportamiento observado, como búsquedas, clics, compras o navegación.
-- <span id="comercio-social"></span>**[Comercio social](../repaso/glosario.qmd#comercio-social):** uso de redes sociales, comunidades, recomendaciones e interacción entre usuarios para influir en compras.
-- <span id="servicios-basados-en-ubicacion"></span>**[Servicios basados en ubicación](../repaso/glosario.qmd#servicios-basados-en-ubicacion):** servicios móviles que usan posición aproximada o geográfica para ofrecer información, entrega, rutas, ofertas o coordinación.
-- <span id="desintermediacion"></span>**[Desintermediación](../repaso/glosario.qmd#desintermediacion):** reducción o eliminación de intermediarios tradicionales entre productor, vendedor y cliente.
-- <span id="costos-de-busqueda"></span>**[Costos de búsqueda](../repaso/glosario.qmd#costos-de-busqueda):** esfuerzo, tiempo o dinero necesario para encontrar precios, productos, proveedores o información.
-- <span id="costos-de-transaccion"></span>**[Costos de transacción](../repaso/glosario.qmd#costos-de-transaccion):** costos de negociar, coordinar, pagar, verificar, entregar o resolver una operación.
-- <span id="costos-de-menu"></span>**[Costos de menú](../repaso/glosario.qmd#costos-de-menu):** costos de cambiar y comunicar precios, catálogos o condiciones de venta.
-- <span id="asimetria-de-informacion"></span>**[Asimetría de información](../repaso/glosario.qmd#asimetria-de-informacion):** situación donde una parte sabe más que otra sobre precio, calidad, riesgo o condiciones de una transacción.
-- <span id="ajuste-dinamico-de-precios"></span>**[Ajuste dinámico de precios](../repaso/glosario.qmd#ajuste-dinamico-de-precios):** modificación frecuente de precios según demanda, inventario, competencia, perfil o contexto.
-- <span id="personalizacion"></span>**[Personalización](../repaso/glosario.qmd#personalizacion):** adaptación de contenido, ofertas, recomendaciones o experiencia según datos del usuario.
-- <span id="interactividad"></span>**[Interactividad](../repaso/glosario.qmd#interactividad):** capacidad de comunicación bidireccional entre usuario, empresa, plataforma y otros usuarios.
-- <span id="alcance-global"></span>**[Alcance global](../repaso/glosario.qmd#alcance-global):** posibilidad de llegar a clientes, proveedores o audiencias fuera del mercado local.
-- <span id="ubicuidad"></span>**[Ubicuidad](../repaso/glosario.qmd#ubicuidad):** disponibilidad del comercio digital en distintos lugares y momentos, siempre que exista acceso a red y dispositivo.
-- <span id="riqueza"></span>**[Riqueza](../repaso/glosario.qmd#riqueza):** capacidad de entregar mensajes con variedad de formatos, contexto y detalle, como texto, audio, video e interacción.
-- <span id="densidad-de-informacion"></span>**[Densidad de información](../repaso/glosario.qmd#densidad-de-informacion):** cantidad, calidad y disponibilidad de información útil para comparar, decidir y coordinar transacciones.
-- <span id="estandares-universales"></span>**[Estándares universales](../repaso/glosario.qmd#estandares-universales):** uso de reglas técnicas compartidas que reducen barreras para conectar compradores, vendedores y sistemas.
+- <span id="marketing-conductual"></span>**Marketing conductual:** publicidad o personalización basada en comportamiento observado, como búsquedas, clics, compras o navegación.
+- <span id="comercio-social"></span>**Comercio social:** uso de redes sociales, comunidades, recomendaciones e interacción entre usuarios para influir en compras.
+- <span id="servicios-basados-en-ubicacion"></span>**Servicios basados en ubicación:** servicios móviles que usan posición aproximada o geográfica para ofrecer información, entrega, rutas, ofertas o coordinación.
+- <span id="desintermediacion"></span>**Desintermediación:** reducción o eliminación de intermediarios tradicionales entre productor, vendedor y cliente.
+- <span id="costos-de-busqueda"></span>**Costos de búsqueda:** esfuerzo, tiempo o dinero necesario para encontrar precios, productos, proveedores o información.
+- <span id="costos-de-transaccion"></span>**Costos de transacción:** costos de negociar, coordinar, pagar, verificar, entregar o resolver una operación.
+- <span id="costos-de-menu"></span>**Costos de menú:** costos de cambiar y comunicar precios, catálogos o condiciones de venta.
+- <span id="asimetria-de-informacion"></span>**Asimetría de información:** situación donde una parte sabe más que otra sobre precio, calidad, riesgo o condiciones de una transacción.
+- <span id="ajuste-dinamico-de-precios"></span>**Ajuste dinámico de precios:** modificación frecuente de precios según demanda, inventario, competencia, perfil o contexto.
+- <span id="personalizacion"></span>**Personalización:** adaptación de contenido, ofertas, recomendaciones o experiencia según datos del usuario.
+- <span id="interactividad"></span>**Interactividad:** capacidad de comunicación bidireccional entre usuario, empresa, plataforma y otros usuarios.
+- <span id="alcance-global"></span>**Alcance global:** posibilidad de llegar a clientes, proveedores o audiencias fuera del mercado local.
+- <span id="ubicuidad"></span>**Ubicuidad:** disponibilidad del comercio digital en distintos lugares y momentos, siempre que exista acceso a red y dispositivo.
+- <span id="riqueza"></span>**Riqueza:** capacidad de entregar mensajes con variedad de formatos, contexto y detalle, como texto, audio, video e interacción.
+- <span id="densidad-de-informacion"></span>**Densidad de información:** cantidad, calidad y disponibilidad de información útil para comparar, decidir y coordinar transacciones.
+- <span id="estandares-universales"></span>**Estándares universales:** uso de reglas técnicas compartidas que reducen barreras para conectar compradores, vendedores y sistemas.
 :::
 
 ## Qué es el comercio digital {#que-es-comercio-digital}
@@ -156,7 +156,7 @@ Uber usa una app móvil para conectar pasajeros y conductores, calcular rutas, e
 
 ## Mercados digitales y plataformas {#mercados-digitales-plataformas}
 
-Un [mercado digital](#mercado-digital) concentra información y reduce fricción entre compradores y vendedores. Una [plataforma](../repaso/glosario.qmd#plataforma) define reglas, interfaces, mecanismos de pago, reputación y resolución de problemas.
+Un [mercado digital](#mercado-digital) concentra información y reduce fricción entre compradores y vendedores. Una plataforma define reglas, interfaces, mecanismos de pago, reputación y resolución de problemas.
 
 Roles frecuentes:
 
@@ -233,7 +233,7 @@ El comercio digital convierte datos de navegación, búsqueda, compra, ubicació
 Una plataforma de suscripción puede recomendar una serie, una lista musical o una promoción según consumo anterior. Esto mejora relevancia, pero también exige atención a privacidad, consentimiento y transparencia.
 :::
 
-El punto crítico es ético y comercial: mejores datos pueden mejorar la experiencia, pero también pueden generar vigilancia excesiva, manipulación o discriminación. Por eso este tema se conecta con [privacidad](etica-datos-sociedad.qmd#privacidad-datos), [seguimiento digital](../repaso/glosario.qmd#seguimiento-digital) y [calidad de datos](../repaso/glosario.qmd#calidad-de-datos).
+El punto crítico es ético y comercial: mejores datos pueden mejorar la experiencia, pero también pueden generar vigilancia excesiva, manipulación o discriminación. Por eso este tema se conecta con [privacidad](etica-datos-sociedad.qmd#privacidad-datos), seguimiento digital y calidad de datos.
 
 ## Comparaciones importantes {#comparaciones-importantes}
 
@@ -300,8 +300,8 @@ El punto crítico es ético y comercial: mejores datos pueden mejorar la experie
 ## Observaciones de prueba {#observaciones-de-prueba}
 
 ::: {.wide-card}
-- Muy probable: diferenciar B2C, B2B y C2C.
-- Muy probable: distinguir modelo de negocio y modelo de ingresos.
+- En una evaluación, B2C, B2B y C2C suelen aparecer como clasificación de actores.
+- Modelo de negocio y modelo de ingresos conviene explicarlos por separado.
 - Producto digital se asocia con distribución por red y bajo costo marginal de reproducción.
 - Marketplace y comisión por transacción suelen aparecer juntos.
 - Freemium combina gratuidad inicial y conversión a pago.
@@ -310,114 +310,34 @@ El punto crítico es ético y comercial: mejores datos pueden mejorar la experie
 - En un caso de plataforma, identifica actores, valor creado, reglas, ingresos, datos usados y riesgos.
 :::
 
-## Preguntas conceptuales {#preguntas-conceptuales}
+## Practicar este tema {#preguntas-conceptuales}
 
-<div class="preguntas-practica">
-<details class="pregunta" id="pregunta-comercio-01">
-<summary>Pregunta 1: ¿Qué es el e-commerce?</summary>
-<p>Es la compra, venta o intercambio de bienes, servicios, contenido o información mediante redes digitales, especialmente Internet y la Web.</p>
-</details>
+::: {.wide-card}
+Estas preguntas sirven como muestra rápida. El banco completo está centralizado en la página de repaso.
 
-<details class="pregunta" id="pregunta-comercio-02">
-<summary>Pregunta 2: ¿Qué diferencia hay entre e-commerce y comercio digital?</summary>
+[Ver las 20 preguntas de comercio digital](../repaso/preguntas.qmd#comercio-digital){.study-button}
+:::
+
+::: {.preguntas-practica}
+<details class="pregunta" id="muestra-comercio-ecommerce">
+<summary>¿Qué diferencia hay entre e-commerce y comercio digital?</summary>
 <p>El e-commerce se centra en transacciones digitales. El comercio digital incluye además plataformas, datos, publicidad, pagos, distribución, confianza y modelos de ingresos.</p>
 </details>
 
-<details class="pregunta" id="pregunta-comercio-03">
-<summary>Pregunta 3: ¿Qué es un mercado digital?</summary>
-<p>Es un espacio en línea donde compradores y vendedores se encuentran, comparan información y pueden realizar intercambios.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-04">
-<summary>Pregunta 4: ¿Qué efecto tiene Internet sobre los costos de búsqueda?</summary>
-<p>Los reduce, porque permite encontrar y comparar precios, características, disponibilidad y reputación con mayor facilidad.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-05">
-<summary>Pregunta 5: ¿Qué es la desintermediación?</summary>
-<p>Es la reducción o eliminación de intermediarios tradicionales entre productor, vendedor y cliente, aunque pueden aparecer nuevos intermediarios digitales.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-06">
-<summary>Pregunta 6: ¿Qué es B2C?</summary>
-<p>Es comercio electrónico de empresa a consumidor, como una tienda online o una plataforma de suscripción que vende directamente a personas.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-07">
-<summary>Pregunta 7: ¿Qué es B2B?</summary>
-<p>Es comercio electrónico entre empresas, como plataformas de compra de insumos, componentes o servicios empresariales.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-08">
-<summary>Pregunta 8: ¿Qué es C2C?</summary>
-<p>Es comercio entre consumidores, normalmente mediado por una plataforma que facilita publicación, búsqueda, reputación y pago.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-09">
-<summary>Pregunta 9: ¿Qué es m-commerce?</summary>
-<p>Es comercio electrónico realizado desde dispositivos móviles, con uso frecuente de apps, pagos móviles, notificaciones y ubicación.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-10">
-<summary>Pregunta 10: ¿Qué diferencia hay entre marketplace y e-tailer?</summary>
+<details class="pregunta" id="muestra-comercio-marketplace">
+<summary>¿Qué diferencia hay entre marketplace y e-tailer?</summary>
 <p>El marketplace conecta compradores con vendedores externos. El e-tailer vende directamente su propio catálogo como minorista online.</p>
 </details>
 
-<details class="pregunta" id="pregunta-comercio-11">
-<summary>Pregunta 11: ¿Qué es un producto digital?</summary>
-<p>Es un bien que puede almacenarse, copiarse, distribuirse o consumirse en formato digital, como música, video, software, libros electrónicos o cursos.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-12">
-<summary>Pregunta 12: ¿Por qué los productos digitales cambian la economía de distribución?</summary>
-<p>Porque pueden reproducirse y distribuirse por red con bajo costo marginal, sin inventario ni entrega física tradicional.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-13">
-<summary>Pregunta 13: ¿Qué diferencia hay entre modelo de negocio y modelo de ingresos?</summary>
-<p>El modelo de negocio explica cómo se crea, entrega y captura valor. El modelo de ingresos explica específicamente cómo obtiene dinero la organización.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-14">
-<summary>Pregunta 14: ¿Qué es el modelo de ingresos por publicidad digital?</summary>
-<p>Consiste en obtener ingresos por mostrar anuncios, vender espacios, segmentar audiencias o medir resultados en canales digitales.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-15">
-<summary>Pregunta 15: ¿Qué es el modelo de suscripción?</summary>
-<p>Consiste en cobrar periódicamente por acceso continuo a contenido, servicio o funcionalidades.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-16">
-<summary>Pregunta 16: ¿Qué es freemium?</summary>
-<p>Es un modelo donde una versión básica es gratuita y se cobra por beneficios, funciones, contenido o experiencia ampliada.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-17">
-<summary>Pregunta 17: ¿Qué es una comisión por transacción?</summary>
-<p>Es una tarifa que la plataforma cobra por cada venta, reserva, pedido, viaje u operación realizada.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-18">
-<summary>Pregunta 18: ¿Qué es marketing conductual?</summary>
-<p>Es publicidad o personalización basada en comportamiento observado, como búsquedas, clics, compras, navegación o uso de una app.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-19">
-<summary>Pregunta 19: ¿Qué relación hay entre comercio social y redes sociales?</summary>
-<p>El comercio social usa interacción, comunidades, reseñas, recomendaciones e influencia social para atraer usuarios y apoyar decisiones de compra.</p>
-</details>
-
-<details class="pregunta" id="pregunta-comercio-20">
-<summary>Pregunta 20: ¿Cómo se relacionan comercio digital y privacidad?</summary>
+<details class="pregunta" id="muestra-comercio-privacidad">
+<summary>¿Cómo se relacionan comercio digital y privacidad?</summary>
 <p>El comercio digital usa datos para recomendar, personalizar, segmentar y medir. Eso mejora experiencia y ventas, pero exige límites claros sobre consentimiento, seguimiento y uso de información personal.</p>
 </details>
-</div>
+:::
 
 ## Referencias y fuente base {#referencias-fuente-base}
 
 ::: {.referencias-fuente}
-- Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición. Tema base: e-commerce, mercados digitales y productos digitales.
-- PDF local usado solo para contrastar conceptos, términos, casos y páginas: `libro_guia_421-466.pdf`. El texto extraído identifica el capítulo 10, "E-commerce: mercados digitales, productos digitales", con paginación impresa aproximada 383-425. Para esta guía se contrastaron principalmente las páginas impresas 383-418: e-commerce actual y características únicas (383-390), mercados y productos digitales (390-393), tipos y modelos de negocio e ingresos (394-399), marketing dirigido y comercio social (399-407), B2B (408-411), m-commerce y servicios basados en ubicación (412-416), y presencia de e-commerce (416-418). Las páginas impresas 426-428 corresponden al inicio de otro capítulo y no se usaron como base conceptual.
-- Apuntes de clase y material de etapa del curso.
+- Fuente base: Laudon y Laudon, *Sistemas de información gerencial*, 14.ª edición, secciones sobre e-commerce, mercados digitales y productos digitales.
+- Apuntes de clase del curso.
 :::

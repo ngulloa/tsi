@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Guía conceptual sobre desarrollo de sistemas, cambio organizacional, pruebas, conversión y métodos de construcción.">
+<meta name="description" content="Desarrollo de sistemas y cambio organizacional.">
 
 <title>Creación y cambio de sistemas – Tecnologías y Sistemas de la Información</title>
 <style>
@@ -21,7 +21,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f85955529106639f99b9a66abd69255b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-caf81333e83b2128e3baa7a176d73074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,48 +95,48 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../index.html">
 <span class="menu-text">Inicio</span></a>
-  </li>  
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-temas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Temas</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">
         <li>
     <a class="dropdown-item" href="../temas/etica-datos-sociedad.html">
  <span class="dropdown-text">Ética, datos y sociedad</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/redes-internet-movilidad.html">
  <span class="dropdown-text">Redes, Internet y movilidad</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/comercio-digital.html">
  <span class="dropdown-text">Comercio digital</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="../temas/creacion-sistemas.html">
  <span class="dropdown-text">Creación y cambio de sistemas</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/glosario.html"> 
+    <a class="nav-link" href="../repaso/glosario.html">
 <span class="menu-text">Glosario</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/preguntas.html"> 
+    <a class="nav-link" href="../repaso/preguntas.html">
 <span class="menu-text">Preguntas</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/casos.html"> 
+    <a class="nav-link" href="../repaso/casos.html">
 <span class="menu-text">Casos</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../repaso/mapa-conceptual.html"> 
+    <a class="nav-link" href="../repaso/mapa-conceptual.html">
 <span class="menu-text">Mapa conceptual</span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -151,8 +151,8 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
+
+  <ul class="collapse">
   <li><a href="#atajos-del-tema" id="toc-atajos-del-tema" class="nav-link active" data-scroll-target="#atajos-del-tema">Atajos del tema</a></li>
   <li><a href="#definiciones-clave" id="toc-definiciones-clave" class="nav-link" data-scroll-target="#definiciones-clave">Definiciones clave</a></li>
   <li><a href="#crear-sistemas-como-cambio-organizacional" id="toc-crear-sistemas-como-cambio-organizacional" class="nav-link" data-scroll-target="#crear-sistemas-como-cambio-organizacional">Crear sistemas como cambio organizacional</a></li>
@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ejemplos-aplicados" id="toc-ejemplos-aplicados" class="nav-link" data-scroll-target="#ejemplos-aplicados">Ejemplos aplicados</a></li>
   <li><a href="#casos-breves" id="toc-casos-breves" class="nav-link" data-scroll-target="#casos-breves">Casos breves</a></li>
   <li><a href="#observaciones-de-prueba" id="toc-observaciones-de-prueba" class="nav-link" data-scroll-target="#observaciones-de-prueba">Observaciones de prueba</a></li>
-  <li><a href="#preguntas-conceptuales" id="toc-preguntas-conceptuales" class="nav-link" data-scroll-target="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+  <li><a href="#preguntas-conceptuales" id="toc-preguntas-conceptuales" class="nav-link" data-scroll-target="#preguntas-conceptuales">Practicar este tema</a></li>
   <li><a href="#referencias-fuente-base" id="toc-referencias-fuente-base" class="nav-link" data-scroll-target="#referencias-fuente-base">Referencias y fuente base</a></li>
   </ul>
 </nav>
@@ -186,18 +186,18 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Guía conceptual sobre desarrollo de sistemas, cambio organizacional, pruebas, conversión y métodos de construcción.
+    Desarrollo de sistemas y cambio organizacional.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
@@ -207,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Crear un sistema de información no es solo programar. Es transformar una necesidad organizacional en una solución que combina procesos, personas, datos, reglas, tecnología, pruebas, implementación y cambio sostenido.</p>
 </div>
 <div class="ojo-prueba">
-<p>La clave es explicar qué cambia en la organización, qué requerimientos debe cumplir el sistema, cómo se valida la solución y qué método de desarrollo conviene según el nivel de incertidumbre y riesgo.</p>
+<p>En una evaluación, este tema suele pedir explicar qué cambia en la organización, qué requerimientos debe cumplir el sistema, cómo se valida la solución y qué método conviene según incertidumbre y riesgo.</p>
 </div>
 <section id="atajos-del-tema" class="level2">
 <h2 class="anchored" data-anchor-id="atajos-del-tema">Atajos del tema</h2>
@@ -229,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="#comparaciones-importantes">Comparaciones importantes</a></li>
 <li><a href="#ejemplos-aplicados">Ejemplos aplicados</a></li>
 <li><a href="#casos-breves">Casos breves</a></li>
-<li><a href="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+<li><a href="#preguntas-conceptuales">Practicar este tema</a></li>
 </ul>
 </div>
 </section>
@@ -239,42 +239,42 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><span id="desarrollo-de-sistemas"></span><strong><a href="../repaso/glosario.html#desarrollo-de-sistemas">Desarrollo de sistemas</a>:</strong> proceso organizado para analizar un problema u oportunidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.</li>
 <li><span id="cambio-organizacional"></span><strong><a href="../repaso/glosario.html#cambio-organizacional">Cambio organizacional</a>:</strong> modificación en procesos, roles, decisiones, cultura, responsabilidades o formas de trabajo.</li>
-<li><span id="automatizacion"></span><strong><a href="../repaso/glosario.html#automatizacion">Automatización</a>:</strong> uso de tecnología para ejecutar con más eficiencia una tarea existente.</li>
-<li><span id="racionalizacion"></span><strong><a href="../repaso/glosario.html#racionalizacion">Racionalización</a>:</strong> simplificación y mejora de procedimientos antes o junto con su digitalización.</li>
-<li><span id="rediseno-de-procesos"></span><strong><a href="../repaso/glosario.html#rediseno-de-procesos">Rediseño de procesos</a>:</strong> replanteamiento profundo de un proceso para cambiar flujos, responsabilidades, pasos y resultados.</li>
-<li><span id="cambio-de-paradigma"></span><strong><a href="../repaso/glosario.html#cambio-de-paradigma">Cambio de paradigma</a>:</strong> transformación radical del modelo de operación o negocio habilitada por tecnología.</li>
-<li><span id="bpm"></span><strong><a href="../repaso/glosario.html#bpm">BPM</a>:</strong> enfoque para analizar, modelar, mejorar, ejecutar y medir procesos de negocio.</li>
-<li><span id="administracion-de-procesos-de-negocios"></span><strong><a href="../repaso/glosario.html#administracion-de-procesos-de-negocios">Administración de procesos de negocios</a>:</strong> gestión continua de procesos para mantenerlos alineados con objetivos, reglas y desempeño.</li>
+<li><span id="automatizacion"></span><strong>Automatización:</strong> uso de tecnología para ejecutar con más eficiencia una tarea existente.</li>
+<li><span id="racionalizacion"></span><strong>Racionalización:</strong> simplificación y mejora de procedimientos antes o junto con su digitalización.</li>
+<li><span id="rediseno-de-procesos"></span><strong>Rediseño de procesos:</strong> replanteamiento profundo de un proceso para cambiar flujos, responsabilidades, pasos y resultados.</li>
+<li><span id="cambio-de-paradigma"></span><strong>Cambio de paradigma:</strong> transformación radical del modelo de operación o negocio habilitada por tecnología.</li>
+<li><span id="bpm"></span><strong>BPM:</strong> enfoque para analizar, modelar, mejorar, ejecutar y medir procesos de negocio.</li>
+<li><span id="administracion-de-procesos-de-negocios"></span><strong>Administración de procesos de negocios:</strong> gestión continua de procesos para mantenerlos alineados con objetivos, reglas y desempeño.</li>
 <li><span id="analisis-de-sistemas"></span><strong><a href="../repaso/glosario.html#analisis-de-sistemas">Análisis de sistemas</a>:</strong> estudio del problema, sistema actual, actores, alternativas y requerimientos de información.</li>
 <li><span id="requerimientos"></span><strong><a href="../repaso/glosario.html#requerimientos">Requerimientos</a>:</strong> condiciones, funciones, datos, reglas y restricciones que la solución debe cumplir.</li>
 <li><span id="diseno-de-sistemas"></span><strong><a href="../repaso/glosario.html#diseno-de-sistemas">Diseño de sistemas</a>:</strong> definición de cómo la solución cumplirá los requerimientos mediante datos, procesos, interfaces, controles y arquitectura.</li>
-<li><span id="programacion"></span><strong><a href="../repaso/glosario.html#programacion">Programación</a>:</strong> traducción del diseño en software ejecutable, configuración o integración técnica.</li>
+<li><span id="programacion"></span><strong>Programación:</strong> traducción del diseño en software ejecutable, configuración o integración técnica.</li>
 <li><span id="pruebas"></span><strong><a href="../repaso/glosario.html#pruebas">Pruebas</a>:</strong> verificación de que componentes, sistema y aceptación de usuarios funcionan según lo esperado.</li>
-<li><span id="plan-de-prueba"></span><strong><a href="../repaso/glosario.html#plan-de-prueba">Plan de prueba</a>:</strong> conjunto de condiciones, datos, resultados esperados, responsables y criterios para evaluar el sistema.</li>
+<li><span id="plan-de-prueba"></span><strong>Plan de prueba:</strong> conjunto de condiciones, datos, resultados esperados, responsables y criterios para evaluar el sistema.</li>
 <li><span id="conversion"></span><strong><a href="../repaso/glosario.html#conversion">Conversión</a>:</strong> paso desde el sistema antiguo al nuevo, incluyendo datos, usuarios, procedimientos y operación.</li>
-<li><span id="conversion-directa"></span><strong><a href="../repaso/glosario.html#conversion-directa">Conversión directa</a>:</strong> reemplazo completo del sistema anterior en una fecha definida.</li>
-<li><span id="conversion-paralela"></span><strong><a href="../repaso/glosario.html#conversion-paralela">Conversión paralela</a>:</strong> operación temporal de sistema antiguo y nuevo para comparar resultados y reducir riesgo.</li>
-<li><span id="conversion-piloto"></span><strong><a href="../repaso/glosario.html#conversion-piloto">Conversión piloto</a>:</strong> implementación inicial en un área limitada antes de extender la solución.</li>
-<li><span id="conversion-por-fases"></span><strong><a href="../repaso/glosario.html#conversion-por-fases">Conversión por fases</a>:</strong> incorporación gradual por funciones, módulos, sedes o grupos de usuarios.</li>
-<li><span id="produccion"></span><strong><a href="../repaso/glosario.html#produccion">Producción</a>:</strong> operación real del sistema con usuarios, datos y procesos cotidianos.</li>
-<li><span id="mantenimiento"></span><strong><a href="../repaso/glosario.html#mantenimiento">Mantenimiento</a>:</strong> corrección, adaptación y mejora del sistema después de su puesta en producción.</li>
-<li><span id="auditoria-posimplementacion"></span><strong><a href="../repaso/glosario.html#auditoria-posimplementacion">Auditoría posimplementación</a>:</strong> revisión posterior para evaluar si el sistema produjo beneficios, cumplió requerimientos y dejó aprendizajes.</li>
-<li><span id="ciclo-de-vida-tradicional"></span><strong><a href="../repaso/glosario.html#ciclo-de-vida-tradicional">Ciclo de vida tradicional</a>:</strong> método secuencial y formal de desarrollo con etapas aprobadas antes de avanzar.</li>
-<li><span id="prototipado"></span><strong><a href="../repaso/glosario.html#prototipado">Prototipado</a>:</strong> construcción rápida de una versión preliminar para aprender con usuarios y refinar requerimientos.</li>
-<li><span id="desarrollo-del-usuario-final"></span><strong><a href="../repaso/glosario.html#desarrollo-del-usuario-final">Desarrollo del usuario final</a>:</strong> creación de aplicaciones simples por usuarios no especialistas para necesidades locales.</li>
-<li><span id="paquetes-de-software"></span><strong><a href="../repaso/glosario.html#paquetes-de-software">Paquetes de software</a>:</strong> aplicaciones ya construidas que se adquieren, configuran y adaptan para una función común.</li>
-<li><span id="outsourcing"></span><strong><a href="../repaso/glosario.html#outsourcing">Outsourcing</a>:</strong> contratación externa de desarrollo, operación, soporte o servicios tecnológicos.</li>
-<li><span id="rad"></span><strong><a href="../repaso/glosario.html#rad">RAD</a>:</strong> desarrollo rápido de aplicaciones mediante herramientas, prototipos, componentes y ciclos cortos.</li>
+<li><span id="conversion-directa"></span><strong>Conversión directa:</strong> reemplazo completo del sistema anterior en una fecha definida.</li>
+<li><span id="conversion-paralela"></span><strong>Conversión paralela:</strong> operación temporal de sistema antiguo y nuevo para comparar resultados y reducir riesgo.</li>
+<li><span id="conversion-piloto"></span><strong>Conversión piloto:</strong> implementación inicial en un área limitada antes de extender la solución.</li>
+<li><span id="conversion-por-fases"></span><strong>Conversión por fases:</strong> incorporación gradual por funciones, módulos, sedes o grupos de usuarios.</li>
+<li><span id="produccion"></span><strong>Producción:</strong> operación real del sistema con usuarios, datos y procesos cotidianos.</li>
+<li><span id="mantenimiento"></span><strong>Mantenimiento:</strong> corrección, adaptación y mejora del sistema después de su puesta en producción.</li>
+<li><span id="auditoria-posimplementacion"></span><strong>Auditoría posimplementación:</strong> revisión posterior para evaluar si el sistema produjo beneficios, cumplió requerimientos y dejó aprendizajes.</li>
+<li><span id="ciclo-de-vida-tradicional"></span><strong>Ciclo de vida tradicional:</strong> método secuencial y formal de desarrollo con etapas aprobadas antes de avanzar.</li>
+<li><span id="prototipado"></span><strong>Prototipado:</strong> construcción rápida de una versión preliminar para aprender con usuarios y refinar requerimientos.</li>
+<li><span id="desarrollo-del-usuario-final"></span><strong>Desarrollo del usuario final:</strong> creación de aplicaciones simples por usuarios no especialistas para necesidades locales.</li>
+<li><span id="paquetes-de-software"></span><strong>Paquetes de software:</strong> aplicaciones ya construidas que se adquieren, configuran y adaptan para una función común.</li>
+<li><span id="outsourcing"></span><strong>Outsourcing:</strong> contratación externa de desarrollo, operación, soporte o servicios tecnológicos.</li>
+<li><span id="rad"></span><strong>RAD:</strong> desarrollo rápido de aplicaciones mediante herramientas, prototipos, componentes y ciclos cortos.</li>
 <li><span id="desarrollo-agil"></span><strong><a href="../repaso/glosario.html#desarrollo-agil">Desarrollo ágil</a>:</strong> enfoque iterativo con entregas frecuentes, colaboración con usuarios y adaptación continua.</li>
-<li><span id="componentes"></span><strong><a href="../repaso/glosario.html#componentes">Componentes</a>:</strong> piezas reutilizables de software que encapsulan una función y pueden combinarse con otras.</li>
-<li><span id="servicios-web"></span><strong><a href="../repaso/glosario.html#servicios-web">Servicios Web</a>:</strong> servicios reutilizables accesibles por estándares de red para integrar aplicaciones.</li>
-<li><span id="desarrollo-movil"></span><strong><a href="../repaso/glosario.html#desarrollo-movil">Desarrollo móvil</a>:</strong> diseño y construcción de soluciones para teléfonos, tabletas y contextos de uso móvil.</li>
-<li><span id="aplicacion-nativa"></span><strong><a href="../repaso/glosario.html#aplicacion-nativa">Aplicación nativa</a>:</strong> app creada para una plataforma móvil específica y capaz de usar recursos del dispositivo.</li>
-<li><span id="aplicacion-web-movil"></span><strong><a href="../repaso/glosario.html#aplicacion-web-movil">Aplicación Web móvil</a>:</strong> aplicación accesible desde navegador y adaptada a pantallas y condiciones móviles.</li>
-<li><span id="metodologias-estructuradas"></span><strong><a href="../repaso/glosario.html#metodologias-estructuradas">Metodologías estructuradas</a>:</strong> técnicas de análisis y diseño que modelan procesos, flujos de datos y módulos de forma ordenada.</li>
-<li><span id="desarrollo-orientado-a-objetos"></span><strong><a href="../repaso/glosario.html#desarrollo-orientado-a-objetos">Desarrollo orientado a objetos</a>:</strong> enfoque que modela el sistema como objetos que combinan datos y comportamientos.</li>
-<li><span id="uml"></span><strong><a href="../repaso/glosario.html#uml">UML</a>:</strong> lenguaje de modelado visual para representar requisitos, clases, interacciones y estructura de software.</li>
-<li><span id="case"></span><strong><a href="../repaso/glosario.html#case">CASE</a>:</strong> herramientas de ingeniería de software asistida por computadora para documentar, modelar, generar y controlar desarrollo.</li>
+<li><span id="componentes"></span><strong>Componentes:</strong> piezas reutilizables de software que encapsulan una función y pueden combinarse con otras.</li>
+<li><span id="servicios-web"></span><strong>Servicios Web:</strong> servicios reutilizables accesibles por estándares de red para integrar aplicaciones.</li>
+<li><span id="desarrollo-movil"></span><strong>Desarrollo móvil:</strong> diseño y construcción de soluciones para teléfonos, tabletas y contextos de uso móvil.</li>
+<li><span id="aplicacion-nativa"></span><strong>Aplicación nativa:</strong> app creada para una plataforma móvil específica y capaz de usar recursos del dispositivo.</li>
+<li><span id="aplicacion-web-movil"></span><strong>Aplicación Web móvil:</strong> aplicación accesible desde navegador y adaptada a pantallas y condiciones móviles.</li>
+<li><span id="metodologias-estructuradas"></span><strong>Metodologías estructuradas:</strong> técnicas de análisis y diseño que modelan procesos, flujos de datos y módulos de forma ordenada.</li>
+<li><span id="desarrollo-orientado-a-objetos"></span><strong>Desarrollo orientado a objetos:</strong> enfoque que modela el sistema como objetos que combinan datos y comportamientos.</li>
+<li><span id="uml"></span><strong>UML:</strong> lenguaje de modelado visual para representar requisitos, clases, interacciones y estructura de software.</li>
+<li><span id="case"></span><strong>CASE:</strong> herramientas de ingeniería de software asistida por computadora para documentar, modelar, generar y controlar desarrollo.</li>
 </ul>
 </div>
 </section>
@@ -516,177 +516,45 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="observaciones-de-prueba">Observaciones de prueba</h2>
 <div class="wide-card">
 <ul>
-<li>Muy probable: diferenciar análisis y diseño.</li>
-<li>Muy probable: ordenar automatización, racionalización, rediseño y cambio de paradigma.</li>
-<li>Muy probable: explicar etapas del desarrollo de sistemas.</li>
-<li>Muy probable: comparar ciclo de vida tradicional, prototipado y desarrollo ágil.</li>
-<li>Muy probable: distinguir tipos de conversión.</li>
+<li>Análisis y diseño suelen aparecer como comparación directa.</li>
+<li>Automatización, racionalización, rediseño y cambio de paradigma conviene ordenarlos por impacto organizacional.</li>
+<li>Las etapas del desarrollo de sistemas se entienden mejor como una secuencia de decisiones, no solo como una lista.</li>
+<li>Ciclo de vida tradicional, prototipado y desarrollo ágil suelen compararse por riesgo, incertidumbre y participación de usuarios.</li>
+<li>Los tipos de conversión se distinguen por velocidad, costo, alcance y riesgo.</li>
 <li>No olvides que pruebas incluyen usuarios, datos esperados y criterios de aceptación.</li>
 <li>En casos, identifica proceso afectado, actores, requerimientos, método de implementación, riesgos y forma de evaluar resultados.</li>
 </ul>
 </div>
 </section>
 <section id="preguntas-conceptuales" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas-conceptuales">Preguntas conceptuales</h2>
+<h2 class="anchored" data-anchor-id="preguntas-conceptuales">Practicar este tema</h2>
+<div class="wide-card">
+<p>Estas preguntas sirven como muestra rápida. El banco completo está centralizado en la página de repaso.</p>
+<p><a href="../repaso/preguntas.html#creacion-cambio-sistemas" class="study-button">Ver las 20 preguntas de creación de sistemas</a></p>
+</div>
 <div class="preguntas-practica">
-<details class="pregunta" id="pregunta-creacion-01">
+<details class="pregunta" id="muestra-creacion-cambio">
 <summary>
-Pregunta 1: ¿Por qué crear un sistema implica cambio organizacional?
+¿Por qué crear un sistema implica cambio organizacional?
 </summary>
 <p>
 Porque modifica procesos, roles, decisiones, flujos de información, controles y hábitos de trabajo, no solo tecnología.
 </p>
 </details>
-<details class="pregunta" id="pregunta-creacion-02">
+<details class="pregunta" id="muestra-creacion-requerimientos">
 <summary>
-Pregunta 2: ¿Qué es desarrollo de sistemas?
-</summary>
-<p>
-Es el proceso organizado de analizar una necesidad, diseñar una solución, construirla, probarla, implementarla y mantenerla.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-03">
-<summary>
-Pregunta 3: Ordena los cuatro niveles de cambio habilitado por TI de menor a mayor impacto.
-</summary>
-<p>
-Automatización, racionalización, rediseño de procesos y cambio de paradigma.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-04">
-<summary>
-Pregunta 4: ¿Qué diferencia hay entre automatización y racionalización?
-</summary>
-<p>
-La automatización digitaliza una tarea existente. La racionalización simplifica y mejora el procedimiento antes o junto con digitalizar.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-05">
-<summary>
-Pregunta 5: ¿Qué diferencia hay entre rediseño de procesos y cambio de paradigma?
-</summary>
-<p>
-El rediseño transforma profundamente un proceso; el cambio de paradigma transforma el modelo general de operación o negocio.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-06">
-<summary>
-Pregunta 6: ¿Para qué sirve BPM?
-</summary>
-<p>
-Sirve para analizar, modelar, mejorar, ejecutar y medir procesos de negocio de manera continua.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-07">
-<summary>
-Pregunta 7: ¿Qué es análisis de sistemas?
-</summary>
-<p>
-Es estudiar el problema, sistema actual, actores, causas, alternativas y requerimientos que debe cumplir una solución.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-08">
-<summary>
-Pregunta 8: ¿Qué es diseño de sistemas?
-</summary>
-<p>
-Es definir cómo se construirá o configurará la solución: datos, procesos, interfaces, controles, reportes e infraestructura.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-09">
-<summary>
-Pregunta 9: ¿Por qué los requerimientos son críticos?
+¿Por qué los requerimientos son críticos?
 </summary>
 <p>
 Porque orientan todo el diseño y permiten evaluar si el sistema realmente resuelve la necesidad de la organización.
 </p>
 </details>
-<details class="pregunta" id="pregunta-creacion-10">
+<details class="pregunta" id="muestra-creacion-conversion">
 <summary>
-Pregunta 10: ¿Qué etapas suelen aparecer en el proceso básico de desarrollo?
-</summary>
-<p>
-Análisis, diseño, programación o construcción, pruebas, conversión, producción y mantenimiento.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-11">
-<summary>
-Pregunta 11: ¿Qué debe contener un plan de prueba?
-</summary>
-<p>
-Condiciones a probar, datos de prueba, resultados esperados, responsables, criterios de aprobación y acciones frente a fallas.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-12">
-<summary>
-Pregunta 12: ¿Qué diferencia hay entre prueba de sistema y prueba de aceptación?
-</summary>
-<p>
-La prueba de sistema evalúa la integración y funcionamiento completo; la de aceptación confirma con usuarios y responsables que está listo para operar.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-13">
-<summary>
-Pregunta 13: ¿Qué es conversión?
-</summary>
-<p>
-Es el paso del sistema antiguo al nuevo, incluyendo datos, procedimientos, usuarios, capacitación y operación.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-14">
-<summary>
-Pregunta 14: ¿Qué diferencia hay entre conversión directa y paralela?
+¿Qué diferencia hay entre conversión directa y paralela?
 </summary>
 <p>
 La directa reemplaza el sistema anterior de una vez; la paralela mantiene ambos sistemas temporalmente para comparar y reducir riesgo.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-15">
-<summary>
-Pregunta 15: ¿Cuándo conviene usar conversión piloto o por fases?
-</summary>
-<p>
-Cuando se quiere reducir riesgo implementando primero en un área limitada o desplegando gradualmente por módulos, sedes o funciones.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-16">
-<summary>
-Pregunta 16: ¿Qué es mantenimiento de sistemas?
-</summary>
-<p>
-Es corregir, adaptar y mejorar el sistema después de su puesta en producción para mantenerlo útil y confiable.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-17">
-<summary>
-Pregunta 17: ¿Qué caracteriza al ciclo de vida tradicional?
-</summary>
-<p>
-Es un método secuencial y formal, con etapas definidas, documentación y aprobaciones antes de avanzar.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-18">
-<summary>
-Pregunta 18: ¿Cuándo conviene usar prototipado?
-</summary>
-<p>
-Cuando los requerimientos son inciertos, los usuarios necesitan visualizar la solución o la interfaz es importante para definir el sistema.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-19">
-<summary>
-Pregunta 19: ¿Qué ventaja y qué riesgo tiene usar paquetes de software?
-</summary>
-<p>
-La ventaja es reducir tiempo y costo de construcción. El riesgo es que la organización deba adaptar procesos o personalizar demasiado el paquete.
-</p>
-</details>
-<details class="pregunta" id="pregunta-creacion-20">
-<summary>
-Pregunta 20: ¿Qué caracteriza al desarrollo ágil?
-</summary>
-<p>
-Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, priorización continua y adaptación a cambios.
 </p>
 </details>
 </div>
@@ -695,9 +563,8 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
 <h2 class="anchored" data-anchor-id="referencias-fuente-base">Referencias y fuente base</h2>
 <div class="referencias-fuente">
 <ul>
-<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema base: creación de sistemas de información y cambio organizacional.</li>
-<li>PDF local usado solo como contraste conceptual: <code>libro_guia_541-584.pdf</code>. Se contrastó cobertura de creación de sistemas, cambio organizacional, BPM, desarrollo, pruebas, conversión, metodologías, prototipado, paquetes, outsourcing, RAD, ágil, componentes, servicios Web y desarrollo móvil.</li>
-<li>Material de etapa del curso: <code>MATERIAL_ETAPA.md</code>.</li>
+<li>Fuente base: Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición, secciones sobre creación de sistemas de información y cambio organizacional.</li>
+<li>Apuntes de clase del curso.</li>
 </ul>
 </div>
 
@@ -729,9 +596,9 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
     var prefix = currentDepthPrefix();
     var links = [
       { label: "Inicio", href: prefix + "index.html", match: "/index.html" },
-      { label: "Temas", href: prefix + "index.html#temas", match: "#temas" },
+      { label: "Temas", href: prefix + "index.html#temas", match: "/temas/" },
       { label: "Preguntas", href: prefix + "repaso/preguntas.html", match: "/repaso/preguntas.html" },
-      { label: "Glosario", href: prefix + "repaso/glosario.html", match: "/repaso/glosario.html" }
+      { label: "Casos", href: prefix + "repaso/casos.html", match: "/repaso/casos.html" }
     ];
 
     var nav = document.createElement("nav");
@@ -746,8 +613,8 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
 
       if (
         (item.match === "/index.html" && current.endsWith("/index.html") && window.location.hash !== "#temas") ||
-        (item.match === "#temas" && window.location.hash === "#temas") ||
-        (item.match !== "#temas" && current.endsWith(item.match))
+        (item.match === "/temas/" && (current.indexOf("/temas/") !== -1 || window.location.hash === "#temas")) ||
+        (item.match !== "/temas/" && current.endsWith(item.match))
       ) {
         link.setAttribute("aria-current", "page");
       }
@@ -887,7 +754,7 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -907,11 +774,11 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copiado");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -993,7 +860,7 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -1068,7 +935,7 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -1096,7 +963,7 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -1120,7 +987,7 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -1160,7 +1027,7 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -1286,12 +1153,12 @@ Trabajo iterativo, entregas frecuentes, colaboración cercana con usuarios, prio
   <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Tecnologías y Sistemas de la Información</p>
-</div>   
+</div>
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Sitio estático generado con Quarto</p>
+<p>Guía de estudio TSI</p>
 </div>
   </div>
 </footer>
