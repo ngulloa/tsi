@@ -27,6 +27,10 @@ Banco completo del tema: [20 preguntas conceptuales de ética, datos y sociedad]
 
 ## Preguntas de redes, Internet y movilidad
 
+::: {.wide-card}
+Banco completo del tema: [20 preguntas conceptuales de redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#preguntas-conceptuales), con respuestas ocultas para practicar.
+:::
+
 ::: {.preguntas-practica}
 <details class="pregunta" id="pregunta-movilidad">
 <summary>¿Qué aporta la movilidad a un sistema de información?</summary>

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Placeholder conceptual sobre redes, Internet y tecnologías móviles.">
+<meta name="description" content="Guía conceptual sobre redes, Internet, servicios digitales y tecnologías móviles en sistemas de información.">
 
 <title>Redes, Internet y movilidad – Tecnologías y Sistemas de la Información</title>
 <style>
@@ -153,10 +153,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#conceptos-clave" id="toc-conceptos-clave" class="nav-link active" data-scroll-target="#conceptos-clave">Conceptos clave</a></li>
-  <li><a href="#casos" id="toc-casos" class="nav-link" data-scroll-target="#casos">Casos</a></li>
-  <li><a href="#preguntas" id="toc-preguntas" class="nav-link" data-scroll-target="#preguntas">Preguntas</a></li>
-  <li><a href="#referencias-y-fuente-base" id="toc-referencias-y-fuente-base" class="nav-link" data-scroll-target="#referencias-y-fuente-base">Referencias y fuente base</a></li>
+  <li><a href="#atajos-del-tema" id="toc-atajos-del-tema" class="nav-link active" data-scroll-target="#atajos-del-tema">Atajos del tema</a></li>
+  <li><a href="#definiciones-clave" id="toc-definiciones-clave" class="nav-link" data-scroll-target="#definiciones-clave">Definiciones clave</a></li>
+  <li><a href="#red-infraestructura-sistema" id="toc-red-infraestructura-sistema" class="nav-link" data-scroll-target="#red-infraestructura-sistema">La red como infraestructura del sistema</a></li>
+  <li><a href="#protocolos-paquetes-direccionamiento" id="toc-protocolos-paquetes-direccionamiento" class="nav-link" data-scroll-target="#protocolos-paquetes-direccionamiento">Protocolos, paquetes y direccionamiento</a></li>
+  <li><a href="#tipos-red-alcance" id="toc-tipos-red-alcance" class="nav-link" data-scroll-target="#tipos-red-alcance">Tipos de red por alcance</a></li>
+  <li><a href="#internet-web-servicios" id="toc-internet-web-servicios" class="nav-link" data-scroll-target="#internet-web-servicios">Internet, Web y servicios</a></li>
+  <li><a href="#movilidad-redes-inalambricas" id="toc-movilidad-redes-inalambricas" class="nav-link" data-scroll-target="#movilidad-redes-inalambricas">Movilidad y redes inalámbricas</a></li>
+  <li><a href="#seguridad-continuidad-gestion" id="toc-seguridad-continuidad-gestion" class="nav-link" data-scroll-target="#seguridad-continuidad-gestion">Seguridad, continuidad y gestión</a></li>
+  <li><a href="#comparaciones-importantes" id="toc-comparaciones-importantes" class="nav-link" data-scroll-target="#comparaciones-importantes">Comparaciones importantes</a></li>
+  <li><a href="#esquemas-simples" id="toc-esquemas-simples" class="nav-link" data-scroll-target="#esquemas-simples">Esquemas simples</a></li>
+  <li><a href="#observaciones-de-prueba" id="toc-observaciones-de-prueba" class="nav-link" data-scroll-target="#observaciones-de-prueba">Observaciones de prueba</a></li>
+  <li><a href="#casos-breves" id="toc-casos-breves" class="nav-link" data-scroll-target="#casos-breves">Casos breves</a></li>
+  <li><a href="#preguntas-conceptuales" id="toc-preguntas-conceptuales" class="nav-link" data-scroll-target="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+  <li><a href="#referencias-fuente-base" id="toc-referencias-fuente-base" class="nav-link" data-scroll-target="#referencias-fuente-base">Referencias y fuente base</a></li>
   </ul>
 </nav>
     </div>
@@ -170,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Placeholder conceptual sobre redes, Internet y tecnologías móviles.
+    Guía conceptual sobre redes, Internet, servicios digitales y tecnologías móviles en sistemas de información.
   </div>
 </div>
 
@@ -188,50 +198,428 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="idea-central">
-<p>La conectividad permite que personas, aplicaciones, datos y procesos organizacionales funcionen como un sistema distribuido.</p>
+<p>Las redes permiten que personas, dispositivos, aplicaciones y datos trabajen como un sistema distribuido. No son solo soporte técnico: condicionan la continuidad, velocidad, seguridad y alcance real de los sistemas de información.</p>
 </div>
 <div class="ojo-prueba">
-<p>Conviene distinguir infraestructura de red, servicios en Internet y efectos de la movilidad en el trabajo real.</p>
+<p>La clave es distinguir infraestructura de red, servicios de Internet y movilidad. Una aplicación puede estar bien diseñada, pero si falla la conectividad, la seguridad o el acceso móvil, el proceso organizacional también falla.</p>
 </div>
-<section id="conceptos-clave" class="level2">
-<h2 class="anchored" data-anchor-id="conceptos-clave">Conceptos clave</h2>
+<section id="atajos-del-tema" class="level2">
+<h2 class="anchored" data-anchor-id="atajos-del-tema">Atajos del tema</h2>
 <div class="concept-list">
 <ul>
-<li>Redes de comunicación y arquitectura de conectividad.</li>
-<li>Internet como infraestructura de servicios.</li>
-<li>Movilidad, acceso ubicuo y dispositivos conectados.</li>
-<li>Seguridad de red y continuidad operacional.</li>
-<li>Servicios en la nube y colaboración digital.</li>
+<li><a href="#definiciones-clave">Definiciones clave</a></li>
+<li><a href="#red-infraestructura-sistema">La red como infraestructura del sistema</a></li>
+<li><a href="#protocolos-paquetes-direccionamiento">Protocolos, paquetes y direccionamiento</a></li>
+<li><a href="#tipos-red-alcance">Tipos de red por alcance</a></li>
+<li><a href="#internet-web-servicios">Internet, Web y servicios</a></li>
+<li><a href="#movilidad-redes-inalambricas">Movilidad y redes inalámbricas</a></li>
+<li><a href="#seguridad-continuidad-gestion">Seguridad, continuidad y gestión</a></li>
+<li><a href="#comparaciones-importantes">Comparaciones importantes</a></li>
+<li><a href="#esquemas-simples">Esquemas simples</a></li>
+<li><a href="#observaciones-de-prueba">Observaciones de prueba</a></li>
+<li><a href="#casos-breves">Casos breves</a></li>
+<li><a href="#preguntas-conceptuales">Preguntas conceptuales</a></li>
+</ul>
+</div>
+</section>
+<section id="definiciones-clave" class="level2">
+<h2 class="anchored" data-anchor-id="definiciones-clave">Definiciones clave</h2>
+<div class="concept-list">
+<ul>
+<li><span id="red-de-telecomunicaciones"></span><strong><a href="../repaso/glosario.html#red-de-telecomunicaciones">Red de telecomunicaciones</a>:</strong> conjunto de dispositivos, medios, reglas y servicios que permiten transmitir datos, voz, video o señales entre puntos.</li>
+<li><span id="conectividad"></span><strong><a href="../repaso/glosario.html#conectividad">Conectividad</a>:</strong> capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.</li>
+<li><span id="cliente-servidor"></span><strong><a href="../repaso/glosario.html#cliente-servidor">Cliente/servidor</a>:</strong> modelo donde un cliente solicita servicios o datos y un servidor los entrega bajo reglas de acceso.</li>
+<li><span id="conmutacion-de-paquetes"></span><strong><a href="../repaso/glosario.html#conmutacion-de-paquetes">Conmutación de paquetes</a>:</strong> forma de transmitir mensajes dividiéndolos en paquetes que viajan por la red y se reensamblan al llegar.</li>
+<li><span id="protocolo"></span><strong><a href="../repaso/glosario.html#protocolo">Protocolo</a>:</strong> regla común que define cómo se formatean, envían, reciben o interpretan los datos.</li>
+<li><span id="tcp-ip"></span><strong><a href="../repaso/glosario.html#tcp-ip">TCP/IP</a>:</strong> familia de protocolos que permite conectar redes distintas y sostener el funcionamiento de Internet.</li>
+<li><span id="direccion-ip"></span><strong><a href="../repaso/glosario.html#direccion-ip">Dirección IP</a>:</strong> identificador lógico que permite ubicar un dispositivo o servicio dentro de una red.</li>
+<li><span id="dns"></span><strong><a href="../repaso/glosario.html#dns">DNS</a>:</strong> sistema que traduce nombres de dominio legibles por personas a direcciones IP.</li>
+<li><span id="ancho-de-banda"></span><strong><a href="../repaso/glosario.html#ancho-de-banda">Ancho de banda</a>:</strong> capacidad de transmisión de datos de un enlace durante un periodo.</li>
+<li><span id="latencia"></span><strong><a href="../repaso/glosario.html#latencia">Latencia</a>:</strong> demora percibida entre una solicitud y una respuesta.</li>
+<li><span id="red-de-area-local"></span><strong><a href="../repaso/glosario.html#red-de-area-local">Red de área local</a>:</strong> red que conecta dispositivos dentro de una oficina, sala, edificio o campus cercano.</li>
+<li><span id="red-de-area-amplia"></span><strong><a href="../repaso/glosario.html#red-de-area-amplia">Red de área amplia</a>:</strong> red que conecta ubicaciones distantes, normalmente usando enlaces de operadores o Internet.</li>
+<li><span id="internet"></span><strong><a href="../repaso/glosario.html#internet">Internet</a>:</strong> red global de redes que conecta millones de redes mediante estándares comunes.</li>
+<li><span id="world-wide-web"></span><strong><a href="../repaso/glosario.html#world-wide-web">World Wide Web</a>:</strong> servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.</li>
+<li><span id="intranet"></span><strong><a href="../repaso/glosario.html#intranet">Intranet</a>:</strong> red o sitio interno usado por una organización para compartir información y servicios privados.</li>
+<li><span id="extranet"></span><strong><a href="../repaso/glosario.html#extranet">Extranet</a>:</strong> extensión controlada de una intranet para socios, proveedores, clientes u otros actores autorizados.</li>
+<li><span id="proveedor-de-servicios-de-internet"></span><strong><a href="../repaso/glosario.html#proveedor-de-servicios-de-internet">Proveedor de servicios de Internet</a>:</strong> empresa u organización que entrega acceso a Internet.</li>
+<li><span id="wi-fi"></span><strong><a href="../repaso/glosario.html#wi-fi">Wi-Fi</a>:</strong> tecnología de red inalámbrica local basada en estándares 802.11.</li>
+<li><span id="bluetooth"></span><strong><a href="../repaso/glosario.html#bluetooth">Bluetooth</a>:</strong> tecnología inalámbrica de corto alcance para conectar dispositivos personales o periféricos.</li>
+<li><span id="red-celular"></span><strong><a href="../repaso/glosario.html#red-celular">Red celular</a>:</strong> infraestructura móvil que conecta teléfonos y dispositivos mediante antenas y operadores.</li>
+<li><span id="voip"></span><strong><a href="../repaso/glosario.html#voip">VoIP</a>:</strong> transmisión de voz como datos digitales sobre redes IP.</li>
+<li><span id="vpn"></span><strong><a href="../repaso/glosario.html#vpn">VPN</a>:</strong> conexión privada y cifrada creada sobre una red pública como Internet.</li>
+<li><span id="rfid"></span><strong><a href="../repaso/glosario.html#rfid">RFID</a>:</strong> identificación por radiofrecuencia para reconocer objetos, productos, personas o activos mediante etiquetas y lectores.</li>
+<li><span id="redes-de-sensores-inalambricas"></span><strong><a href="../repaso/glosario.html#redes-de-sensores-inalambricas">Redes de sensores inalámbricas</a>:</strong> redes de nodos que capturan datos del entorno y los envían para análisis.</li>
+<li><span id="internet-de-las-cosas"></span><strong><a href="../repaso/glosario.html#internet-de-las-cosas">Internet de las cosas</a>:</strong> conexión de objetos físicos con sensores, software y redes para monitorear o actuar sobre el mundo real.</li>
+<li><span id="seguridad-de-red"></span><strong><a href="../repaso/glosario.html#seguridad-de-red">Seguridad de red</a>:</strong> controles para proteger comunicaciones, dispositivos y servicios contra accesos, fallas o usos no autorizados.</li>
+</ul>
+</div>
+</section>
+<section id="red-infraestructura-sistema" class="level2">
+<h2 class="anchored" data-anchor-id="red-infraestructura-sistema">La red como infraestructura del sistema</h2>
+<p>Una <a href="#red-de-telecomunicaciones">red de telecomunicaciones</a> conecta componentes técnicos, pero su impacto es organizacional. Permite coordinar procesos, compartir información, atender usuarios, operar a distancia y sostener servicios en línea.</p>
+<p>En un sistema de información, la red influye en:</p>
+<div class="concept-list">
+<ul>
+<li><strong>Disponibilidad:</strong> si la red cae, el servicio puede quedar inaccesible.</li>
+<li><strong>Velocidad:</strong> si hay poco <a href="#ancho-de-banda">ancho de banda</a> o mucha <a href="#latencia">latencia</a>, la experiencia se vuelve lenta.</li>
+<li><strong>Alcance:</strong> una red móvil o de Internet permite operar fuera de una oficina.</li>
+<li><strong>Seguridad:</strong> más conexiones también significan más puntos de acceso que controlar.</li>
+<li><strong>Integración:</strong> redes comunes permiten que aplicaciones, bases de datos y usuarios trabajen sobre la misma información.</li>
 </ul>
 </div>
 <div class="ejemplo">
-<p>Una aplicación de atención en terreno necesita red, dispositivos, seguridad y continuidad para funcionar fuera de la oficina.</p>
+<p>Una municipalidad que recibe solicitudes en terreno necesita celulares, red móvil, acceso seguro al sistema, sincronización de datos y soporte si la conexión falla. La red no es un accesorio: define si el proceso puede hacerse fuera de la oficina.</p>
 </div>
 </section>
-<section id="casos" class="level2">
-<h2 class="anchored" data-anchor-id="casos">Casos</h2>
-<div class="caso-breve">
-<p>Observa una institución que depende de atención en línea. Describe qué ocurre si falla la red, qué procesos se detienen y qué medidas podrían reducir el impacto.</p>
-<p><a href="../repaso/casos.html" class="study-button secondary">Ver casos aplicados</a></p>
+<section id="protocolos-paquetes-direccionamiento" class="level2">
+<h2 class="anchored" data-anchor-id="protocolos-paquetes-direccionamiento">Protocolos, paquetes y direccionamiento</h2>
+<p>Las redes funcionan porque los equipos siguen reglas compartidas. Un <a href="#protocolo">protocolo</a> define cómo se envían los datos, cómo se identifican los equipos, cómo se corrigen errores y cómo se interpreta una solicitud.</p>
+<p>La <a href="#conmutacion-de-paquetes">conmutación de paquetes</a> divide un mensaje en unidades pequeñas. Cada paquete lleva datos y señales de control para llegar a destino. Esto permite aprovechar mejor la capacidad de la red, porque diferentes comunicaciones pueden compartir caminos.</p>
+<div class="wide-card">
+<p><strong>Idea simple:</strong> enviar un archivo por Internet no es como mandar una caja cerrada por un único camino. Es más parecido a dividir el contenido en sobres pequeños, enviarlos por rutas posibles y ordenarlos al llegar.</p>
+</div>
+<p><a href="#tcp-ip">TCP/IP</a> es central porque permite que redes distintas se comuniquen. En una explicación de prueba, basta con reconocer cuatro niveles:</p>
+<div class="concept-list">
+<ul>
+<li><strong>Aplicación:</strong> servicios usados por programas, como Web o correo.</li>
+<li><strong>Transporte:</strong> entrega de datos entre origen y destino, con control de comunicación.</li>
+<li><strong>Internet:</strong> direccionamiento y enrutamiento mediante IP.</li>
+<li><strong>Interfaz de red:</strong> transmisión física o inalámbrica en el medio disponible.</li>
+</ul>
+</div>
+<p>La <a href="#direccion-ip">dirección IP</a> identifica equipos o servicios en la red. El <a href="#dns">DNS</a> evita que las personas memoricen números: permite escribir un dominio y llegar a la dirección correspondiente.</p>
+</section>
+<section id="tipos-red-alcance" class="level2">
+<h2 class="anchored" data-anchor-id="tipos-red-alcance">Tipos de red por alcance</h2>
+<p>Las redes se clasifican de forma útil según el área que cubren:</p>
+<div class="concept-list">
+<ul>
+<li><strong>PAN:</strong> red personal de muy corto alcance, por ejemplo un teléfono conectado a audífonos por <a href="#bluetooth">Bluetooth</a>.</li>
+<li><strong>LAN:</strong> <a href="#red-de-area-local">red de área local</a>, como la red de una oficina, laboratorio o edificio.</li>
+<li><strong>MAN:</strong> red metropolitana, pensada para cubrir una ciudad o zona urbana.</li>
+<li><strong>WAN:</strong> <a href="#red-de-area-amplia">red de área amplia</a>, usada para conectar sedes distantes o redes de gran escala.</li>
+</ul>
+</div>
+<div class="ojo-prueba">
+<p>No memorices solo siglas. Pregunta siempre: ¿qué distancia cubre?, ¿quién la administra?, ¿qué dispositivos conecta? y ¿qué proceso depende de ella?</p>
+</div>
+<p>También es útil distinguir dos formas de organización:</p>
+<div class="concept-list">
+<ul>
+<li><strong>Cliente/servidor:</strong> un servidor centraliza servicios, datos o reglas de acceso para clientes.</li>
+<li><strong>Igual a igual:</strong> varios equipos comparten recursos directamente sin depender de un servidor central.</li>
+</ul>
 </div>
 </section>
-<section id="preguntas" class="level2">
-<h2 class="anchored" data-anchor-id="preguntas">Preguntas</h2>
+<section id="internet-web-servicios" class="level2">
+<h2 class="anchored" data-anchor-id="internet-web-servicios">Internet, Web y servicios</h2>
+<p><a href="#internet">Internet</a> es la red global de redes. La <a href="#world-wide-web">World Wide Web</a> es un servicio que funciona sobre Internet usando navegadores, páginas, enlaces y protocolos como HTTP.</p>
+<div class="wide-card">
+<p><strong>Internet no es lo mismo que Web.</strong> Internet también permite correo, mensajería, videollamadas, transferencia de archivos, servicios en la nube, <a href="#vpn">VPN</a>, <a href="#voip">VoIP</a> y muchas otras comunicaciones.</p>
+</div>
+<p>Servicios importantes:</p>
+<div class="concept-list">
+<ul>
+<li><strong>Correo y mensajería:</strong> comunicación asincrónica o inmediata entre usuarios.</li>
+<li><strong>Web:</strong> acceso a páginas, plataformas y aplicaciones mediante navegador.</li>
+<li><strong>VoIP:</strong> voz transmitida como paquetes de datos.</li>
+<li><strong>VPN:</strong> acceso cifrado a recursos privados usando Internet como transporte.</li>
+<li><strong>Servicios en la nube:</strong> aplicaciones, almacenamiento o infraestructura entregados a través de red.</li>
+<li><strong>Intranets y extranets:</strong> servicios privados para empleados o actores externos autorizados.</li>
+</ul>
+</div>
+<div class="ejemplo">
+<p>Una universidad puede usar Internet para clases virtuales, una intranet para documentos internos, una extranet para proveedores y una VPN para que funcionarios entren a sistemas administrativos desde fuera del campus.</p>
+</div>
+</section>
+<section id="movilidad-redes-inalambricas" class="level2">
+<h2 class="anchored" data-anchor-id="movilidad-redes-inalambricas">Movilidad y redes inalámbricas</h2>
+<p>La movilidad agrega una exigencia: el usuario espera acceder a información y servicios desde cualquier lugar razonable, con dispositivos portátiles y redes variables.</p>
+<p>Tecnologías frecuentes:</p>
+<div class="concept-list">
+<ul>
+<li><a href="#wi-fi">Wi-Fi</a>: conecta dispositivos a una red local inalámbrica; depende de puntos de acceso y cobertura cercana.</li>
+<li><a href="#bluetooth">Bluetooth</a>: conecta dispositivos personales de corto alcance; sirve para periféricos, sensores o transferencia cercana.</li>
+<li><a href="#red-celular">Red celular</a>: permite acceso móvil en áreas amplias usando antenas y operadores.</li>
+<li><a href="#rfid">RFID</a>: identifica objetos o activos mediante etiquetas y lectores.</li>
+<li><a href="#redes-de-sensores-inalambricas">Redes de sensores inalámbricas</a>: capturan datos del entorno, como temperatura, ubicación, movimiento o estado de equipos.</li>
+<li><a href="#internet-de-las-cosas">Internet de las cosas</a>: integra objetos físicos conectados a procesos digitales.</li>
+</ul>
+</div>
+<div class="ejemplo">
+<p>En logística, RFID puede registrar el paso de productos por bodega, sensores pueden medir temperatura y la red celular puede informar el estado de un despacho desde un camión.</p>
+</div>
+<p>La movilidad mejora cobertura operativa, pero también aumenta riesgos: pérdida de dispositivos, conexiones inseguras, baja señal, datos sensibles fuera de la oficina y necesidad de sincronizar información.</p>
+</section>
+<section id="seguridad-continuidad-gestion" class="level2">
+<h2 class="anchored" data-anchor-id="seguridad-continuidad-gestion">Seguridad, continuidad y gestión</h2>
+<p>Mientras más conectado está un sistema, más depende de controles técnicos y reglas organizacionales. La <a href="#seguridad-de-red">seguridad de red</a> busca proteger comunicaciones, usuarios y servicios.</p>
+<p>Medidas típicas:</p>
+<div class="concept-list">
+<ul>
+<li>Autenticación de usuarios y dispositivos.</li>
+<li>Cifrado de comunicaciones, especialmente fuera de la red interna.</li>
+<li>Segmentación de redes para separar invitados, empleados, servidores y sistemas críticos.</li>
+<li>Uso de VPN cuando se accede a recursos privados desde Internet.</li>
+<li>Monitoreo de tráfico, disponibilidad y eventos sospechosos.</li>
+<li>Planes de respaldo o continuidad si falla el proveedor, la energía o la conexión.</li>
+</ul>
+</div>
+<div class="ojo-prueba">
+<p>Una red rápida pero sin controles puede ser un riesgo. Una red segura pero sin continuidad puede detener operaciones. En casos, evalúa velocidad, acceso, protección y dependencia del proceso.</p>
+</div>
+</section>
+<section id="comparaciones-importantes" class="level2">
+<h2 class="anchored" data-anchor-id="comparaciones-importantes">Comparaciones importantes</h2>
+<div class="wide-card">
+<p><strong>Internet vs.&nbsp;Web:</strong> Internet es la infraestructura global; la Web es uno de sus servicios.</p>
+<p><strong>LAN vs.&nbsp;WAN:</strong> LAN conecta un espacio cercano; WAN conecta ubicaciones distantes.</p>
+<p><strong>Wi-Fi vs.&nbsp;red celular:</strong> Wi-Fi suele depender de un punto de acceso local; la red celular depende de antenas y operador móvil.</p>
+<p><strong>Bluetooth vs.&nbsp;Wi-Fi:</strong> Bluetooth sirve para corto alcance y bajo consumo; Wi-Fi sirve para acceso local a red o Internet con más capacidad.</p>
+<p><strong>Intranet vs.&nbsp;extranet:</strong> la intranet es interna; la extranet abre acceso controlado a externos autorizados.</p>
+<p><strong>VPN vs.&nbsp;Internet público:</strong> la VPN usa Internet como transporte, pero crea un canal cifrado hacia recursos privados.</p>
+<p><strong>Ancho de banda vs.&nbsp;latencia:</strong> ancho de banda es capacidad; latencia es demora. Una videollamada puede fallar por cualquiera de los dos.</p>
+<p><strong>RFID vs.&nbsp;código de barras:</strong> RFID puede leerse por radio y no requiere la misma línea visual directa; el código de barras exige escaneo visible.</p>
+</div>
+</section>
+<section id="esquemas-simples" class="level2">
+<h2 class="anchored" data-anchor-id="esquemas-simples">Esquemas simples</h2>
+<div class="wide-card">
+<p><strong>Acceso a una aplicación en línea</strong></p>
+<pre class="text"><code>Usuario
+  -&gt; dispositivo
+  -&gt; Wi-Fi o red celular
+  -&gt; router, antena o punto de acceso
+  -&gt; proveedor de Internet
+  -&gt; Internet
+  -&gt; servidor de la aplicación
+  -&gt; base de datos</code></pre>
+</div>
+<div class="wide-card">
+<p><strong>Viaje simplificado de un mensaje</strong></p>
+<pre class="text"><code>Mensaje original
+  -&gt; paquetes
+  -&gt; rutas de red
+  -&gt; reensamblaje
+  -&gt; mensaje recibido</code></pre>
+</div>
+<div class="wide-card">
+<p><strong>Lectura RFID en un proceso</strong></p>
+<pre class="text"><code>Etiqueta RFID
+  -&gt; lector RFID
+  -&gt; red local o inalámbrica
+  -&gt; sistema de inventario
+  -&gt; decisión: reponer, ubicar o registrar movimiento</code></pre>
+</div>
+</section>
+<section id="observaciones-de-prueba" class="level2">
+<h2 class="anchored" data-anchor-id="observaciones-de-prueba">Observaciones de prueba</h2>
 <div class="wide-card">
 <ul>
-<li>¿Por qué una red es parte del sistema de información y no solo soporte técnico?</li>
-<li>¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?</li>
-<li>¿Qué riesgos crecen al aumentar la conectividad?</li>
+<li>Muy probable: explicar por qué una red es parte del sistema de información.</li>
+<li>Muy probable: diferenciar Internet y Web.</li>
+<li>Diferencia infraestructura, protocolos y servicios.</li>
+<li>TCP/IP se entiende como estándar que permite interoperabilidad.</li>
+<li>LAN, WAN, Wi-Fi, Bluetooth y red celular no son sinónimos.</li>
+<li>Una VPN no reemplaza Internet: crea un canal seguro sobre una red pública.</li>
+<li>La movilidad aporta acceso ubicuo, pero aumenta exigencias de seguridad y continuidad.</li>
+<li>RFID y sensores conectan objetos físicos con sistemas de información.</li>
+<li>En un caso, no basta con decir “falta Internet”; identifica proceso afectado, impacto y medida concreta.</li>
 </ul>
-<p><a href="../repaso/preguntas.html" class="study-button">Practicar preguntas</a></p>
 </div>
 </section>
-<section id="referencias-y-fuente-base" class="level2">
-<h2 class="anchored" data-anchor-id="referencias-y-fuente-base">Referencias y fuente base</h2>
+<section id="casos-breves" class="level2">
+<h2 class="anchored" data-anchor-id="casos-breves">Casos breves</h2>
+<div class="caso-breve">
+<p><strong>Atención en terreno:</strong> inspectores registran solicitudes desde teléfonos. Si la señal móvil falla, deben guardar datos temporalmente y sincronizar después. El caso mezcla movilidad, continuidad y seguridad.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Wi-Fi institucional:</strong> una sede ofrece red para estudiantes, funcionarios e invitados. Conviene separar accesos para proteger sistemas internos y evitar que una red pública afecte servicios críticos.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Teletrabajo administrativo:</strong> funcionarios acceden desde casa a sistemas internos. La VPN, autenticación y permisos reducen riesgos al usar Internet como medio de conexión.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Inventario con RFID:</strong> una bodega registra entradas y salidas de productos con etiquetas. El beneficio es visibilidad rápida; el desafío es integrar lectores, red, datos y procesos de reposición.</p>
+</div>
+<div class="caso-breve">
+<p><strong>Videollamada de soporte:</strong> una reunión puede fallar aunque “haya Internet” si existe poca capacidad, alta latencia, interferencia Wi-Fi o saturación de la red.</p>
+</div>
+</section>
+<section id="preguntas-conceptuales" class="level2">
+<h2 class="anchored" data-anchor-id="preguntas-conceptuales">Preguntas conceptuales</h2>
+<div class="preguntas-practica">
+<details class="pregunta" id="pregunta-redes-01">
+<summary>
+Pregunta 1: ¿Por qué una red es parte del sistema de información y no solo soporte técnico?
+</summary>
+<p>
+Porque permite que personas, procesos, aplicaciones y datos se conecten. Si la red falla, el sistema puede dejar de apoyar decisiones, atención o coordinación.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-02">
+<summary>
+Pregunta 2: ¿Qué componentes básicos necesita una red sencilla?
+</summary>
+<p>
+Necesita dispositivos, interfaces de red, un medio de conexión, reglas o software de comunicación y equipos que dirijan el tráfico, como switches, puntos de acceso o routers.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-03">
+<summary>
+Pregunta 3: ¿Qué función cumple un protocolo?
+</summary>
+<p>
+Define reglas comunes para que los equipos sepan cómo enviar, recibir, ordenar e interpretar datos.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-04">
+<summary>
+Pregunta 4: ¿Qué es la conmutación de paquetes?
+</summary>
+<p>
+Es dividir un mensaje en paquetes pequeños que viajan por la red y se vuelven a ordenar al llegar a destino.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-05">
+<summary>
+Pregunta 5: ¿Por qué TCP/IP es importante?
+</summary>
+<p>
+Porque entrega un conjunto común de protocolos que permite conectar redes y equipos distintos, haciendo posible Internet y muchos servicios asociados.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-06">
+<summary>
+Pregunta 6: ¿Qué diferencia hay entre Internet y la Web?
+</summary>
+<p>
+Internet es la red global de redes. La Web es un servicio que usa Internet para acceder a páginas, enlaces y aplicaciones mediante navegadores.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-07">
+<summary>
+Pregunta 7: ¿Qué problema resuelve DNS?
+</summary>
+<p>
+Permite usar nombres de dominio fáciles de recordar y traducirlos a direcciones IP que los equipos pueden localizar.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-08">
+<summary>
+Pregunta 8: ¿Qué diferencia hay entre ancho de banda y latencia?
+</summary>
+<p>
+El ancho de banda indica capacidad de transmisión. La latencia indica demora entre solicitud y respuesta.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-09">
+<summary>
+Pregunta 9: ¿Qué diferencia hay entre LAN y WAN?
+</summary>
+<p>
+Una LAN conecta dispositivos en un espacio cercano, como una oficina. Una WAN conecta ubicaciones distantes, como sedes de una organización.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-10">
+<summary>
+Pregunta 10: ¿Qué diferencia hay entre cliente/servidor e igual a igual?
+</summary>
+<p>
+En cliente/servidor, un servidor entrega servicios o datos a clientes. En igual a igual, los equipos comparten recursos directamente entre sí.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-11">
+<summary>
+Pregunta 11: ¿Qué diferencia hay entre intranet y extranet?
+</summary>
+<p>
+La intranet es privada para uso interno. La extranet abre acceso controlado a externos autorizados, como proveedores o clientes.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-12">
+<summary>
+Pregunta 12: ¿Para qué sirve una VPN?
+</summary>
+<p>
+Sirve para crear una conexión cifrada y privada sobre una red pública, normalmente para acceder de forma segura a recursos internos.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-13">
+<summary>
+Pregunta 13: ¿Qué es VoIP?
+</summary>
+<p>
+Es la transmisión de voz como datos digitales sobre redes IP, por ejemplo en telefonía por Internet o llamadas de aplicaciones.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-14">
+<summary>
+Pregunta 14: ¿Qué diferencia hay entre Wi-Fi y Bluetooth?
+</summary>
+<p>
+Wi-Fi se usa para conectar dispositivos a una red local o a Internet. Bluetooth se usa para conexiones personales de corto alcance y bajo consumo.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-15">
+<summary>
+Pregunta 15: ¿Qué aporta una red celular frente a una red Wi-Fi?
+</summary>
+<p>
+Aporta movilidad en áreas amplias mediante antenas y operadores, mientras que Wi-Fi depende de cobertura local cercana.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-16">
+<summary>
+Pregunta 16: ¿Qué permite RFID en una organización?
+</summary>
+<p>
+Permite identificar y rastrear objetos, productos, activos o personas mediante etiquetas y lectores de radiofrecuencia.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-17">
+<summary>
+Pregunta 17: ¿Qué relación hay entre sensores inalámbricos e Internet de las cosas?
+</summary>
+<p>
+Los sensores capturan datos del mundo físico y, conectados por redes, permiten que objetos y procesos formen parte de sistemas digitales.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-18">
+<summary>
+Pregunta 18: ¿Por qué la conectividad puede convertirse en un riesgo operativo?
+</summary>
+<p>
+Porque si procesos críticos dependen de la red, una falla de conexión, seguridad o proveedor puede detener atención, ventas o coordinación interna.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-19">
+<summary>
+Pregunta 19: ¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?
+</summary>
+<p>
+Cambia el contexto de uso: hay redes variables, pantallas pequeñas, riesgo de pérdida del equipo, necesidad de sincronización y mayores exigencias de seguridad.
+</p>
+</details>
+<details class="pregunta" id="pregunta-redes-20">
+<summary>
+Pregunta 20: ¿Cómo conviene analizar un caso de redes en prueba?
+</summary>
+<p>
+Identificando el proceso afectado, tipo de red, usuarios, servicios dependientes, riesgos de seguridad, impacto de una falla y medidas concretas de continuidad.
+</p>
+</details>
+</div>
+</section>
+<section id="referencias-fuente-base" class="level2">
+<h2 class="anchored" data-anchor-id="referencias-fuente-base">Referencias y fuente base</h2>
 <div class="referencias-fuente">
 <ul>
-<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema relacionado: telecomunicaciones, Internet y tecnología inalámbrica.</li>
-<li>Apuntes de clase o fuentes complementarias futuras.</li>
+<li>Laudon y Laudon, <em>Sistemas de información gerencial</em>, 14.ª edición. Tema base: telecomunicaciones, Internet y tecnología inalámbrica.</li>
+<li>PDF local usado solo para contrastar conceptos, términos, casos y páginas: <code>libro_guia_295-343.pdf</code>. El texto extraído identifica el capítulo 7, “Telecomunicaciones, Internet y tecnología inalámbrica”, con contenido de redes, Internet, servicios y tecnologías inalámbricas en paginación impresa aproximada 257-301. Desde la página impresa 302 comienza otro capítulo y no se usó como base de este tema.</li>
+<li>Conceptos contrastados en el PDF: componentes de red, cliente/servidor, conmutación de paquetes, TCP/IP, tipos de red, Internet, Web, DNS, ISP, IPv6, VoIP, VPN, Wi-Fi, Bluetooth, redes celulares, RFID, redes de sensores e Internet de las cosas.</li>
+<li>Apuntes de clase y material de etapa del curso.</li>
 </ul>
 </div>
 

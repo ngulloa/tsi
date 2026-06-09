@@ -16,6 +16,12 @@ Uso dañino, invasivo o irresponsable de sistemas de información, aunque no sie
 :::
 
 ::: {.term-card}
+### Ancho de banda {#ancho-de-banda}
+
+Capacidad de transmisión de datos de un enlace en un periodo determinado. Se conecta con [redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#protocolos-paquetes-direccionamiento).
+:::
+
+::: {.term-card}
 ### Automatización {#automatizacion}
 
 Uso de tecnología para ejecutar tareas repetibles con menor intervención manual.
@@ -27,6 +33,12 @@ Uso de tecnología para ejecutar tareas repetibles con menor intervención manua
 ### Big Data {#big-data}
 
 Manejo y análisis de grandes volúmenes, variedades y velocidades de datos para encontrar patrones y apoyar decisiones.
+:::
+
+::: {.term-card}
+### Bluetooth {#bluetooth}
+
+Tecnología inalámbrica de corto alcance usada para conectar dispositivos personales, periféricos o sensores cercanos.
 :::
 
 ::: {.term-card}
@@ -62,21 +74,51 @@ Nivel de confiabilidad, seguridad, corrección y adecuación de un sistema para 
 :::
 
 ::: {.term-card}
+### Cliente/servidor {#cliente-servidor}
+
+Modelo donde un cliente solicita datos o servicios y un servidor los entrega bajo reglas de comunicación y acceso.
+:::
+
+::: {.term-card}
 ### Comercio digital {#comercio-digital}
 
 Intercambio de bienes, servicios o información mediado por plataformas y canales digitales.
 :::
 
 ::: {.term-card}
+### Computación en la nube {#computacion-en-la-nube}
+
+Uso de aplicaciones, almacenamiento, plataformas o infraestructura entregados como servicio mediante redes.
+:::
+
+::: {.term-card}
+### Computación móvil {#computacion-movil}
+
+Acceso a datos, aplicaciones y procesos desde dispositivos portátiles conectados por redes inalámbricas o celulares.
+:::
+
+::: {.term-card}
 ### Conectividad {#conectividad}
 
-Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.
+Capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes. Ver [redes, Internet y movilidad](../temas/redes-internet-movilidad.qmd#definiciones-clave).
 :::
 
 ::: {.term-card}
 ### Consentimiento informado {#consentimiento-informado}
 
 Aceptación basada en información clara sobre qué datos se usan, para qué, por quién y con qué consecuencias.
+:::
+
+::: {.term-card}
+### Continuidad operacional {#continuidad-operacional}
+
+Capacidad de mantener o recuperar procesos críticos cuando falla una red, servicio, proveedor, equipo o sistema.
+:::
+
+::: {.term-card}
+### Conmutación de paquetes {#conmutacion-de-paquetes}
+
+Forma de transmisión donde un mensaje se divide en paquetes que pueden viajar por distintas rutas y rearmarse al llegar.
 :::
 
 ::: {.term-card}
@@ -135,12 +177,36 @@ Derechos sobre contenidos, software, datos, conocimiento o creaciones que pueden
 Situaciones donde una decisión tecnológica produce beneficios y riesgos, sin una opción perfecta para todos.
 :::
 
+::: {.term-card}
+### Dirección IP {#direccion-ip}
+
+Identificador lógico que permite ubicar un dispositivo o servicio dentro de una red basada en IP.
+:::
+
+::: {.term-card}
+### DNS {#dns}
+
+Sistema de nombres de dominio que traduce nombres legibles por personas a direcciones IP usadas por la red.
+:::
+
 ## E
+
+::: {.term-card}
+### Ethernet {#ethernet}
+
+Familia de tecnologías usadas comúnmente en redes locales cableadas para transmitir datos entre dispositivos.
+:::
 
 ::: {.term-card}
 ### Ética {#etica}
 
 Criterios para decidir qué acciones son correctas o incorrectas cuando afectan a otras personas.
+:::
+
+::: {.term-card}
+### Extranet {#extranet}
+
+Extensión controlada de una red o sitio interno para dar acceso a actores externos autorizados.
 :::
 
 ## F
@@ -152,9 +218,47 @@ Por completar.
 ## I
 
 ::: {.term-card}
+### Igual a igual {#igual-a-igual}
+
+Modelo de red donde los equipos comparten recursos directamente sin depender de un servidor central.
+:::
+
+::: {.term-card}
 ### Información {#informacion}
 
 Datos organizados que ayudan a comprender una situación o tomar decisiones.
+:::
+
+::: {.term-card}
+### Internet {#internet}
+
+Red global de redes que conecta sistemas y servicios mediante estándares comunes como TCP/IP.
+:::
+
+::: {.term-card}
+### Internet de las cosas {#internet-de-las-cosas}
+
+Conexión de objetos físicos con sensores, software y redes para registrar, enviar o usar datos del entorno.
+:::
+
+::: {.term-card}
+### Intranet {#intranet}
+
+Red o sitio privado de una organización para compartir información, aplicaciones y servicios internos.
+:::
+
+::: {.term-card}
+### ISP {#isp}
+
+Sigla de proveedor de servicios de Internet. Organización que entrega acceso a Internet a hogares, personas o empresas.
+:::
+
+## L
+
+::: {.term-card}
+### Latencia {#latencia}
+
+Demora entre una solicitud y una respuesta. Afecta videollamadas, juegos, sistemas en línea y aplicaciones interactivas.
 :::
 
 ## M
@@ -166,6 +270,12 @@ Publicidad, recomendación o mensaje adaptado según datos e inferencias sobre u
 :::
 
 ## N
+
+::: {.term-card}
+### Neutralidad de la red {#neutralidad-de-la-red}
+
+Principio según el cual el tráfico de Internet debería tratarse sin discriminación injustificada por contenido, origen, destino o servicio.
+:::
 
 ::: {.term-card}
 ### NORA {#nora}
@@ -194,12 +304,54 @@ Control razonable sobre qué datos personales se recopilan, para qué se usan y 
 :::
 
 ::: {.term-card}
-### Propiedad intelectual {#propiedad-intelectual}
+### Protocolo {#protocolo}
 
-Protección de creaciones, contenidos, software, métodos, marcas o conocimiento con valor.
+Regla o estándar compartido que define cómo los sistemas se comunican, envían, reciben o interpretan datos.
+:::
+
+::: {.term-card}
+### Proveedor de servicios de Internet {#proveedor-de-servicios-de-internet}
+
+Empresa u organización que ofrece conexión a Internet y servicios relacionados. También se conoce como ISP.
 :::
 
 ## R
+
+::: {.term-card}
+### Red celular {#red-celular}
+
+Infraestructura móvil que conecta teléfonos y dispositivos mediante antenas, celdas y operadores.
+:::
+
+::: {.term-card}
+### Red de área amplia {#red-de-area-amplia}
+
+Red que conecta ubicaciones distantes, como sucursales, ciudades o redes de gran escala. También se conoce como WAN.
+:::
+
+::: {.term-card}
+### Red de área local {#red-de-area-local}
+
+Red que conecta dispositivos dentro de un espacio cercano, como una sala, oficina, edificio o campus. También se conoce como LAN.
+:::
+
+::: {.term-card}
+### Red de telecomunicaciones {#red-de-telecomunicaciones}
+
+Conjunto de dispositivos, medios, reglas y servicios que permite transmitir datos, voz, video o señales entre puntos.
+:::
+
+::: {.term-card}
+### Red privada virtual {#red-privada-virtual}
+
+Conexión privada y cifrada creada sobre una red pública como Internet. Ver [VPN](#vpn).
+:::
+
+::: {.term-card}
+### Redes de sensores inalámbricas {#redes-de-sensores-inalambricas}
+
+Conjunto de nodos con sensores que capturan datos del entorno y los envían por red para análisis o control.
+:::
 
 ::: {.term-card}
 ### Rendición de cuentas {#rendicion-de-cuentas}
@@ -225,6 +377,12 @@ Deber de hacerse cargo de una decisión, acción o consecuencia.
 Obligación reconocida por leyes, contratos o tribunales cuando una acción o sistema causa daño.
 :::
 
+::: {.term-card}
+### RFID {#rfid}
+
+Identificación por radiofrecuencia: tecnología para reconocer objetos, activos o personas mediante etiquetas y lectores.
+:::
+
 ## S
 
 ::: {.term-card}
@@ -240,6 +398,12 @@ Registro de actividades de una persona en sitios, aplicaciones, dispositivos o s
 :::
 
 ::: {.term-card}
+### Seguridad de red {#seguridad-de-red}
+
+Controles técnicos y organizacionales para proteger comunicaciones, dispositivos y servicios conectados.
+:::
+
+::: {.term-card}
 ### Sistema de información {#sistema-de-informacion}
 
 Conjunto de personas, procesos, datos y tecnología orientado a producir información útil.
@@ -248,13 +412,41 @@ Conjunto de personas, procesos, datos y tecnología orientado a producir informa
 ## T
 
 ::: {.term-card}
+### TCP/IP {#tcp-ip}
+
+Familia de protocolos que permite conectar redes distintas y sostener el intercambio de datos en Internet.
+:::
+
+::: {.term-card}
 ### Tecnoestrés {#tecnoestres}
 
 Estrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales.
 :::
 
+## V
+
+::: {.term-card}
+### VoIP {#voip}
+
+Voz sobre IP: transmisión de voz como datos digitales mediante redes basadas en protocolos de Internet.
+:::
+
+::: {.term-card}
+### VPN {#vpn}
+
+Red privada virtual que crea un canal cifrado sobre una red pública para acceder de forma segura a recursos privados.
+:::
+
 ## W
 
-::: {.glosario-pendiente}
-Por completar.
+::: {.term-card}
+### Wi-Fi {#wi-fi}
+
+Tecnología de red inalámbrica local basada en estándares 802.11, común para conectar dispositivos a una LAN o a Internet.
+:::
+
+::: {.term-card}
+### World Wide Web {#world-wide-web}
+
+Servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.
 :::

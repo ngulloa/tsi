@@ -21,7 +21,7 @@ Define responsabilidades, límites y efectos sociales del uso de información. O
 ::: {.map-node}
 ### Redes, Internet y movilidad
 
-Entrega la infraestructura para conectar personas, sistemas, servicios y datos.
+Entrega la infraestructura para conectar personas, sistemas, servicios y datos mediante protocolos, redes locales, Internet y acceso móvil.
 :::
 
 ::: {.map-arrow}
@@ -49,6 +49,12 @@ Convierte necesidades organizacionales en soluciones que deben adoptarse y evalu
 La relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.
 
 [Volver al inicio](../index.qmd){.study-button}
+:::
+
+::: {.wide-card}
+Para redes, sigue una cadena simple: dispositivo, medio de conexión, protocolo, red local, Internet, servicio y proceso organizacional afectado. Eso ayuda a no confundir infraestructura con aplicación.
+
+[Repasar redes](../temas/redes-internet-movilidad.qmd){.study-button .secondary}
 :::
 
 ::: {.wide-card}

@@ -18,7 +18,7 @@
     "href": "repaso/preguntas.html#preguntas-de-redes-internet-y-movilidad",
     "title": "Preguntas",
     "section": "Preguntas de redes, Internet y movilidad",
-    "text": "Preguntas de redes, Internet y movilidad\n\n\n\n¿Qué aporta la movilidad a un sistema de información?\n\n\nPermite acceder a procesos y datos desde distintos lugares, pero también exige más atención a seguridad, continuidad y experiencia de uso.\n\n\n\n\n¿Por qué la conectividad puede convertirse en un riesgo operativo?\n\n\nCuando procesos críticos dependen de redes, una falla de conexión, servicio o seguridad puede detener actividades y afectar usuarios."
+    "text": "Preguntas de redes, Internet y movilidad\n\nBanco completo del tema: 20 preguntas conceptuales de redes, Internet y movilidad, con respuestas ocultas para practicar.\n\n\n\n\n¿Qué aporta la movilidad a un sistema de información?\n\n\nPermite acceder a procesos y datos desde distintos lugares, pero también exige más atención a seguridad, continuidad y experiencia de uso.\n\n\n\n\n¿Por qué la conectividad puede convertirse en un riesgo operativo?\n\n\nCuando procesos críticos dependen de redes, una falla de conexión, servicio o seguridad puede detener actividades y afectar usuarios."
   },
   {
     "objectID": "repaso/preguntas.html#preguntas-de-comercio-digital",
@@ -53,35 +53,35 @@
     "href": "repaso/glosario.html#a",
     "title": "Glosario",
     "section": "A",
-    "text": "A\n\nAbuso computacional\nUso dañino, invasivo o irresponsable de sistemas de información, aunque no siempre sea delito.\n\n\nAutomatización\nUso de tecnología para ejecutar tareas repetibles con menor intervención manual."
+    "text": "A\n\nAbuso computacional\nUso dañino, invasivo o irresponsable de sistemas de información, aunque no siempre sea delito.\n\n\nAncho de banda\nCapacidad de transmisión de datos de un enlace en un periodo determinado. Se conecta con redes, Internet y movilidad.\n\n\nAutomatización\nUso de tecnología para ejecutar tareas repetibles con menor intervención manual."
   },
   {
     "objectID": "repaso/glosario.html#b",
     "href": "repaso/glosario.html#b",
     "title": "Glosario",
     "section": "B",
-    "text": "B\n\nBig Data\nManejo y análisis de grandes volúmenes, variedades y velocidades de datos para encontrar patrones y apoyar decisiones.\n\n\nBrecha digital\nDesigualdad en acceso, habilidades o capacidad real de aprovechar tecnologías digitales.\n\n\nBugs Web\nElementos pequeños u ocultos en páginas o correos que pueden registrar visitas, aperturas o comportamiento."
+    "text": "B\n\nBig Data\nManejo y análisis de grandes volúmenes, variedades y velocidades de datos para encontrar patrones y apoyar decisiones.\n\n\nBluetooth\nTecnología inalámbrica de corto alcance usada para conectar dispositivos personales, periféricos o sensores cercanos.\n\n\nBrecha digital\nDesigualdad en acceso, habilidades o capacidad real de aprovechar tecnologías digitales.\n\n\nBugs Web\nElementos pequeños u ocultos en páginas o correos que pueden registrar visitas, aperturas o comportamiento."
   },
   {
     "objectID": "repaso/glosario.html#c",
     "href": "repaso/glosario.html#c",
     "title": "Glosario",
     "section": "C",
-    "text": "C\n\nCalidad de datos\nGrado en que los datos son correctos, completos, actuales, pertinentes y útiles para decidir.\n\n\nCalidad de vida\nImpacto de la tecnología en bienestar, acceso, autonomía, empleo, salud y relaciones sociales.\n\n\nCalidad del sistema\nNivel de confiabilidad, seguridad, corrección y adecuación de un sistema para el uso esperado.\n\n\nComercio digital\nIntercambio de bienes, servicios o información mediado por plataformas y canales digitales.\n\n\nConectividad\nCapacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.\n\n\nConsentimiento informado\nAceptación basada en información clara sobre qué datos se usan, para qué, por quién y con qué consecuencias.\n\n\nCookies\nArchivos o identificadores usados por sitios y servicios para recordar sesiones, preferencias o actividad.\n\n\nCopyright\nProtección legal relacionada con copia, distribución y uso autorizado de obras.\n\n\nCreación de perfiles\nUso de datos para inferir intereses, hábitos, riesgos o características de una persona o grupo.\n\n\nCrimen por computadora\nConducta ilegal realizada mediante sistemas, redes, dispositivos o datos."
+    "text": "C\n\nCalidad de datos\nGrado en que los datos son correctos, completos, actuales, pertinentes y útiles para decidir.\n\n\nCalidad de vida\nImpacto de la tecnología en bienestar, acceso, autonomía, empleo, salud y relaciones sociales.\n\n\nCalidad del sistema\nNivel de confiabilidad, seguridad, corrección y adecuación de un sistema para el uso esperado.\n\n\nCliente/servidor\nModelo donde un cliente solicita datos o servicios y un servidor los entrega bajo reglas de comunicación y acceso.\n\n\nComercio digital\nIntercambio de bienes, servicios o información mediado por plataformas y canales digitales.\n\n\nComputación en la nube\nUso de aplicaciones, almacenamiento, plataformas o infraestructura entregados como servicio mediante redes.\n\n\nComputación móvil\nAcceso a datos, aplicaciones y procesos desde dispositivos portátiles conectados por redes inalámbricas o celulares.\n\n\nConectividad\nCapacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes. Ver redes, Internet y movilidad.\n\n\nConsentimiento informado\nAceptación basada en información clara sobre qué datos se usan, para qué, por quién y con qué consecuencias.\n\n\nContinuidad operacional\nCapacidad de mantener o recuperar procesos críticos cuando falla una red, servicio, proveedor, equipo o sistema.\n\n\nConmutación de paquetes\nForma de transmisión donde un mensaje se divide en paquetes que pueden viajar por distintas rutas y rearmarse al llegar.\n\n\nCookies\nArchivos o identificadores usados por sitios y servicios para recordar sesiones, preferencias o actividad.\n\n\nCopyright\nProtección legal relacionada con copia, distribución y uso autorizado de obras.\n\n\nCreación de perfiles\nUso de datos para inferir intereses, hábitos, riesgos o características de una persona o grupo.\n\n\nCrimen por computadora\nConducta ilegal realizada mediante sistemas, redes, dispositivos o datos."
   },
   {
     "objectID": "repaso/glosario.html#d",
     "href": "repaso/glosario.html#d",
     "title": "Glosario",
     "section": "D",
-    "text": "D\n\nDato\nRegistro básico que puede transformarse en información cuando se organiza e interpreta en un contexto.\n\n\nDerechos de autor\nProtección de obras expresadas, como textos, software, música, imágenes o material audiovisual.\n\n\nDerechos de información\nDerechos y límites sobre recolección, acceso, uso, conservación y distribución de información.\n\n\nDerechos de propiedad\nDerechos sobre contenidos, software, datos, conocimiento o creaciones que pueden tener valor económico.\n\n\nDilemas éticos\nSituaciones donde una decisión tecnológica produce beneficios y riesgos, sin una opción perfecta para todos."
+    "text": "D\n\nDato\nRegistro básico que puede transformarse en información cuando se organiza e interpreta en un contexto.\n\n\nDerechos de autor\nProtección de obras expresadas, como textos, software, música, imágenes o material audiovisual.\n\n\nDerechos de información\nDerechos y límites sobre recolección, acceso, uso, conservación y distribución de información.\n\n\nDerechos de propiedad\nDerechos sobre contenidos, software, datos, conocimiento o creaciones que pueden tener valor económico.\n\n\nDilemas éticos\nSituaciones donde una decisión tecnológica produce beneficios y riesgos, sin una opción perfecta para todos.\n\n\nDirección IP\nIdentificador lógico que permite ubicar un dispositivo o servicio dentro de una red basada en IP.\n\n\nDNS\nSistema de nombres de dominio que traduce nombres legibles por personas a direcciones IP usadas por la red."
   },
   {
     "objectID": "repaso/glosario.html#e",
     "href": "repaso/glosario.html#e",
     "title": "Glosario",
     "section": "E",
-    "text": "E\n\nÉtica\nCriterios para decidir qué acciones son correctas o incorrectas cuando afectan a otras personas."
+    "text": "E\n\nEthernet\nFamilia de tecnologías usadas comúnmente en redes locales cableadas para transmitir datos entre dispositivos.\n\n\nÉtica\nCriterios para decidir qué acciones son correctas o incorrectas cuando afectan a otras personas.\n\n\nExtranet\nExtensión controlada de una red o sitio interno para dar acceso a actores externos autorizados."
   },
   {
     "objectID": "repaso/glosario.html#f",
@@ -95,7 +95,14 @@
     "href": "repaso/glosario.html#i",
     "title": "Glosario",
     "section": "I",
-    "text": "I\n\nInformación\nDatos organizados que ayudan a comprender una situación o tomar decisiones."
+    "text": "I\n\nIgual a igual\nModelo de red donde los equipos comparten recursos directamente sin depender de un servidor central.\n\n\nInformación\nDatos organizados que ayudan a comprender una situación o tomar decisiones.\n\n\nInternet\nRed global de redes que conecta sistemas y servicios mediante estándares comunes como TCP/IP.\n\n\nInternet de las cosas\nConexión de objetos físicos con sensores, software y redes para registrar, enviar o usar datos del entorno.\n\n\nIntranet\nRed o sitio privado de una organización para compartir información, aplicaciones y servicios internos.\n\n\nISP\nSigla de proveedor de servicios de Internet. Organización que entrega acceso a Internet a hogares, personas o empresas."
+  },
+  {
+    "objectID": "repaso/glosario.html#l",
+    "href": "repaso/glosario.html#l",
+    "title": "Glosario",
+    "section": "L",
+    "text": "L\n\nLatencia\nDemora entre una solicitud y una respuesta. Afecta videollamadas, juegos, sistemas en línea y aplicaciones interactivas."
   },
   {
     "objectID": "repaso/glosario.html#m",
@@ -109,77 +116,154 @@
     "href": "repaso/glosario.html#n",
     "title": "Glosario",
     "section": "N",
-    "text": "N\n\nNORA\nAnálisis que permite descubrir relaciones no evidentes entre datos, personas, eventos u organizaciones."
+    "text": "N\n\nNeutralidad de la red\nPrincipio según el cual el tráfico de Internet debería tratarse sin discriminación injustificada por contenido, origen, destino o servicio.\n\n\nNORA\nAnálisis que permite descubrir relaciones no evidentes entre datos, personas, eventos u organizaciones."
   },
   {
     "objectID": "repaso/glosario.html#p",
     "href": "repaso/glosario.html#p",
     "title": "Glosario",
     "section": "P",
-    "text": "P\n\nPatentes\nProtección temporal sobre una invención que cumple requisitos legales.\n\n\nPlataforma\nEntorno digital que conecta participantes, servicios o transacciones bajo reglas comunes.\n\n\nPrivacidad\nControl razonable sobre qué datos personales se recopilan, para qué se usan y con quién se comparten. Ver ética, datos y sociedad.\n\n\nPropiedad intelectual\nProtección de creaciones, contenidos, software, métodos, marcas o conocimiento con valor."
+    "text": "P\n\nPatentes\nProtección temporal sobre una invención que cumple requisitos legales.\n\n\nPlataforma\nEntorno digital que conecta participantes, servicios o transacciones bajo reglas comunes.\n\n\nPrivacidad\nControl razonable sobre qué datos personales se recopilan, para qué se usan y con quién se comparten. Ver ética, datos y sociedad.\n\n\nProtocolo\nRegla o estándar compartido que define cómo los sistemas se comunican, envían, reciben o interpretan datos.\n\n\nProveedor de servicios de Internet\nEmpresa u organización que ofrece conexión a Internet y servicios relacionados. También se conoce como ISP."
   },
   {
     "objectID": "repaso/glosario.html#r",
     "href": "repaso/glosario.html#r",
     "title": "Glosario",
     "section": "R",
-    "text": "R\n\nRendición de cuentas\nCapacidad de identificar quién decidió, quién autorizó y quién debe explicar o corregir una consecuencia.\n\n\nRequerimiento\nNecesidad o condición que orienta el diseño de una solución. Se conecta con creación y cambio de sistemas.\n\n\nResponsabilidad\nDeber de hacerse cargo de una decisión, acción o consecuencia.\n\n\nResponsabilidad legal\nObligación reconocida por leyes, contratos o tribunales cuando una acción o sistema causa daño."
+    "text": "R\n\nRed celular\nInfraestructura móvil que conecta teléfonos y dispositivos mediante antenas, celdas y operadores.\n\n\nRed de área amplia\nRed que conecta ubicaciones distantes, como sucursales, ciudades o redes de gran escala. También se conoce como WAN.\n\n\nRed de área local\nRed que conecta dispositivos dentro de un espacio cercano, como una sala, oficina, edificio o campus. También se conoce como LAN.\n\n\nRed de telecomunicaciones\nConjunto de dispositivos, medios, reglas y servicios que permite transmitir datos, voz, video o señales entre puntos.\n\n\nRed privada virtual\nConexión privada y cifrada creada sobre una red pública como Internet. Ver VPN.\n\n\nRedes de sensores inalámbricas\nConjunto de nodos con sensores que capturan datos del entorno y los envían por red para análisis o control.\n\n\nRendición de cuentas\nCapacidad de identificar quién decidió, quién autorizó y quién debe explicar o corregir una consecuencia.\n\n\nRequerimiento\nNecesidad o condición que orienta el diseño de una solución. Se conecta con creación y cambio de sistemas.\n\n\nResponsabilidad\nDeber de hacerse cargo de una decisión, acción o consecuencia.\n\n\nResponsabilidad legal\nObligación reconocida por leyes, contratos o tribunales cuando una acción o sistema causa daño.\n\n\nRFID\nIdentificación por radiofrecuencia: tecnología para reconocer objetos, activos o personas mediante etiquetas y lectores."
   },
   {
     "objectID": "repaso/glosario.html#s",
     "href": "repaso/glosario.html#s",
     "title": "Glosario",
     "section": "S",
-    "text": "S\n\nSecretos comerciales\nConocimiento valioso que una organización protege porque no es público y le da ventaja.\n\n\nSeguimiento digital\nRegistro de actividades de una persona en sitios, aplicaciones, dispositivos o servicios.\n\n\nSistema de información\nConjunto de personas, procesos, datos y tecnología orientado a producir información útil."
+    "text": "S\n\nSecretos comerciales\nConocimiento valioso que una organización protege porque no es público y le da ventaja.\n\n\nSeguimiento digital\nRegistro de actividades de una persona en sitios, aplicaciones, dispositivos o servicios.\n\n\nSeguridad de red\nControles técnicos y organizacionales para proteger comunicaciones, dispositivos y servicios conectados.\n\n\nSistema de información\nConjunto de personas, procesos, datos y tecnología orientado a producir información útil."
   },
   {
     "objectID": "repaso/glosario.html#t",
     "href": "repaso/glosario.html#t",
     "title": "Glosario",
     "section": "T",
-    "text": "T\n\nTecnoestrés\nEstrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales."
+    "text": "T\n\nTCP/IP\nFamilia de protocolos que permite conectar redes distintas y sostener el intercambio de datos en Internet.\n\n\nTecnoestrés\nEstrés asociado al uso intensivo, permanente o invasivo de tecnologías digitales."
+  },
+  {
+    "objectID": "repaso/glosario.html#v",
+    "href": "repaso/glosario.html#v",
+    "title": "Glosario",
+    "section": "V",
+    "text": "V\n\nVoIP\nVoz sobre IP: transmisión de voz como datos digitales mediante redes basadas en protocolos de Internet.\n\n\nVPN\nRed privada virtual que crea un canal cifrado sobre una red pública para acceder de forma segura a recursos privados."
   },
   {
     "objectID": "repaso/glosario.html#w",
     "href": "repaso/glosario.html#w",
     "title": "Glosario",
     "section": "W",
-    "text": "W\n\nPor completar."
+    "text": "W\n\nWi-Fi\nTecnología de red inalámbrica local basada en estándares 802.11, común para conectar dispositivos a una LAN o a Internet.\n\n\nWorld Wide Web\nServicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP."
   },
   {
     "objectID": "temas/redes-internet-movilidad.html",
     "href": "temas/redes-internet-movilidad.html",
     "title": "Redes, Internet y movilidad",
     "section": "",
-    "text": "La conectividad permite que personas, aplicaciones, datos y procesos organizacionales funcionen como un sistema distribuido."
+    "text": "Las redes permiten que personas, dispositivos, aplicaciones y datos trabajen como un sistema distribuido. No son solo soporte técnico: condicionan la continuidad, velocidad, seguridad y alcance real de los sistemas de información."
   },
   {
-    "objectID": "temas/redes-internet-movilidad.html#conceptos-clave",
-    "href": "temas/redes-internet-movilidad.html#conceptos-clave",
+    "objectID": "temas/redes-internet-movilidad.html#atajos-del-tema",
+    "href": "temas/redes-internet-movilidad.html#atajos-del-tema",
     "title": "Redes, Internet y movilidad",
-    "section": "Conceptos clave",
-    "text": "Conceptos clave\n\n\nRedes de comunicación y arquitectura de conectividad.\nInternet como infraestructura de servicios.\nMovilidad, acceso ubicuo y dispositivos conectados.\nSeguridad de red y continuidad operacional.\nServicios en la nube y colaboración digital.\n\n\n\nUna aplicación de atención en terreno necesita red, dispositivos, seguridad y continuidad para funcionar fuera de la oficina."
+    "section": "Atajos del tema",
+    "text": "Atajos del tema\n\n\nDefiniciones clave\nLa red como infraestructura del sistema\nProtocolos, paquetes y direccionamiento\nTipos de red por alcance\nInternet, Web y servicios\nMovilidad y redes inalámbricas\nSeguridad, continuidad y gestión\nComparaciones importantes\nEsquemas simples\nObservaciones de prueba\nCasos breves\nPreguntas conceptuales"
   },
   {
-    "objectID": "temas/redes-internet-movilidad.html#casos",
-    "href": "temas/redes-internet-movilidad.html#casos",
+    "objectID": "temas/redes-internet-movilidad.html#definiciones-clave",
+    "href": "temas/redes-internet-movilidad.html#definiciones-clave",
     "title": "Redes, Internet y movilidad",
-    "section": "Casos",
-    "text": "Casos\n\nObserva una institución que depende de atención en línea. Describe qué ocurre si falla la red, qué procesos se detienen y qué medidas podrían reducir el impacto.\nVer casos aplicados"
+    "section": "Definiciones clave",
+    "text": "Definiciones clave\n\n\nRed de telecomunicaciones: conjunto de dispositivos, medios, reglas y servicios que permiten transmitir datos, voz, video o señales entre puntos.\nConectividad: capacidad de usuarios, dispositivos, aplicaciones y datos para comunicarse mediante redes.\nCliente/servidor: modelo donde un cliente solicita servicios o datos y un servidor los entrega bajo reglas de acceso.\nConmutación de paquetes: forma de transmitir mensajes dividiéndolos en paquetes que viajan por la red y se reensamblan al llegar.\nProtocolo: regla común que define cómo se formatean, envían, reciben o interpretan los datos.\nTCP/IP: familia de protocolos que permite conectar redes distintas y sostener el funcionamiento de Internet.\nDirección IP: identificador lógico que permite ubicar un dispositivo o servicio dentro de una red.\nDNS: sistema que traduce nombres de dominio legibles por personas a direcciones IP.\nAncho de banda: capacidad de transmisión de datos de un enlace durante un periodo.\nLatencia: demora percibida entre una solicitud y una respuesta.\nRed de área local: red que conecta dispositivos dentro de una oficina, sala, edificio o campus cercano.\nRed de área amplia: red que conecta ubicaciones distantes, normalmente usando enlaces de operadores o Internet.\nInternet: red global de redes que conecta millones de redes mediante estándares comunes.\nWorld Wide Web: servicio de Internet basado en páginas, enlaces, navegadores y protocolos como HTTP.\nIntranet: red o sitio interno usado por una organización para compartir información y servicios privados.\nExtranet: extensión controlada de una intranet para socios, proveedores, clientes u otros actores autorizados.\nProveedor de servicios de Internet: empresa u organización que entrega acceso a Internet.\nWi-Fi: tecnología de red inalámbrica local basada en estándares 802.11.\nBluetooth: tecnología inalámbrica de corto alcance para conectar dispositivos personales o periféricos.\nRed celular: infraestructura móvil que conecta teléfonos y dispositivos mediante antenas y operadores.\nVoIP: transmisión de voz como datos digitales sobre redes IP.\nVPN: conexión privada y cifrada creada sobre una red pública como Internet.\nRFID: identificación por radiofrecuencia para reconocer objetos, productos, personas o activos mediante etiquetas y lectores.\nRedes de sensores inalámbricas: redes de nodos que capturan datos del entorno y los envían para análisis.\nInternet de las cosas: conexión de objetos físicos con sensores, software y redes para monitorear o actuar sobre el mundo real.\nSeguridad de red: controles para proteger comunicaciones, dispositivos y servicios contra accesos, fallas o usos no autorizados."
   },
   {
-    "objectID": "temas/redes-internet-movilidad.html#preguntas",
-    "href": "temas/redes-internet-movilidad.html#preguntas",
+    "objectID": "temas/redes-internet-movilidad.html#red-infraestructura-sistema",
+    "href": "temas/redes-internet-movilidad.html#red-infraestructura-sistema",
     "title": "Redes, Internet y movilidad",
-    "section": "Preguntas",
-    "text": "Preguntas\n\n\n¿Por qué una red es parte del sistema de información y no solo soporte técnico?\n¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?\n¿Qué riesgos crecen al aumentar la conectividad?\n\nPracticar preguntas"
+    "section": "La red como infraestructura del sistema",
+    "text": "La red como infraestructura del sistema\nUna red de telecomunicaciones conecta componentes técnicos, pero su impacto es organizacional. Permite coordinar procesos, compartir información, atender usuarios, operar a distancia y sostener servicios en línea.\nEn un sistema de información, la red influye en:\n\n\nDisponibilidad: si la red cae, el servicio puede quedar inaccesible.\nVelocidad: si hay poco ancho de banda o mucha latencia, la experiencia se vuelve lenta.\nAlcance: una red móvil o de Internet permite operar fuera de una oficina.\nSeguridad: más conexiones también significan más puntos de acceso que controlar.\nIntegración: redes comunes permiten que aplicaciones, bases de datos y usuarios trabajen sobre la misma información.\n\n\n\nUna municipalidad que recibe solicitudes en terreno necesita celulares, red móvil, acceso seguro al sistema, sincronización de datos y soporte si la conexión falla. La red no es un accesorio: define si el proceso puede hacerse fuera de la oficina."
   },
   {
-    "objectID": "temas/redes-internet-movilidad.html#referencias-y-fuente-base",
-    "href": "temas/redes-internet-movilidad.html#referencias-y-fuente-base",
+    "objectID": "temas/redes-internet-movilidad.html#protocolos-paquetes-direccionamiento",
+    "href": "temas/redes-internet-movilidad.html#protocolos-paquetes-direccionamiento",
+    "title": "Redes, Internet y movilidad",
+    "section": "Protocolos, paquetes y direccionamiento",
+    "text": "Protocolos, paquetes y direccionamiento\nLas redes funcionan porque los equipos siguen reglas compartidas. Un protocolo define cómo se envían los datos, cómo se identifican los equipos, cómo se corrigen errores y cómo se interpreta una solicitud.\nLa conmutación de paquetes divide un mensaje en unidades pequeñas. Cada paquete lleva datos y señales de control para llegar a destino. Esto permite aprovechar mejor la capacidad de la red, porque diferentes comunicaciones pueden compartir caminos.\n\nIdea simple: enviar un archivo por Internet no es como mandar una caja cerrada por un único camino. Es más parecido a dividir el contenido en sobres pequeños, enviarlos por rutas posibles y ordenarlos al llegar.\n\nTCP/IP es central porque permite que redes distintas se comuniquen. En una explicación de prueba, basta con reconocer cuatro niveles:\n\n\nAplicación: servicios usados por programas, como Web o correo.\nTransporte: entrega de datos entre origen y destino, con control de comunicación.\nInternet: direccionamiento y enrutamiento mediante IP.\nInterfaz de red: transmisión física o inalámbrica en el medio disponible.\n\n\nLa dirección IP identifica equipos o servicios en la red. El DNS evita que las personas memoricen números: permite escribir un dominio y llegar a la dirección correspondiente."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#tipos-red-alcance",
+    "href": "temas/redes-internet-movilidad.html#tipos-red-alcance",
+    "title": "Redes, Internet y movilidad",
+    "section": "Tipos de red por alcance",
+    "text": "Tipos de red por alcance\nLas redes se clasifican de forma útil según el área que cubren:\n\n\nPAN: red personal de muy corto alcance, por ejemplo un teléfono conectado a audífonos por Bluetooth.\nLAN: red de área local, como la red de una oficina, laboratorio o edificio.\nMAN: red metropolitana, pensada para cubrir una ciudad o zona urbana.\nWAN: red de área amplia, usada para conectar sedes distantes o redes de gran escala.\n\n\n\nNo memorices solo siglas. Pregunta siempre: ¿qué distancia cubre?, ¿quién la administra?, ¿qué dispositivos conecta? y ¿qué proceso depende de ella?\n\nTambién es útil distinguir dos formas de organización:\n\n\nCliente/servidor: un servidor centraliza servicios, datos o reglas de acceso para clientes.\nIgual a igual: varios equipos comparten recursos directamente sin depender de un servidor central."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#internet-web-servicios",
+    "href": "temas/redes-internet-movilidad.html#internet-web-servicios",
+    "title": "Redes, Internet y movilidad",
+    "section": "Internet, Web y servicios",
+    "text": "Internet, Web y servicios\nInternet es la red global de redes. La World Wide Web es un servicio que funciona sobre Internet usando navegadores, páginas, enlaces y protocolos como HTTP.\n\nInternet no es lo mismo que Web. Internet también permite correo, mensajería, videollamadas, transferencia de archivos, servicios en la nube, VPN, VoIP y muchas otras comunicaciones.\n\nServicios importantes:\n\n\nCorreo y mensajería: comunicación asincrónica o inmediata entre usuarios.\nWeb: acceso a páginas, plataformas y aplicaciones mediante navegador.\nVoIP: voz transmitida como paquetes de datos.\nVPN: acceso cifrado a recursos privados usando Internet como transporte.\nServicios en la nube: aplicaciones, almacenamiento o infraestructura entregados a través de red.\nIntranets y extranets: servicios privados para empleados o actores externos autorizados.\n\n\n\nUna universidad puede usar Internet para clases virtuales, una intranet para documentos internos, una extranet para proveedores y una VPN para que funcionarios entren a sistemas administrativos desde fuera del campus."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#movilidad-redes-inalambricas",
+    "href": "temas/redes-internet-movilidad.html#movilidad-redes-inalambricas",
+    "title": "Redes, Internet y movilidad",
+    "section": "Movilidad y redes inalámbricas",
+    "text": "Movilidad y redes inalámbricas\nLa movilidad agrega una exigencia: el usuario espera acceder a información y servicios desde cualquier lugar razonable, con dispositivos portátiles y redes variables.\nTecnologías frecuentes:\n\n\nWi-Fi: conecta dispositivos a una red local inalámbrica; depende de puntos de acceso y cobertura cercana.\nBluetooth: conecta dispositivos personales de corto alcance; sirve para periféricos, sensores o transferencia cercana.\nRed celular: permite acceso móvil en áreas amplias usando antenas y operadores.\nRFID: identifica objetos o activos mediante etiquetas y lectores.\nRedes de sensores inalámbricas: capturan datos del entorno, como temperatura, ubicación, movimiento o estado de equipos.\nInternet de las cosas: integra objetos físicos conectados a procesos digitales.\n\n\n\nEn logística, RFID puede registrar el paso de productos por bodega, sensores pueden medir temperatura y la red celular puede informar el estado de un despacho desde un camión.\n\nLa movilidad mejora cobertura operativa, pero también aumenta riesgos: pérdida de dispositivos, conexiones inseguras, baja señal, datos sensibles fuera de la oficina y necesidad de sincronizar información."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#seguridad-continuidad-gestion",
+    "href": "temas/redes-internet-movilidad.html#seguridad-continuidad-gestion",
+    "title": "Redes, Internet y movilidad",
+    "section": "Seguridad, continuidad y gestión",
+    "text": "Seguridad, continuidad y gestión\nMientras más conectado está un sistema, más depende de controles técnicos y reglas organizacionales. La seguridad de red busca proteger comunicaciones, usuarios y servicios.\nMedidas típicas:\n\n\nAutenticación de usuarios y dispositivos.\nCifrado de comunicaciones, especialmente fuera de la red interna.\nSegmentación de redes para separar invitados, empleados, servidores y sistemas críticos.\nUso de VPN cuando se accede a recursos privados desde Internet.\nMonitoreo de tráfico, disponibilidad y eventos sospechosos.\nPlanes de respaldo o continuidad si falla el proveedor, la energía o la conexión.\n\n\n\nUna red rápida pero sin controles puede ser un riesgo. Una red segura pero sin continuidad puede detener operaciones. En casos, evalúa velocidad, acceso, protección y dependencia del proceso."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#comparaciones-importantes",
+    "href": "temas/redes-internet-movilidad.html#comparaciones-importantes",
+    "title": "Redes, Internet y movilidad",
+    "section": "Comparaciones importantes",
+    "text": "Comparaciones importantes\n\nInternet vs. Web: Internet es la infraestructura global; la Web es uno de sus servicios.\nLAN vs. WAN: LAN conecta un espacio cercano; WAN conecta ubicaciones distantes.\nWi-Fi vs. red celular: Wi-Fi suele depender de un punto de acceso local; la red celular depende de antenas y operador móvil.\nBluetooth vs. Wi-Fi: Bluetooth sirve para corto alcance y bajo consumo; Wi-Fi sirve para acceso local a red o Internet con más capacidad.\nIntranet vs. extranet: la intranet es interna; la extranet abre acceso controlado a externos autorizados.\nVPN vs. Internet público: la VPN usa Internet como transporte, pero crea un canal cifrado hacia recursos privados.\nAncho de banda vs. latencia: ancho de banda es capacidad; latencia es demora. Una videollamada puede fallar por cualquiera de los dos.\nRFID vs. código de barras: RFID puede leerse por radio y no requiere la misma línea visual directa; el código de barras exige escaneo visible."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#esquemas-simples",
+    "href": "temas/redes-internet-movilidad.html#esquemas-simples",
+    "title": "Redes, Internet y movilidad",
+    "section": "Esquemas simples",
+    "text": "Esquemas simples\n\nAcceso a una aplicación en línea\nUsuario\n  -&gt; dispositivo\n  -&gt; Wi-Fi o red celular\n  -&gt; router, antena o punto de acceso\n  -&gt; proveedor de Internet\n  -&gt; Internet\n  -&gt; servidor de la aplicación\n  -&gt; base de datos\n\n\nViaje simplificado de un mensaje\nMensaje original\n  -&gt; paquetes\n  -&gt; rutas de red\n  -&gt; reensamblaje\n  -&gt; mensaje recibido\n\n\nLectura RFID en un proceso\nEtiqueta RFID\n  -&gt; lector RFID\n  -&gt; red local o inalámbrica\n  -&gt; sistema de inventario\n  -&gt; decisión: reponer, ubicar o registrar movimiento"
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#observaciones-de-prueba",
+    "href": "temas/redes-internet-movilidad.html#observaciones-de-prueba",
+    "title": "Redes, Internet y movilidad",
+    "section": "Observaciones de prueba",
+    "text": "Observaciones de prueba\n\n\nMuy probable: explicar por qué una red es parte del sistema de información.\nMuy probable: diferenciar Internet y Web.\nDiferencia infraestructura, protocolos y servicios.\nTCP/IP se entiende como estándar que permite interoperabilidad.\nLAN, WAN, Wi-Fi, Bluetooth y red celular no son sinónimos.\nUna VPN no reemplaza Internet: crea un canal seguro sobre una red pública.\nLa movilidad aporta acceso ubicuo, pero aumenta exigencias de seguridad y continuidad.\nRFID y sensores conectan objetos físicos con sistemas de información.\nEn un caso, no basta con decir “falta Internet”; identifica proceso afectado, impacto y medida concreta."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#casos-breves",
+    "href": "temas/redes-internet-movilidad.html#casos-breves",
+    "title": "Redes, Internet y movilidad",
+    "section": "Casos breves",
+    "text": "Casos breves\n\nAtención en terreno: inspectores registran solicitudes desde teléfonos. Si la señal móvil falla, deben guardar datos temporalmente y sincronizar después. El caso mezcla movilidad, continuidad y seguridad.\n\n\nWi-Fi institucional: una sede ofrece red para estudiantes, funcionarios e invitados. Conviene separar accesos para proteger sistemas internos y evitar que una red pública afecte servicios críticos.\n\n\nTeletrabajo administrativo: funcionarios acceden desde casa a sistemas internos. La VPN, autenticación y permisos reducen riesgos al usar Internet como medio de conexión.\n\n\nInventario con RFID: una bodega registra entradas y salidas de productos con etiquetas. El beneficio es visibilidad rápida; el desafío es integrar lectores, red, datos y procesos de reposición.\n\n\nVideollamada de soporte: una reunión puede fallar aunque “haya Internet” si existe poca capacidad, alta latencia, interferencia Wi-Fi o saturación de la red."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#preguntas-conceptuales",
+    "href": "temas/redes-internet-movilidad.html#preguntas-conceptuales",
+    "title": "Redes, Internet y movilidad",
+    "section": "Preguntas conceptuales",
+    "text": "Preguntas conceptuales\n\n\n\nPregunta 1: ¿Por qué una red es parte del sistema de información y no solo soporte técnico?\n\n\nPorque permite que personas, procesos, aplicaciones y datos se conecten. Si la red falla, el sistema puede dejar de apoyar decisiones, atención o coordinación.\n\n\n\n\nPregunta 2: ¿Qué componentes básicos necesita una red sencilla?\n\n\nNecesita dispositivos, interfaces de red, un medio de conexión, reglas o software de comunicación y equipos que dirijan el tráfico, como switches, puntos de acceso o routers.\n\n\n\n\nPregunta 3: ¿Qué función cumple un protocolo?\n\n\nDefine reglas comunes para que los equipos sepan cómo enviar, recibir, ordenar e interpretar datos.\n\n\n\n\nPregunta 4: ¿Qué es la conmutación de paquetes?\n\n\nEs dividir un mensaje en paquetes pequeños que viajan por la red y se vuelven a ordenar al llegar a destino.\n\n\n\n\nPregunta 5: ¿Por qué TCP/IP es importante?\n\n\nPorque entrega un conjunto común de protocolos que permite conectar redes y equipos distintos, haciendo posible Internet y muchos servicios asociados.\n\n\n\n\nPregunta 6: ¿Qué diferencia hay entre Internet y la Web?\n\n\nInternet es la red global de redes. La Web es un servicio que usa Internet para acceder a páginas, enlaces y aplicaciones mediante navegadores.\n\n\n\n\nPregunta 7: ¿Qué problema resuelve DNS?\n\n\nPermite usar nombres de dominio fáciles de recordar y traducirlos a direcciones IP que los equipos pueden localizar.\n\n\n\n\nPregunta 8: ¿Qué diferencia hay entre ancho de banda y latencia?\n\n\nEl ancho de banda indica capacidad de transmisión. La latencia indica demora entre solicitud y respuesta.\n\n\n\n\nPregunta 9: ¿Qué diferencia hay entre LAN y WAN?\n\n\nUna LAN conecta dispositivos en un espacio cercano, como una oficina. Una WAN conecta ubicaciones distantes, como sedes de una organización.\n\n\n\n\nPregunta 10: ¿Qué diferencia hay entre cliente/servidor e igual a igual?\n\n\nEn cliente/servidor, un servidor entrega servicios o datos a clientes. En igual a igual, los equipos comparten recursos directamente entre sí.\n\n\n\n\nPregunta 11: ¿Qué diferencia hay entre intranet y extranet?\n\n\nLa intranet es privada para uso interno. La extranet abre acceso controlado a externos autorizados, como proveedores o clientes.\n\n\n\n\nPregunta 12: ¿Para qué sirve una VPN?\n\n\nSirve para crear una conexión cifrada y privada sobre una red pública, normalmente para acceder de forma segura a recursos internos.\n\n\n\n\nPregunta 13: ¿Qué es VoIP?\n\n\nEs la transmisión de voz como datos digitales sobre redes IP, por ejemplo en telefonía por Internet o llamadas de aplicaciones.\n\n\n\n\nPregunta 14: ¿Qué diferencia hay entre Wi-Fi y Bluetooth?\n\n\nWi-Fi se usa para conectar dispositivos a una red local o a Internet. Bluetooth se usa para conexiones personales de corto alcance y bajo consumo.\n\n\n\n\nPregunta 15: ¿Qué aporta una red celular frente a una red Wi-Fi?\n\n\nAporta movilidad en áreas amplias mediante antenas y operadores, mientras que Wi-Fi depende de cobertura local cercana.\n\n\n\n\nPregunta 16: ¿Qué permite RFID en una organización?\n\n\nPermite identificar y rastrear objetos, productos, activos o personas mediante etiquetas y lectores de radiofrecuencia.\n\n\n\n\nPregunta 17: ¿Qué relación hay entre sensores inalámbricos e Internet de las cosas?\n\n\nLos sensores capturan datos del mundo físico y, conectados por redes, permiten que objetos y procesos formen parte de sistemas digitales.\n\n\n\n\nPregunta 18: ¿Por qué la conectividad puede convertirse en un riesgo operativo?\n\n\nPorque si procesos críticos dependen de la red, una falla de conexión, seguridad o proveedor puede detener atención, ventas o coordinación interna.\n\n\n\n\nPregunta 19: ¿Qué cambia cuando los usuarios acceden desde dispositivos móviles?\n\n\nCambia el contexto de uso: hay redes variables, pantallas pequeñas, riesgo de pérdida del equipo, necesidad de sincronización y mayores exigencias de seguridad.\n\n\n\n\nPregunta 20: ¿Cómo conviene analizar un caso de redes en prueba?\n\n\nIdentificando el proceso afectado, tipo de red, usuarios, servicios dependientes, riesgos de seguridad, impacto de una falla y medidas concretas de continuidad."
+  },
+  {
+    "objectID": "temas/redes-internet-movilidad.html#referencias-fuente-base",
+    "href": "temas/redes-internet-movilidad.html#referencias-fuente-base",
     "title": "Redes, Internet y movilidad",
     "section": "Referencias y fuente base",
-    "text": "Referencias y fuente base\n\n\nLaudon y Laudon, Sistemas de información gerencial, 14.ª edición. Tema relacionado: telecomunicaciones, Internet y tecnología inalámbrica.\nApuntes de clase o fuentes complementarias futuras."
+    "text": "Referencias y fuente base\n\n\nLaudon y Laudon, Sistemas de información gerencial, 14.ª edición. Tema base: telecomunicaciones, Internet y tecnología inalámbrica.\nPDF local usado solo para contrastar conceptos, términos, casos y páginas: libro_guia_295-343.pdf. El texto extraído identifica el capítulo 7, “Telecomunicaciones, Internet y tecnología inalámbrica”, con contenido de redes, Internet, servicios y tecnologías inalámbricas en paginación impresa aproximada 257-301. Desde la página impresa 302 comienza otro capítulo y no se usó como base de este tema.\nConceptos contrastados en el PDF: componentes de red, cliente/servidor, conmutación de paquetes, TCP/IP, tipos de red, Internet, Web, DNS, ISP, IPv6, VoIP, VPN, Wi-Fi, Bluetooth, redes celulares, RFID, redes de sensores e Internet de las cosas.\nApuntes de clase y material de etapa del curso."
   },
   {
     "objectID": "temas/creacion-sistemas.html",
@@ -431,6 +515,6 @@
     "href": "repaso/mapa-conceptual.html",
     "title": "Mapa conceptual",
     "section": "",
-    "text": "El mapa muestra una ruta de lectura: contexto social, infraestructura digital, intercambio económico y creación de soluciones.\n\n\n\nÉtica, datos y sociedad\nDefine responsabilidades, límites y efectos sociales del uso de información. Ordena casos con cinco dimensiones: información, propiedad, control, calidad del sistema y calidad de vida.\n\n\n→\n\n\nRedes, Internet y movilidad\nEntrega la infraestructura para conectar personas, sistemas, servicios y datos.\n\n\n→\n\n\nComercio digital\nUsa la conectividad para crear mercados, plataformas y productos digitales.\n\n\n→\n\n\nCreación y cambio de sistemas\nConvierte necesidades organizacionales en soluciones que deben adoptarse y evaluarse.\n\n\n\nLa relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.\nVolver al inicio\n\n\nPara estudiar casos, parte por ética: identifica datos usados, actores afectados, beneficios, daños y responsables. Luego conecta con infraestructura, comercio o creación de sistemas según corresponda.\nRepasar ética"
+    "text": "El mapa muestra una ruta de lectura: contexto social, infraestructura digital, intercambio económico y creación de soluciones.\n\n\n\nÉtica, datos y sociedad\nDefine responsabilidades, límites y efectos sociales del uso de información. Ordena casos con cinco dimensiones: información, propiedad, control, calidad del sistema y calidad de vida.\n\n\n→\n\n\nRedes, Internet y movilidad\nEntrega la infraestructura para conectar personas, sistemas, servicios y datos mediante protocolos, redes locales, Internet y acceso móvil.\n\n\n→\n\n\nComercio digital\nUsa la conectividad para crear mercados, plataformas y productos digitales.\n\n\n→\n\n\nCreación y cambio de sistemas\nConvierte necesidades organizacionales en soluciones que deben adoptarse y evaluarse.\n\n\n\nLa relación no es lineal en la práctica: cada nuevo sistema puede generar nuevos datos, riesgos éticos, necesidades de red y oportunidades de comercio digital.\nVolver al inicio\n\n\nPara redes, sigue una cadena simple: dispositivo, medio de conexión, protocolo, red local, Internet, servicio y proceso organizacional afectado. Eso ayuda a no confundir infraestructura con aplicación.\nRepasar redes\n\n\nPara estudiar casos, parte por ética: identifica datos usados, actores afectados, beneficios, daños y responsables. Luego conecta con infraestructura, comercio o creación de sistemas según corresponda.\nRepasar ética"
   }
 ]
